@@ -1,0 +1,8 @@
+<?php
+/**
+ *
+ * Config fields value.
+ *
+ *
+ */
+
