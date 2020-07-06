@@ -43,17 +43,17 @@ function admin_order_table_order($which)
                 text-align: center;
             }
 
-           .wooimus-order-details .table-header {
+            .wooimus-order-details .table-header {
                 background: rgba(130, 183, 53, 1);
                 color: #fff;
                 font-size: 16px;
             }
 
-           .wooimus-order-details .table-header th {
+            .wooimus-order-details .table-header th {
                 padding: 10px;
             }
 
-           .wooimus-order-details .has-bacground {
+            .wooimus-order-details .has-bacground {
                 background-color: #f9f9f9;
             }
         </style>
@@ -139,6 +139,6 @@ function admin_order_table_order($which)
             </table>
             <?php do_action('woocommerce_order_details_after_order_table', $orders); ?>
         </section>
-<?php
+    <?php
     }
 }
