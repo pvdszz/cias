@@ -33,9 +33,9 @@ if (post_password_required()) {
 }
 ?>
 <div class="container">
-	<div id="product-<?php the_ID(); ?>" <?php wc_product_class('d-flex', $product); ?>>
-		<div class="product-image col-lg-7 col-md-7 col-sm-12">
-			<?php
+    <div id="product-<?php the_ID(); ?>" <?php wc_product_class('d-flex', $product); ?>>
+        <div class="product-image col-lg-7 col-md-7 col-sm-12">
+            <?php
 			/**
 			 * Hook: woocommerce_before_single_product_summary.
 			 *
@@ -46,8 +46,8 @@ if (post_password_required()) {
 			?></div>
 
 
-		<div class="summary entry-summary  col-lg-5 col-md-5 col-sm-12">
-			<?php
+        <div class="summary entry-summary  col-lg-5 col-md-5 col-sm-12">
+            <?php
 			/**
 			 * Hook: woocommerce_single_product_summary.
 			 *
@@ -61,33 +61,49 @@ if (post_password_required()) {
 			 */
 			do_action('woocommerce_single_product_summary');
 			?>
-			<div class="form-booking">
-				<form action="#" method="post">
-					<ul>
-						<li>
-							<label for="adult">NGƯỜI LỚN:</label>
-							<input type="number" min="0" step="1" name="adult" id="adult" value="1"></li>
-						<li>
-							<label for="childrent">TRẺ EM ( 5 -1= 12 TUỔI):</label>
-							<input type="number" min="0" step="1" name="childrent" id="childrent"></li>
-						<li> 
-							<label for="kid">TRẺ EM ( DƯỚI 5 TUỔI):</label>
-							<input type="number" min="0" step="1" name="kid" id="kid">
-						</li>
+            <div class="form-booking">
+                <form action="#" method="post">
+                    <ul>
+                        <li class="has-extra">
+                            <label for="adult">NGƯỜI LỚN:</label>
+                            <input class="quantity-num" type="number" min="0" step="1" name="adult" id="adult"
+                                value="1" />
+                            <ul class="extra extra-adult">
+                                <li>
+                                    <label for="adult">Họ tên các thanh viên: </label>
+                                    <textarea name="extra-adult" id="extra-adult"></textarea>
+                                </li>
+                            </ul>
+                        </li> 
+                        <li class="has-extra">
+                            <label for="childrent">TRẺ EM ( 5 - 12 TUỔI):</label>
 
-						<li>
-							<label for="date">Ngày sử dụng</label>
-							<input type="date" name="input" placeholder="DD/MM/YYYY" required pattern="(?:30))|(?:(?:0[13578]|1[02])-31))/(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])/(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])" title="Enter a date in this format YYYY/MM/DD"/>
-						</li>
-					</ul>
+                            <input class="quantity-num" type="number" min="0" step="1" name="childrent"
+                                id="childrent"  value="0"/>
+                            <ul class="extra extra-adult">
+                                <li>
+                                    <label for="adult">Họ tên các thanh viên: </label>
+                                    <textarea name="extra-adult" id="extra-adult"></textarea>
+                                </li>
+                            </ul>
+                        <li>
+                            <label for="kid">TRẺ EM ( DƯỚI 5 TUỔI):</label>
+                            <input class="quantity-num" type="number" min="0" step="1" name="kid" id="kid" value=""/>
+                        </li>
+
+                        <li>
+                            <label for="date">Ngày sử dụng</label>
+                            <input type="date" name="input" />
+                        </li>
+                    </ul> 
 
 
 
-				</form>
-			</div>
-		</div>
-	</div>
-	<?php
+                </form>
+            </div>
+        </div>
+    </div>
+    <?php
 	/**
 	 * Hook: woocommerce_after_single_product_summary.
 	 *

@@ -7,3 +7,13 @@
  Version:      1.0.0
  Text Domain:  woodmart
 */
+  .extra{
+      display: none;
+  }
+  
+  body div.quantity-nav {
+    display: block !important;
+    float: left;
+    position: relative;
+    height: 42px;
+  }
