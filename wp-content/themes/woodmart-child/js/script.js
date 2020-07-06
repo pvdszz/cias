@@ -3,15 +3,15 @@ jQuery(document).ready(function($){
         //get a reference to the text input value
         var newVal = $(this).val();
         if(newVal >= 2){
-            $(this).siblings($(".extra")).show( "slow" );
+            $(this).parent().siblings(".extra").show( "slow" );
         }else{
-            $(this).siblings($(".extra")).hide( "slow" );
+            $(this).parent().siblings(".extra").hide( "slow" );
         }
       });
 
 
 
-        jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity-num');
+        jQuery('<div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div>').insertAfter('.quantity-num');
         jQuery('.form-booking li').each(function() {
           var spinner = jQuery(this),
             input = spinner.find('input[type="number"]'),
@@ -43,9 +43,11 @@ jQuery(document).ready(function($){
             var oldValue = parseFloat(input.val());
             if (oldValue <= min) {
               var newVal = oldValue;
-            } else {
+            } 
+            else {
               var newVal = oldValue - 1;
             }
+            
             if(newVal >= 2){
                
                 extra.show( "slow" );

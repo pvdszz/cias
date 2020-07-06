@@ -1,19 +1,36 @@
-/*
- Theme Name:   Woodmart Child
- Description:  Woodmart Child Theme
- Author:       XTemos
- Author URI:   http://xtemos.com
- Template:     woodmart
- Version:      1.0.0
- Text Domain:  woodmart
-*/
-  .extra{
-      display: none;
-  }
-  
-  body div.quantity-nav {
-    display: block !important;
-    float: left;
-    position: relative;
-    height: 42px;
-  }
+/* ===================================================================
+CSS information
+ file name  : style.css
+ author     : Pham Van Diep
+=================================================================== */
+.form-booking div.quantity-nav {
+  display: block !important;
+  float: left;
+  position: relative;
+  height: 42px; }
+.form-booking .extra {
+  display: none; }
+.form-booking .wrap-quantity-num {
+  position: relative;
+  margin-bottom: 10px; }
+.form-booking .quantity-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #000;
+  font-size: 30px;
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  top: 0; }
+.form-booking .quantity-up {
+  left: 0; }
+.form-booking .quantity-down {
+  right: 0; }
+
+.entry-summary.child-themes {
+  display: flex;
+  flex-direction: column; }
+
+/*# sourceMappingURL=style.css.map */

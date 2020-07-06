@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.form-booking{
+    div.quantity-nav {
+        display: block !important;
+        float: left;
+        position: relative;
+        height: 42px;
+      }
+    .extra{
+        display: none;
+    }
+    .wrap-quantity-num{
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .quantity-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background: #000;
+        font-size: 30px;
+        width: 40px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+    .quantity-up{
+        left: 0;
+    }
+    .quantity-down{
+        right: 0;
+    }
+}

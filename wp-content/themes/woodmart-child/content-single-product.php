@@ -46,40 +46,29 @@ if (post_password_required()) {
 			?></div>
 
 
-        <div class="summary entry-summary  col-lg-5 col-md-5 col-sm-12">
-            <?php
-			/**
-			 * Hook: woocommerce_single_product_summary.
-			 *
-			 * @hooked woocommerce_template_single_title - 5
-			 * @hooked woocommerce_template_single_rating - 10
-			 * @hooked woocommerce_template_single_price - 10
-			 * @hooked woocommerce_template_single_excerpt - 20
-			 * @hooked woocommerce_template_single_meta - 40
-			 * @hooked woocommerce_template_single_sharing - 50
-			 * @hooked WC_Structured_Data::generate_product_data() - 60
-			 */
-			do_action('woocommerce_single_product_summary');
-			?>
+        <div class="summary entry-summary child-themes  col-lg-5 col-md-5 col-sm-12">
             <div class="form-booking">
                 <form action="#" method="post">
                     <ul>
                         <li class="has-extra">
                             <label for="adult">NGƯỜI LỚN:</label>
-                            <input class="quantity-num" type="number" min="0" step="1" name="adult" id="adult"
-                                value="1" />
+                            <div class="wrap-quantity-num">
+                                <input class="quantity-num" type="number" min="0" step="1" name="adult" id="adult"
+                                    value="1" />
+                            </div>
                             <ul class="extra extra-adult">
                                 <li>
                                     <label for="adult">Họ tên các thanh viên: </label>
                                     <textarea name="extra-adult" id="extra-adult"></textarea>
                                 </li>
                             </ul>
-                        </li> 
+                        </li>
                         <li class="has-extra">
                             <label for="childrent">TRẺ EM ( 5 - 12 TUỔI):</label>
-
-                            <input class="quantity-num" type="number" min="0" step="1" name="childrent"
-                                id="childrent"  value="0"/>
+                            <div class="wrap-quantity-num">
+                                <input class="quantity-num" type="number" min="0" step="1" max="10" name="childrent"
+                                    id="childrent" value="0" />
+                            </div>
                             <ul class="extra extra-adult">
                                 <li>
                                     <label for="adult">Họ tên các thanh viên: </label>
@@ -88,14 +77,18 @@ if (post_password_required()) {
                             </ul>
                         <li>
                             <label for="kid">TRẺ EM ( DƯỚI 5 TUỔI):</label>
-                            <input class="quantity-num" type="number" min="0" step="1" name="kid" id="kid" value=""/>
+                            <div class="wrap-quantity-num">
+                                <input class="quantity-num" type="number" min="0" step="1" name="kid" id="kid"
+                                    value="0" />
+                            </div>
                         </li>
 
                         <li>
                             <label for="date">Ngày sử dụng</label>
                             <input type="date" name="input" />
                         </li>
-                    </ul> 
+                    </ul>
+                    <button class="btn btn-primary" type="submid"> Tiếp tục </button>
 
 
 
@@ -103,16 +96,6 @@ if (post_password_required()) {
             </div>
         </div>
     </div>
-    <?php
-	/**
-	 * Hook: woocommerce_after_single_product_summary.
-	 *
-	 * @hooked woocommerce_output_product_data_tabs - 10
-	 * @hooked woocommerce_upsell_display - 15
-	 * @hooked woocommerce_output_related_products - 20
-	 */
-	do_action('woocommerce_after_single_product_summary');
-	?>
 </div>
 
 <?php do_action('woocommerce_after_single_product'); ?>
