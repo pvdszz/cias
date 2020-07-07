@@ -28,72 +28,102 @@ global $product;
 do_action('woocommerce_before_single_product');
 
 if (post_password_required()) {
-	echo get_the_password_form(); // WPCS: XSS ok.
-	return;
+    echo get_the_password_form(); // WPCS: XSS ok.
+    return;
 }
 ?>
 <div class="container">
     <div id="product-<?php the_ID(); ?>" <?php wc_product_class('d-flex', $product); ?>>
         <div class="product-image col-lg-7 col-md-7 col-sm-12">
             <?php
-			/**
-			 * Hook: woocommerce_before_single_product_summary.
-			 *
-			 * @hooked woocommerce_show_product_sale_flash - 10
-			 * @hooked woocommerce_show_product_images - 20
-			 */
-			do_action('woocommerce_before_single_product_summary');
-			?></div>
+            /**
+             * Hook: woocommerce_before_single_product_summary.
+             *
+             * @hooked woocommerce_show_product_sale_flash - 10
+             * @hooked woocommerce_show_product_images - 20
+             */
+            do_action('woocommerce_before_single_product_summary');
+            ?></div>
 
 
         <div class="summary entry-summary child-themes  col-lg-5 col-md-5 col-sm-12">
-            <div class="form-booking">
-                <form action="#" method="post">
-                    <ul>
-                        <li class="has-extra">
-                            <label for="adult">NGƯỜI LỚN:</label>
-                            <div class="wrap-quantity-num">
-                                <input class="quantity-num" type="number" min="0" step="1" name="adult" id="adult"
-                                    value="1" />
-                            </div>
-                            <ul class="extra extra-adult">
-                                <li>
-                                    <label for="adult">Họ tên các thanh viên: </label>
-                                    <textarea name="extra-adult" id="extra-adult"></textarea>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="has-extra">
-                            <label for="childrent">TRẺ EM ( 5 - 12 TUỔI):</label>
-                            <div class="wrap-quantity-num">
-                                <input class="quantity-num" type="number" min="0" step="1" max="10" name="childrent"
-                                    id="childrent" value="0" />
-                            </div>
-                            <ul class="extra extra-adult">
-                                <li>
-                                    <label for="adult">Họ tên các thanh viên: </label>
-                                    <textarea name="extra-adult" id="extra-adult"></textarea>
-                                </li>
-                            </ul>
-                        <li>
-                            <label for="kid">TRẺ EM ( DƯỚI 5 TUỔI):</label>
-                            <div class="wrap-quantity-num">
-                                <input class="quantity-num" type="number" min="0" step="1" name="kid" id="kid"
-                                    value="0" />
-                            </div>
-                        </li>
+            <?php
+            the_title('<h1 class="product_title entry-title">', '</h1>');
+            global $product;
 
-                        <li>
-                            <label for="date">Ngày sử dụng</label>
-                            <input type="date" name="input" />
-                        </li>
-                    </ul>
-                    <button class="btn btn-primary" type="submid"> Tiếp tục </button>
+            if (!$product->is_purchasable()) {
+                return;
+            }
 
+            echo wc_get_stock_html($product); // WPCS: XSS ok.
 
+            if ($product->is_in_stock()) : ?>
 
-                </form>
-            </div>
+                <?php do_action('woocommerce_before_add_to_cart_form'); ?>
+
+                <div class="form-booking">
+                    <form action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>" method="post" enctype='multipart/form-data'>
+                        <ul>
+                            <li class="has-extra">
+                                <label for="adult">NGƯỜI LỚN:</label>
+                                <div class="wrap-quantity-num">
+                                    <input class="quantity-num" type="number" min="0" step="1" name="adult" id="adult" value="1" required/>
+                                </div>
+                                <ul class="extra">
+                                    <li>
+                                        <label for="name">Họ tên: </label>
+                                        <input type="text" name="name" id="name" required/>
+                                    </li>
+                                    <li>
+                                        <label for="age">Tuổi: </label>
+                                        <input type="text" name="age" id="age" required/>
+                                    </li>
+                                    <li>
+                                        <label for="sex">Giới tính: </label>
+                                        <input type="text" name="sex" id="sex" required/>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-extra">
+                                <label for="childrent">TRẺ EM ( 5 - 12 TUỔI):</label>
+                                <div class="wrap-quantity-num">
+                                    <input class="quantity-num" type="number" min="0" step="1" max="10" name="childrent" id="childrent" value="0" />
+                                </div>
+                                <ul class="extra extra-child">
+                                    <!-- <li>
+                                        <label for="name">Họ tên: </label>
+                                        <input type="text" name="name" id="name" />
+                                    </li>
+                                    <li>
+                                        <label for="age">Tuổi: </label>
+                                        <input type="text" name="age" id="age" />
+                                    </li>
+                                    <li>
+                                        <label for="sex">Giới tính: </label>
+                                        <input type="text" name="sex" id="sex" />
+                                    </li> -->
+                                </ul>
+                            <li>
+                                <label for="kid">TRẺ EM ( DƯỚI 5 TUỔI):</label>
+                                <div class="wrap-quantity-num">
+                                    <input class="quantity-num" type="number" min="0" step="1" name="kid" id="kid" value="0" />
+                                </div>
+                            </li>
+
+                            <li>
+                                <label for="date">Ngày sử dụng</label>
+                                <input type="date" name="input" />
+                            </li>
+                        </ul>
+                        <?php do_action('woocommerce_before_add_to_cart_button'); ?>
+                        <button type="submit" name="add-to-cart" value="<?php echo esc_attr($product->get_id()); ?>" class="single_add_to_cart_button button alt btn-single-product-content">Tiếp tục</button>
+
+                        <?php do_action('woocommerce_after_add_to_cart_button'); ?>
+                    </form>
+                    <?php do_action('woocommerce_after_add_to_cart_form'); ?>
+
+                <?php endif; ?>
+                </div>
         </div>
     </div>
 </div>
