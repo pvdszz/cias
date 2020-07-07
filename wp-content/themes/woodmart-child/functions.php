@@ -16,3 +16,39 @@ function themeprefix_add_to_cart_redirect() {
  $checkout_url = wc_get_checkout_url();
  return $checkout_url;
 }
+
+// booking product type
+add_filter( 'product_type_selector', 'cias_add_custom_product_type' );
+ 
+function cias_add_custom_product_type( $types ){
+    $types[ 'custom' ] = 'Booking product';
+    return $types;
+}
+ 
+// --------------------------
+// #2 Add New Product Type Class
+ 
+add_action( 'init', 'cias_create_custom_product_type' );
+ 
+function cias_create_custom_product_type(){
+    class WC_Product_Custom extends WC_Product {
+      public function get_type() {
+         return 'custom';
+      }
+    }
+}
+ 
+// --------------------------
+// #3 Load New Product Type Class
+ 
+add_filter( 'woocommerce_product_class', 'cias_woocommerce_product_class', 10, 2 );
+ 
+function cias_woocommerce_product_class( $classname, $product_type ) {
+    if ( $product_type == 'custom' ) { 
+        $classname = 'WC_Product_Custom';
+    }
+    return $classname;
+}
+
+// remove base product price
+remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 ); 
