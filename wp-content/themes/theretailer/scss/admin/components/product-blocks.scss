@@ -1,0 +1,334 @@
+.gbt_18_product_carousel
+{
+    ul.gbt_18_carousel_products
+    {
+    	li.gbt_18_carousel_product
+    	{
+    		text-align: left;
+
+    		.gbt_18_carousel_product_thumbnail
+			{
+				margin-bottom: 10px;
+
+				img
+				{
+					width: 100%;
+				}
+			}
+
+			.gbt_18_carousel_product_title
+			{
+				font-size: 14px;
+				font-weight: 400 !important;
+				line-height: 1.4 !important;
+				margin: 0 0 8px 0;
+				padding: 0;
+				transition: all .3s ease;
+
+                &:hover
+                {
+                    text-decoration: underline;
+                }
+			}
+
+			.gbt_18_carousel_product_price
+			{
+                cursor: default;
+				display: block;
+				font-size: 14px;
+				font-weight: 700;
+				margin: 0 0 6px 0;
+				padding: 0;
+
+				.amount
+				.from
+				{
+					font-weight: 400;
+					padding: 0;
+				}
+
+				ins
+				{
+					text-decoration: none;
+				}
+
+				del
+				{
+				    color: inherit;
+				    display: inline-block;
+				    opacity: .5;
+				}
+			}
+
+			.gbt_18_carousel_product_button
+			{
+				background-color: transparent;
+				font-size: 12px;
+				font-weight: 700;
+				line-height: 1.4;
+				margin: 0;
+				padding: 0;
+				text-transform: uppercase;
+
+				&:hover
+				{
+					background-color: transparent;
+				}
+			}
+    	}
+    }
+
+    .gbt_18_carousel_products_placeholder_toggle
+    {
+    	width: 20px;
+    }
+}
+
+.wp-block[data-type="getbowtied/products-carousel"][data-align="full"]
+{
+	.gbt_18_product_carousel
+	{
+		padding: 0 10px;
+	}
+}
+
+.gbt_18_editor_default_slider
+{
+	.gbt_18_editor_slide_price
+    {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 32px 0 32px 0;
+
+        ins
+		{
+			text-decoration: none;
+		}
+
+		del
+		{
+		    color: inherit;
+		    display: inline-block;
+		    opacity: .5;
+		}
+    }
+
+    .gbt_18_editor_slide_content_left
+    {
+        padding: 10%;
+    }
+
+    .gbt_18_editor_slide_link
+    {
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        line-height: 1.4;
+        margin-top: 32px !important;
+    }
+
+    .gbt_18_slide_content_arrows
+    {
+        bottom: 30px !important;
+        margin-left: 0 !important;
+        padding-left: 9.5%;
+    }
+
+    .gbt_18_editor_slide_text
+    {
+    	line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    .gbt_18_editor_add_to_cart
+    {
+    	color: #fff !important;
+    	font-size: 12px !important;
+    	font-weight: 700;
+	    padding: 19px 30px !important;
+    	text-transform: uppercase;
+    	transition: all .3s ease;
+    }
+}
+
+.editor-block-list__block[data-type="getbowtied/scattered-product-list"]
+{
+	.gbt_18_expanding_grid_wrapper
+	{
+		ul.gbt_18_expanding_grid_products
+		{
+			li.gbt_18_grid_product
+			{
+				.gbt_18_grid_product_title
+				{
+					font-weight: 700;
+					margin-top: 25px;
+					margin-bottom: 10px;
+				}
+
+				.gbt_18_grid_product_price
+				{
+                    font-size: 13px;
+					font-weight: 700;
+
+                    ins
+                    {
+                        text-decoration: none;
+                    }
+
+                    del
+                    {
+                        opacity: .5;
+                    }
+				}
+
+				.gbt_18_grid_product_button
+				{
+
+				}
+			}
+		}
+	}
+}
+
+.wp-block-getbowtied-categories-grid.gbt_18_editor_categories_grid_wrapper
+{
+	.gbt_18_editor_categories_grid
+	{
+		.gbt_18_editor_category_grid_item
+		{
+            .gbt_18_editor_category_grid_item_title
+            {
+                line-height: 1 !important;
+
+    			.gbt_18_editor_category_grid_item_count
+    			{
+    				font-size: 12px !important;
+                    line-height: 1;
+    				margin-left: 5px;
+    			}
+            }
+		}
+	}
+}
+
+.gbt_18_lookbook_reveal_product_wrapper
+{
+	.gbt_18_editor_lookbook_product_content
+	{
+		.gbt_18_editor_lookbook_product_content_left
+		{
+			.gbt_18_editor_lookbook_product_title
+			{
+				line-height: 1.2 !important;
+			}
+
+			.gbt_18_editor_lookbook_product_price
+			{
+                font-size: 24px !important;
+				font-weight: 700;
+
+				ins
+				{
+					text-decoration: none;
+				}
+
+				del
+				{
+					opacity: .5;
+				}
+			}
+
+			.gbt_18_editor_lookbook_product_text p
+			{
+                color: inherit;
+				margin: 0;
+			}
+
+            .gbt_18_editor_lookbook_product_button
+            {
+                border: 0;
+                font-size: 12px !important;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+		}
+	}
+}
+
+.gbt_18_lookbook_sts_hero_item
+{
+    .gbt_18_hero_section_subtitle
+    {
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
+
+.gbt_18_editor_lookbook_sts_product_content
+{
+	.gbt_18_lookbook_sts_products_wrapper
+	{
+		ul.gbt_18_lookbook_sts_products
+		{
+            &.products-1
+            {
+                .gbt_18_lookbook_sts_product
+                {
+                    margin: 0 auto;
+                    float: none;
+                    width: 50%;
+                }
+            }
+
+			.gbt_18_lookbook_sts_product
+			{
+				text-align: left;
+                padding: 0 10px 30px;
+
+				.gbt_18_lookbook_sts_product_thumbnail
+				{
+					margin-bottom: 16px;
+				}
+
+				.gbt_18_lookbook_sts_product_title
+				{
+					font-size: 14px;
+                    font-weight: normal !important;
+				    line-height: 1.4 !important;
+    				margin: 0 0 8px 0;
+                    transition: all .3s ease;
+
+                    &:hover
+                    {
+                        text-decoration: underline;
+                        transition: all .3s ease;
+                    }
+				}
+
+                .gbt_18_lookbook_sts_product_button
+                {
+                    display: none;
+                }
+
+				.gbt_18_lookbook_sts_product_price
+				{
+                    cursor: default;
+				    font-size: 14px;
+					font-weight: 700;
+				    line-height: 1.4;
+    				margin: 0 0 8px 0;
+
+					ins
+					{
+						text-decoration: none;
+					}
+
+					del
+					{
+						opacity: .5;
+					}
+				}
+			}
+		}
+	}
+}

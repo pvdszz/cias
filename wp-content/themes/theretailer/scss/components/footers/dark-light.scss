@@ -1,0 +1,95 @@
+.gbtr_light_footer_wrapper,
+.gbtr_dark_footer_wrapper
+{
+	box-sizing: border-box;
+
+	@media screen and (max-width: 959px) {
+		padding: 40px 0 20px;
+	}
+
+	@media all and (max-width: 719px) {
+		display: none;
+	}
+
+	.grid_3col,
+	.grid_4col
+	{
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		@media all and (max-width: 719px) {
+		    flex-direction: column;
+		}
+
+		.widget
+		{
+			box-sizing: border-box;
+			padding: 0 15px 30px;
+
+			@media all and (max-width: 719px) {
+				padding: 0 0 30px;
+			    width: 100%;
+			}
+
+			&.woocommerce
+			{
+				.buttons > a:first-child
+				{
+					color: #fff;
+				}
+
+				.buttons a:hover
+				{
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.grid_4col
+	{
+		.widget
+		{
+			flex: 1 0 21%;
+		}
+	}
+
+	.grid_3col
+	{
+		.widget
+		{
+			flex: 1 0 31%;
+		}
+	}
+
+	.widget_nav_menu
+	{
+		ul
+		{
+			li
+			{
+				font-size: 11px;
+				font-weight: 700;
+				text-transform: uppercase;
+				width: 100%;
+
+				a
+				{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+.gbtr_light_footer_wrapper
+{
+	padding: 30px 0 10px;
+}
+
+.gbtr_dark_footer_wrapper
+{
+	padding: 30px 0 0;
+}

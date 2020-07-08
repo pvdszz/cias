@@ -1,0 +1,105 @@
+/*rev slider*/
+.rs-update-notice-wrap {
+  display: none !important; }
+
+/*wpbakery*/
+.vc_license-activation-notice {
+  display: none !important; }
+
+.hide_in_vc_editor {
+  display: none; }
+
+.vc_editor #wpcontent {
+  padding-left: 0px !important; }
+
+/* customizer */
+#_customize-description-progress_bar.description {
+  margin-top: 10px; }
+  #_customize-description-progress_bar.description .dashicons.dashicons-warning {
+    margin-right: 5px; }
+
+/* page options metabox */
+.js .meta-box-sortables .postbox .handlediv .toggle-indicator:before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12,8l-6,6l1.41,1.41L12,10.83l4.59,4.58L18,14L12,8z'%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: '' !important;
+  margin-top: 5px;
+  width: 24px;
+  height: 24px; }
+
+.js .meta-box-sortables .postbox.closed .handlediv .toggle-indicator:before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M7.41,8.59L12,13.17l4.59-4.58L18,10l-6,6l-6-6L7.41,8.59z'%20fill%3D'%23191e23'%2F%3E%3C%2Fsvg%3E"); }
+
+.edit-post-meta-boxes-area #poststuff .postbox h2.hndle {
+  border-bottom: 0;
+  color: #191e23;
+  font-weight: 600;
+  font-size: 13px; }
+
+.edit-post-meta-boxes-area #poststuff .postbox > .inside > p {
+  margin-bottom: 20px; }
+  .edit-post-meta-boxes-area #poststuff .postbox > .inside > p:last-of-type {
+    margin-bottom: 0; }
+
+.edit-post-meta-boxes-area #poststuff .postbox > .inside {
+  padding: 0 16px 16px; }
+
+.edit-post-meta-boxes-area #poststuff .inside {
+  margin: 5px 0 0 0; }
+
+.edit-post-meta-boxes-area .metabox-location-side .postbox input[type="checkbox"]:checked {
+  background: #11a0d2;
+  border-color: #11a0d2; }
+
+.edit-post-meta-boxes-area .metabox-location-side .postbox input[type="checkbox"]:checked:before {
+  background-repeat: no-repeat;
+  background-position: center;
+  content: '';
+  display: inline-block;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%23ffffff%27%2F%3E%3C%2Fsvg%3E"); }
+
+.post-type-post .wp-block,
+.page-template-sidebar .wp-block {
+  max-width: 635px; }
+
+.post-type-post.post_layout_with_sidebar .wp-block[data-align="wide"],
+.post-type-post.post_layout_with_sidebar .wp-block[data-align="full"],
+.page-template-sidebar.post_layout_with_sidebar .wp-block[data-align="wide"],
+.page-template-sidebar.post_layout_with_sidebar .wp-block[data-align="full"] {
+  max-width: 635px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.post-type-post.post_layout_with_sidebar .wp-block[data-align="full"] .block-editor-block-list__block-edit,
+.page-template-sidebar.post_layout_with_sidebar .wp-block[data-align="full"] .block-editor-block-list__block-edit {
+  margin-left: -28px;
+  margin-right: -28px; }
+
+.post-type-post:not(.post_layout_with_sidebar) .wp-block[data-align="wide"],
+.page-template-sidebar:not(.post_layout_with_sidebar) .wp-block[data-align="wide"] {
+  max-width: 75%; }
+
+.post-type-post:not(.post_layout_with_sidebar) .wp-block[data-align="full"],
+.page-template-sidebar:not(.post_layout_with_sidebar) .wp-block[data-align="full"] {
+  max-width: none; }
+
+.page-template-full .editor-styles-wrapper .wp-block:not([data-align="full"]) {
+  max-width: 100%; }
+
+.page-template-full .editor-styles-wrapper .wp-block[data-align="full"] {
+  max-width: none; }
+
+.page-template-full .editor-styles-wrapper .wp-block[data-align="wide"],
+.page-template-full .editor-styles-wrapper .wp-block[data-align="full"] {
+  margin-left: auto;
+  margin-right: auto; }
+
+.page-template-default .wp-block {
+  max-width: 980px; }
+
+.page-template-default .wp-block[data-align="wide"] {
+  max-width: 75vw; }
+
+.page-template-default .wp-block[data-align="full"] {
+  max-width: none; }

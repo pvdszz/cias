@@ -1,0 +1,39 @@
+.gbt_18_tr_editor_social_media_wrapper {
+  padding: 0.5em;
+  width: 100%; }
+  .gbt_18_tr_editor_social_media_wrapper .gbt_18_tr_editor_social_media_setup {
+    color: #5d5d5d;
+    font-size: 13px;
+    margin-bottom: 0 !important;
+    margin-top: 0; }
+
+ul.tr_social_icons_list {
+  clear: both;
+  display: block;
+  margin: 15px 0 0 !important;
+  padding: 0 !important;
+  vertical-align: middle; }
+  ul.tr_social_icons_list.left {
+    text-align: left; }
+  ul.tr_social_icons_list.center {
+    text-align: center; }
+  ul.tr_social_icons_list.right {
+    text-align: right; }
+  ul.tr_social_icons_list li.tr_social_icon {
+    display: inline-block;
+    font-size: 24px;
+    list-style: none;
+    line-height: 1;
+    margin: 10px 15px 10px 0; }
+    ul.tr_social_icons_list li.tr_social_icon:last-child {
+      margin-right: 0; }
+    ul.tr_social_icons_list li.tr_social_icon img {
+      vertical-align: unset; }
+    ul.tr_social_icons_list li.tr_social_icon a.tr_social_icon_link {
+      pointer-events: none; }
+      ul.tr_social_icons_list li.tr_social_icon a.tr_social_icon_link:hover i {
+        opacity: .75; }
+      ul.tr_social_icons_list li.tr_social_icon a.tr_social_icon_link i {
+        -webkit-transition: opacity .2s;
+        -o-transition: opacity .2s;
+        transition: opacity .2s; }

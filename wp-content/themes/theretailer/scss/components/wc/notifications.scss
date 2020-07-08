@@ -1,0 +1,142 @@
+.woocommerce .woocommerce-message,
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce-page .woocommerce-message,
+.woocommerce-page .woocommerce-error,
+.woocommerce-page .woocommerce-info
+{
+	padding: 25px 30px 25px 70px;
+	margin: 0 0 30px 0;
+	position: relative;
+	border-radius: 0px;
+	color: #fff;
+	box-shadow: none;
+	text-shadow: none;
+	list-style: none outside;
+	display:block;
+	font-weight:900;
+	text-transform:uppercase;
+	font-size:13px;
+	border:0;
+}
+
+.woocommerce .woocommerce-message a.button,
+.woocommerce .woocommerce-error a.button,
+.woocommerce .woocommerce-info a.button,
+.woocommerce-page .woocommerce-message a.button,
+.woocommerce-page .woocommerce-error a.button,
+.woocommerce-page .woocommerce-info a.button
+{
+	background-color: transparent;
+	padding: 3px 0 0 0;
+
+	&:hover
+	{
+		background-color: transparent;
+	}
+}
+
+.woocommerce .woocommerce-message a,
+.woocommerce .woocommerce-error a,
+.woocommerce .woocommerce-info a,
+.woocommerce-page .woocommerce-message a,
+.woocommerce-page .woocommerce-error a,
+.woocommerce-page .woocommerce-info a
+{
+	color: #fff;
+	text-decoration:underline;
+}
+
+.woocommerce-message strong,
+.woocommerce-error strong,
+.woocommerce-info strong
+{
+	font-weight: 700;
+}
+
+.woocommerce-message::before,
+.woocommerce-error::before,
+.woocommerce-info::before
+{
+	background-color: transparent;
+	background-position: center;
+	background-size: 18px;
+	background-repeat:no-repeat;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	content: "";
+	display: block;
+	height: 24px;
+	left: 20px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 20px;
+	width: 24px;
+}
+
+.woocommerce-message::before
+{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M 20.292969 5.2929688 L 9 16.585938 L 4.7070312 12.292969 L 3.2929688 13.707031 L 9 19.414062 L 21.707031 6.7070312 L 20.292969 5.2929688 z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+}
+
+.woocommerce-message
+{
+	background: #b39964;
+}
+
+.woocommerce-error
+{
+	background: #e42e2c;
+}
+
+.woocommerce-error li
+{
+	color: #fff !important;
+}
+
+.woocommerce-error::before
+{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M 5.7070312 4.2929688 L 4.2929688 5.7070312 L 10.585938 12 L 4.2929688 18.292969 L 5.7070312 19.707031 L 12 13.414062 L 18.292969 19.707031 L 19.707031 18.292969 L 13.414062 12 L 19.707031 5.7070312 L 18.292969 4.2929688 L 12 10.585938 L 5.7070312 4.2929688 z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+}
+
+.woocommerce-info
+{
+	background:#818181;
+}
+
+.woocommerce-info::before
+{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M 12 2 C 10.343 2 9 3.343 9 5 C 9 6.657 10.343 8 12 8 C 13.657 8 15 6.657 15 5 C 15 3.343 13.657 2 12 2 z M 8 10 L 8 12 L 10 12 L 10 20 L 8 20 L 8 22 L 16 22 L 16 20 L 14 20 L 14 10 L 11 10 L 8 10 z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+}
+
+.woocommerce .woocommerce-error .button,
+.woocommerce .woocommerce-info .button,
+.woocommerce .woocommerce-message .button,
+.woocommerce-page .woocommerce-error .button,
+.woocommerce-page .woocommerce-info .button,
+.woocommerce-page .woocommerce-message .button
+{
+	margin-left: 70px;
+}
+
+@media only screen and (max-width: 767px) {
+	.woocommerce-message.woocommerce-message--info.woocommerce-Message.woocommerce-Message--info.woocommerce-info
+	{
+		margin-top: 1px !important;
+	}
+}
+
+@media only screen and (max-width: 719px) {
+
+	.woocommerce-wishlist.woocommerce  .woocommerce-message .button,
+	.woocommerce-wishlist.woocommerce-page .woocommerce-message .button,
+	.single-product.woocommerce  .woocommerce-message .button,
+	.single-product.woocommerce-page .woocommerce-message .button
+	{
+		float: none;
+		margin: 0;
+		text-align: left;
+		display: inline-block!important;
+	}
+}

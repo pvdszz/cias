@@ -1,0 +1,128 @@
+// Support for alignwide, alignfull
+.page #global_wrapper.full-content,
+.page-template-default .hfeed // elementor header on 
+{
+    .page_default
+    {
+        .alignwide
+        {
+            @media all and (min-width: 1250px) {
+                margin-left: calc( -75vw / 2 + 100% / 2 );
+                margin-right: calc( -75vw / 2 + 100% / 2 );
+                max-width: 75vw;
+            }
+        }
+    }
+
+    .page_full_width,
+    .page_default
+    {
+        .alignfull
+        {
+            margin-left: calc( -100vw / 2 + 100% / 2 );
+            margin-right: calc( -100vw / 2 + 100% / 2 );
+            max-width: 100vw;
+        }
+    }
+}
+
+.single, .single-post
+{
+    .article_content:not(.page_has_sidebar)
+    {
+        .alignwide
+        {
+            @media all and (min-width: 1250px) {
+                margin-left: calc( -75vw / 2 + 100% / 2 );
+                margin-right: calc( -75vw / 2 + 100% / 2 );
+                max-width: 75vw;
+            }
+        }
+
+        .alignfull
+        {
+            margin-left: calc( -100vw / 2 + 100% / 2 );
+            margin-right: calc( -100vw / 2 + 100% / 2 );
+            max-width: 100vw;
+        }
+    }
+}
+
+.blog, .archive
+{
+    .articles_list:not(.page_has_sidebar)
+    {
+        .alignwide
+        {
+            @media all and (min-width: 1250px) {
+                margin-left: calc( -75vw / 2 + 100% / 2 );
+                margin-right: calc( -75vw / 2 + 100% / 2 );
+                max-width: 75vw;
+            }
+        }
+
+        .alignfull
+        {
+            margin-left: calc( -100vw / 2 + 100% / 2 );
+            margin-right: calc( -100vw / 2 + 100% / 2 );
+            max-width: 100vw;
+        }
+    }
+}
+
+.page #global_wrapper.boxed-content
+{
+    .page_full_width,
+    .page_default
+    {
+        .alignfull
+        {
+            margin-left: calc( -100vw / 2 + 100% / 2 );
+            margin-right: calc( -100vw / 2 + 100% / 2 );
+            max-width: 100vw;
+        }
+    }
+}
+
+// General Margins
+.content_wrapper > [class*='wp-block-'],
+.entry-content > [class*='wp-block-'],
+.gbt_18_tr_banner,
+.gbt_18_tr_slider,
+.gbt_18_tr_posts_grid,
+.gbt_portfolio_block_wrapper,
+.gbt_18_tr_social_media_profiles,
+.wc-block-featured-category,
+.wc-block-featured-product,
+.wc-block-grid
+{
+    margin-bottom: 2.5rem;
+
+    @media all and (max-width: 639px) {
+        margin-bottom: 1.75rem;
+    }
+}
+
+.wp-block-spacer
+{
+    margin-bottom: 0 !important;
+}
+
+[class*='wp-block-']
+{
+    p.has-larger-font-size,
+    p.has-huge-font-size
+    {
+        font-size: 42px;
+    }
+
+    p.has-large-font-size
+    {
+        font-size: 36px;
+    }
+
+    p.has-medium-font-size
+    {
+        font-size: 20px;
+    }
+}

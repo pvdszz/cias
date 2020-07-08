@@ -1,0 +1,144 @@
+.gbtr_product_share {
+  clear: both;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 30px 0;
+  line-height: 1em;
+  width: 100%; }
+  .gbtr_product_share ul {
+    text-align: center; }
+    .gbtr_product_share ul li {
+      display: inline-block;
+      vertical-align: top;
+      zoom: 1;
+      text-align: left;
+      max-width: 25%;
+      position: relative;
+      padding-bottom: 0;
+      margin: 0 20px; }
+      @media screen and (max-width: 719px) {
+        .gbtr_product_share ul li {
+          display: inline;
+          margin: 0 10px; } }
+      .gbtr_product_share ul li svg {
+        display: inline-block;
+        border: 2px solid #000;
+        border-radius: 50%;
+        padding: 8px;
+        margin-right: 15px;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease; }
+        @media screen and (max-width: 719px) {
+          .gbtr_product_share ul li svg {
+            margin-right: 0; } }
+      .gbtr_product_share ul li > a > span {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 700;
+        max-width: 60%;
+        position: relative;
+        top: 10px;
+        vertical-align: top;
+        word-break: break-word;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease; }
+        @media screen and (max-width: 959px) {
+          .gbtr_product_share ul li > a > span {
+            display: none; } }
+      .gbtr_product_share ul li > a > span > span {
+        display: block; }
+      .gbtr_product_share ul li a {
+        padding: 8px 0px 10px 8px;
+        display: inline;
+        zoom: 1;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: normal;
+        text-decoration: none;
+        line-height: 1.3em;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease; }
+        @media screen and (max-width: 719px) {
+          .gbtr_product_share ul li a {
+            padding: 0; } }
+        .gbtr_product_share ul li a:hover {
+          color: #000 !important; }
+
+.product_page_has_sidebar .gbtr_product_share ul li {
+  margin: 0 10px;
+  padding-bottom: 0; }
+  .product_page_has_sidebar .gbtr_product_share ul li svg {
+    margin-right: 5px; }
+    @media screen and (max-width: 719px) {
+      .product_page_has_sidebar .gbtr_product_share ul li svg {
+        margin-right: 0; } }
+
+.box-share-container {
+  float: right;
+  padding-left: 25px;
+  padding-bottom: 12px;
+  text-align: right;
+  z-index: 99; }
+  .box-share-container .trigger-share-list svg {
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    top: 4px; }
+  .box-share-container svg {
+    position: relative;
+    top: 2px;
+    margin-right: 5px; }
+  .box-share-container .box-share-list {
+    background-color: #fff;
+    border-top: 3px solid #B39964;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    margin-top: 7px;
+    margin-left: -10px;
+    position: absolute;
+    text-align: left;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    height: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    z-index: 999; }
+  .box-share-container.open .box-share-list {
+    opacity: 1;
+    visibility: visible; }
+  .box-share-container .box-share-list-inner {
+    padding: 24px 40px 24px 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .box-share-container .box-share-link {
+    clear: both;
+    width: 100%;
+    display: block;
+    margin-bottom: 13px;
+    position: relative;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none; }
+    .box-share-container .box-share-link:last-child {
+      margin-bottom: 0; }
+    .box-share-container .box-share-link span {
+      padding-bottom: 4px;
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+    .box-share-container .box-share-link svg {
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+
+.rtl .gbtr_product_share ul li > a > span {
+  text-align: right; }

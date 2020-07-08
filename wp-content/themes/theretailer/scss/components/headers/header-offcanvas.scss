@@ -1,0 +1,298 @@
+body.admin-bar
+{
+	.c-offcanvas--left,
+	.c-offcanvas--right,
+	.c-offcanvas--top,
+	.c-offcanvas--bottom
+	{
+		margin-top: 32px;
+
+		@media all and (max-width: 782px) {
+			margin-top: 46px;
+		}
+	}
+}
+
+.js-offcanvas
+{
+	&.c-offcanvas--left,
+	&.c-offcanvas--right
+	{
+	    box-sizing: border-box;
+		outline: 0;
+		padding: 0 30px 30px;
+		width: 320px;
+	    z-index: 9999;
+
+	    .menu-close
+	    {
+	    	height: 30px;
+	    	position: absolute;
+	    	top: 18px;
+	    	right: 30px;
+
+	    	.offcanvas-left-close
+	    	{
+	    		background: transparent;
+	    		border: none;
+	    		cursor: pointer;
+	    		height: 28px;
+	    		outline: 0;
+	    		padding: 0;
+	    		top: 0;
+	    		right: 0;
+	    		position: absolute;
+
+	    		span
+	    		{
+    			    font-size: 28px;
+    				font-weight: 400;
+	    			outline: 0;
+	    			transition: all .3s ease;
+	    		}
+
+	    		&:hover
+	    		{
+	    			> span
+	    			{
+	    				opacity: .5;
+	    			}
+	    		}
+	    	}
+	    }
+
+	    &.is-closed
+	    {
+	    	left: -375px;
+	    }
+
+	    .mobile-main-navigation
+	    {
+	    	padding: 25px 0;
+
+	    	ul.sf-menu
+	    	{
+	    		> li
+	    		{
+	    			> a
+	    			{
+		    			font-weight: 700;
+		    			text-transform: uppercase;
+		    		}
+
+		    		&.menu-item-has-children
+		    		{
+		    			a, .more
+		    			{
+		    				display: inline-block;
+		    			}
+
+						.more
+						{
+							background-repeat: no-repeat;
+							background-position: center;
+							cursor: pointer;
+							width: 16px;
+							height: 16px;
+							position: relative;
+							top: 3px;
+						}
+
+		    			ul li.menu-item-has-children
+		    			{
+		    				> a
+		    				{
+		    					padding: 5px 0;
+		    				}
+		    			}
+		    		}
+
+		    		> .sub-menu
+		    		{
+		    			height: 0;
+		    			opacity: 0;
+		    			padding-top: 0;
+		    			padding-left: 10px;
+		    			visibility: hidden;
+		    			transition: all .3s ease-in-out;
+
+		    			&.open
+		    			{
+		    				height: 100%;
+		    				opacity: 1;
+		    				padding-top: 15px;
+		    				padding-bottom: 15px;
+		    				visibility: visible;
+		    			}
+
+		    			> li.menu-item-has-children
+			    		{
+			    			> a
+			    			{
+				    			font-weight: 700;
+				    			text-transform: uppercase;
+				    			padding: 10px 0;
+				    		}
+
+				    		> .sub-menu
+				    		{
+				    			padding-left: 10px;
+				    		}
+				    	}
+		    		}
+	    		}
+
+	    		li
+	    		{
+	    			padding: 5px 0;
+
+	    			&:first-child
+	    			{
+	    				padding-top: 0;
+	    			}
+
+	    			&:last-child
+	    			{
+	    				padding-bottom: 0;
+	    			}
+	    		}
+
+	    		.sub-menu.open
+	    		{
+	    			padding-top: 5px;
+	    			padding-bottom: 5px;
+	    		}
+	    	}
+	    }
+
+	    .mobile-secondary-navigation,
+	    .mobile-topbar-navigation
+	    {
+	    	border-top: 1px solid #ddd;
+	    	padding: 25px 0;
+
+	    	ul
+	    	{
+	    		li
+	    		{
+	    			padding: 5px 0;
+
+	    			&:first-child
+	    			{
+	    				padding-top: 0;
+	    			}
+
+	    			&:last-child
+	    			{
+	    				padding-bottom: 0;
+	    			}
+
+	    			a
+	    			{
+	    				font-size: 12px;
+	    			}
+	    		}
+
+	    		.sub-menu
+	    		{
+	    			padding-top: 10px;
+	    		}
+	    	}
+	    }
+
+	    .shortcode_socials
+	    {
+	    	border-bottom: 1px solid #ddd;
+	    	box-sizing: border-box;
+    	    display: block;
+    	    font-weight: 700;
+    	    position: relative;
+	        padding: 25px 35% 25px 0;
+		    text-transform: uppercase;
+	        width: 100%;
+	    }
+	}
+
+	&.c-offcanvas--top
+	{
+	    box-sizing: border-box;
+		outline: 0;
+	    padding: 40px;
+	    z-index: 9999;
+	    overflow: hidden;
+
+	    &.is-closed
+	    {
+	    	top: -250px;
+	    }
+
+	    .menu-close
+	    {
+	    	height: 30px;
+	    	position: absolute;
+	    	top: 30px;
+	    	right: 30px;
+
+	    	.offcanvas-top-close
+	    	{
+	    		background: transparent;
+	    		border: none;
+	    		cursor: pointer;
+	    		outline: 0;
+	    		padding: 0;
+	    		top: 0;
+	    		right: 10px;
+	    		position: absolute;
+
+	    		span
+	    		{
+    			    font-size: 28px;
+    				font-weight: 400;
+	    			outline: 0;
+	    			transition: all .3s ease;
+	    		}
+
+	    		&:hover
+	    		{
+	    			span
+	    			{
+	    				opacity: .5;
+	    			}
+	    		}
+	    	}
+	    }
+
+	    .search-text
+	    {
+	    	line-height: 1.17;
+	    	padding: 0 30% 0 0;
+	    	margin-bottom: 50px;
+	    }
+
+	    .woocommerce-product-search,
+	    #searchform
+	    {
+	    	button[type=submit],
+		    input[type=submit]
+		    {
+		    	top: 5px;
+		    }
+		}
+
+	    .search-field,
+	    #searchform .field
+	    {
+	    	appearance: none;
+	    	background: transparent;
+	    	border: none;
+	    	border-bottom: 2px solid;
+	    	border-radius: 0;
+	    	font-weight: 700;
+	    }
+	}
+
+	nav ul
+	{
+		list-style: none;
+	}
+}

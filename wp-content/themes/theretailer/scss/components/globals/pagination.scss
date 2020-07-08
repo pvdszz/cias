@@ -1,0 +1,91 @@
+.woocommerce nav.woocommerce-pagination,
+.posts-pagination,
+.comments-pagination
+{
+	border: none;
+	margin: 30px 0;
+	text-align: center;
+
+	ul
+	{
+		border: none;
+
+		li
+		{
+			border: none;
+
+			a:hover,
+			a:active,
+			&:focus
+			{
+				background: transparent;
+			}
+		}
+	}
+
+	a.page-numbers,
+	.dots,
+	.current,
+	.next,
+	.prev
+	{
+		background: transparent;
+		font-size: 16px;
+		line-height: 1.2;
+		display: inline-block;
+		height: 28px;
+		width: 28px;
+		padding: 5px 0 0 0;
+		margin: 0 6px 8px 6px;
+		border: 1px solid #fff;
+		border-radius: 15px;
+		transition: all 0.3s;
+
+		&.current
+		{
+			color: #fff;
+
+			&:hover
+			{
+				color: #fff;
+				border: 1px solid #fff;
+			}
+		}
+
+		&:active,
+		&:focus
+		{
+			background: transparent;
+		}
+	}
+
+	.prev,
+	.next
+	{
+		position: relative;
+		top: 3px;
+
+		&:before
+		{
+			background-repeat: no-repeat;
+			background-position: center;
+			content: '';
+			width: 28px;
+			height: 22px;
+			position: relative;
+			display: inline-block;
+			width: 18px;
+			height: 18px;
+		}
+	}
+
+	.dots
+	{
+		border: none;
+	}
+}
+
+.page-links
+{
+	padding: 35px 0;
+}

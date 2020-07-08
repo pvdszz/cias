@@ -1,0 +1,211 @@
+.woocommerce,
+.woocommerce-page
+{
+	&.archive
+	{
+		.global_content_wrapper
+		{
+			@media only screen and (max-width: 719px) {
+    			margin: 30px auto;
+			}
+		}
+
+		.page_sidebar_left
+		{
+			@media all and (max-width: 959px) {
+				clear: both;
+				width: 100%;
+				margin: 0;
+				max-height: 0;
+				opacity: 0;
+				visibility: hidden;
+				transition: all .8s ease;
+
+				&.open
+				{
+					max-height: 3000px;
+					opacity: 1;
+					visibility: visible;
+				}
+
+				.widget
+				{
+					box-sizing: border-box;
+					display: inline-block;
+					margin: 0 3.8% 0 0;
+					width: 22.05%;
+				    vertical-align: top;
+
+				    @media all and (max-width: 767px) {
+			    	    width: 48%;
+
+			    	    &:nth-child(2n)
+						{
+							margin-right: 0;
+						}
+				    }
+
+				    @media all and (min-width: 768px) {
+						&:nth-child(4n)
+						{
+							margin-right: 0;
+						}
+					}
+				}
+			}
+		}
+
+		.page_has_sidebar_left
+		{
+			.shop_offcanvas_button
+			{
+				@media all and (min-width: 960px) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.catalog_top
+	{
+		clear: both;
+
+		@media all and (max-width: 719px) {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	.shop_offcanvas_button
+	{
+		display: inline;
+		margin-right: 20px;
+		transition: all .3s ease;
+
+		span
+		{
+			cursor: pointer;
+			font-size: 12px;
+			font-weight: 700;
+			text-transform: uppercase;
+			transition: all .3s ease;
+
+			&:after
+			{
+				background-repeat: no-repeat;
+				background-position: center;
+				content: '';
+				display: inline-block;
+				position: relative;
+			    margin-left: 1px;
+				top: 4px;
+				width: 20px;
+				height: 20px;
+			}
+		}
+
+		@media all and (max-width: 719px) {
+			display: block;
+		    padding: 15px 0 10px;
+		    order: 2;
+			width: 100%;
+
+			span
+			{
+				display: block;
+				width: 100%;
+				position: relative;
+
+				&:after
+				{
+					position: absolute;
+					top: -2px;
+					right: 0;
+				}
+			}
+		}
+	}
+
+	.woocommerce-ordering
+	{
+		margin: 6px 0 0 0;
+		order: 1;
+
+		select.orderby
+		{
+			cursor: pointer;
+			appearance: none;
+			background-color: transparent;
+			background-repeat: no-repeat;
+	    	background-position: top -4px right 0;
+    		background-size: 20px;
+			border: none;
+		    font-size: 12px;
+		    font-weight: 700;
+	        height: auto;
+	        outline: 0;
+	        padding: 0 23px 0 8px;
+		    text-transform: uppercase;
+		    text-align-last: right;
+		    width: auto;
+		    vertical-align: middle;
+
+			@media not all and (min-resolution:.001dpcm) {
+				direction: rtl;
+			}
+
+			@media all and (max-width: 719px) {
+				direction: ltr !important;
+			}
+		}
+
+		@media all and (max-width: 719px) {
+			border-bottom: 1px solid;
+		    margin: 0;
+		    padding: 0 0 13px 0;
+			width: 100%;
+
+			select.orderby
+			{
+				padding: 0;
+				width: 100%;
+				text-align-last: left;
+			}
+		}
+	}
+
+	.hr.shop_separator
+	{
+		border-bottom: 1px solid #ccc;
+		margin: 15px 0 40px;
+
+		@media all and (max-width: 719px) {
+			order: 3;
+			margin: 5px 0 40px;
+		}
+
+		&.no-sidebar
+		{
+			@media all and (max-width: 719px) {
+			    border: 0;
+    			margin-top: 0;
+			}
+		}
+	}
+
+	.woocommerce-result-count
+	{
+		display: inline-block;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 700;
+		float: none !important;
+		margin: 0 !important;
+		padding: 0;
+		text-transform: uppercase;
+
+		@media only screen and (max-width: 719px) {
+			display: none;
+		}
+	}
+}

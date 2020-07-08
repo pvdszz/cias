@@ -1,0 +1,129 @@
+.gbtr_header_wrapper.centered_header
+{
+    .content_header
+    {
+    	align-items: center;
+    	display: flex;
+	    flex-direction: column;
+    	position: relative;
+    }
+
+    .gbtr_logo_wrapper_centered
+    {
+		box-sizing: border-box;
+	    text-align: center;
+	    width: 100%;
+
+	    .site-title
+	    {
+	    	font-weight: 700;
+	    	text-transform: uppercase;
+    	    line-height: normal;
+	    }
+
+	    .gbtr_logo
+	    {
+			padding: 0;
+			height: 100%;
+
+			img
+			{
+				max-width: 100%;
+                width: auto;
+			}
+		}
+    }
+
+    .gbtr_menu_wrapper_centered
+    {
+    	align-items: center;
+    	box-sizing: border-box;
+    	display: flex;
+	    flex-direction: column;
+	    width: 100%;
+	    margin-top: 30px;
+
+	    .menus_wrapper
+	    {
+	    	.gbtr_first_menu
+	    	{
+	    		border-bottom: 1px solid #ccc;
+
+	    		.first-navigation
+	    		{
+			        display: inline-block;
+
+    			    > ul.sf-menu
+    			    {
+    			    	text-align: center;
+
+    			    	> li
+    			    	{
+    			    		display: inline-block;
+    			    		float: none;
+    			    	}
+
+    			    	.sub-menu
+    			    	{
+    			    		text-align: left;
+    			    	}
+    			    }
+	    		}
+
+	    		.shopping_bag_centered_style_wrapper
+	    		{
+    			    display: inline-block;
+    			    list-style: none;
+			        position: relative;
+			        cursor: pointer;
+
+	    			.shopping_bag_centered_style
+	    			{
+	    				font-weight: 700;
+	    				padding-left: 2px;
+    					margin-left: 10px;
+    					transition: all .3s ease;
+
+                        > span
+                        {
+                            text-transform: uppercase;
+                        }
+
+    					span
+    					{
+    						display: inline-block;
+    					}
+
+		    			.items_number
+		    			{
+							width: 20px;
+							height: 20px;
+							text-align: center;
+							border-radius: 10px;
+							font-size: 10px;
+						    top: -2px;
+					        right: -2px;
+   							position: relative;
+							font-weight: 900;
+							line-height: 19px;
+							color: #fff !important;
+						}
+					}
+	    		}
+	    	}
+
+	    	.gbtr_second_menu
+	    	{
+	    		.secondary-navigation
+	    		{
+	    			text-align: center;
+	    		}
+	    	}
+	    }
+    }
+
+    .shopping_bag_wrapper
+    {
+    	display: none;
+    }
+}

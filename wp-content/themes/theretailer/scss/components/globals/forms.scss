@@ -1,0 +1,94 @@
+form
+{
+	label
+	{
+		display: inline-block;
+		font-weight: 700;
+		font-size: 12px;
+		padding: 0 0 5px 0;
+		text-transform: uppercase;
+	}
+
+	input,
+	.input-text
+	{
+	  padding: 8px 9px;
+	  font-size: 13px;
+	  border: 1px solid #ccc;
+	  border-radius: 0;
+	  box-shadow: none;
+	  -webkit-appearance: none;
+	}
+
+	input[type="checkbox"]
+	{
+	  -webkit-appearance: checkbox;
+	}
+
+	input[type="radio"]
+	{
+	  border-radius: 50%;
+	  -webkit-appearance: radio;
+	}
+
+	input[type=submit]
+	{
+		border: 0;
+		color: #fff;
+		cursor: pointer;
+		font-size: 12px !important;
+		font-weight: 700;
+		margin: 0;
+		padding: 20px 50px;
+		text-transform: uppercase;
+		transition: all .2s;
+	}
+
+	input[type=submit]:hover
+	{
+		background:#b39964;
+	}
+
+	textarea
+	{
+		border-radius: 0;
+		-webkit-appearance: none;
+	}
+}
+
+select
+{
+	appearance: none;
+	background-color: #fff;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M 7.4296875 9.5 L 5.9296875 11 L 12 17.070312 L 18.070312 11 L 16.570312 9.5 L 12 14.070312 L 7.4296875 9.5 z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
+	background-repeat: no-repeat;
+	background-position: right 7px top 8px;
+    background-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	box-sizing: border-box;
+	display: block;
+	font-size: 13px;
+	height: 33px;
+	max-width: 100%;
+	margin: 0;
+	outline: 0;
+	padding: 8px 9px;
+	width: 100%;
+
+}
+select::-ms-expand {
+	display: none;
+}
+
+select:focus {
+	outline: 0;
+}
+select option {
+	font-weight:normal;
+}
+
+/* Disabled styles */
+select:disabled, select[aria-disabled=true] {
+	color: #909090 !important;
+}

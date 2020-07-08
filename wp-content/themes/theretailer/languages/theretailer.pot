@@ -1,0 +1,761 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: The Retailer\n"
+"POT-Creation-Date: 2020-03-17 12:39+0200\n"
+"PO-Revision-Date: 2019-08-13 10:09+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: css\n"
+"X-Poedit-SearchPathExcluded-2: scss\n"
+"X-Poedit-SearchPathExcluded-3: images\n"
+"X-Poedit-SearchPathExcluded-4: js\n"
+"X-Poedit-SearchPathExcluded-5: inc/tgm\n"
+"X-Poedit-SearchPathExcluded-6: inc/_vendor\n"
+"X-Poedit-SearchPathExcluded-7: inc/demo\n"
+"X-Poedit-SearchPathExcluded-8: inc/fonts\n"
+
+#: 404.php:20
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: 404.php:21
+msgid "Return to the home page."
+msgstr ""
+
+#: archive.php:26
+msgid "Category Archives: "
+msgstr ""
+
+#: archive.php:30
+msgid "Tag Archives: "
+msgstr ""
+
+#: archive.php:38
+msgid "Author Archives: "
+msgstr ""
+
+#: archive.php:46
+msgid "Daily Archives: "
+msgstr ""
+
+#: archive.php:49
+msgid "Monthly Archives: "
+msgstr ""
+
+#: archive.php:52
+msgid "Yearly Archives: "
+msgstr ""
+
+#: archive.php:55 sidebar-my_account.php:18 sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:22
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to %s"
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to %2$s"
+msgid_plural "%1$s Replies to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Comment"
+msgstr ""
+
+#: content-page.php:44 content-single.php:55 content.php:70
+msgid "Pages:"
+msgstr ""
+
+#: content-single.php:3 content-single.php:36 content.php:4 content.php:6
+#: content.php:42 search.php:21
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-single.php:8 content.php:12 search.php:26
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: content-single.php:13 content.php:19 search.php:31
+msgid "Leave a comment"
+msgstr ""
+
+#: content-single.php:13 content.php:19 search.php:31
+msgid "1 Comment"
+msgstr ""
+
+#: content-single.php:13 content.php:19 search.php:31
+msgid "% Comments"
+msgstr ""
+
+#: content-single.php:49 content-single.php:51
+msgid "Continue reading &raquo;"
+msgstr ""
+
+#: content.php:63 content.php:65 content.php:66
+msgid "Continue reading"
+msgstr ""
+
+#: footer.php:47 footer.php:49 inc/customizer/backend/section-footer.php:262
+#: inc/customizer/read-options.php:67
+msgid "Powered by "
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: footer.php:47 footer.php:49 inc/customizer/backend/section-footer.php:262
+#: inc/customizer/read-options.php:67
+msgid "The Retailer"
+msgstr ""
+
+#: footer.php:49 functions/wc/filters.php:96 header_topbar.php:10
+#: woocommerce/content-product.php:57
+#: woocommerce/content-single-product.php:84
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: footer.php:149
+msgid "What are you looking for?"
+msgstr ""
+
+#: functions/theme-setup.php:83
+msgid "Top Header Navigation"
+msgstr ""
+
+#: functions/theme-setup.php:84 inc/customizer/backend/section-header.php:305
+msgid "Main Navigation"
+msgstr ""
+
+#: functions/theme-setup.php:85 inc/customizer/backend/section-header.php:347
+msgid "Secondary Navigation"
+msgstr ""
+
+#: functions/wc/filters.php:24 header.php:232
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/wp/widget-areas.php:7
+msgid "Sidebar"
+msgstr ""
+
+#: functions/wp/widget-areas.php:16
+msgid "Product listing"
+msgstr ""
+
+#: functions/wp/widget-areas.php:25
+msgid "Light footer"
+msgstr ""
+
+#: functions/wp/widget-areas.php:35
+msgid "Dark footer"
+msgstr ""
+
+#: header.php:175
+msgid "Shopping Bag"
+msgstr ""
+
+#: header_topbar.php:9 header_topbar.php:10
+#: inc/customizer/backend/section-header.php:83
+#: inc/customizer/read-options.php:37
+msgid "FREE SHIPPING ON ALL ORDERS OVER $75"
+msgstr ""
+
+#: image.php:61
+msgid "Previous"
+msgstr ""
+
+#: image.php:65
+msgid "Next"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:32
+#: inc/admin/wizard/class-gbt-install-wizard.php:33
+msgid "Theme Setup"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:53
+msgid "Introduction"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:58
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:63
+msgid "Demo Import"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:68
+msgid "Ready!"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:211
+msgid "Return to the WordPress Dashboard"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:234
+msgid "'s"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:234
+msgid "Theme Setup Wizard"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:237
+msgid "Get Started"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:239
+msgid "The quickest way to setup the theme"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:239
+msgid "and start working on your site."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:254
+msgid "Plugin Installation"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:255
+msgid "Install the required plugins before importing the demo content."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:263
+msgid "Recommended"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:269
+#: inc/admin/wizard/class-gbt-install-wizard.php:383
+msgid "Skip"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:270
+msgid "Install"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:341
+msgid "Install Now"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:342
+msgid "Update Now"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:343
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:348
+msgid "Active"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:370
+msgid "Demo Content Import"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:371
+msgid "Start with pre-built page layouts, dummy product pages,"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:371
+msgid "blog posts and widgets."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:378
+msgid ""
+"Please make sure WooCommerce and Product Blocks for WooCommerce are "
+"installed and activated before importing the demo content."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:385
+msgid "Continue"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:387
+msgid "Go back"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:408
+msgid "Setup has been completed successfully!"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:409
+msgid "View Site"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:410
+msgid "You should be able to start working on your site now."
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:411
+msgid "Best of luck with your project!"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:416
+msgid "What's next?"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:423
+msgid "Customize the theme"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:429
+msgid "WooCommerce Setup Wizard"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:445
+msgid "Activate Theme Updates"
+msgstr ""
+
+#: inc/admin/wizard/class-gbt-install-wizard.php:448
+msgid "Help Center / Support"
+msgstr ""
+
+#: inc/customizer/backend/section-blog.php:10
+msgid "Full Post on Blog Listing"
+msgstr ""
+
+#: inc/customizer/backend/section-blog.php:26
+msgid "Featured Image on Single Post"
+msgstr ""
+
+#: inc/customizer/backend/section-fonts.php:9
+msgid "Main Font"
+msgstr ""
+
+#: inc/customizer/backend/section-fonts.php:28
+msgid "Secondary Font"
+msgstr ""
+
+#: inc/customizer/backend/section-fonts.php:47
+msgid "Primary Font Color"
+msgstr ""
+
+#: inc/customizer/backend/section-fonts.php:63
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/backend/section-fonts.php:79
+msgid "Base Font Size"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:10
+msgid "Mobile"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:17
+msgid "Expandable Footer on Mobiles"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:30
+#: inc/customizer/backend/section-footer.php:37
+msgid "Light Footer"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:60
+msgid "Light Footer Layout"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:94
+msgid "Light Footer Background Color"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:110
+msgid "Light Footer Text Color"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:130
+#: inc/customizer/backend/section-footer.php:137
+msgid "Dark Footer"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:160
+msgid "Dark Footer Layout"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:194
+msgid "Dark Footer Background Color"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:210
+msgid "Dark Footer Text Color"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:230
+msgid "Credit Card Icons"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:238
+msgid "Footer Credit Card Icons"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:250
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:258
+msgid ""
+"Allowed HTML tags: a, abbr, acronym, b, blockquote, cite, code, del, em, "
+"i, q, s, strike, strong"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:260
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:275
+msgid "Copyright Bar Background Color"
+msgstr ""
+
+#: inc/customizer/backend/section-footer.php:284
+msgid "Copyright Bar Text Color"
+msgstr ""
+
+#: inc/customizer/backend/section-general.php:9
+msgid "Main Layout Style"
+msgstr ""
+
+#: inc/customizer/backend/section-general.php:22
+msgid "Boxed Layout Width"
+msgstr ""
+
+#: inc/customizer/backend/section-general.php:46
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/backend/section-general.php:62
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/backend/section-general.php:85
+msgid "Comments on Pages"
+msgstr ""
+
+#: inc/customizer/backend/section-general.php:101
+msgid "Progress Bar"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:13
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:21
+msgid "Site Logo"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:38
+msgid "Alternative Logo "
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:50
+#: inc/customizer/backend/section-header.php:57
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:81
+msgid "Top Bar Text"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:112
+msgid "Search Input Open at All Times"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:143
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:159
+msgid "Top Bar Text Color"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:190
+msgid "Top Bar Font Size"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:226
+msgid "Include Top Bar in Sticky Header"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:246
+#: inc/customizer/backend/sections.php:10
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:253
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:275
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:292
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:312
+msgid "Main Navigation Text Color"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:329
+msgid "Main Navigation Font Size"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:354
+msgid "Secondary Navigation Text Color"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:371
+msgid "Secondary Navigation Font Size"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:389
+msgid "Header Spacing"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:396
+msgid "Spacing Above the Navigation"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:418
+msgid "Spacing Below the Navigation"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:437
+msgid "Mini Shopping Bag"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:444
+msgid "Enable Mini Shopping Bag"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:468
+msgid "Mini Shopping Bag Style"
+msgstr ""
+
+#: inc/customizer/backend/section-header.php:504
+msgid "Shopping Bag Icon "
+msgstr ""
+
+#: inc/customizer/backend/section-product.php:11
+msgid "Product Page Sidebar"
+msgstr ""
+
+#: inc/customizer/backend/section-product.php:27
+msgid "Product Image Zoom"
+msgstr ""
+
+#: inc/customizer/backend/section-product.php:43
+msgid "Product Reviews"
+msgstr ""
+
+#: inc/customizer/backend/section-product.php:59
+msgid "Related Products"
+msgstr ""
+
+#: inc/customizer/backend/section-product.php:82
+msgid "Number of Related Products"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:9
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:19
+#: inc/customizer/backend/section-shop.php:26
+msgid "Catalog Mode"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:27
+msgid ""
+"When enabled, the feature turns off the shopping functionality of "
+"WooCommerce by hiding the mini cart in the header and the add-to-cart "
+"buttons for products."
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:37
+#: inc/customizer/backend/section-shop.php:44
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:67
+msgid "Sidebar Style"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:72
+msgid "Vertical"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:73
+msgid "Horizontal"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:88
+msgid "Product Card"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:95
+msgid "Second Product Image on Hover"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:111
+msgid "Parent Category"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:131
+msgid "Rating Stars"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:148
+msgid "Out of Stock Badge Text"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:150
+#: inc/customizer/read-options.php:82 woocommerce/content-product.php:56
+#: woocommerce/content-product.php:57
+#: woocommerce/content-single-product.php:83
+#: woocommerce/content-single-product.php:84
+msgid "Out of Stock"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:164
+msgid "Sale Badge Text"
+msgstr ""
+
+#: inc/customizer/backend/section-shop.php:166
+#: inc/customizer/read-options.php:83
+msgid "Sale!"
+msgstr ""
+
+#: inc/customizer/backend/sections.php:4
+msgid "General"
+msgstr ""
+
+#: inc/customizer/backend/sections.php:16
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/backend/sections.php:22
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/backend/sections.php:30
+msgid "Shop"
+msgstr ""
+
+#: inc/customizer/backend/sections.php:36
+msgid "Product Page"
+msgstr ""
+
+#: inc/customizer/backend/sections.php:44
+msgid "Styling"
+msgstr ""
+
+#: inc/customizer/backend/sections.php:50
+msgid "Fonts"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:21
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: no-results.php:22
+msgid "Get started here."
+msgstr ""
+
+#: no-results.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:32
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr ""
+
+#: search.php:11
+#, php-format
+msgid "Search Results for: \"%s\""
+msgstr ""
+
+#: searchform.php:10 searchform.php:12
+msgid "Search"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr ""
+
+#: sidebar-my_account.php:25 sidebar.php:25
+msgid "Meta"
+msgstr ""
+
+#: woocommerce/archive-product.php:108
+msgid "Filters"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://theretailer.wp-theme.design/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The Retailer is one of Envato's top selling eCommerce theme for WordPress "
+"and WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Get Bowtied"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.getbowtied.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page with Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page with Left Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "100% Width"
+msgstr ""

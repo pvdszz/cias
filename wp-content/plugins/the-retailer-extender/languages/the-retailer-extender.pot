@@ -1,0 +1,387 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: The Retailer Extender\n"
+"POT-Creation-Date: 2020-02-03 10:47+0200\n"
+"PO-Revision-Date: 2019-08-27 16:11+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: the-retailer-extender.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: core\n"
+"X-Poedit-SearchPathExcluded-2: updater\n"
+
+#: includes/addons/class-wc-category-header-image.php:158
+msgid "Parallax on Category Header"
+msgstr ""
+
+#: includes/addons/class-wc-category-header-image.php:175
+#: includes/addons/class-wc-category-header-image.php:214
+#: includes/addons/class-wc-category-header-image.php:261
+msgid "Header"
+msgstr ""
+
+#: includes/addons/class-wc-category-header-image.php:181
+#: includes/addons/class-wc-category-header-image.php:219
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/addons/class-wc-category-header-image.php:182
+#: includes/addons/class-wc-category-header-image.php:220
+msgid "Remove image"
+msgstr ""
+
+#: includes/addons/class-wc-category-header-image.php:260
+msgid "Image"
+msgstr ""
+
+#: includes/custom-code/class-custom-code.php:109
+msgid "Additional JS"
+msgstr ""
+
+#: includes/custom-code/class-custom-code.php:126
+msgid "Header JavaScript Code"
+msgstr ""
+
+#: includes/custom-code/class-custom-code.php:146
+msgid "Footer JavaScript Code"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:28
+msgid "Banner"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:107
+msgid "Title Color"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:114
+msgid "Subtitle Color"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:121
+msgid "Background Color"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:132
+msgid "Inner Stroke Color"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:162
+msgid "URL"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:173
+msgid "Open link in new tab?"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:189
+msgid "Height"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:212
+#: includes/gbt-blocks/slider/blocks/slide.js:207
+msgid "Title Font Size"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:227
+msgid "Subtitle Font Size"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:238
+msgid "Inner Stroke"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:250
+msgid "Inner Stroke Thickness"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:261
+#: includes/gbt-blocks/slider/blocks/slide.js:234
+msgid "Colors"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:324
+#: includes/gbt-blocks/slider/blocks/slide.js:268
+msgid "Add Image"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:340
+#: includes/gbt-blocks/slider/blocks/slide.js:284
+msgid "Remove Image"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:376
+#: includes/gbt-blocks/slider/blocks/slide.js:353
+msgid "Add Title"
+msgstr ""
+
+#: includes/gbt-blocks/banner/block.js:396
+#: includes/gbt-blocks/slider/blocks/slide.js:380
+msgid "Add Subtitle"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:25
+msgid "Posts Grid"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:195
+msgid "Update"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:197
+msgid "Updating"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:404
+msgid "Categories:"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:419
+msgid "Alphabetical Ascending"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:420
+msgid "Alphabetical Descending"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:421
+msgid "Date Ascending"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:422
+msgid "Date Descending"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:424
+msgid "Order By"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:443
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:474
+msgid "Columns"
+msgstr ""
+
+#: includes/gbt-blocks/posts_grid/block.js:484
+msgid "Post Excerpt"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:101
+msgid "Slide"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:119
+#: includes/gbt-blocks/slider/blocks/slide.js:195
+msgid "Title & Description"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:126
+msgid "Slide Background"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:137
+#: includes/gbt-blocks/slider/blocks/slide.js:407
+msgid "Button Text"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:144
+msgid "Button Background"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:171
+msgid "Slide Link"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:184
+msgid "Slide Button"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slide.js:222
+msgid "Description Font Size"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:61
+msgid "Slider"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:182
+msgid "Full Height"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:199
+msgid "Custom Desktop Height"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:214
+msgid "Number of Slides"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:225
+msgid "Pagination Bullets"
+msgstr ""
+
+#: includes/gbt-blocks/slider/blocks/slider.js:236
+msgid "Navigation Arrows"
+msgstr ""
+
+#: includes/gbt-blocks/social_media_profiles/block.js:28
+#: includes/widgets/social-media.php:19
+msgid "Social Media Profiles"
+msgstr ""
+
+#: includes/gbt-blocks/social_media_profiles/block.js:73
+msgid "Icons Font Size"
+msgstr ""
+
+#: includes/gbt-blocks/social_media_profiles/block.js:83
+#: includes/gbt-blocks/social_media_profiles/block.js:86
+msgid "Icons Color"
+msgstr ""
+
+#: includes/gbt-blocks/social_media_profiles/block.js:125
+msgid "Setup social profile links under Appearance > Customize > Social Media"
+msgstr ""
+
+#: includes/shortcodes/wb/wc/wc-products-by-ids-skus.php:33
+msgid "Input product ID or product SKU or product title to see suggestions"
+msgstr ""
+
+#: includes/shortcodes/wc/featured-products-slider.php:99
+#: includes/shortcodes/wc/featured-products-slider.php:116
+msgid "Read More"
+msgstr ""
+
+#: includes/shortcodes/wc/featured-products-slider.php:108
+msgid "Select options"
+msgstr ""
+
+#: includes/shortcodes/wc/featured-products-slider.php:112
+msgid "View options"
+msgstr ""
+
+#: includes/shortcodes/wc/featured-products-slider.php:120
+msgid "Add to cart"
+msgstr ""
+
+#: includes/shortcodes/wp/from-the-blog.php:87
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/shortcodes/wp/from-the-blog.php:87
+msgid "1 Comment"
+msgstr ""
+
+#: includes/shortcodes/wp/from-the-blog.php:87
+msgid "% Comments"
+msgstr ""
+
+#: includes/social-media/class-social-media.php:291
+msgid "Social Media"
+msgstr ""
+
+#: includes/social-media/class-social-media.php:309
+msgid "Social Media Icons"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:121
+msgid "Social Media Sharing"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:156
+msgid "Share"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:156
+msgid "on Facebook"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:170
+msgid "Pin"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:170
+msgid "this item"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:184
+msgid "Email"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:184
+msgid "a friend"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:198
+msgid "<span><span>Tweet</span> this item</span>"
+msgstr ""
+
+#: includes/social-sharing/class-social-sharing.php:228
+msgid "Share this post"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:26
+msgid "The Retailer Recent Posts"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:29
+msgid "A widget that displays recent posts "
+msgstr ""
+
+#: includes/widgets/recent-posts.php:68
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:104
+msgid "comments"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:178 includes/widgets/social-media.php:80
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:183
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/social-media.php:22
+msgid "A widget that displays customized social icons "
+msgstr ""
+
+#: includes/widgets/social-media.php:75
+msgid "The Retailer Connect"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "The Retailer Extender"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://theretailer.wp-theme.design/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extends the functionality of The Retailer with theme specific features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GetBowtied"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://getbowtied.com"
+msgstr ""

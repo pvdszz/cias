@@ -1,0 +1,139 @@
+.products_slider
+{
+    position: relative;
+    margin: 0 -40px;
+    overflow: hidden;
+
+    .gbtr_items_sliders_header
+    {
+        margin: 0 40px;
+    }
+
+    .gbtr_items_sliders_title
+    {
+        padding-top: 30px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .swiper-container
+    {
+        margin: 0 40px 2.5rem;
+        padding-top: 30px;
+
+        @media all and (max-width: 639px) {
+            margin: 0 40px 1.75rem;
+        }
+    }
+
+    .swiper-slide
+    {
+        list-style: none;
+    }
+
+    .swiper-wrapper
+    {
+        &.disabled
+        {
+            transform: translate3d(0px, 0, 0) !important;
+        }
+    }
+
+    &:hover
+    {
+        .slider-button-prev
+        {
+            transform: translateX(80px);
+        }
+
+        .slider-button-next
+        {
+            transform: translateX(-80px);
+        }
+    }
+
+    .slider-button-prev,
+    .slider-button-next
+    {
+        display: block;
+        outline: 0;
+        cursor: pointer;
+        transition: all .35s ease-in-out;
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        width: 20px;
+        z-index: 1;
+
+        @media all and (max-width: 719px) {
+            display: none;
+        }
+
+        &:before
+        {
+            display: block;
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    .slider-button-prev
+    {
+        left: -75px;
+    }
+
+    .slider-button-next
+    {
+        right: -75px;
+    }
+
+    .swiper-pagination
+    {
+        bottom: 10px;
+        text-align: center;
+        height: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+
+        &.disabled
+        {
+            display: none;
+        }
+
+        .swiper-pagination-bullet
+        {
+            background: transparent;
+            border: 1px solid;
+            margin: 0px 4px;
+            opacity: 1;
+
+            &.swiper-pagination-bullet-active
+            {
+                border: none;
+            }
+        }
+    }
+
+    ul.products
+    {
+        padding: 0 !important;
+
+        li
+        {
+            list-style-type: none;
+            width: 100% !important;
+        }
+    }
+}
+
+.gbt_18_tr_slider {
+    .swiper-button-prev,
+    .swiper-button-next
+    {
+    	&:after {
+    		content: none !important;
+    	}
+    }
+}

@@ -1,0 +1,31 @@
+.category_header
+{
+	box-sizing: border-box;
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+	position: relative;
+	padding: 0 0 70px 0;
+
+	@media only screen and (max-width: 719px) {
+	    padding: 0 0 30px 0;
+	}
+
+	@media only screen and (min-width: 720px) and (max-width: 959px) {
+	    padding: 0 0 50px 0;
+	}
+
+	.term-description,
+	.page-description
+	{
+	    margin: 25px 0 0 0;
+	    padding: 0;
+		position: relative;
+		text-align: center;
+
+		p
+		{
+			padding-bottom: 0;
+		}
+	}
+}

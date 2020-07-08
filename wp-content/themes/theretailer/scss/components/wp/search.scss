@@ -1,0 +1,58 @@
+.search-results
+{
+	.page-title
+	{
+	    font-size: 12px;
+	    margin: 0 0 50px;
+			text-transform: uppercase;
+	}
+
+	article
+	{
+		margin-bottom:40px;
+		padding-bottom:15px;
+		border-bottom:1px solid;
+
+		.entry-header
+		{
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.search-no-results
+{
+	article.no-results
+	{
+		.entry-header
+		{
+			.entry-title
+			{
+				font-size: 12px;
+		    margin: 0 0 50px;
+				text-transform: uppercase;
+			}
+		}
+
+		.entry-content
+		{
+			#searchform
+			{
+				display: flex;
+				flex-direction: row;
+
+				.assistive-text
+				{
+					display: none;
+				}
+
+				input.field
+				{
+					flex: 1;
+					height: 38px;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}

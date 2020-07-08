@@ -1,0 +1,177 @@
+// shop page
+body.archive {
+    ul.products {
+        li.product {
+            .image_container + .shopswatchinput {
+                margin-bottom: 9px;
+            }
+            .slick-slider {
+                .slick-arrow {
+                    cursor: pointer;
+                    margin-top: 6px !important;
+                }
+                .slick-list {
+                    margin-right: 10px;
+                }
+                .slick-slide {
+                    width: fit-content !important;
+                    a {
+                        overflow: visible;
+                        position: relative;
+                        display: block!important;
+                        margin-top: 0;
+                    }
+                }
+            }
+            div.wcvashopswatchlabel {
+                background-size: cover !important;
+                outline: none;
+                margin-bottom: 9px;
+            }
+            .wcvaswatchinput {
+                display: inline !important;
+                margin-right: 5px;
+            }
+            .wcvashopswatchlabel.wcva_shop_textblock {
+                text-transform: uppercase;
+                font-size: 12px;
+            }
+            .wcvashopswatchlabel.wcva_shop_textblock.wcvaround {
+                font-weight: bold;
+                padding: 9px 7px;
+                margin-right: 0;
+
+                &:not(:hover) {
+                    border: 1px solid transparent;
+                }
+            }
+        }
+    }
+}
+
+// single product
+body.single-product {
+    .variations {
+        .label {
+            font-size: 12px;
+            margin-bottom: 5px;
+            .swatchtitlelabel {
+                text-transform: uppercase;
+            }
+        }
+        .value {
+            padding-left: 3px !important;
+        }
+        label.selectedswatch.wcva_single_textblock {
+            :not(.wcvaround) {
+                border: solid 0px white !important;
+                outline: solid 1px #000000 !important;
+            }
+            &.wcvaround {
+                box-shadow: 0px 0px 0px 2px white inset;
+                border: solid 2px black !important;
+            }
+        }
+        .swatchinput label.wcvaswatchlabel {
+            padding-right: 7px !important;
+            padding-left: 7px !important;
+            transition: all .3s ease;
+
+            &:not(.selectedswatch):not(:hover) {
+                border: 1px solid transparent !important;
+                outline: transparent !important;
+            }
+            &:not(.wcvaround) {
+                &:hover {
+                    outline: solid 1px #000 !important;
+                }
+            }
+            &.wcvaround {
+                &:hover {
+                    border: solid 1px #000 !important;
+                    box-shadow: 0px 0px 0px 2px white inset;
+                }
+            }
+        }
+        span.belowtext {
+            display: block;
+            line-height: 1;
+            margin-top: 5px;
+        }
+        .attribute-swatch {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+// widgets
+.wcva-filter-widget {
+    .widget {
+        overflow: hidden;
+        .wcva_filter-widget-title
+    	{
+    		border-bottom: 2px solid;
+    		display: block;
+    		font-size: 12px;
+    		font-weight: 700;
+    		margin: 0 0 10px 0;
+    		padding: 0 0 10px 0;
+    		text-transform: uppercase;
+    	}
+
+        .wcvashopswatchlabel {
+            outline: transparent;
+            &:not(.selectedswatch):not(:hover) {
+                border: 1px solid transparent;
+            }
+        }
+    }
+}
+
+.page_sidebar.page_sidebar_horizontal .wcva-filter-widget {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 21.65% !important;
+    .widget {
+        display: block;
+        margin: 0;
+        overflow: hidden;
+        width: 100%;
+        .wcvashopswatchlabel {
+            outline: transparent;
+            &:not(.selectedswatch):not(:hover) {
+                border: 1px solid transparent;
+            }
+            &:not(.wcvaround) {
+                &:hover {
+                    outline: 0px 0px 0px 2px white inset !important;
+                }
+            }
+        }
+    }
+}
+
+// globals
+.wcva_filter_widget div.wcvashopswatchlabel.wcva_filter_textblock,
+label.wcva_single_textblock,
+label.wcva_single_textblock.selectedswatch {
+    font-size: 12px;
+    font-weight: 700 !important;
+    margin-right: 5px;
+    padding: 9px 7px;
+    transition: all .3s ease;
+    &:hover {
+        transition: all .3s ease;
+    }
+}
+
+div.swatchinput {
+    line-height: 0;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+label.wcvaround {
+    border-radius: 50% !important;
+}

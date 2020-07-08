@@ -1,0 +1,96 @@
+.gbtr_header_wrapper.menu_under_header
+{
+    &.sticky
+    {
+    	.gbtr_menu_wrapper_menu_under
+    	{
+    		.shopping_bag_wrapper
+    		{
+    			top: 0;
+    		}
+    	}
+    }
+
+    .content_header
+    {
+    	align-items: center;
+    	display: flex;
+	    flex-direction: column;
+    	position: relative;
+    }
+
+    .gbtr_logo_wrapper_menu_under
+    {
+		box-sizing: border-box;
+	    float: left;
+	    width: 100%;
+
+	    .site-title
+	    {
+	    	font-weight: 700;
+    	    line-height: normal;
+	    	text-transform: uppercase;
+	    }
+
+	    .gbtr_logo
+	    {
+			padding: 0 0;
+			height: 100%;
+
+			img
+			{
+				max-width: 100%;
+                width: auto;
+			}
+		}
+    }
+
+    .gbtr_menu_wrapper_menu_under
+    {
+    	align-items: left;
+    	box-sizing: border-box;
+    	display: flex;
+	    float: left;
+	    position: relative;
+	    width: 100%;
+
+	    .menus_wrapper
+	    {
+    	    margin-top: 30px;
+    	    width: 100%;
+
+            .main-navigation
+            {
+                > ul
+                {
+                    > li
+                    {
+                        float: none;
+                        display: inline-block;
+                    }
+                }
+            }
+
+	    	.gbtr_first_menu
+	    	{
+	    		.first-navigation
+	    		{
+    			    border-top: 1px solid #ccc;
+    			    padding-top: 17px;
+
+                    > ul > li:first-child > a
+                    {
+                        padding-left: 0;
+                    }
+	    		}
+	    	}
+	    }
+
+	    .shopping_bag_wrapper
+	    {
+    	    position: absolute;
+		    right: 20px;
+		    top: -50px;
+	    }
+    }
+}

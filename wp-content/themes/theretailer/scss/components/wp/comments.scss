@@ -1,0 +1,150 @@
+.comments-area
+{
+	.pingback
+	{
+		padding: 10px;
+		margin: 0 0 15px 0;
+		background: #f4f4f4;
+	}
+
+	.comments-title
+	{
+		border-bottom: 2px solid #000;
+		padding: 30px 0;
+	}
+
+	.comment-list
+	{
+		list-style: none;
+
+		ul, ol
+		{
+			list-style: none;
+		}
+
+		.comment-body
+		{
+			color: #555;
+			position: relative;
+		    padding: 30px 0 0 65px;
+		}
+
+		.comment
+		{
+			.children
+			{
+				padding-left: 65px;
+			}
+		}
+
+		.comment-author {
+			font-weight: 700;
+			font-style: normal;
+		    line-height: 1.15;
+
+		    .says
+		    {
+		    	display: none;
+		    }
+
+			.avatar
+			{
+			    max-width: 40px;
+			    height: auto;
+			    position: absolute;
+			    left: 0;
+			    top: 30px;
+			}
+
+			cite
+			{
+				font-style: normal;
+			}
+		}
+
+		.comment-meta
+		{
+			font-size: 12px;
+		    margin: 10px 0 20px;
+
+		    a
+		    {
+		    	color: #777;
+		    }
+		}
+
+		.reply
+		{
+			padding: 20px 0 25px;
+			border-bottom: 1px solid #ccc;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 12px;
+		}
+	}
+
+	#cancel-comment-reply-link
+	{
+		display: none;
+	}
+
+	.comment-respond
+	{
+		.comment-form,
+		.comment-form-comment
+		{
+			margin-top: 20px;
+		}
+
+		.comment-reply-title
+		{
+			border-bottom: 2px solid #000;
+			padding: 30px 0;
+		}
+
+		label
+		{
+			font-size: 12px;
+			text-transform: uppercase;
+			font-weight: 700;
+		    margin: 11px 0 0 0;
+		}
+
+		#author,
+		#email,
+		#url,
+		#comment
+		{
+			width: 100%;
+			padding: 9px 10px;
+			color: #555;
+	        line-height: 1.7em;
+			box-sizing: border-box;
+			border: 1px solid #ccc;
+		}
+
+		.comment-form-cookies-consent
+		{
+			margin: 10px 0;
+
+			label
+			{
+				color: #777;
+				font-weight: 400;
+			    padding-left: 5px;
+				text-transform: none;
+			}
+		}
+
+		#comment
+		{
+
+		}
+
+		#submit
+		{
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
+}

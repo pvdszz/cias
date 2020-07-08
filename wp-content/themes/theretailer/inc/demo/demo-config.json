@@ -1,0 +1,29 @@
+[
+  {
+    "demo_name": "Default",
+    "file_path": "theretailer.default.xml",
+    "screenshot": "",
+    "settings": {
+      "reading_settings": {
+        "homepage": "Home - Classic eCommerce",
+        "blog": "Blog"
+      },
+      "woocommerce_pages": {
+        "woocommerce_shop_page_id": "Shop",
+        "woocommerce_cart_page_id": "Cart",
+        "woocommerce_checkout_page_id": "Checkout",
+        "woocommerce_myaccount_page_id": "My Account"
+      },
+      "navigation": [
+        {
+          "name": "Main Navigation",
+          "location": "primary"
+        },
+        {
+          "name": "Secondary Menu",
+          "location": "secondary"
+        }
+      ]
+    }
+  }
+]

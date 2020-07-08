@@ -1,0 +1,72 @@
+#icon-dropdown i {
+  font-size: 32px;
+  width: 32px !important;
+  height: 32px !important;
+  margin: 18px !important;
+  display: inline-block; }
+
+#icon-dropdown {
+  width: 100%;
+  height: 340px;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin: 10px 0px; }
+
+#icon-dropdown input#trace {
+  display: none; }
+
+#icon-dropdown li:hover {
+  background: #000;
+  color: #fff; }
+
+#icon-dropdown li.selected {
+  color: #fff;
+  background: #999;
+  border: 1px solid #b39964; }
+
+.icon-preview {
+  display: inline-block;
+  text-align: center;
+  padding: 18px; }
+
+.icon-preview label {
+  display: inline-block;
+  margin: 5px 0 0 10px; }
+
+.icon-preview > i {
+  font-size: 32px;
+  vertical-align: middle;
+  width: 32px !important;
+  height: 32px !important; }
+
+.wpb_element_label {
+  margin-right: 15px;
+  line-height: 30px; }
+
+.search {
+  padding: 10px 15px !important;
+  margin: 17px 0 0 0 !important;
+  width: 200px;
+  border-color: #ddd;
+  float: right; }
+
+#icon-dropdown > .icon-list {
+  margin-top: 0px; }
+
+#icon-dropdown > .icon-list li {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #fff;
+  margin-bottom: 0px;
+  text-align: center; }
+
+#icon-dropdown > .icon-list label {
+  display: none; }
+
+#icon-dropdown li.selected:hover {
+  color: #FFF;
+  background: #313131; }
+
+.wpb_el_type_icon .search {
+  max-width: 220px;
+  margin-left: 12px !important; }

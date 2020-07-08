@@ -1,0 +1,57 @@
+// Globals
+@import "components/globals/globals";
+@import "components/globals/title";
+@import "components/globals/forms";
+@import "components/globals/select2";
+@import "components/globals/buttons";
+@import "components/globals/sidebar";
+@import "components/globals/pagination";
+
+// Headers
+@import "components/headers/header-default";
+@import "components/headers/header-centered";
+@import "components/headers/header-menu-under";
+@import "components/headers/header-sticky";
+@import "components/headers/header-offcanvas";
+@import "components/headers/header-menus";
+@import "components/headers/header-topbar";
+@import "components/headers/header";
+@import "components/headers/header-mobile";
+
+// Footers
+@import "components/footers/footer";
+@import "components/footers/dark-light";
+
+// WC
+@import "components/wc/globals";
+@import "components/wc/category-header";
+@import "components/wc/archive";
+@import "components/wc/sliders";
+@import "components/wc/product/product";
+@import "components/wc/product/reviews";
+@import "components/wc/badge";
+@import "components/wc/cart";
+@import "components/wc/lightbox";
+@import "components/wc/empty-cart";
+@import "components/wc/checkout";
+@import "components/wc/order-received";
+@import "components/wc/quantity-input";
+@import "components/wc/my-account";
+@import "components/wc/minicart";
+@import "components/wc/notifications";
+@import "components/wc/product-card";
+@import "components/wc/woocommerce-blocks";
+
+// WP
+@import "components/wp/globals";
+@import "components/wp/archive";
+@import "components/wp/post";
+@import "components/wp/image";
+@import "components/wp/comments";
+@import "components/wp/search";
+@import "components/wp/contact";
+@import "components/wp/gallery";
+@import "components/wp/widgets";
+@import "components/wp/page";
+@import "components/wp/404";
+@import "components/wp/gutenberg";

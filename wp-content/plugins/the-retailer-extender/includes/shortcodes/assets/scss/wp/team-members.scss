@@ -1,0 +1,46 @@
+.shortcode_meet_the_team {
+	text-align:center;
+	margin-bottom: 2.5rem;
+}
+
+.shortcode_meet_the_team_img_placeholder {
+	width:190px;
+	height:190px;
+	overflow:hidden;
+	margin:10px auto 30px auto;
+	-moz-border-radius: 95px;
+    -webkit-border-radius: 95px;
+    -khtml-border-radius: 95px;
+    border-radius: 95px;
+}
+
+.with_sidebar .shortcode_meet_the_team_img_placeholder img {
+	max-width:140px !important;
+}
+
+.with_sidebar .shortcode_meet_the_team_img_placeholder {
+	width:140px;
+	height:140px;
+	-moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -khtml-border-radius: 70px;
+    border-radius: 70px;
+}
+
+.shortcode_meet_the_team_img_placeholder img {
+	max-width:190px !important;
+}
+
+.shortcode_meet_the_team h3 {
+	padding:0 0 10px 0;
+}
+
+.shortcode_meet_the_team .small_sep {
+	margin:0 auto 10px auto;
+}
+
+.shortcode_meet_the_team .role {
+	color:#b39964;
+	font-size:14px;
+	margin-bottom:25px;
+}

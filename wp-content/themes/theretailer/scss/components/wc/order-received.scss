@@ -1,0 +1,165 @@
+.woocommerce-order-received,
+.woocommerce-MyAccount-content
+{
+	ul.order_details
+	{
+		padding: 0;
+		margin: 0 0 20px 0;
+
+		li
+		{
+		    box-sizing: border-box;
+		    border: 0;
+			border-right: 1px dotted;
+			font-size: 12px;
+			font-weight: 700;
+			margin: 0 10px 0 0;
+			padding: 0 10px 0 0;
+		    width: calc( 20% - 10px );
+
+		    @media all and (max-width: 768px) {
+		    	border-right: 0;
+		    	border-bottom: 1px dotted;
+		    	margin: 0 0 10px 0;
+		    	padding: 0 0 10px 0;
+		    	width: 100%;
+		    }
+
+		    strong,
+		    strong span
+		    {
+		    	font-size: 13px;
+		    	font-weight: normal;
+		    	margin-top: 10px;
+		    }
+
+		    span.amount
+		    {
+		    	float: none;
+		    }
+
+			&:last-child
+			{
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+
+	mark
+    {
+    	background-color: transparent;
+    	font-weight: 700;
+    }
+
+	table.shop_table.order_details
+	{
+		border: 0;
+
+		th
+    	{
+    		font-size: 12px;
+    		font-weight: 700;
+    		text-transform: uppercase;
+    	}
+
+    	thead th
+    	{
+    		border-bottom: 2px solid;
+		    padding: 15px 0;
+    	}
+
+    	td, th
+    	{
+    		border-top: 0;
+    		border-bottom: 1px dotted;
+    	}
+
+    	tbody
+    	{
+    		.product-name
+			{
+				font-size: 13px;
+				padding: 15px 20px 15px 0;
+			}
+
+			.product-total
+			{
+				font-size: 13px;
+				font-weight: 700;
+				padding: 15px 0;
+			}
+
+    		.order_item:last-child
+    		{
+    			th, td
+    			{
+    				border-bottom: 2px solid;
+    			}
+    		}
+
+			.download-file
+			{
+				overflow: auto;
+
+				.woocommerce-MyAccount-downloads-file.button
+				{
+					float: right;
+				}
+			}
+    	}
+
+    	tfoot
+    	{
+    		th
+			{
+				padding: 15px 20px 15px 0;
+			}
+
+			td
+			{
+				font-size: 13px;
+				padding: 15px 0;
+
+				@media all and (max-width: 768px) {
+					width: 50%;
+				}
+			}
+    	}
+	}
+
+	.woocommerce-order-details
+	{
+		margin-bottom: 40px;
+	}
+
+	.woocommerce-order-details__title
+	{
+		margin-top: 40px;
+	}
+
+	.woocommerce-customer-details
+	{
+		.woocommerce-columns
+		{
+			.woocommerce-column.col-1
+			{
+				@media all and (max-width: 768px) {
+				    margin-bottom: 25px;
+				}
+			}
+		}
+
+		address
+		{
+			border: 0;
+		    line-height: 1.5;
+		    padding: 0;
+		}
+
+		.woocommerce-customer-details--phone
+		{
+			padding-bottom: 0;
+		}
+	}
+}

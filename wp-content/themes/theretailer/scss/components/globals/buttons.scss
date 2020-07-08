@@ -1,0 +1,102 @@
+a.button,
+button.button,
+input.button,
+#respond input#submit,
+.woocommerce #respond input#submit,
+#content input.button,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce button.button.disabled,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-widget-layered-nav-dropdown__submit,
+button.wc-stripe-checkout-button,
+div.product div.summary a.single_add_to_cart_button
+{
+	border: 0 !important;
+	border-radius: 0 !important;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-size: 12px !important;
+	font-weight: 700 !important;
+	line-height: 1.2;
+	outline: 0;
+	overflow: visible;
+	position: relative;
+	padding: 19px 30px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase !important;
+	transition: all 0.3s ease;
+
+	&:hover
+	{
+		color: #fff;
+	}
+}
+
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled]
+{
+	color: #fff;
+	cursor: default;
+	padding: 19px 30px;
+
+	&:hover
+	{
+		color: #fff;
+	}
+}
+
+.product_button a.button
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #fff !important;
+	height: 35px;
+	margin: 0;
+	padding: 0 !important;
+	text-indent: -9999px;
+	width: 35px;
+	z-index: 100;
+}
+
+a.added_to_cart
+{
+	display: none !important;
+}
+
+/* woocommerce add to cart success */
+a.button.added::before,
+button.button.added::before,
+input.button.added::before,
+#respond input#submit.added::before,
+#content input.button.added::before,
+.woocommerce a.button.added::before,
+.woocommerce button.button.added::before,
+.woocommerce input.button.added::before,
+.woocommerce #respond input#submit.added::before,
+.woocommerce #content input.button.added::before
+{
+	background-position: center;
+	background-repeat: no-repeat !important;
+	content: "";
+	height: 35px;
+	position: absolute;
+	right: 35px !important;
+	top: 0px !important;
+	text-indent: 0;
+	width: 35px;
+}

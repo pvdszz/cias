@@ -1,0 +1,113 @@
+.product_page_has_sidebar,
+.page_has_sidebar
+{
+	box-sizing: border-box;
+	position: relative;
+	width: 75%;
+
+	&.page_has_sidebar_left
+	{
+		float: right;
+		padding-left: 70px;
+
+		@media all and (max-width: 959px) {
+			padding-left: 0;
+		}
+	}
+
+	&.page_has_sidebar_right
+	{
+		float: left;
+		padding-right: 70px;
+
+		@media all and (max-width: 959px) {
+			padding-right: 0;
+		}
+	}
+
+	@media all and (max-width: 959px) {
+		float: none !important;
+		width: auto;
+	}
+}
+
+.page_has_horizontal_sidebar
+{
+	background-color: #fff;
+	position: relative;
+}
+
+.page_sidebar
+{
+	position: relative;
+	width: 25%;
+
+	&.page_sidebar_left
+	{
+		float: left;
+	}
+
+	&.page_sidebar_right
+	{
+		float: right;
+	}
+
+	@media all and (max-width: 959px) {
+		float: none !important;
+	    margin: 2.5rem 0 0;
+		width: auto;
+
+		@media all and (max-width: 639px) {
+            margin: 1.75rem 0 0;
+        }
+	}
+
+	&.page_sidebar_horizontal
+	{
+		clear: both;
+		width: 100%;
+
+		max-height: 0;
+		opacity: 0;
+		visibility: hidden;
+		transition: all .5s ease;
+
+		@media all and (max-width: 959px) {
+			margin: 0;
+		}
+
+		&.open
+		{
+			max-height: 3000px;
+			opacity: 1;
+			visibility: visible;
+			transition: all 1s ease;
+		}
+
+		> br {
+			display: none;
+		}
+
+		.widget,
+		.wcva-filter-widget // woo swatches
+		{
+			box-sizing: border-box;
+			display: inline-block;
+			margin: 0 3.8% 0 0;
+			width: 22.05%;
+		    vertical-align: top;
+
+		    @media all and (max-width: 767px) {
+		    	margin-right: 0;
+	    	    width: 100%;
+		    }
+
+		    @media all and (min-width: 768px) {
+				&:nth-child(4n)
+				{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

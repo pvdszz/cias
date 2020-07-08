@@ -1,0 +1,101 @@
+.shortcode_getbowtied_slider {
+  height: 100vh;
+  margin: 0 -15px 2.5rem;
+  width: calc(100% + 30px) !important;
+  min-width: 100%; }
+  .shortcode_getbowtied_slider .swiper-slide {
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    display: table; }
+    .shortcode_getbowtied_slider .swiper-slide .slider-content {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+    .shortcode_getbowtied_slider .swiper-slide h2 {
+      font-size: 60px;
+      margin-top: 0;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding: 0; }
+      @media only screen and (max-width: 958px) {
+        .shortcode_getbowtied_slider .swiper-slide h2 {
+          font-size: 30px !important;
+          line-height: 1.2 !important;
+          margin-left: 0;
+          margin-right: 0; } }
+    .shortcode_getbowtied_slider .swiper-slide h2 + p {
+      margin-top: 45px; }
+    .shortcode_getbowtied_slider .swiper-slide p {
+      font-size: 21px;
+      font-weight: normal;
+      margin-top: 0;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding: 0; }
+      @media only screen and (max-width: 958px) {
+        .shortcode_getbowtied_slider .swiper-slide p {
+          font-size: 18px !important; } }
+    .shortcode_getbowtied_slider .swiper-slide p + .button {
+      margin-top: 45px; }
+    .shortcode_getbowtied_slider .swiper-slide .button {
+      display: inline-block !important; }
+    .shortcode_getbowtied_slider .swiper-slide.left-align .slider-content-wrapper {
+      float: left; }
+    .shortcode_getbowtied_slider .swiper-slide.right-align .slider-content-wrapper {
+      float: right; }
+    .shortcode_getbowtied_slider .swiper-slide.center-align .slider-content-wrapper {
+      float: none;
+      padding: 0; }
+    .shortcode_getbowtied_slider .swiper-slide .slider-content-wrapper {
+      width: 50%;
+      position: relative;
+      margin: 0 auto;
+      text-align: center;
+      padding: 0 75px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      @media only screen and (max-width: 958px) {
+        .shortcode_getbowtied_slider .swiper-slide .slider-content-wrapper {
+          float: none !important;
+          width: 100%;
+          padding: 0 75px !important; } }
+  .shortcode_getbowtied_slider .swiper-button-next,
+  .shortcode_getbowtied_slider .swiper-button-prev {
+    background-size: 22px;
+    height: 75px;
+    width: 75px;
+    opacity: 0.2;
+    display: block;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; }
+    .shortcode_getbowtied_slider .swiper-button-next:hover,
+    .shortcode_getbowtied_slider .swiper-button-prev:hover {
+      opacity: 1; }
+  .shortcode_getbowtied_slider .swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");
+    right: 0; }
+  .shortcode_getbowtied_slider .swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");
+    left: 0; }
+  .shortcode_getbowtied_slider .quickview-pagination {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    z-index: 9999;
+    width: 100%;
+    text-align: center; }
+    .shortcode_getbowtied_slider .quickview-pagination .swiper-pagination-bullet {
+      margin: 5px;
+      background: rgba(0, 0, 0, 0.5);
+      -webkit-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      transition: all .3s ease; }
+      .shortcode_getbowtied_slider .quickview-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background: #000;
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3); }

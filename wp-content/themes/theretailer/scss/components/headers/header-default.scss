@@ -1,0 +1,109 @@
+.gbtr_header_wrapper.default_header
+{
+    &.sticky
+    {
+    	.gbtr_minicart_wrapper
+    	{
+    		right: 0;
+    	}
+    }
+
+    .content_header
+    {
+    	align-items: center;
+    	clear: both;
+    	display: flex;
+	    flex-direction: row;
+    	position: relative;
+    }
+
+    .gbtr_minicart_wrapper
+    {
+    	right: 20px;
+    }
+
+    .gbtr_logo_wrapper_default
+    {
+		box-sizing: border-box;
+	    float: left;
+	    padding-right: 10px;
+	    width: 30%;
+
+	    @media only screen and (max-width: 719px) {
+	    	padding-left: 10px;
+	    	width: 100%;
+	    }
+
+	    .gbtr_logo
+	    {
+			padding: 0 0;
+			height: 100%;
+
+			img
+			{
+				max-width: 100%;
+                width: auto;
+			}
+		}
+    }
+
+    .gbtr_menu_wrapper_default
+    {
+    	align-items: center;
+    	box-sizing: border-box;
+	    justify-content: flex-end;
+    	display: flex;
+	    float: left;
+	    padding-left: 10px;
+	    width: 70%;
+
+	    @media only screen and (max-width: 719px) {
+	    	padding-right: 10px;
+	    	width: 100%;
+	    }
+
+	    .menus_wrapper
+	    {
+	    	float: right;
+	    	padding-right: 15px;
+	    	padding-top: 5px;
+
+	    	.gbtr_first_menu
+	    	{
+	    		.first-navigation
+	    		{
+    			    border-bottom: 1px solid #ccc;
+
+    			    > ul.sf-menu
+    			    {
+    			    	text-align: right;
+
+    			    	> li
+    			    	{
+    			    		display: inline-block;
+    			    		float: none;
+    			    	}
+
+    			    	.sub-menu
+    			    	{
+    			    		text-align: left;
+    			    	}
+    			    }
+	    		}
+	    	}
+
+	    	.gbtr_second_menu
+	    	{
+	    		.secondary-navigation
+	    		{
+	    			text-align: right;
+	    		}
+	    	}
+	    }
+
+	    .shopping_bag_wrapper
+		{
+			float: right;
+		}
+    }
+}

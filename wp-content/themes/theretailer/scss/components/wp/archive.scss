@@ -1,0 +1,44 @@
+.blog,
+.archive
+{
+	.articles_list:not(.page_has_sidebar)
+	{
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	.content-area
+	{
+		.post
+		{
+			margin-bottom: 60px;
+
+			@media all and (max-width: 639px)
+			{
+				margin-bottom: 40px;
+			}
+
+			.entry-thumbnail
+			{
+				img
+				{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+.entry-content
+{
+	img
+	{
+		max-width: 100%;
+	}
+
+	.vc_row
+	{
+		margin-left: 0;
+		margin-right: 0;
+	}
+}

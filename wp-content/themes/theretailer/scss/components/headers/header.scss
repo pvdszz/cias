@@ -1,0 +1,208 @@
+.gbtr_header_wrapper
+{
+	position: relative;
+	transition: all 0.3s ease-in-out;
+
+	.content_header
+	{
+		box-sizing: border-box;
+	    margin: 0 auto;
+	    max-width: 980px;
+	    padding: 0 20px;
+	    width: 100%;
+	    transition: all 0.3s ease-in-out;
+
+	    @media only screen and (min-width: 720px) and (max-width: 959px) {
+		    max-width: 760px;
+	  	}
+	}
+
+	.site-title,
+	.mobile-site-title
+    {
+    	font-weight: 700;
+	    line-height: normal;
+    	text-transform: uppercase;
+    }
+
+	.shopping_bag_wrapper
+	{
+		.gbtr_little_shopping_bag_wrapper
+		{
+			display: block;
+
+			@media screen and (max-width: 959px) {
+				display: none;
+			}
+
+			&.shopping_bag_default_style
+			{
+				width: 140px;
+
+				.gbtr_little_shopping_bag
+				{
+					background-color: transparent;
+					transition: all .3s ease;
+
+					&:hover
+					{
+						background-color: #fff;
+					}
+				}
+
+				.gb_cart_contents_count
+				{
+					display: none;
+				}
+
+				.gbtr_little_shopping_bag
+				{
+					.overview
+					{
+						.minicart_items
+						{
+							float: none;
+						}
+					}
+				}
+			}
+
+			&.shopping_bag_mobile_style
+			{
+				background-color: transparent;
+			    background-position: right 11px top 50%;
+				background-repeat: no-repeat;
+				width: 61px;
+				transition: all .3s ease;
+
+				&:hover
+				{
+					background-color: #fff;
+				}
+
+				.gbtr_little_shopping_bag
+				{
+					width: 61px;
+					height: 61px;
+					background: none;
+				}
+
+				.title,
+				.overview
+				{
+					display: none;
+				}
+
+				.gb_cart_contents_count
+				{
+					width: 20px;
+					height: 20px;
+					display: block;
+					position: absolute;
+					top: -10px;
+					right: 5px;
+					text-align: center;
+					border-radius: 10px;
+					font-size: 10px;
+					font-weight: 700;
+					line-height: 19px;
+				}
+			}
+
+			.gbtr_little_shopping_bag
+			{
+				border: 1px solid #ccc;
+				padding: 7px 9px 5px 9px;
+				position: relative;
+				cursor: pointer;
+
+				.title
+				{
+					background: none;
+					font-size: 12px;
+					border-bottom: 1px solid #c3c3c3;
+					text-transform: uppercase;
+					font-weight: 900;
+					padding: 0 0 4px 0;
+					position: relative;
+
+					&:after
+					{
+						background-repeat: no-repeat;
+						background-position: center;
+						content: '';
+						position: absolute;
+						top: -2px;
+						right: 0;
+						width: 16px;
+						height: 16px;
+					}
+
+					i
+					{
+						font-size:9px;
+						float:right;
+						margin:1px 0 0 0;
+					}
+				}
+
+				.overview
+				{
+					font-size:12px;
+					padding:6px 0 0 0;
+
+					span.minicart_items
+					{
+						text-align:right;
+						float:right;
+					}
+				}
+			}
+		}
+
+		.gbtr_little_shopping_bag_wrapper_mobiles
+		{
+			display: none;
+			width: 48px;
+			height: 48px;
+			border: 1px solid #ccc;
+			float: left;
+			margin-left: 10px;
+			background-repeat: no-repeat;
+			background-color: #fff;
+			background-position: center;
+			position: relative;
+			color: #fff;
+
+			@media only screen and (max-width: 719px) {
+				display: block;
+			}
+
+			span
+			{
+				width: 20px;
+				height: 20px;
+				background: #b39964;
+				display: block;
+				position: absolute;
+				top: -10px;
+				right: 3px;
+				text-align: center;
+			    border-radius: 10px;
+				font-size: 10px;
+				font-weight: 900;
+				line-height: 19px;
+				overflow: hidden;
+			}
+
+			&:hover
+			{
+				span
+				{
+					background: #000;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+//@prepros-prepend components/scripts.js
+//@prepros-prepend components/wc-widgets.js
+//@prepros-prepend components/header.js
+//@prepros-prepend components/footer.js
+//@prepros-prepend components/minicart.js
+//@prepros-prepend components/wc-cart.js
+//@prepros-prepend components/wc-gallery.js
+//@prepros-prepend components/wc-product.js
+//@prepros-prepend components/wc-shop.js
+//@prepros-prepend components/wp-gallery.js
+//@prepros-prepend components/sliders.js

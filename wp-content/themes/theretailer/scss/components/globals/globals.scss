@@ -1,0 +1,501 @@
+html,
+body
+{
+  height: 100%;
+  word-wrap: break-word;
+}
+
+body
+{
+  color: #000;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+*
+{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+xmp
+{
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0 0 25px 0;
+  text-transform: none;
+}
+
+form
+{
+  position: relative;
+}
+
+ul, ol
+{
+  li
+  {
+    list-style-position: inside;
+    padding-bottom: 10px;
+
+    &:last-child
+    {
+      padding-bottom: 0;
+    }
+  }
+}
+
+p.has-drop-cap:first-letter
+{
+    font-weight: 700 !important;
+    margin: .15em 0.2em 0 0 !important;
+}
+
+a,
+#submit,
+.button
+{
+	transition: all 0.3s;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section
+{
+/*
+  Override the default (display: inline) for
+  browsers that do not recognize HTML5 tags.
+
+  IE8 (and lower) requires a shiv:
+  http://ejohn.org/blog/html5-shiv
+*/
+  display: block;
+}
+
+b,
+strong
+{
+/*
+  Makes browsers agree.
+  IE + Opera = font-weight: bold.
+  Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold;
+}
+
+img
+{
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+/*
+  For IE.
+  http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic;
+}
+
+table
+{
+  border-spacing: 0;
+
+  th,
+  td
+  {
+    padding: 10px;
+  }
+}
+
+th,
+td,
+caption
+{
+  vertical-align: top;
+  text-align: left;
+}
+
+sub,
+sup,
+small
+{
+  font-size: 75%;
+}
+
+sub,
+sup
+{
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub
+{
+  bottom: -0.25em;
+}
+
+sup
+{
+  top: -0.5em;
+}
+
+svg
+{
+/*
+  For IE9. Without, occasionally draws shapes
+  outside the boundaries of <svg> rectangle.
+*/
+  overflow: hidden;
+}
+
+p:empty
+{
+	display: none !important;
+}
+
+.sticky { opacity: 1; }
+.bypostauthor { opacity: 1; }
+.screen-reader-text { opacity: 1; }
+
+a
+{
+  text-decoration: none;
+}
+
+.clr,
+.clear
+{
+  clear: both;
+}
+
+hr, .hr
+{
+  border: 0;
+  border-bottom: 1px solid;
+  height: 0px;
+}
+
+blockquote
+{
+  border-left: 4px solid;
+  padding: 0 0 0 26px;
+
+  p
+  {
+    padding: 0;
+  }
+}
+
+.aligncenter
+{
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tr_content_wrapper,
+.global_content_wrapper
+{
+  box-sizing: border-box;
+  clear: both;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  width: 100%;
+
+  @media only screen and (min-width: 720px) and (max-width: 959px) {
+    max-width: 760px;
+  }
+}
+
+.global_content_wrapper
+{
+  overflow: visible;
+}
+
+.tr_content_wrapper
+{
+  overflow: hidden;
+}
+
+.global_content_wrapper
+{
+    margin: 70px auto;
+
+    @media only screen and (max-width: 719px) {
+        margin: 40px auto;
+    }
+
+    @media only screen and (min-width: 720px) and (max-width: 959px) {
+        margin: 50px auto;
+    }
+
+    &.hidden-title
+    {
+        margin: 0 auto 70px auto;
+
+        @media only screen and (max-width: 719px) {
+            margin: 0 auto 40px auto;
+        }
+
+        @media only screen and (min-width: 720px) and (max-width: 959px) {
+            margin: 0 auto 50px auto;
+        }
+    }
+}
+
+#global_wrapper
+{
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.sep
+{
+  font-style: italic;
+  font-size: 80%;
+  padding: 0 6px 0 2px;
+}
+
+footer .sep
+{
+  display: none;
+}
+
+pre
+{
+    display: block;
+    font-family: monospace;
+    white-space: initial;
+}
+
+/* Loader */
+.blockUI.blockOverlay
+{
+  background-image: none !important;
+  background-color: rgba(255,255,255,.5) !important;
+}
+
+.fr-thumbnail-loading-background, /*fresco, thumbnail*/
+.fr-loading-background, /*fresco*/
+.woocommerce .blockUI.blockOverlay:before, /*cart, checkout overlay*/
+.blockUI.blockOverlay:before, /*cart, checkout overlay*/
+.yith-wcwl-add-button.show_overlay.show:after, /*add to wishlist*/
+.fr-spinner:after, /*fresco, on open*/
+.fr-overlay-background:after, /*fresco, on open*/
+.search-preloader-wrapp:after, /*search offcanvas*/
+.product_thumbnail .overlay:after, /*ajax add to cart*/
+.easyzoom.is-loading:after, /*product image zoom loader*/
+.wc-block-grid__product-add-to-cart .loading:after /*woocommerce blocks add to cart loader*/
+{
+  background: none !important;
+  content: "";
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+  margin: 0 !important;
+  background-color: transparent !important;
+  border: 3px solid !important;
+  animation: loader-spin 0.8s infinite both !important;
+  z-index: 99;
+  opacity: 1;
+  position: absolute;
+  top: calc(50% - 10px) !important;
+  left: calc(50% - 12px) !important;
+  border-color: rgba(0,0,0,0.35) !important;
+  border-right-color: #000000 !important;
+}
+
+.wc-block-grid__product-add-to-cart .loading:after
+{
+    top: -2px !important;
+    right: -25px;
+    left: auto !important;
+    width: 13px !important;
+    height: 13px !important;
+}
+
+.progress-bar-wrapper
+{
+  &.nprogress-custom-parent
+  {
+    position: absolute;
+    height: 44px;
+    width: 100%;
+
+    .bar
+    {
+      position: absolute;
+      top: 0;
+    }
+
+    #nprogress .spinner
+    {
+      top: 23px;
+      right: 20px;
+    }
+  }
+}
+
+.entry-content,
+.entry-content .content_wrapper,
+.woocommerce-product-details__short-description
+{
+  address,
+  blockquote,
+  caption,
+  cite,
+  code,
+  dl,
+  hr,
+  ol,
+  p,
+  pre,
+  table,
+  ul
+  {
+    line-height: 1.4;
+    margin-bottom: 25px;
+  }
+
+  ol ol,
+  ul ul
+  {
+    padding-bottom: 10px;
+  }
+
+  ol ol,
+  ul ul,
+  dl dd
+  {
+    margin-bottom: 0;
+    padding-left: 20px;
+  }
+
+  ul ul li {
+    list-style-type: circle;
+  }
+
+  ul.children
+  {
+      padding-bottom: 0;
+      padding-top: 10px;
+  }
+}
+
+@keyframes loader-spin {
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}

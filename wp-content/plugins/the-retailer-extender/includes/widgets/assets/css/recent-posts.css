@@ -1,0 +1,49 @@
+.widget.the_retailer_recent_posts li {
+  position: relative;
+  border: 0;
+  padding-bottom: 20px; }
+
+.widget.the_retailer_recent_posts a {
+  margin: 0 0 0 40px;
+  display: block; }
+
+.widget.the_retailer_recent_posts .post_comments {
+  margin: 0 0 0 40px; }
+
+.widget.the_retailer_recent_posts .post_date {
+  color: #fff;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: block; }
+
+.widget.the_retailer_recent_posts .post_date_day {
+  display: block;
+  margin: 0;
+  padding: 4px 0 0 0;
+  line-height: 12px;
+  font-size: 14px; }
+
+.widget.the_retailer_recent_posts .post_date_month {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 12px;
+  font-size: 8px;
+  text-transform: uppercase; }
+
+.gbtr_dark_footer_wrapper .widget.the_retailer_recent_posts li {
+  border: 0; }
+
+.rtl .widget.the_retailer_recent_posts a {
+  margin: 0 40px 0 0; }
+
+.rtl .widget.the_retailer_recent_posts .post_comments {
+  margin: 0 40px 0 0; }
+
+.rtl .widget.the_retailer_recent_posts .post_date {
+  right: 0;
+  left: auto; }

@@ -1,0 +1,67 @@
+.quantity input.qty,
+.woocommerce .quantity .qty
+{
+	appearance: textfield;
+	border: 0;
+	border-bottom: 2px solid;
+	border-radius: 0;
+	box-sizing: border-box;
+	box-shadow: none;
+	font-size: 13px;
+	font-weight: 700;
+	height: 50px;
+	outline: none;
+    padding: 8px 9px;
+	padding-right: 0;
+	text-shadow: none;
+	text-align: center;
+	width: 60px;
+
+	@media (pointer:coarse) {
+		padding-left: 0;
+	}
+
+	&:hover
+	{
+		appearance: initial;
+	}
+}
+
+.woocommerce div.product form.cart div.quantity
+{
+	margin: 0 20px 0 0;
+
+	.screen-reader-text
+	{
+		display: none;
+	}
+}
+
+// Firefox
+@-moz-document url-prefix() {
+	.woocommerce .quantity .qty
+	{
+		padding-right: 11px;
+
+		&:hover
+		{
+			padding-right: 0;
+		}
+	}
+}
+
+// IE 10+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.woocommerce .quantity .qty
+	{
+		padding-right: 9px;
+	}
+}
+
+// Edge
+@supports (-ms-ime-align:auto) {
+	.woocommerce .quantity .qty
+	{
+		padding-right: 9px;
+	}
+}

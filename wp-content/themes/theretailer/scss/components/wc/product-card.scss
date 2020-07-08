@@ -1,0 +1,196 @@
+.entry-content,
+.woocommerce ul.products,
+ul.products,
+ul.swiper-slide
+{
+	margin: 0;
+
+	li.product,
+	.product_item
+	{
+
+		.product_item_inner.with_wishlist
+		{
+			h3,
+			.product-title
+			{
+				padding: 0 30px 0 0;
+			}
+
+			.product-title
+			{
+				margin-top: -6px;
+			}
+
+			h3 + .product-title
+			{
+				margin-top: 0;
+			}
+
+			.image_container
+			{
+				.front img, .back img
+				{
+					width: 100%;
+				}
+			}
+		}
+
+		h3
+		{
+			font-size: 12px;
+			font-weight: 700;
+			line-height: 1;
+			margin: 0 0 6px 0;
+			padding: 0;
+			text-transform: uppercase;
+
+			@media all and (max-width: 639px) {
+				margin: 0 0 4px 0;
+			}
+		}
+
+		.image_container
+		{
+			margin-bottom: 16px;
+			position: relative;
+
+			a
+			{
+				width: 100%;
+			}
+		}
+
+		a img
+		{
+			margin: 0;
+		}
+
+		.button
+		{
+			margin: 0;
+		}
+
+		.product_button
+		{
+			bottom: 0;
+			display: none;
+			height: 35px;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			right: 0;
+			width: 35px;
+
+			@media all and (max-width: 1024px) {
+				display: block !important;
+			}
+		}
+
+		.loop_products_additional_img_wrapper
+		{
+			height: 100%;
+			left: 0;
+			overflow: hidden;
+			position: absolute;
+			top: 0;
+			z-index: -1;
+			width: 100%;
+		}
+
+		p,
+		.product-title
+		{
+			font-size: 14px;
+			line-height: 1.4;
+			margin: 0 0 8px 0;
+			padding: 0;
+
+			@media all and (max-width: 639px) {
+				margin: 0 0 4px 0;
+			}
+
+			a
+			{
+				border-bottom: 1px solid transparent;
+
+				&:hover
+				{
+					border-bottom: 1px solid;
+				}
+			}
+		}
+
+		.star-rating
+		{
+			font-size: 11px;
+			margin-bottom: 8px;
+		    width: 100%;
+
+			@media all and (max-width: 639px) {
+				margin-bottom: 4px;
+			}
+		}
+
+		.price
+		{
+			display: block;
+			font-size: 14px;
+			font-weight: 700;
+			margin: 0 0 8px 0;
+			padding: 0;
+
+			@media all and (max-width: 639px) {
+				margin: 0 0 4px 0;
+			}
+
+			.amount
+			.from
+			{
+				font-weight: 400;
+				padding: 0;
+			}
+
+			ins
+			{
+				text-decoration: none;
+			}
+		}
+
+		@media all and (max-width: 768px) {
+			margin-bottom: 25px !important;
+		}
+	}
+
+	li.product-category
+	{
+	    a
+		{
+			display: block;
+
+			.woocommerce-loop-category__title
+			{
+				bottom: 15px;
+				color: #fff;
+				font-size: 12px;
+				font-weight: 700;
+			    left: 15px;
+			    padding-right: 15px;
+			    position: absolute;
+				text-transform: uppercase;
+			    z-index: 50;
+
+			    &:hover
+			    {
+			    	color: #fff;
+		    	}
+
+			    mark.count
+			    {
+			    	background-color: transparent;
+			    	color: #fff;
+			    }
+			}
+		}
+	}
+}

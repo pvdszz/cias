@@ -1,0 +1,372 @@
+// Alignment Styles
+.wp-block-cover,
+.wp-block-gallery,
+.wp-block-embed.is-type-video,
+.wp-block-pullquote,
+.wp-block-table
+{
+    &.alignright
+    {
+        float: right;
+        margin-left: 1.5rem;
+        overflow: auto;
+    }
+
+    &.alignleft
+    {
+        float: left;
+        margin-right: 1.5rem;
+        overflow: auto;
+    }
+
+    &.alignright,
+    &.alignleft
+    {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        @media all and (max-width: 680px) {
+            width: 50%;
+        }
+    }
+}
+
+// Embeds
+.wp-block-embed
+{
+    .wp-block-embed__wrapper
+    {
+        iframe
+        {
+            max-width: 100% !important;
+        }
+    }
+}
+
+// Paragraph
+p.has-text-color.has-drop-cap
+{
+    &::first-letter
+    {
+        color: currentColor;
+    }
+}
+
+// Gallery
+.wp-block-gallery
+{
+    &.alignright,
+    &.alignleft
+    {
+        figcaption
+        {
+            font-size: 9px;
+        }
+
+        .blocks-gallery-item
+        {
+            margin: 0 8px 8px 0;
+        }
+    }
+
+    ul.blocks-gallery-grid
+    {
+        margin-bottom: 0;
+    }
+
+    .blocks-gallery-item
+    {
+        padding: 0;
+    }
+}
+
+// Cover Image
+.wp-block-cover
+{
+    width: auto;
+
+    &::-webkit-scrollbar
+    {
+        display: none;
+    }
+
+    .wp-block-cover__inner-container
+    {
+        color: inherit;
+        font-weight: 700;
+        margin: 0 !important;
+        padding: 30px;
+        position: relative;
+        width: auto;
+
+        p
+        {
+            margin: 0;
+
+            &::first-letter
+            {
+                color: inherit !important;
+            }
+        }
+    }
+}
+
+// Image
+.wp-block-image
+{
+    width: auto;
+    
+    figcaption
+    {
+        margin-top: 10px;
+    }
+
+    .alignright
+    {
+        margin-left: 1.5rem;
+    }
+
+    .alignleft
+    {
+        margin-right: 1.5rem;
+    }
+
+    .alignright,
+    .alignleft
+    {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        @media all and (max-width: 680px) {
+            width: 50%;
+        }
+    }
+}
+
+// Quotes and Pullquotes
+.wp-block-quote
+{
+    margin: 0 0 2.5rem 0 !important;
+
+    @media all and (max-width: 639px) {
+        margin: 0 0 1.75rem 0 !important;
+    }
+}
+
+.wp-block-pullquote
+{
+    &.alignright,
+    &.alignleft
+    {
+        @media all and (max-width: 680px) {
+            width: 100%;
+        }
+
+        blockquote
+        {
+            max-width: 100%;
+        }
+    }
+
+    blockquote
+    {
+        border: none;
+        margin-bottom: 0 !important;
+        padding: 0 26px;
+    }
+
+    p
+    {
+        color: inherit;
+    }
+
+    cite
+    {
+        color: inherit;
+        opacity: .75;
+        text-transform: none;
+    }
+
+    &.is-style-solid-color
+    {
+        blockquote
+        {
+            @media all and (max-width: 680px) {
+                max-width: 100%;
+            }
+
+            cite
+            {
+                color: inherit;
+            }
+
+            p
+            {
+                color: inherit;
+                margin-bottom: 25px !important;
+            }
+        }
+    }
+}
+
+// Tables
+.wp-block-table
+{
+    th,
+    td
+    {
+        padding: 10px;
+    }
+
+    &.is-style-stripes
+    {
+        border-bottom: 0;
+
+        tbody tr:nth-child(odd)
+        {
+            background-color: #fff;
+        }
+    }
+
+    &.is-style-regular table
+    {
+        border-collapse: collapse;
+    }
+
+    &.alignwide
+    {
+        @media all and (min-width: 1250px) {
+            width: 75vw;
+        }
+    }
+
+    &.alignfull
+    {
+        width: 100vw;
+    }
+}
+
+// Preformatted, Verse
+.wp-block-preformatted,
+.wp-block-verse
+{
+    margin-bottom: 2.5rem !important;
+
+    @media all and (max-width: 639px) {
+        margin-bottom: 1.75rem !important;
+    }
+}
+
+// Buttons
+.wp-block-button
+{
+    margin-bottom: 0;
+
+    a.wp-block-button__link
+    {
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 27px;
+        text-transform: uppercase;
+    }
+}
+
+// Media and Text
+.wp-block-media-text
+{
+    .wp-block-media-text__content p
+    {
+        margin: 25px;
+    }
+}
+
+// Latest Posts, Archives and Categories
+ul.wp-block-latest-posts,
+ul.wp-block-archives,
+ul.wp-block-categories
+{
+    li
+    {
+        list-style-type: none !important;
+    }
+}
+
+// Tag Cloud
+.wp-block-tag-cloud
+{
+    margin-bottom: 2.5rem !important;
+
+    @media all and (max-width: 639px) {
+        margin-bottom: 1.75rem !important;
+    }
+
+    a
+    {
+        font-size: 11px !important;
+        font-weight: 700;
+        background: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px 10px;
+        line-height: 12px;
+        border: 1px solid #cccccc;
+        display: inline-block;
+        margin-bottom:3px;
+        transition: all 0.3s ease;
+
+        &:hover
+        {
+            color: #fff;
+            border: 1px solid;
+        }
+    }
+}
+
+// Calendar
+.wp-block-calendar
+{
+    th, td
+    {
+        padding: 10px!important;
+    }
+
+    a
+    {
+        text-decoration: none;
+    }
+}
+
+// Search
+.wp-block-search
+{
+    input
+    {
+        outline: 0;
+    }
+
+    .wp-block-search__button
+    {
+		background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2050%2050'%3E%3Cpath%20d%3D'M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z '%20fill%3D'%237d7d7d'%2F%3E%3C%2Fsvg%3E");
+		background-repeat:no-repeat;
+		background-position: center;
+		background-color: transparent !important;
+		position: absolute;
+		top: 30px;
+		right: 8px;
+		width: 16px;
+		height: 16px;
+		outline: 0;
+		border: 0;
+		text-indent: -9999px;
+		cursor: pointer;
+		padding: 0;
+		margin: 0;
+		transition: all .2s ease;
+
+		&:hover
+		{
+			background-color: transparent !important;
+			opacity: .5;
+		}
+    }
+}

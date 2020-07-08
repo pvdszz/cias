@@ -1,0 +1,186 @@
+.swiper-button-prev,
+.swiper-button-next
+{
+	&:after {
+		content: none;
+	}
+}
+
+.gbt_18_tr_slider
+{
+	clear: both;
+	position: relative;
+
+	.swiper-button-prev,
+	.swiper-button-next
+	{
+		background-image: none;
+		outline: 0;
+		height: 30px;
+    	width: 30px;
+		transition: all .5s ease;
+
+		svg
+		{
+		    width: 24px;
+		    height: 24px;
+		    outline: 0;
+			position: relative;
+			top: 10px;
+		}
+
+		&:hover
+		{
+			opacity: .5;
+		}
+	}
+
+	.swiper-button-prev
+	{
+		left: 30px;
+	}
+
+	.swiper-button-next
+	{
+		right: 30px;
+	}
+
+	.gbt_18_tr_swiper_slide
+	{
+		background-position: center;
+		background-size: cover;
+		display: table;
+
+		.gbt_18_tr_slide_content
+		{
+			display: table-cell;
+			vertical-align: middle;
+
+			.gbt_18_tr_slide_content_wrapper
+			{
+				max-width: 940px;
+				width: 70%;
+				margin: auto;
+
+				@media all and (max-width: 680px) {
+					width: 80%;
+				}
+
+				.gbt_18_tr_slide_description
+				{
+					margin-bottom: 0;
+				}
+
+				.gbt_18_tr_slide_description + .gbt_18_tr_slide_button
+				{
+					margin-top: 35px;
+				}
+
+				.gbt_18_tr_slide_button
+				{
+					color: inherit;
+					width: fit-content;
+
+					&:hover
+					{
+						opacity: .75;
+					}
+				}
+			}
+		}
+
+		&.center-align
+		{
+			.gbt_18_tr_slide_content_wrapper
+			{
+				padding: 0 15%;
+				text-align: center;
+
+				.gbt_18_tr_slide_button
+				{
+				    margin: 0 auto;
+					width: fit-content;
+				}
+			}
+		}
+
+		&.left-align
+		{
+			.gbt_18_tr_slide_content_wrapper
+			{
+				padding: 0 30% 0 0;
+				text-align: left;
+
+				@media all and (max-width: 680px) {
+					padding: 0 10%;
+				}
+
+				.gbt_18_tr_slide_button
+				{
+					float: left;
+				}
+			}
+		}
+
+		&.right-align
+		{
+			.gbt_18_tr_slide_content_wrapper
+			{
+				padding: 0 0 0 30%;
+				text-align: right;
+
+				@media all and (max-width: 680px) {
+					padding: 0 10%;
+				}
+
+				.gbt_18_tr_slide_button
+				{
+					float: right;
+				}
+			}
+		}
+
+		.fullslidelink
+		{
+			width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    z-index: 1;
+		}
+	}
+
+	.gbt_18_tr_slider_container
+	{
+		max-height: 600px;
+	}
+
+	.gbt_18_tr_slider_pagination
+	{
+			display: block;
+		    position: absolute;
+			z-index: 1;
+	        bottom: 30px;
+	        text-align: center;
+	        height: 10px;
+
+	        &.disabled
+	        {
+	            display: none;
+	        }
+
+	        .swiper-pagination-bullet
+	        {
+	            background: transparent;
+	            border: 1px solid #000;
+	            margin: 0px 4px;
+	            opacity: 1;
+
+	            &.swiper-pagination-bullet-active
+	            {
+					background: #000;
+	                border: none;
+	            }
+	        }
+	    }
+
+}

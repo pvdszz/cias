@@ -1,0 +1,35 @@
+.title_subtitle {
+  margin-bottom: 2.5rem; }
+
+.title_subtitle h3,
+.title_subtitle h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 13px; }
+
+.title_subtitle h3 {
+  line-height: 1.4em; }
+
+.title_subtitle h4 {
+  line-height: 1.7em; }
+
+.title_subtitle h4 {
+  margin-top: 5px; }
+
+.title_subtitle_separator {
+  width: 90px;
+  height: 0px;
+  display: inline-block;
+  margin: 30px 0 20px 0;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #000; }
+
+@media only screen and (max-width: 719px) {
+  .title_subtitle h3 {
+    font-size: 30px !important; }
+  .title_subtitle h4 {
+    font-size: 13px !important;
+    margin-top: 8px; }
+  .title_subtitle_separator {
+    margin: 12px 0 0; } }

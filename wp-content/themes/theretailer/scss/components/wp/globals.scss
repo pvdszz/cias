@@ -1,0 +1,148 @@
+.content-area {
+	margin:0 0 30px 0;
+}
+
+.images #wrap {
+	z-index:1 !important;
+}
+
+.form-allowed-tags
+{
+	display: none;
+}
+
+.page .entry-header,
+.page .entry-thumbnail
+{
+	margin: 0 0 70px 0;
+
+	@media only screen and (max-width: 719px) {
+    	margin: 0 0 40px 0;
+  	}
+
+  	@media only screen and (min-width: 720px) and (max-width: 959px) {
+	    margin: 0 0 50px 0;
+	}
+}
+
+.entry-content {
+	clear: both;
+
+	.tags-meta
+	{
+		padding-left: 5px;
+
+		&:before
+		{
+			background-repeat: no-repeat;
+			background-position: center;
+			content: '';
+			display: inline-block;
+			position: relative;
+			left: -5px;
+			top: 4px;
+			width: 18px;
+			height: 18px;
+			transition: all .3s ease;
+		}
+	}
+}
+
+.entry-meta
+{
+	.date-meta a time
+	{
+		transition: all .3s ease;
+	}
+
+	.author,
+	.date-meta,
+	.categories-meta,
+	.image-category,
+	.image-size,
+	.comments-link
+	{
+		display: inline-block;
+		padding-right: 10px;
+	}
+
+	.author a,
+	.date-meta a,
+	.categories-meta,
+	.tags-meta,
+	.image-category,
+	.image-size,
+	.comments-link a
+	{
+		padding-left: 5px;
+
+		&:before
+		{
+			background-repeat: no-repeat;
+			background-position: center;
+			content: '';
+			display: inline-block;
+			position: relative;
+			left: -5px;
+			top: 4px;
+			width: 18px;
+			height: 18px;
+			transition: all .3s ease;
+		}
+	}
+}
+
+// metas
+.tr_upper_link {
+  font-weight: 700;
+  font-size: 12px;
+  padding: 0;
+  position: relative;
+  text-transform: uppercase;
+
+  &.inactive
+  {
+    &:hover
+    {
+      *
+      {
+        color: inherit;
+      }
+    }
+  }
+}
+
+//continue reading
+.more-link
+{
+	clear: both;
+	color: #fff;
+	display: block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	text-transform: uppercase;
+	padding: 13px 24px;
+	margin-top: 20px;
+	text-decoration: none;
+	width: fit-content;
+
+	&:hover
+	{
+		color: #fff;
+	}
+
+	&:after
+	{
+		background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M 14 4.9296875 L 12.5 6.4296875 L 17.070312 11 L 3 11 L 3 13 L 17.070312 13 L 12.5 17.570312 L 14 19.070312 L 21.070312 12 L 14 4.9296875 z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+		background-repeat: no-repeat;
+		background-position: center;
+		content: '';
+		width: 17px;
+		height: 18px;
+		top: 4px;
+		left: 4px;
+		display: inline-block;
+		position: relative;
+	}
+}

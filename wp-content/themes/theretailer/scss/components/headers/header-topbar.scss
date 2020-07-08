@@ -1,0 +1,387 @@
+.gbtr_tools_wrapper
+{
+	line-height: 1em;
+    overflow: hidden;
+	position: relative;
+
+	.topbar_text_wrapper,
+	.topbar_tools_wrapper
+	{
+		box-sizing: border-box;
+		width: 50%;
+	}
+
+	.tr_content_wrapper
+	{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.topbar_text_wrapper
+	{
+		padding-right: 10px;
+
+		@media only screen and (max-width: 959px) {
+			width: calc( 100% - 40px );
+			padding-left: 50px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			text-align: center;
+		}
+
+		.topbar_text_content
+		{
+			display: flex;
+		    flex-direction: row;
+		    align-items: center;
+			width: 100%;
+
+			@media only screen and (max-width: 959px) {
+				justify-content: center;
+			}
+
+			.gbtr_tools_info
+			{
+				display: inline-block;
+				padding: 5px 0;
+
+				@media all and (min-width: 960px) {
+					max-width: 70%;
+				}
+
+				span
+				{
+					text-transform: uppercase;
+					line-height: 1.2;
+					overflow: hidden;
+				}
+			}
+
+			.shortcode_socials
+			{
+				display: inline-block;
+				max-width: 29%;
+
+				@media only screen and (max-width: 959px) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.topbar_tools_wrapper
+	{
+		padding-left: 10px;
+
+		@media only screen and (max-width: 959px) {
+			width: 40px;
+			padding-left: 0;
+		}
+
+		.top-bar-menu-trigger
+		{
+			display: block;
+			font-size: 14px;
+		    padding: 11px 11px 5px 15px;
+			float: right;
+			cursor: pointer;
+		}
+
+		.top-bar-menu-trigger
+		{
+			display: none;
+
+			@media only screen and (min-width: 1024px) {
+				display: block;
+			}
+		}
+
+		.gbtr_tools_account_wrapper
+		{
+			display: inline-block;
+		    float: right;
+
+			@media all and (max-width: 959px) {
+				display: none;
+			}
+
+			.gbtr_tools_menu_icon
+			{
+				&:before
+				{
+					background-repeat: no-repeat;
+					background-position: center;
+					content: '';
+					display: inline-block;
+					width: 18px;
+					height: 18px;
+					opacity: 1;
+					transition: opacity .2s ease;
+				}
+
+				&:hover
+				{
+					&:before
+					{
+						opacity: .5;
+					}
+				}
+			}
+		}
+
+		.gbtr_tools_account
+		{
+			font-size: 10px;
+			text-transform: uppercase;
+			padding: 9px 0;
+			text-align: right;
+			float: right;
+
+			@media all and (max-width: 959px) {
+				display: none;
+			}
+
+			ul.topbar-menu
+			{
+				li
+				{
+					display: inline;
+					padding: 0 10px;
+					zoom: 1; /*IE FIX*/
+
+					a
+					{
+						text-decoration: none;
+					}
+
+					ul
+					{
+						display: block;
+						margin: 0;
+						padding: 0;
+					}
+				}
+			}
+
+			&.menu-hidden
+			{
+				display: none;
+				padding: 0;
+				position: fixed;
+				top: auto;
+				left: -10px;
+				margin-top: 31px;
+				z-index: 99999;
+
+				@media only screen and (max-width: 1023px) {
+					left: 0;
+					width: 100%;
+				}
+
+				&.show
+				{
+					display: block;
+					animation-duration: .3s;
+					animation-fill-mode: both;
+					animation-name: main_nav_anim;
+				}
+
+				ul.topbar-menu
+				{
+					background: #FFFFFF;
+					border-width: 3px 1px 1px;
+					border-style: solid;
+					border-color: #CCCCCC;
+					line-height: 23px;
+				    min-width: 250px;
+				    padding: 10px 0;
+
+					li
+					{
+						padding: 0;
+						text-align: left;
+
+						@media only screen and (max-width: 1023px) {
+							text-align: center;
+						}
+
+						a
+						{
+							display: block;
+						    font-size: 13px;
+						    font-weight: normal;
+						    line-height: 1.3em;
+						    padding: 10px 20px;
+						    text-transform: none;
+
+						    &:hover
+							{
+							    color: #fff;
+							    transition: all 0.3s ease-out 0s;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.gbtr_tools_search
+		{
+			text-align: right;
+			float: right;
+			position: relative;
+			width: 40px;
+			overflow: hidden;
+			transition: width 0.3s;
+
+			&.open,
+			&.open_always
+			{
+				width: 45%;
+				transition: width 0.3s;
+
+				@media only screen and (max-width: 719px) {
+					width: 100%;
+				}
+			}
+
+			.gbtr_tools_search_icon
+			{
+				&:before
+				{
+					background-repeat: no-repeat;
+					background-position: center;
+					content: '';
+					display: inline-block;
+					position: relative;
+					top: 2px;
+					opacity: 1;
+					width: 14px;
+					height: 14px;
+					transition: opacity .2s ease;
+				}
+
+				&:hover
+				{
+					&:before
+					{
+						opacity: 0.5;
+					}
+				}
+			}
+
+			.gbtr_tools_search_trigger,
+			.gbtr_tools_search_trigger_mobile,
+			.gbtr_tools_search_inputbutton
+			{
+				background-color: transparent;
+				border: 0;
+				border-left: 1px solid rgba(255,255,255,.2) !important;
+				border-right: 1px solid rgba(255,255,255,.2) !important;
+				cursor: pointer;
+				float: right;
+				padding: 9px 0 !important;
+				margin-top: 0px;
+				width: 40px;
+
+				&:focus
+				{
+				    outline: none;
+				}
+			}
+
+			.gbtr_tools_search_trigger_mobile,
+			.gbtr_tools_search_trigger
+			{
+				position: relative;
+				z-index: 2;
+			}
+
+			.gbtr_tools_search_trigger
+			{
+				display: none;
+
+				@media only screen and (min-width: 960px) {
+					display: block;
+				}
+			}
+
+			.gbtr_tools_search_inputtext
+			{
+				box-sizing: border-box;
+				background: #fff;
+				border: 0;
+				box-shadow: none;
+				font-size: 12px;
+				height: 27px;
+				padding: 3px 5px;
+				margin: 0;
+    			width: calc(100% - 40px);
+				position: absolute;
+				top: 5px;
+				right: 40px;
+				z-index: 3;
+
+				&:focus
+				{
+				  outline: none;
+				}
+			}
+
+			.gbtr_tools_search_inputbutton
+			{
+				position: absolute;
+				top: 0px;
+				right: 0;
+				z-index: 1;
+				visibility: hidden;
+			}
+		}
+
+		.logout-wrapper
+		{
+			float: right;
+			width: 40px;
+
+			.logout_link
+			{
+				display: block;
+				border-left: 1px solid rgba(255, 255, 255, 0.2);
+				padding: 2px 0 3px;
+				position: relative;
+
+				@media only screen and (max-width: 959px) {
+					border-left: 0;
+					right: -6px;
+				}
+
+				.logout_link_icon
+				{
+					&:before
+					{
+						background-repeat: no-repeat;
+						background-position: center;
+						content: '';
+						display: inline-block;
+					    position: relative;
+					    top: 9px;
+					    left: 12px;
+					    opacity: 1;
+						width: 28px;
+						height: 28px;
+					    transition: opacity .2s ease;
+					}
+
+					&:hover
+					{
+						&:before
+						{
+							opacity: 0.5;
+						}
+					}
+				}
+			}
+		}
+	}
+}
