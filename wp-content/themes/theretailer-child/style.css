@@ -52,6 +52,10 @@ CSS information
     left: 0; }
   .form-booking .quantity-down-adult {
     right: 0; }
+  .form-booking .quantity-up-child {
+    left: 0; }
+  .form-booking .quantity-down-child {
+    right: 0; }
   .form-booking .single_add_to_cart_button {
     background-color: #83b735;
     color: #fff;

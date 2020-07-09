@@ -105,14 +105,17 @@ if (GBT_Opt::getOption('products_layout', false)) {
                     do_action('woocommerce_before_single_product_summary_product_images');
                     do_action('woocommerce_before_single_product_summary');
                     ?>
+                        <br>
                     <table id="order_total" >
                         <label>
+                            <br>
                             <h3>Tạm tính: </h3>
                         </label>
 
                         <tbody id="data">
                             <tr>
                                 <td id="adult-field">Người lớn:  </td>
+                                <td id="child-field">Trẻ em:  </td>
                                 <td id="total-field">Tổng: </td>
                             </tr>
                         </tbody>

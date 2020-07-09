@@ -84,7 +84,7 @@ function cias_booking_options_product_tab_content()
 
 																										?></div>
 
-	</div><?php
+</div><?php
 
 		}
 		add_filter('woocommerce_product_data_panels', 'cias_booking_options_product_tab_content'); // WC 2.6 and up
@@ -132,6 +132,17 @@ function cias_booking_options_product_tab_content()
 			);
 			$wpdb->update($table, $data, $where, $format = null, $where_format = null);
 		}
+	// save to database
+
+	if (isset($_POST['add-to-cart'])) {
+		$data = array(
+			'total_price' => $_POST['tesst'],
+		);
+	
+		$table_name = $wpdb->prefix.'price_for_each_person';
+		$wpdb->insert($table_name,$data, $format=NULL);
+	}
+
 
 		// connect to database
 		// $conn = mysqli_connect("localhost", "root", "", "cias");

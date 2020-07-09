@@ -1,0 +1,9 @@
+2020-07-09T18:17:32+00:00 CRITICAL Uncaught Error: Unsupported operand types in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:150
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): return_custom_price(Array, Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(249): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '2000000')
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Deprecated_Hooks->maybe_handle_deprecated_hook('2000000',  in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 150
+
