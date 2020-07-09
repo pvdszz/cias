@@ -2,10 +2,10 @@
 .form-booking {
     width: 90%;
     margin: 0 auto;
-    li{
+    li {
         display: block;
     }
-    input{
+    input {
         width: 90%;
         font-size: 21px;
         text-align: center;
@@ -22,6 +22,9 @@
     .wrap-quantity-num {
         position: relative;
         margin-bottom: 10px;
+        .quantity-num-adult {
+            pointer-events: none;
+        }
     }
     .extra {
         margin: 10px 0;
@@ -29,9 +32,9 @@
         background: #fff;
         box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
-        li{
+        li {
             padding: 0 20px 0 0px;
-            input{
+            input {
                 width: 100%;
             }
         }
@@ -54,10 +57,10 @@
         top: 0;
         cursor: pointer;
     }
-    .quantity-up {
+    .quantity-up-adult {
         left: 0;
     }
-    .quantity-down {
+    .quantity-down-adult {
         right: 0;
     }
     .single_add_to_cart_button {
@@ -66,6 +69,14 @@
         margin: 0 auto;
         display: inherit;
         padding: 15px 50px;
+    }
+}
 
+#order_total {
+    #data {
+        tr {
+            display: flex;
+            flex-direction: column;
+        }
     }
 }

@@ -22,6 +22,8 @@ CSS information
   .form-booking .wrap-quantity-num {
     position: relative;
     margin-bottom: 10px; }
+    .form-booking .wrap-quantity-num .quantity-num-adult {
+      pointer-events: none; }
   .form-booking .extra {
     margin: 10px 0;
     padding: 10px;
@@ -46,9 +48,9 @@ CSS information
     position: absolute;
     top: 0;
     cursor: pointer; }
-  .form-booking .quantity-up {
+  .form-booking .quantity-up-adult {
     left: 0; }
-  .form-booking .quantity-down {
+  .form-booking .quantity-down-adult {
     right: 0; }
   .form-booking .single_add_to_cart_button {
     background-color: #83b735;
@@ -56,6 +58,10 @@ CSS information
     margin: 0 auto;
     display: inherit;
     padding: 15px 50px; }
+
+#order_total #data tr {
+  display: flex;
+  flex-direction: column; }
 
 .entry-summary.child-themes {
   display: flex;

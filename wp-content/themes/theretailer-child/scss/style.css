@@ -3,48 +3,61 @@ CSS information
  file name  : style.css
  author     : Pham Van Diep
 =================================================================== */
-.form-booking li {
-  display: block; }
-.form-booking label {
-  margin: 5px 0; }
-.form-booking div.quantity-nav {
-  display: block !important;
-  float: left;
-  position: relative;
-  height: 42px; }
-.form-booking .wrap-quantity-num {
-  position: relative;
-  margin-bottom: 10px; }
-.form-booking .extra {
-  margin: 10px 0;
-  padding: 10px;
-  background: #fff;
-  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 5px; }
-.form-booking .has-extra .extra.extra-child {
-  margin: 0 !important;
-  padding: 0 !important; }
-.form-booking .quantity-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background: #000;
-  font-size: 30px;
-  width: 40px;
-  position: absolute;
-  top: 0;
-  cursor: pointer; }
-.form-booking .quantity-up {
-  left: 0; }
-.form-booking .quantity-down {
-  right: 0; }
-.form-booking .single_add_to_cart_button {
-  background-color: #83b735;
-  color: #fff;
-  margin: 15px auto;
-  display: inherit;
-  padding: 15px 50px; }
+.form-booking {
+  width: 90%;
+  margin: 0 auto; }
+  .form-booking li {
+    display: block; }
+  .form-booking input {
+    width: 90%;
+    font-size: 21px;
+    text-align: center; }
+  .form-booking label {
+    margin: 5px 0; }
+  .form-booking div.quantity-nav {
+    display: block !important;
+    float: left;
+    position: relative;
+    height: 42px; }
+  .form-booking .wrap-quantity-num {
+    position: relative;
+    margin-bottom: 10px; }
+    .form-booking .wrap-quantity-num .quantity-num {
+      pointer-events: none; }
+  .form-booking .extra {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; }
+    .form-booking .extra li {
+      padding: 0 20px 0 0px; }
+      .form-booking .extra li input {
+        width: 100%; }
+  .form-booking .has-extra .extra.extra-child {
+    margin: 0 !important;
+    padding: 0 !important; }
+  .form-booking .quantity-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #000;
+    font-size: 30px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    cursor: pointer; }
+  .form-booking .quantity-up {
+    left: 0; }
+  .form-booking .quantity-down {
+    right: 0; }
+  .form-booking .single_add_to_cart_button {
+    background-color: #83b735;
+    color: #fff;
+    margin: 0 auto;
+    display: inherit;
+    padding: 15px 50px; }
 
 .entry-summary.child-themes {
   display: flex;
