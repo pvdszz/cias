@@ -199,28 +199,14 @@
                         </div>
                         <?php 
                 global $wpdb;
-                $customers = $wpdb->get_results("SELECT * FROM `cias_price_for_each_person`");
+                $customers = $wpdb->get_results("SELECT * FROM `cias_price_for_each_person` ORDER BY `cias_price_for_each_person`.`price_for_adult` ASC  ID==1");
+                $customers = $wpdb->get_results("SELECT * FROM `cias_price_for_each_person` ORDER BY `cias_price_for_each_person`.`price_for_adult` ASC  LIMIT 1");
                 ?>
 
                         <table class="table table-hover">
 
                             <?php foreach($customers as $customer){ ?>
-
-                            <tr>
-                                <td>
-                                    <center><?php echo $customer->ID; ?></center>
-                                </td>
-                                <td>
-                                    <center><?php echo $customer->Type; ?></center>
-                                </td>
-                                <td>
-                                    <center><?php echo $customer->price * 2; ?></center>
-                                </td>
-                                <td>
-                                    <center><?php echo $customer->reward_amount; ?></center>
-                                </td>
-                            </tr>
-
+                                  <?php echo $customer->ID; ?>
                             <?php } ?>
 
                         </table>

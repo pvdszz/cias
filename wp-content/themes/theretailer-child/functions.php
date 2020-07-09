@@ -79,7 +79,7 @@ function cias_booking_options_product_tab_content() {
 
 		?></div>
 
-	</div><?php
+</div><?php
 
 }
 add_filter( 'woocommerce_product_data_panels', 'cias_booking_options_product_tab_content' ); // WC 2.6 and up
@@ -103,5 +103,27 @@ add_action( 'woocommerce_process_product_meta_simple', 'save_giftcard_option_fie
 add_action( 'woocommerce_process_product_meta_variable', 'save_giftcard_option_fields'  );
 
 
+// save to database
+global $wpdb;
 
-
+if(isset($_POST['save'])){
+	$data = array(
+		'price_for_adult' => $_POST['price_for_adult'],
+		'price_for_child' => $_POST['price_for_child'],
+	);
+	$table_name = 'cias_price_for_each_person';
+	$wpdb->update( 
+		'cias_price_for_each_person', 
+		array( 
+		'price_for_adult' => $_POST['price_for_adult'],
+		'price_for_child' => $_POST['price_for_child'],
+		), 
+		array( 'ID' => 1 ), 
+		array( 
+			'%s',	// value1
+			'%d'	// value2
+		), 
+		array( '%d' ) 
+	);
+	$wpdb->update( $table, $data, $where, $format = null, $where_format = null );
+	}
