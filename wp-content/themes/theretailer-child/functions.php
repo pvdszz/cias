@@ -135,11 +135,19 @@ function cias_booking_options_product_tab_content()
 	// save to database
 
 	if (isset($_POST['add-to-cart'])) {
+		$_name = $_POST['name'] + $_POST['name2'];
 		$data = array(
-			'total_price' => $_POST['tesst'],
+			'name' => $_name,
+			'email' => $_POST['email'],
+			'age' => $_POST['age'],
+			
 		);
+		printf($_name);
+		// $format = array(
+		// 	'%s'
+		// );
 	
-		$table_name = $wpdb->prefix.'price_for_each_person';
+		$table_name = $wpdb->prefix.'orderdetail';
 		$wpdb->insert($table_name,$data, $format=NULL);
 	}
 

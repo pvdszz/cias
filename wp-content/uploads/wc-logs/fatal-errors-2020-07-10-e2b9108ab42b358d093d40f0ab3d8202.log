@@ -1,0 +1,2 @@
+2020-07-10T15:15:57+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 32768 bytes) in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\Export\Controller.php on line 1
+

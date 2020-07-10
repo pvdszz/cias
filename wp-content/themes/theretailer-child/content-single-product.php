@@ -45,16 +45,17 @@ if (GBT_Opt::getOption('products_layout', false)) {
 }
 ?>
 
-<div id="product-<?php the_ID(); ?>" <?php function_exists('wc_product_class') ? wc_product_class('product ' . $layout, $product) : post_class(); ?>>
+<div id="product-<?php the_ID(); ?>"
+    <?php function_exists('wc_product_class') ? wc_product_class('product ' . $layout, $product) : post_class(); ?>>
 
     <?php if ($product_page_has_sidebar) : ?>
 
-        <div class="product_page_has_sidebar page_has_sidebar_left">
-            <div class="product_main_infos with_sidebar">
+    <div class="product_page_has_sidebar page_has_sidebar_left">
+        <div class="product_main_infos with_sidebar">
 
             <?php else : ?>
 
-                <div class="product_main_infos without_sidebar">
+            <div class="product_main_infos without_sidebar">
 
                 <?php endif; ?>
 
@@ -78,17 +79,18 @@ if (GBT_Opt::getOption('products_layout', false)) {
                 <div class="gbtr_product_details_left_col">
 
                     <?php if (!GBT_Opt::getOption('catalog_mode', false)) : ?>
-                        <?php if (!$product->is_in_stock()) : ?>
-                            <div class="out_of_stock_badge_single <?php if (!$product->is_on_sale()) : ?>first_position<?php endif; ?>">
-                                <?php
+                    <?php if (!$product->is_in_stock()) : ?>
+                    <div
+                        class="out_of_stock_badge_single <?php if (!$product->is_on_sale()) : ?>first_position<?php endif; ?>">
+                        <?php
                                 if (!empty(GBT_Opt::getOption('out_of_stock_text', esc_html__('Out of Stock', 'theretailer')))) {
                                     printf(wp_kses_post(__('%s', 'theretailer')), GBT_Opt::getOption('out_of_stock_text', esc_html__('Out of Stock', 'theretailer')));
                                 } else {
                                     esc_html_e('Out of stock', 'woocommerce');
                                 }
                                 ?>
-                            </div>
-                        <?php endif; ?>
+                    </div>
+                    <?php endif; ?>
                     <?php endif; ?>
 
 
@@ -105,8 +107,8 @@ if (GBT_Opt::getOption('products_layout', false)) {
                     do_action('woocommerce_before_single_product_summary_product_images');
                     do_action('woocommerce_before_single_product_summary');
                     ?>
-                        <br>
-                    <table id="order_total" >
+                    <br>
+                    <table id="order_total">
                         <label>
                             <br>
                             <h3>Tạm tính: </h3>
@@ -114,8 +116,8 @@ if (GBT_Opt::getOption('products_layout', false)) {
 
                         <tbody id="data">
                             <tr>
-                                <td id="adult-field">Người lớn:  </td>
-                                <td id="child-field">Trẻ em:  </td>
+                                <td id="adult-field">Người lớn: </td>
+                                <td id="kids-field">Trẻ em: </td>
                                 <td id="total-field">Tổng: </td>
                             </tr>
                         </tbody>
@@ -138,73 +140,90 @@ if (GBT_Opt::getOption('products_layout', false)) {
 
                         if ($product->is_in_stock()) : ?>
 
-                            <?php do_action('woocommerce_before_add_to_cart_form'); ?>
+                        <?php do_action('woocommerce_before_add_to_cart_form'); ?>
 
-                            <div class="form-booking">
-                                <form action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>" method="post" enctype='multipart/form-data'>
-                                    <ul>
-                                        <li class="has-extra">
-                                            <?php
+                        <div class="form-booking">
+                            <form
+                                action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>"
+                                method="post" enctype='multipart/form-data'>
+                                <ul>
+                                    <li class="has-extra">
+                                        <?php
                                             $adult_price = get_post_meta($post->ID, 'price_for_adult', true);
                                             ?>
-                                            <label for="adult">NGƯỜI LỚN: <br>
-                                                <?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
-                                            </label>
-                                            <div class="wrap-quantity-num">
-                                                <input class="quantity-num-adult" type="number" min="0" step="1" name="adult" id="adult" value="1" />
+                                        <label for="adult">NGƯỜI LỚN: <br>
+                                            <?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
+                                        </label>
+                                        <div class="wrap-quantity-num">
+                                            <input class="quantity-num-adult poiter-events" type="number" min="0"
+                                                step="1" name="adult" id="adult" value="1" />
 
-                                            </div>
-                                            <ul class="extra">
-                                                <li>
-                                                    <label for="name">Họ tên: </label>
-                                                    <input type="text" name="name" id="name" />
-                                                </li>
-                                                <li>
-                                                    <label for="age">Tuổi: </label>
-                                                    <input type="text" name="age" id="age" />
-                                                </li>
-                                                <li>
-                                                    <label for="sex">Giới tính: </label>
-                                                    <input type="text" name="sex" id="sex" />
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-extra">
-                                            <?php
-                                            $child_price = get_post_meta($post->ID, 'price_for_child', true);
+                                        </div>
+                                        <ul class="extra">
+                                            <li>
+                                                <label for="name">Họ tên: </label>
+                                                <input type="text" name="name" id="name" />
+                                            </li>
+                                            <li>
+                                                <label for="age">Tuổi: </label>
+                                                <input type="text" name="age" id="age" />
+                                            </li>
+                                            <li>
+                                                <label for="email">Email: </label>
+                                                <input type="text" name="email" id="email" />
+                                            </li>
+                                        </ul>
+                                        <ul class="extra">
+                                            <li>
+                                                <label for="name2">Họ tên: </label>
+                                                <input type="text" name="name2" id="name" />
+                                            </li>
+                                            <li>
+                                                <label for="age">Tuổi: </label>
+                                                <input type="text" name="age" id="age" />
+                                            </li>
+                                            <li>
+                                                <label for="email">Email: </label>
+                                                <input type="text" name="email" id="email" />
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-extra">
+                                        <?php
+                                            $kids_price = get_post_meta($post->ID, 'price_for_child', true);
                                             ?>
-                                            <label for="childrent">TRẺ EM ( 5 - 12 TUỔI): <br>
-                                                <?php echo number_format($child_price, 0, '', ','); ?> VNĐ
-                                            </label>
-                                            <div class="wrap-quantity-num">
-                                                <input class="quantity-num-child" type="number" min="0" step="1" max="10" name="childrent" id="childrent" value="0" />
-                                            </div>
-                                            <ul class="extra extra-child">
-                                                <!-- <li>
-                                        <label for="adult">Họ tên các thanh viên: </label>
-                                        <textarea name="extra-adult" id="extra-adult"></textarea>
-                                    </li> -->
-                                            </ul>
-                                        <li>
-                                            <label for="kid">TRẺ EM ( DƯỚI 5 TUỔI): <br>
-                                                0 VNĐ
-                                            </label>
-                                            <div class="wrap-quantity-num">
-                                                <input class="quantity-num" type="number" min="0" step="1" name="kid" id="kid" value="0" />
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <?php do_action('woocommerce_before_add_to_cart_button'); ?>
-                                    <button type="submit" name="add-to-cart" value="<?php echo esc_attr($product->get_id()); ?>" class="single_add_to_cart_button button alt">Tiếp tục</button>
+                                        <label for="kids">TRẺ EM ( 5 - 12 TUỔI): <br>
+                                            <?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
+                                        </label>
+                                        <div class="wrap-quantity-num">
+                                            <input class="quantity-num-kids poiter-events" type="number" min="0"
+                                                step="1" max="10" name="kids" id="kids" value="0" />
+                                        </div>
+                                        <ul class="extra extra-kids">
+                                        </ul>
+                                    <li>
+                                        <label for="child">TRẺ EM ( DƯỚI 5 TUỔI): <br>
+                                            0 VNĐ
+                                        </label>
+                                        <div class="wrap-quantity-num">
+                                            <input class="quantity-num-childs poiter-events" type="number" min="0"
+                                                step="1" name="childs" id="chids" value="0" />
+                                        </div>
+                                    </li>
+                                </ul>
+                                <?php do_action('woocommerce_before_add_to_cart_button'); ?>
+                                <button type="submit" name="add-to-cart"
+                                    value="<?php echo esc_attr($product->get_id()); ?>"
+                                    class="single_add_to_cart_button button alt">Tiếp tục</button>
 
-                                    <?php do_action('woocommerce_after_add_to_cart_button'); ?>
-                                </form>
-                                <?php echo $_POST['adult']; ?>
-                                <?php do_action('woocommerce_after_add_to_cart_form'); ?>
+                                <?php do_action('woocommerce_after_add_to_cart_button'); ?>
+                            </form>
+                            <?php echo $_POST['adult']; ?>
+                            <?php do_action('woocommerce_after_add_to_cart_form'); ?>
 
                             <?php endif; ?>
-                            </div>
-                            <?php
+                        </div>
+                        <?php
                             // do_action( 'woocommerce_single_product_summary_single_title' );
                             // do_action( 'woocommerce_single_product_summary_single_rating' );
                             // do_action( 'woocommerce_single_product_summary_single_price' );
@@ -220,12 +239,12 @@ if (GBT_Opt::getOption('products_layout', false)) {
                     </div><!-- .summary -->
 
                 </div>
+               
+            </div>
 
-                </div>
+            <?php do_action('getbowtied_woocommerce_single_product_share'); ?>
 
-                <?php do_action('getbowtied_woocommerce_single_product_share'); ?>
-
-                <?php
+            <?php
                 /**
                  * woocommerce_after_single_product_summary hook
                  *
@@ -235,17 +254,111 @@ if (GBT_Opt::getOption('products_layout', false)) {
                 do_action('woocommerce_after_single_product_summary');
                 ?>
 
-                <?php if ($product_page_has_sidebar) : ?>
+            <?php if ($product_page_has_sidebar) : ?>
 
-            </div>
-            <?php if (is_active_sidebar('widgets_product_listing')) : ?>
-                <div class="page_sidebar page_sidebar_left">
-                    <?php dynamic_sidebar('widgets_product_listing'); ?>
-                </div>
-            <?php endif; ?>
+        </div>
+        <?php if (is_active_sidebar('widgets_product_listing')) : ?>
+        <div class="page_sidebar page_sidebar_left">
+            <?php dynamic_sidebar('widgets_product_listing'); ?>
+        </div>
+        <?php endif; ?>
 
         <?php endif; ?>
 
-        </div><!-- #product-<?php the_ID(); ?> -->
+    </div><!-- #product-<?php the_ID(); ?> -->
 
-        <?php do_action('woocommerce_after_single_product'); ?>
+    <?php do_action('woocommerce_after_single_product'); ?>
+    <div class="container test">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="crud_table">
+                            <tr>
+                                <th width="30%">Name</th>
+                                <th width="10%">Email</th>
+                                <th width="45%">Age</th>
+                                <th width="5%"></th>
+                            </tr>
+                            <tr>
+                                <td contenteditable="true" class="item_name"></td>
+                                <td contenteditable="true" class="item_email"></td>
+                                <td contenteditable="true" class="item_age"></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <div align="right">
+                            <button type="button" name="add" id="add" class="btn btn-success btn-xs">+</button>
+                        </div>
+                        <div align="center">
+                            <button type="button" name="save" id="save" class="btn btn-info">Save</button>
+                        </div>
+                        <br />
+                        <div id="inserted_item_data"></div>
+                    </div>
+
+                </div>
+
+                <script>
+                
+                jQuery(document).ready(function($) {
+                    var count = 1;
+                    $('#add').click(function() {
+                        count = count + 1;
+                        var html_code = "<tr id='row" + count + "'>";
+                        html_code += "<td contenteditable='true' class='item_name'></td>";
+                        html_code += "<td contenteditable='true' class='item_email'></td>";
+                        html_code += "<td contenteditable='true' class='item_age'></td>";
+                        html_code += "<td><button type='button' name='remove' data-row='row" + count +
+                            "' class='btn btn-danger btn-xs remove'>-</button></td>";
+                        html_code += "</tr>";
+                        $('#crud_table').append(html_code);
+                    });
+
+                    $(document).on('click', '.remove', function() {
+                        var delete_row = $(this).data("row");
+                        $('#' + delete_row).remove();
+                    });
+
+                    $('#save').click(function() {
+                        var item_name = [];
+                        var item_email = [];
+                        var item_age = [];
+                        $('.item_name').each(function() {
+                            item_name.push($(this).text());
+                        });
+                        $('.item_email').each(function() {
+                            item_email.push($(this).text());
+                        });
+                        $('.item_age').each(function() {
+                            item_age.push($(this).text());
+                        });
+                        $.ajax({
+                            url: "http://localhost/cias/wp-content/themes/theretailer-child/insert.php",
+                            method: "POST",
+                            data: {
+                                item_name: item_name,
+                                item_email: item_email,
+                                item_age: item_age,
+                            },
+                            success: function(data) {
+                                alert(data);
+                                $("td[contentEditable='true']").text("");
+                                for (var i = 2; i <= count; i++) {
+                                    $('tr#' + i + '').remove();
+                                }
+                                fetch_item_data();
+                            }
+                        });
+                    });
+
+                    function fetch_item_data() {
+                        $.ajax({
+                            url: "http://localhost/cias/wp-content/themes/theretailer-child/fetch.php",
+                            method: "POST",
+                            success: function(data) {
+                                $('#inserted_item_data').html(data);
+                            }
+                        })
+                    }
+                    fetch_item_data();
+
+                });
+                </script>

@@ -22,7 +22,7 @@ CSS information
   .form-booking .wrap-quantity-num {
     position: relative;
     margin-bottom: 10px; }
-    .form-booking .wrap-quantity-num .quantity-num-adult {
+    .form-booking .wrap-quantity-num .poiter-events {
       pointer-events: none; }
   .form-booking .extra {
     margin: 10px 0;
@@ -33,8 +33,9 @@ CSS information
     .form-booking .extra li {
       padding: 0 20px 0 0px; }
       .form-booking .extra li input {
-        width: 100%; }
-  .form-booking .has-extra .extra.extra-child {
+        width: 100%;
+        text-align: left; }
+  .form-booking .has-extra .extra.extra-kids {
     margin: 0 !important;
     padding: 0 !important; }
   .form-booking .quantity-button {
@@ -48,13 +49,9 @@ CSS information
     position: absolute;
     top: 0;
     cursor: pointer; }
-  .form-booking .quantity-up-adult {
+  .form-booking .quantity-up-left {
     left: 0; }
-  .form-booking .quantity-down-adult {
-    right: 0; }
-  .form-booking .quantity-up-child {
-    left: 0; }
-  .form-booking .quantity-down-child {
+  .form-booking .quantity-down-right {
     right: 0; }
   .form-booking .single_add_to_cart_button {
     background-color: #83b735;
@@ -66,6 +63,10 @@ CSS information
 #order_total #data tr {
   display: flex;
   flex-direction: column; }
+
+.test td,
+.test th {
+  border: 1px solid #000; }
 
 .entry-summary.child-themes {
   display: flex;
