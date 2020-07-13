@@ -161,3 +161,76 @@ function cias_booking_options_product_tab_content()
 		// }
 		// echo json_encode($data);
 		// exit();
+
+
+		add_action('woocommerce_before_add_to_cart_button','wdm_add_custom_fields');
+		/**
+		 * Adds custom field for Product
+		 * @return [type] [description]
+		 */
+		function wdm_add_custom_fields() {
+		
+			global $product;
+		
+			ob_start();
+		
+			?>
+				<div class="wdm-custom-fields">
+					<input type="number" name="wdm_adult">
+				</div>
+				<div class="clear"></div>
+		
+			<?php
+		
+			$content = ob_get_contents();
+			ob_end_flush();
+		
+			return $content;
+		}
+
+		add_filter('woocommerce_add_cart_item_data','wdm_add_item_data',10,3);
+
+/**
+ * Add custom data to Cart
+ * @param  [type] $cart_item_data [description]
+ * @param  [type] $product_id     [description]
+ * @param  [type] $variation_id   [description]
+ * @return [type]                 [description]
+ */
+function wdm_add_item_data($cart_item_data, $product_id, $variation_id) {
+    if ( isset( $_REQUEST['wdm_adult'] ) ) {
+        $cart_item_data['wdm_adult'] = sanitize_text_field($_REQUEST['wdm_adult']);
+    }
+
+    return $cart_item_data;
+}
+add_filter('woocommerce_get_item_data','wdm_add_item_meta',10,2);
+
+/**
+ * Display information as Meta on Cart page
+ * @param  [type] $item_data [description]
+ * @param  [type] $cart_item [description]
+ * @return [type]            [description]
+ */
+function wdm_add_item_meta($item_data, $cart_item) {
+
+    if ( array_key_exists( 'wdm_adult', $cart_item ) ) {
+        $custom_details = $cart_item['wdm_adult'];
+
+        $item_data[] = array(
+            'key'   => 'Người lớn','đsfdsf',
+            'value' => $custom_details
+        );
+    }
+
+    return $item_data;
+}
+add_action( 'woocommerce_checkout_create_order_line_item', 'wdm_add_custom_order_line_item_meta',10,4 );
+
+function wdm_add_custom_order_line_item_meta($item, $cart_item_key, $values, $order) {
+
+    if ( array_key_exists( 'wdm_adult', $values ) ) {
+        $item->add_meta_data('Người lớn',$values['wdm_adult']);
+    }
+}
+

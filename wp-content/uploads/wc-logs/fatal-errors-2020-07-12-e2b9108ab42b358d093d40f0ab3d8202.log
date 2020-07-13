@@ -1,0 +1,10 @@
+2020-07-12T22:48:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wdm_add_item_data(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:300
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): wdm_add_item_data(Array, 20)
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1028): apply_filters('woocommerce_add...', Array, 20, 0, 1)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(802): WC_Cart->add_to_cart(20, 1)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(774): WC_Form_Handler::add_to_cart_handler_simple(20)
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Form_Handler::add_to_cart_action('')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hoo in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 300
+
