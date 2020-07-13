@@ -1,0 +1,47 @@
+2020-07-13T15:45:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bbloomer_variation_price_format_min(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:264
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): bbloomer_variation_price_format_min('<span class="wo...', Object(WC_Product_Variable))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-product-variable.php(167): apply_filters('woocommerce_var...', '<span class="wo...', Object(WC_Product_Variable))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\loop\price.php(25): WC_Product_Variable->get_price_html()
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocomme in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 264
+
+2020-07-13T15:45:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bbloomer_variation_price_format_min(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:264
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): bbloomer_variation_price_format_min('<span class="wo...', Object(WC_Product_Variable))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-product-variable.php(167): apply_filters('woocommerce_var...', '<span class="wo...', Object(WC_Product_Variable))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\loop\price.php(25): WC_Product_Variable->get_price_html()
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocomme in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 264
+
+2020-07-13T15:46:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bbloomer_variation_price_format_min(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:264
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): bbloomer_variation_price_format_min('<span class="wo...', Object(WC_Product_Variable))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-product-variable.php(167): apply_filters('woocommerce_var...', '<span class="wo...', Object(WC_Product_Variable))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\loop\price.php(25): WC_Product_Variable->get_price_html()
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocomme in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 264
+
+2020-07-13T16:30:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_meta() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:265
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('162623312', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('162623312', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '162623312', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart_fr in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 265
+
+2020-07-13T16:30:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_meta() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:265
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('162623312', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('162623312', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '162623312', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart_fr in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 265
+

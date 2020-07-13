@@ -142,11 +142,11 @@ if (GBT_Opt::getOption('products_layout', false)) {
 
                         <?php do_action('woocommerce_before_add_to_cart_form'); ?>
 
-                        <!-- <div class="form-booking">
+                        <div class="form-booking">
                             <form
                                 action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>"
                                 method="post" enctype='multipart/form-data'>
-                                <ul>
+                                <!-- <ul>
                                     <li class="has-extra">
                                         <?php
                                             $adult_price = get_post_meta($post->ID, 'price_for_adult', true);
@@ -210,9 +210,9 @@ if (GBT_Opt::getOption('products_layout', false)) {
                                                 step="1" name="childs" id="chids" value="0" />
                                         </div>
                                     </li>
-                                </ul>
+                                </ul>  -->
                                 <?php do_action('woocommerce_before_add_to_cart_button'); ?>
-                                <button type="submit" name="add-to-cart"
+                                <button style="margin: 10px 0;" type="submit" name="add-to-cart"
                                     value="<?php echo esc_attr($product->get_id()); ?>"
                                     class="single_add_to_cart_button button alt">Tiếp tục</button>
 
@@ -222,15 +222,18 @@ if (GBT_Opt::getOption('products_layout', false)) {
                             <?php do_action('woocommerce_after_add_to_cart_form'); ?>
 
                             <?php endif; ?>
-                        </div> -->
+                        </div>
                         <?php
                             // do_action( 'woocommerce_single_product_summary_single_title' );
                             do_action( 'woocommerce_single_product_summary_single_rating' );
+                            ?>
+                            <h3>Tạm tính: </h3>
+                            <?php
                             do_action( 'woocommerce_single_product_summary_single_price' );
                             do_action( 'woocommerce_single_product_summary_single_excerpt' );
-                            if ( !GBT_Opt::getOption( 'catalog_mode', false ) ) {
-                            	do_action( 'woocommerce_single_product_summary_single_add_to_cart' );
-                            }
+                            // if ( !GBT_Opt::getOption( 'catalog_mode', false ) ) {
+                            // 	do_action( 'woocommerce_single_product_summary_single_add_to_cart' );
+                            // }
                             do_action( 'woocommerce_single_product_summary' );
                             do_action( 'woocommerce_single_product_summary_single_meta' );
                             do_action('woocommerce_single_product_summary_single_sharing');
@@ -268,7 +271,7 @@ if (GBT_Opt::getOption('products_layout', false)) {
     </div><!-- #product-<?php the_ID(); ?> -->
 
     <?php do_action('woocommerce_after_single_product'); ?>
-    <div class="container test">
+    <!-- <div class="container test">
                     <div class="table-responsive">
                         <table class="table table-bordered" id="crud_table">
                             <tr>
@@ -361,4 +364,4 @@ if (GBT_Opt::getOption('products_layout', false)) {
                     fetch_item_data();
 
                 });
-                </script>
+                </script> -->
