@@ -373,6 +373,9 @@ class WC_Admin_List_Table_Orders extends WC_Admin_List_Table {
 							<div class="wc-order-preview-addresses">
 								<div class="wc-order-preview-address">
 									<h2><?php esc_html_e( 'Billing details', 'woocommerce' ); ?></h2>
+								
+										<strong><?php esc_html_e( 'Customer', 'woocommerce' ); ?></strong>
+								
 									{{{ data.formatted_billing_address }}}
 
 									<# if ( data.data.billing.email ) { #>

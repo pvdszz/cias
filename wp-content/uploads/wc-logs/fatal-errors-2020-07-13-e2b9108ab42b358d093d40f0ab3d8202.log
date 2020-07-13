@@ -45,3 +45,63 @@ Stack trace:
 #5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
 #6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart_fr in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 265
 
+2020-07-13T17:49:58+00:00 CRITICAL Uncaught Error: Call to a member function insert() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:266
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): wc_send_order_to_order_detail(262)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1138): do_action('woocommerce_che...', 262, Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\cias\wp-content\plugin in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 266
+
+2020-07-13T17:50:09+00:00 CRITICAL Uncaught Error: Call to a member function insert() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:266
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): wc_send_order_to_order_detail(263)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1138): do_action('woocommerce_che...', 263, Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\cias\wp-content\plugin in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 266
+
+2020-07-13T17:50:26+00:00 CRITICAL Uncaught Error: Call to a member function insert() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:265
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): wc_send_order_to_order_detail(264)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1138): do_action('woocommerce_che...', 264, Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\cias\wp-content\plugin in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 265
+
+2020-07-13T21:44:05+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\plugins\woo-checkout-field-editor-pro\classes\class-thwcfd-utils.php:260
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\plugins\woo-checkout-field-editor-pro\classes\class-thwcfd-checkout.php(411): THWCFD_Utils::get_order_id(Array)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): THWCFD_Checkout->order_details_after_customer_details(Array)
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\wooimus-ticket\main.php(140): do_action('woocommerce_ord...', Array)
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): admin_order_table_order('bottom')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#7 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\ci in E:\xampp\htdocs\cias\wp-content\plugins\woo-checkout-field-editor-pro\classes\class-thwcfd-utils.php on line 260
+
+2020-07-13T21:46:29+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\plugins\add-fields-to-checkout-page-woocommerce\checkout-form-editor.php:476
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): wcfe_order_details_after_customer_details_lite(Array)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\wooimus-ticket\main.php(140): do_action('woocommerce_ord...', Array)
+#4 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): admin_order_table_order('bottom')
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 E:\xampp\htdocs\cias\wp-admin\includes\class-wp-posts-list-table.php(579): do_action('manage_posts_ex...', 'bottom')
+#8 E:\xampp\htdocs\cias\wp-admin\includes\class-wp- in E:\xampp\htdocs\cias\wp-content\plugins\add-fields-to-checkout-page-woocommerce\checkout-form-editor.php on line 476
+

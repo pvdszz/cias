@@ -2060,7 +2060,7 @@ ul.wc_coupon_list_block {
     .wc-order-preview .wc-order-preview-table .wc-order-item-meta td:last-child {
       padding-left: 0.5em;
       position: absolute;
-      right: 43%; }
+      right: 35%; }
 .wc-order-preview .wc-order-preview-addresses {
   overflow: hidden;
   padding-bottom: 1.5em; }

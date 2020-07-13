@@ -134,22 +134,6 @@ function cias_booking_options_product_tab_content()
 		}
 		// save to database
 
-		if (isset($_POST['add-to-cart'])) {
-			$_name = $_POST['name'] + $_POST['name2'];
-			$data = array(
-				'name' => $_name,
-				'email' => $_POST['email'],
-				'age' => $_POST['age'],
-
-			);
-			printf($_name);
-			// $format = array(
-			// 	'%s'
-			// );
-
-			$table_name = $wpdb->prefix . 'orderdetail';
-			$wpdb->insert($table_name, $data, $format = NULL);
-		}
 
 
 
@@ -173,14 +157,14 @@ function wdm_add_custom_fields()
 			<label for="wdm_adult">Người lớn: <br>
 			<?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
 		</label>
-			<input type="number" name="wdm_adult" value="1">
+			<input class="quantity-num-adult" type="number" name="wdm_adult" value="1">
 		</li>
 		<li>
 		<?php  $kids_price = get_post_meta($post->ID, 'price_for_child', true);?>
 			<label for="wdm_kids">Trẻ em: <br>
 			<?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
 		</label>
-			<input type="number" name="wdm_kids">
+			<input class="quantity-num-kids" type="number" name="wdm_kids">
 		</li>
 		
 	</div>
@@ -269,4 +253,33 @@ function display_super_sale_price( $price, $product ) {
 		$price = ($price_adult ) + $price_kid;
 
     return $price;
+}
+add_action( 'woocommerce_checkout_order_processed', 'wc_send_order_to_mypage' );
+function wc_send_order_to_mypage( ) {
+	global $wpdb ;
+	if (isset($_POST['woocommerce_checkout_place_order'])) {
+		$data = array(
+			'name' => $_POST['billing_first_name']
+
+		);
+		$format = array(
+			'%s',
+		);
+		$table_name = $wpdb->prefix . 'orderdetail';
+		$wpdb->insert($table_name, $data, $format);
+	}
+
+}
+add_filter( 'woocommerce_billing_fields', 'cias_remove_billing_fields' );
+ 
+function cias_remove_billing_fields( $fields ) {
+ 
+	unset( $fields[ 'billing_company' ]  ); // or shipping_address_2 for woocommerce_shipping_fields hook
+	unset( $fields[ 'billing_postcode']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
+	unset( $fields[ 'billing_address_2']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
+	unset( $fields[ 'billing_country']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
+	unset( $fields[ 'billing_address_1']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
+	unset( $fields[ 'billing_city']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
+	return $fields;
+ 
 }

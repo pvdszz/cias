@@ -650,3 +650,303 @@ Stack trace:
 [13-Jul-2020 16:30:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 339
 [13-Jul-2020 16:30:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 340
 [13-Jul-2020 16:30:23 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 17:18:55 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 17:30:39 UTC] PHP Notice:  Undefined index: name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 138
+[13-Jul-2020 17:30:39 UTC] PHP Notice:  Undefined index: name2 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 138
+[13-Jul-2020 17:30:39 UTC] PHP Notice:  Undefined index: email in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 141
+[13-Jul-2020 17:30:39 UTC] PHP Notice:  Undefined index: age in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[13-Jul-2020 17:30:39 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'email' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`, `email`, `age`) VALUES ('0', NULL, NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:44:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wc_send_order_to_order_detail' not found or invalid function name in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289
+[13-Jul-2020 17:49:58 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:49:58 UTC] PHP Notice:  Trying to get property 'prefix' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 265
+[13-Jul-2020 17:49:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:266
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): wc_send_order_to_order_detail(262)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1138): do_action('woocommerce_che...', 262, Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\cias\wp-content\plugin in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 266
+[13-Jul-2020 17:50:09 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:50:09 UTC] PHP Notice:  Trying to get property 'prefix' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 265
+[13-Jul-2020 17:50:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:266
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): wc_send_order_to_order_detail(263)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1138): do_action('woocommerce_che...', 263, Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\cias\wp-content\plugin in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 266
+[13-Jul-2020 17:50:26 UTC] PHP Notice:  Trying to get property 'prefix' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 264
+[13-Jul-2020 17:50:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function insert() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:265
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): wc_send_order_to_order_detail(264)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1138): do_action('woocommerce_che...', 264, Array, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\cias\wp-content\plugin in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 265
+[13-Jul-2020 17:51:19 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:51:19 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Cannot add or update a child row: a foreign key constraint fails (`cias`.`cias_orderdetail`, CONSTRAINT `cias_orderdetail_ibfk_1` FOREIGN KEY (`orderID`) REFERENCES `cias_order_extra` (`orderID`)) với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES ('Diepiyhihi') yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, do_action('woocommerce_checkout_order_processed'), WP_Hook->do_action, WP_Hook->apply_filters, wc_send_order_to_mypage
+[13-Jul-2020 17:52:10 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:10 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:10 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:10 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:11 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:11 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:11 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:11 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:30 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:30 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:30 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:30 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:30 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:30 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:30 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:31 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:31 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:31 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:31 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:31 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:31 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:31 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:31 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:35 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:35 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:35 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:35 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:36 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:36 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:36 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:36 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:36 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:45 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:45 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:45 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:45 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:51 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:51 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:51 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:51 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  Undefined index: woocommerce_checkout_place_order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 262
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:52 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:52:52 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:52 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:52 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:52:52 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:53:20 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 261
+[13-Jul-2020 17:53:20 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:53:20 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:53:20 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 261
+[13-Jul-2020 17:53:20 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:53:20 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:53:22 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 261
+[13-Jul-2020 17:53:22 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 261
+[13-Jul-2020 17:53:22 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:53:22 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:53:22 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:53:22 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 261
+[13-Jul-2020 17:53:22 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:53:22 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:53:22 UTC] PHP Notice:  Undefined index: billing_first_name in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 261
+[13-Jul-2020 17:53:22 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:53:22 UTC] PHP Notice:  wpdb::prepare được gọi là <strong>không chính xác</strong>. Truy vấn của wpdb::prepare() phải có placehoder. Vui lòng xem <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Hướng dẫn Debug trong WordPress</a> để biết thêm thông tin. (Thông điệp này đã được thêm vào trong phiên bản 3.9.0.) in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5167
+[13-Jul-2020 17:53:22 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Column 'name' cannot be null với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES (NULL) yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 17:54:18 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Cannot add or update a child row: a foreign key constraint fails (`cias`.`cias_orderdetail`, CONSTRAINT `cias_orderdetail_ibfk_1` FOREIGN KEY (`orderID`) REFERENCES `cias_order_extra` (`orderID`)) với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES ('Diepiyhihi') yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, do_action('woocommerce_checkout_order_processed'), WP_Hook->do_action, WP_Hook->apply_filters, wc_send_order_to_mypage
+[13-Jul-2020 17:56:18 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Cannot add or update a child row: a foreign key constraint fails (`cias`.`cias_orderdetail`, CONSTRAINT `cias_orderdetail_ibfk_1` FOREIGN KEY (`orderID`) REFERENCES `cias_order_extra` (`orderID`)) với truy vấn INSERT INTO `cias_orderdetail` (`name`) VALUES ('Diepiyhihi') yêu cầu bởi require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), do_action('template_redirect'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::do_wc_ajax, do_action('wc_ajax_checkout'), WP_Hook->do_action, WP_Hook->apply_filters, WC_AJAX::checkout, WC_Checkout->process_checkout, do_action('woocommerce_checkout_order_processed'), WP_Hook->do_action, WP_Hook->apply_filters, wc_send_order_to_mypage
+[13-Jul-2020 18:10:57 UTC] Cơ sở dữ liệu của WordPress gặp lỗi Table 'cias.cias_orderextra' doesn't exist với truy vấn SHOW FULL COLUMNS FROM `cias_orderextra` yêu cầu bởi require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include('/themes/theretailer-child/functions.php')
+[13-Jul-2020 21:14:40 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 21:15:49 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 21:32:50 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 274
+[13-Jul-2020 21:32:54 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 274
+[13-Jul-2020 21:33:58 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 274
+[13-Jul-2020 21:34:02 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 274
+[13-Jul-2020 21:35:51 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[13-Jul-2020 21:35:51 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[13-Jul-2020 21:35:51 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[13-Jul-2020 21:35:51 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[13-Jul-2020 21:35:59 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 21:36:12 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[13-Jul-2020 21:36:14 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[13-Jul-2020 21:36:17 UTC] PHP Notice:  Undefined index: vat in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[13-Jul-2020 21:42:32 UTC] PHP Warning:  The URL https://raw.githubusercontent.com/getbowtied/the-retailer-extender/master/core/updater/assets/plugin.json?installed_version=1.5.0&php=7.4.7&locale=vi&checking_for_updates=1 does not point to a valid metadata file. HTTP response code is 500 (expected: 200) in E:\xampp\htdocs\cias\wp-content\plugins\the-retailer-extender\core\updater\Puc\v4p6\UpdateChecker.php on line 400
+[13-Jul-2020 21:43:37 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 21:44:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\plugins\woo-checkout-field-editor-pro\classes\class-thwcfd-utils.php:260
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\plugins\woo-checkout-field-editor-pro\classes\class-thwcfd-checkout.php(411): THWCFD_Utils::get_order_id(Array)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): THWCFD_Checkout->order_details_after_customer_details(Array)
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\wooimus-ticket\main.php(140): do_action('woocommerce_ord...', Array)
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): admin_order_table_order('bottom')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#7 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 E:\xampp\htdocs\ci in E:\xampp\htdocs\cias\wp-content\plugins\woo-checkout-field-editor-pro\classes\class-thwcfd-utils.php on line 260
+[13-Jul-2020 21:45:08 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 21:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\plugins\add-fields-to-checkout-page-woocommerce\checkout-form-editor.php:476
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): wcfe_order_details_after_customer_details_lite(Array)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\wooimus-ticket\main.php(140): do_action('woocommerce_ord...', Array)
+#4 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): admin_order_table_order('bottom')
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 E:\xampp\htdocs\cias\wp-admin\includes\class-wp-posts-list-table.php(579): do_action('manage_posts_ex...', 'bottom')
+#8 E:\xampp\htdocs\cias\wp-admin\includes\class-wp- in E:\xampp\htdocs\cias\wp-content\plugins\add-fields-to-checkout-page-woocommerce\checkout-form-editor.php on line 476
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Undefined index: items in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1251
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1226
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1240
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1258
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1298
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1314
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1319
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1324
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1329
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1356
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Undefined index: items in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1251
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1226
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1240
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1258
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1298
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1314
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1319
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1324
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1329
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1356
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Undefined index: items in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1251
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1226
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1240
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1258
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1298
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1314
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1319
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1324
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1329
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1356
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Undefined index: items in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1251
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1226
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1240
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1258
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1298
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1314
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1319
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1324
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1329
+[13-Jul-2020 21:49:16 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-includes\rest-api.php on line 1356
+[13-Jul-2020 21:53:51 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[13-Jul-2020 21:53:51 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[13-Jul-2020 22:15:49 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 22:17:58 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 116
+[13-Jul-2020 22:17:58 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 117
+[13-Jul-2020 22:17:58 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 123
+[13-Jul-2020 22:17:58 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 124
+[13-Jul-2020 22:17:58 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 133
+[13-Jul-2020 22:17:58 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 133
+[13-Jul-2020 22:19:53 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 22:19:57 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 22:20:23 UTC] PHP Notice:  Undefined index: billing_email in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php on line 369
+[13-Jul-2020 22:29:34 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[13-Jul-2020 22:49:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[13-Jul-2020 22:49:08 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_360_metabox_output' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
+[13-Jul-2020 22:49:08 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_sguide_dropdown_template' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[13-Jul-2020 22:49:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[13-Jul-2020 22:49:25 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_360_metabox_output' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
+[13-Jul-2020 22:49:25 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_sguide_dropdown_template' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\xampp\htdocs\cias\wp-content\themes\theretailer\woocommerce\single-product.php on line 18
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 155
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 196
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 158
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 165
+[13-Jul-2020 22:49:54 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:49:54 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[13-Jul-2020 22:50:11 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[13-Jul-2020 22:50:21 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_360_metabox_output' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
+[13-Jul-2020 22:50:21 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_sguide_dropdown_template' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
+[13-Jul-2020 22:50:28 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
