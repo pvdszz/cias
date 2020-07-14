@@ -157,7 +157,7 @@ if (GBT_Opt::getOption('products_layout', false)) {
                             ?>
                             <!-- <h3>Tạm tính: </h3> -->
                             <?php
-                            // do_action( 'woocommerce_single_product_summary_single_price' );
+                            do_action( 'woocommerce_single_product_summary_single_price' );
                             do_action( 'woocommerce_single_product_summary_single_excerpt' );
                             // if ( !GBT_Opt::getOption( 'catalog_mode', false ) ) {
                             // 	do_action( 'woocommerce_single_product_summary_single_add_to_cart' );

@@ -9,7 +9,7 @@ $connect = mysqli_connect("localhost", "root", "", "cias");
 
 				if ($order_total_clean != '') {
 					$query .= '
-                    INSERT INTO cias_orderdetail(order_total) 
+                    INSERT INTO cias_orderdetail(orderTotal) 
                     VALUES("' . $order_total_clean. '"); 
    ';
 				}
