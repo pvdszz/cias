@@ -60,29 +60,30 @@ function cias_booking_options_product_tab_content()
 	// Note the 'id' attribute needs to match the 'target' parameter set above
 ?><div id='booking_options' class='panel woocommerce_options_panel'><?php
 
-																	?><div class='options_group'><?php
-																									woocommerce_wp_text_input(array(
-																										'id'				=> 'price_for_adult',
-																										'label'				=> __('Giá cho một người lớn:', 'woocommerce'),
-																										'desc_tip'			=> 'true',
-																										'type' 				=> 'number',
-																										'custom_attributes'	=> array(
-																											'min'	=> '1',
-																											'step'	=> '1',
-																										),
-																									));
-																									woocommerce_wp_text_input(array(
-																										'id'				=> 'price_for_child',
-																										'label'				=> __('Giá cho một trẻ em:', 'woocommerce'),
-																										'desc_tip'			=> 'true',
-																										'type' 				=> 'number',
-																										'custom_attributes'	=> array(
-																											'min'	=> '1',
-																											'step'	=> '1',
-																										),
-																									));
+																	?><div class='options_group'>
+			<?php
+			woocommerce_wp_text_input(array(
+				'id'				=> 'price_for_adult',
+				'label'				=> __('Giá cho một người lớn:', 'woocommerce'),
+				'desc_tip'			=> 'true',
+				'type' 				=> 'number',
+				'custom_attributes'	=> array(
+					'min'	=> '1',
+					'step'	=> '1',
+				),
+			));
+			woocommerce_wp_text_input(array(
+				'id'				=> 'price_for_child',
+				'label'				=> __('Giá cho một trẻ em:', 'woocommerce'),
+				'desc_tip'			=> 'true',
+				'type' 				=> 'number',
+				'custom_attributes'	=> array(
+					'min'	=> '1',
+					'step'	=> '1',
+				),
+			));
 
-																									?></div>
+			?></div>
 
 	</div><?php
 
@@ -108,65 +109,44 @@ function cias_booking_options_product_tab_content()
 		add_action('woocommerce_process_product_meta_variable', 'save_booking_options_fields');
 
 
-		// save to database
-		global $wpdb;
-
-		if (isset($_POST['save'])) {
-			$data = array(
-				'price_for_adult' => $_POST['price_for_adult'],
-				'price_for_child' => $_POST['price_for_child'],
-			);
-			$table_name = 'cias_price_for_each_person';
-			$wpdb->update(
-				'cias_price_for_each_person',
-				array(
-					'price_for_adult' => $_POST['price_for_adult'],
-					'price_for_child' => $_POST['price_for_child'],
-				),
-				array('ID' => 1),
-				array(
-					'%s',	// value1
-					'%d'	// value2
-				),
-				array('%d')
-			);
-			$wpdb->update($table, $data, $where, $format = null, $where_format = null);
-		}
-		// save to database
 
 
 
 
 
-add_action('woocommerce_before_add_to_cart_button', 'wdm_add_custom_fields');
-/**
- * Adds custom field for Product
- * @return [type] [description]
- */
-function wdm_add_custom_fields()
-{
+		add_action('woocommerce_before_add_to_cart_button', 'wdm_add_custom_fields');
+		/**
+		 * Adds custom field for Product
+		 * @return [type] [description]
+		 */
+		function wdm_add_custom_fields()
+		{
 
-	global $product,$post;
+			global $product, $post;
 
-	ob_start();
+			ob_start();
 
-	?>
+			?>
 	<div class="wdm-custom-fields">
 		<li>
-			<?php  $adult_price = get_post_meta($post->ID, 'price_for_adult', true);?>
+			<?php $adult_price = get_post_meta($post->ID, 'price_for_adult', true); ?>
 			<label for="wdm_adult">Người lớn: <br>
-			<?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
-		</label>
-			<input class="quantity-num-adult" type="number" name="wdm_adult" value="1">
+				<?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
+			</label>
+			<div class="wrap-quantity-num">
+				<input class="quantity-num-adult poiter-events" type="number" name="wdm_adult" min=1 value="1">
+			</div>
 		</li>
 		<li>
-		<?php  $kids_price = get_post_meta($post->ID, 'price_for_child', true);?>
+			<?php $kids_price = get_post_meta($post->ID, 'price_for_child', true); ?>
 			<label for="wdm_kids">Trẻ em: <br>
-			<?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
-		</label>
-			<input class="quantity-num-kids" type="number" name="wdm_kids">
+				<?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
+			</label>
+			<div class="wrap-quantity-num">
+				<input class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0 value="0">
+			</div>
 		</li>
-		
+
 	</div>
 	<div class="clear"></div>
 
@@ -178,108 +158,95 @@ function wdm_add_custom_fields()
 			return $content;
 		}
 
-add_filter('woocommerce_add_cart_item_data', 'wdm_add_item_data', 10, 3);
+		add_filter('woocommerce_add_cart_item_data', 'wdm_add_item_data', 10, 3);
 
-/**
- * Add custom data to Cart
- * @param  [type] $cart_item_data [description]
- * @param  [type] $product_id     [description]
- * @param  [type] $variation_id   [description]
- * @return [type]                 [description]
- */
-function wdm_add_item_data($cart_item_data, $product_id, $variation_id)
-{
-	if (isset($_REQUEST['wdm_adult'])) {
-		$cart_item_data['wdm_adult'] = sanitize_text_field($_REQUEST['wdm_adult']);
-	}
+		/**
+		 * Add custom data to Cart
+		 * @param  [type] $cart_item_data [description]
+		 * @param  [type] $product_id     [description]
+		 * @param  [type] $variation_id   [description]
+		 * @return [type]                 [description]
+		 */
+		function wdm_add_item_data($cart_item_data, $product_id, $variation_id)
+		{
+			if (isset($_REQUEST['wdm_adult'])) {
+				$cart_item_data['wdm_adult'] = sanitize_text_field($_REQUEST['wdm_adult']);
+			}
 
-	if (isset($_REQUEST['wdm_kids'])) {
-		$cart_item_data['wdm_kids'] = sanitize_text_field($_REQUEST['wdm_kids']);
-	}
+			if (isset($_REQUEST['wdm_kids'])) {
+				$cart_item_data['wdm_kids'] = sanitize_text_field($_REQUEST['wdm_kids']);
+			}
 
-	return $cart_item_data;
-}
-add_filter('woocommerce_get_item_data', 'wdm_add_item_meta', 10, 2);
+			return $cart_item_data;
+		}
+		add_filter('woocommerce_get_item_data', 'wdm_add_item_meta', 10, 2);
 
-/**
- * Display information as Meta on Cart page
- * @param  [type] $item_data [description]
- * @param  [type] $cart_item [description]
- * @return [type]            [description]
- */
+		/**
+		 * Display information as Meta on Cart page
+		 * @param  [type] $item_data [description]
+		 * @param  [type] $cart_item [description]
+		 * @return [type]            [description]
+		 */
 
-function wdm_add_item_meta($item_data, $cart_item)
-{
+		function wdm_add_item_meta($item_data, $cart_item)
+		{
 
-	if (array_key_exists('wdm_adult', $cart_item)) {
-		$custom_details = $cart_item['wdm_adult'];
+			if (array_key_exists('wdm_adult', $cart_item)) {
+				$custom_details = $cart_item['wdm_adult'];
 
-		$item_data[] = array(
-			'key'   => 'Người lớn',
-			'value' => $custom_details
-		);
-	}	
-	if (array_key_exists('wdm_kids', $cart_item)) {
-		$custom_details = $cart_item['wdm_kids'];
+				$item_data[] = array(
+					'key'   => 'Người lớn',
+					'value' => $custom_details
+				);
+			}
+			if (array_key_exists('wdm_kids', $cart_item)) {
+				$custom_details = $cart_item['wdm_kids'];
 
-		$item_data[] = array(
-			'key'   => 'Trẻ em',
-			'value' => $custom_details
-		);
-	}
+				$item_data[] = array(
+					'key'   => 'Trẻ em',
+					'value' => $custom_details
+				);
+			}
 
-	return $item_data;
-}
-add_action('woocommerce_checkout_create_order_line_item', 'wdm_add_custom_order_line_item_meta', 10, 4);
+			return $item_data;
+		}
+		add_action('woocommerce_checkout_create_order_line_item', 'wdm_add_custom_order_line_item_meta', 10, 4);
 
-function wdm_add_custom_order_line_item_meta($item, $cart_item_key, $values, $order)
-{
+		function wdm_add_custom_order_line_item_meta($item, $cart_item_key, $values, $order)
+		{
 
-	if (array_key_exists('wdm_adult', $values)) {
-		$item->add_meta_data('Người lớn', $values['wdm_adult']);
-	}
-	if (array_key_exists('wdm_kids', $values)) {
-		$item->add_meta_data('Trẻ em', $values['wdm_kids']);
-	}
-}
-add_filter('woocommerce_product_get_price', 'display_super_sale_price', 10, 2); 
-function display_super_sale_price( $price, $product ) {
+			if (array_key_exists('wdm_adult', $values)) {
+				$item->add_meta_data('Người lớn', $values['wdm_adult']);
+			}
+			if (array_key_exists('wdm_kids', $values)) {
+				$item->add_meta_data('Trẻ em', $values['wdm_kids']);
+			}
+		}
+		add_filter('woocommerce_product_get_price', 'display_super_sale_price', 10, 2);
+		function display_super_sale_price($price, $product)
+		{
+
+
+			$aa = $product->get_meta('wdm_adult');
+			echo $aa;
+			$price_adult = $product->get_meta('price_for_adult');
+			$price_kid = $product->get_meta('price_for_child');
+			$price = ($price_adult) + $price_kid;
+
+			return $price;
+		}
+
+		// Unset checkout fields
+		function cias_remove_billing_fields($fields)
+		{
+
+			unset($fields['billing_company']);
+			unset($fields['billing_postcode']);
+			unset($fields['billing_address_2']);
+			unset($fields['billing_country']);
+			unset($fields['billing_address_1']);
+			unset($fields['billing_city']);
+			return $fields;
+		}
+
 	
-	
-		 $aa = $product->get_meta('wdm_adult');
-		 echo $aa;
-        $price_adult = $product->get_meta('price_for_adult');
-		$price_kid = $product->get_meta('price_for_child');
-		$price = ($price_adult ) + $price_kid;
-
-    return $price;
-}
-add_action( 'woocommerce_checkout_order_processed', 'wc_send_order_to_mypage' );
-function wc_send_order_to_mypage( ) {
-	global $wpdb ;
-	if (isset($_POST['woocommerce_checkout_place_order'])) {
-		$data = array(
-			'name' => $_POST['billing_first_name']
-
-		);
-		$format = array(
-			'%s',
-		);
-		$table_name = $wpdb->prefix . 'orderdetail';
-		$wpdb->insert($table_name, $data, $format);
-	}
-
-}
-add_filter( 'woocommerce_billing_fields', 'cias_remove_billing_fields' );
- 
-function cias_remove_billing_fields( $fields ) {
- 
-	unset( $fields[ 'billing_company' ]  ); // or shipping_address_2 for woocommerce_shipping_fields hook
-	unset( $fields[ 'billing_postcode']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
-	unset( $fields[ 'billing_address_2']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
-	unset( $fields[ 'billing_country']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
-	unset( $fields[ 'billing_address_1']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
-	unset( $fields[ 'billing_city']  ); // or shipping_address_2 for woocommerce_shipping_fields hook
-	return $fields;
- 
-}

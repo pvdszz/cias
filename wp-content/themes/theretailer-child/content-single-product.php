@@ -108,21 +108,14 @@ if (GBT_Opt::getOption('products_layout', false)) {
                     do_action('woocommerce_before_single_product_summary');
                     ?>
                     <br>
-                    <table id="order_total">
-                        <label>
-                            <br>
+                    <div id="order_total" style="margin-top: 20px; display:inline-block">    
                             <h3>Tạm tính: </h3>
-                        </label>
-
-                        <tbody id="data">
-                            <tr>
-                                <td id="adult-field">Người lớn: </td>
-                                <td id="kids-field">Trẻ em: </td>
-                                <td id="total-field">Tổng: </td>
-                            </tr>
-                        </tbody>
-
-                    </table>
+                        <div id="data">
+                                <p id="adult-field"> <strong> Người lớn: </strong></p>
+                                <p id="kids-field"> <strong> Trẻ em: </strong></p>
+                                <p id="total-field"><strong> Tổng: </strong></p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="gbtr_product_details_right_col">
@@ -146,71 +139,6 @@ if (GBT_Opt::getOption('products_layout', false)) {
                             <form
                                 action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>"
                                 method="post" enctype='multipart/form-data'>
-                                <!-- <ul>
-                                    <li class="has-extra">
-                                        <?php
-                                            $adult_price = get_post_meta($post->ID, 'price_for_adult', true);
-                                            ?>
-                                        <label for="adult">NGƯỜI LỚN: <br>
-                                            <?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
-                                        </label>
-                                        <div class="wrap-quantity-num">
-                                            <input class="quantity-num-adult poiter-events" type="number" min="0"
-                                                step="1" name="adult" id="adult" value="1" />
-
-                                        </div>
-                                        <ul class="extra">
-                                            <li>
-                                                <label for="name">Họ tên: </label>
-                                                <input type="text" name="name" id="name" />
-                                            </li>
-                                            <li>
-                                                <label for="age">Tuổi: </label>
-                                                <input type="text" name="age" id="age" />
-                                            </li>
-                                            <li>
-                                                <label for="email">Email: </label>
-                                                <input type="text" name="email" id="email" />
-                                            </li>
-                                        </ul>
-                                        <ul class="extra">
-                                            <li>
-                                                <label for="name2">Họ tên: </label>
-                                                <input type="text" name="name2" id="name" />
-                                            </li>
-                                            <li>
-                                                <label for="age">Tuổi: </label>
-                                                <input type="text" name="age" id="age" />
-                                            </li>
-                                            <li>
-                                                <label for="email">Email: </label>
-                                                <input type="text" name="email" id="email" />
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="has-extra">
-                                        <?php
-                                            $kids_price = get_post_meta($post->ID, 'price_for_child', true);
-                                            ?>
-                                        <label for="kids">TRẺ EM ( 5 - 12 TUỔI): <br>
-                                            <?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
-                                        </label>
-                                        <div class="wrap-quantity-num">
-                                            <input class="quantity-num-kids poiter-events" type="number" min="0"
-                                                step="1" max="10" name="kids" id="kids" value="0" />
-                                        </div>
-                                        <ul class="extra extra-kids">
-                                        </ul>
-                                    <li>
-                                        <label for="child">TRẺ EM ( DƯỚI 5 TUỔI): <br>
-                                            0 VNĐ
-                                        </label>
-                                        <div class="wrap-quantity-num">
-                                            <input class="quantity-num-childs poiter-events" type="number" min="0"
-                                                step="1" name="childs" id="chids" value="0" />
-                                        </div>
-                                    </li>
-                                </ul>  -->
                                 <?php do_action('woocommerce_before_add_to_cart_button'); ?>
                                 <button style="margin: 10px 0;" type="submit" name="add-to-cart"
                                     value="<?php echo esc_attr($product->get_id()); ?>"
@@ -227,9 +155,9 @@ if (GBT_Opt::getOption('products_layout', false)) {
                             // do_action( 'woocommerce_single_product_summary_single_title' );
                             do_action( 'woocommerce_single_product_summary_single_rating' );
                             ?>
-                            <h3>Tạm tính: </h3>
+                            <!-- <h3>Tạm tính: </h3> -->
                             <?php
-                            do_action( 'woocommerce_single_product_summary_single_price' );
+                            // do_action( 'woocommerce_single_product_summary_single_price' );
                             do_action( 'woocommerce_single_product_summary_single_excerpt' );
                             // if ( !GBT_Opt::getOption( 'catalog_mode', false ) ) {
                             // 	do_action( 'woocommerce_single_product_summary_single_add_to_cart' );

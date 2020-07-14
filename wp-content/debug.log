@@ -950,3 +950,18 @@ Stack trace:
 [13-Jul-2020 22:50:21 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_360_metabox_output' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
 [13-Jul-2020 22:50:21 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_sguide_dropdown_template' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
 [13-Jul-2020 22:50:28 UTC] PHP Notice:  Undefined index: adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 221
+[14-Jul-2020 20:41:24 UTC] PHP Notice:  Undefined index: theretailer-child in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 424
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1079
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1080
+[14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
+[14-Jul-2020 20:42:21 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_360_metabox_output' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
+[14-Jul-2020 20:42:21 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_sguide_dropdown_template' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
