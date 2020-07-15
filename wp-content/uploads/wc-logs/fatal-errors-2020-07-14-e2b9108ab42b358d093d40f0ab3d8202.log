@@ -4,3 +4,36 @@
 
 2020-07-14T21:22:06+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 254
 
+2020-07-14T17:04:39+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:297
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php(297): preg_replace('/\\.(?![^.]+$)|[...', '', Array)
+#1 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-structured-data.php(250): wc_format_decimal(Array, 1)
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Structured_Data->generate_product_data(Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php(165): do_action('woocommerce_sin...')
+#6 E:\xampp\htdocs\cias\wp-includes\template.php(725): require('E:\\xampp\\htdocs...')
+#7 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\ in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php on line 297
+
+2020-07-14T17:04:42+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:297
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php(297): preg_replace('/\\.(?![^.]+$)|[...', '', Array)
+#1 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-structured-data.php(250): wc_format_decimal(Array, 1)
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Structured_Data->generate_product_data(Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php(165): do_action('woocommerce_sin...')
+#6 E:\xampp\htdocs\cias\wp-includes\template.php(725): require('E:\\xampp\\htdocs...')
+#7 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\ in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php on line 297
+
+2020-07-14T17:10:59+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php:294
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php(294): str_replace(Array, '.', Object(stdClass))
+#1 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-structured-data.php(250): wc_format_decimal(Object(stdClass), 1)
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Structured_Data->generate_product_data(Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php(165): do_action('woocommerce_sin...')
+#6 E:\xampp\htdocs\cias\wp-includes\template.php(725): require('E:\\xampp\\htdocs...')
+#7 E:\xampp\htdocs\cias\wp-content\plugins\woocom in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-formatting-functions.php on line 294
+

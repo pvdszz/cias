@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
                 var adult = data[a].price_for_adult;
                 var kids = data[a].price_for_child * 0;
                 var total = adult;
-                adult_html += '<span id="adult-price"> ( 1 ) x' + adult + '</span>';
+                adult_html += '<span id="adult-price">' + adult + '</span>';
                 kids_html += '<span id="kids-price">' + kids + "</span>";
                 total_html += '<span id="total-price" class="order_total">' + total + "</span>";
             }
