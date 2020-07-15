@@ -235,7 +235,7 @@ function cias_booking_options_product_tab_content()
 
 			return $price;
 		}
-
+		add_filter( 'woocommerce_checkout_fields' , 'cias_remove_billing_fields' );
 		// Unset checkout fields
 		function cias_remove_billing_fields($fields)
 		{
