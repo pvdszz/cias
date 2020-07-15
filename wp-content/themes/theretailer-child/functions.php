@@ -222,16 +222,12 @@ function cias_booking_options_product_tab_content()
 				$item->add_meta_data('Trẻ em', $values['wdm_kids']);
 			}
 		}
+
 		add_filter('woocommerce_product_get_price', 'display_super_sale_price', 10, 2);
 		function display_super_sale_price($price, $product)
 		{
-
-
-			$aa = $product->get_meta('wdm_adult');
-			echo $aa;
-			$price_adult = $product->get_meta('price_for_adult');
-			$price_kid = $product->get_meta('price_for_child');
-			$price = ($price_adult) + $price_kid;
+			require('fetch.php');
+			$price = $output;
 
 			return $price;
 			
