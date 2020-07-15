@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "", "cias");
+$connect = mysqli_connect("localhost", "root", "", "cias_dev");
 		if (isset($_POST["order_total"])) {
             $order_total = $_POST["order_total"];
 			$query = '';
@@ -9,7 +9,7 @@ $connect = mysqli_connect("localhost", "root", "", "cias");
 
 				if ($order_total_clean != '') {
 					$query .= '
-                    INSERT INTO cias_orderdetail(order_total) 
+                    INSERT INTO cias_orderextra(product_price) 
                     VALUES("' . $order_total_clean. '"); 
    ';
 				}

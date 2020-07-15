@@ -111,10 +111,12 @@ if (GBT_Opt::getOption('products_layout', false)) {
                     <div id="order_total" style="margin-top: 20px; display:inline-block">    
                             <h3>Tạm tính: </h3>
                         <div id="data">
-                                <p id="adult-field"> <strong> Người lớn: </strong></p>
-                                <p id="kids-field"> <strong> Trẻ em: </strong></p>
-                                <p id="total-field"><strong> Tổng: </strong></p>
+                                <p id="adult-field"> Người lớn:</p>
+                                <p id="kids-field">  Trẻ em: </p>
+                                <p id="total-field"> Tổng: </p>
+                               
                         </div>
+                        <div id="order-total"></div>
                     </div>
                 </div>
 
@@ -139,14 +141,15 @@ if (GBT_Opt::getOption('products_layout', false)) {
                             <form
                                 action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>"
                                 method="post" enctype='multipart/form-data'>
-                                <?php do_action('woocommerce_before_add_to_cart_button'); ?>
-                                <button style="margin: 10px 0;" type="submit" name="add-to-cart"
-                                    value="<?php echo esc_attr($product->get_id()); ?>"
-                                    class="single_add_to_cart_button button alt">Tiếp tục</button>
-
-                                <?php do_action('woocommerce_after_add_to_cart_button'); ?>
+                               
+                                
                             </form>
-                            <?php echo $_POST['adult']; ?>
+                            <div class="wrap">
+                                <?php 
+                            	do_action( 'woocommerce_single_product_summary_single_add_to_cart' );
+                                ?>
+                            </div>
+    
                             <?php do_action('woocommerce_after_add_to_cart_form'); ?>
 
                             <?php endif; ?>
@@ -157,10 +160,9 @@ if (GBT_Opt::getOption('products_layout', false)) {
                             ?>
                             <!-- <h3>Tạm tính: </h3> -->
                             <?php
-                            // do_action( 'woocommerce_single_product_summary_single_price' );
+                            do_action( 'woocommerce_single_product_summary_single_price' );
                             do_action( 'woocommerce_single_product_summary_single_excerpt' );
                             // if ( !GBT_Opt::getOption( 'catalog_mode', false ) ) {
-                            // 	do_action( 'woocommerce_single_product_summary_single_add_to_cart' );
                             // }
                             do_action( 'woocommerce_single_product_summary' );
                             do_action( 'woocommerce_single_product_summary_single_meta' );

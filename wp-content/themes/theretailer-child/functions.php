@@ -249,4 +249,4 @@ function cias_booking_options_product_tab_content()
 			return $fields;
 		}
 
-	
+	 /*

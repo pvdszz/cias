@@ -1,0 +1,10 @@
+2020-07-15T15:28:18+00:00 CRITICAL Out of memory (allocated 20971520) (tried to allocate 32768 bytes) in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-customers-v1-controller.php on line 627
+
+2020-07-15T16:04:15+00:00 CRITICAL syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 233
+
+2020-07-15T17:11:49+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 291
+
+2020-07-15T17:12:40+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 197
+
+2020-07-15T17:13:11+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\content-single-product.php on line 198
+

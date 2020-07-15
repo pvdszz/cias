@@ -198,7 +198,6 @@ jQuery(document).ready(function($) {
 
     $('.single_add_to_cart_button').click(function() {
         var order_total = [];
-
         $('.order_total').each(function() {
             order_total.push($(this).text());
         });
@@ -207,14 +206,21 @@ jQuery(document).ready(function($) {
             method: "POST",
             data: { order_total:order_total },
             success: function(data) {
-                alert(data);
-                $("td[contentEditable='true']").text("");
-                for (var i = 2; i <= count; i++) {
-                    $('tr#' + i + '').remove();
-                }
+                console.log(data);
                 fetch_item_data();
             }
         });
     });
+
+    function fetch_item_data() {
+        $.ajax({
+            url: "http://localhost/cias/wp-content/themes/theretailer-child/fetch.php",
+            method: "POST",
+            success: function(data) {
+                $('#order-total').html(data);
+            }
+        })
+    }
+    fetch_item_data();
 
 });
