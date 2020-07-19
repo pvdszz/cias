@@ -1,0 +1,45 @@
+2020-07-19T06:40:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_super_sale_price(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->i in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+2020-07-19T06:53:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_super_sale_price(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->i in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+2020-07-19T06:53:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_super_sale_price(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->i in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+2020-07-19T06:56:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_super_sale_price(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->i in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+2020-07-19T07:04:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function display_super_sale_price(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->i in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+

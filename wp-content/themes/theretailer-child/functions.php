@@ -138,7 +138,7 @@ function text_domain_taxonomy_add_new_meta_field() {
     ?>
 <div class="form-field">
     <label for="term_meta[wh_meta_title]"><?php _e('Giá cho một người lớn', 'text_domain'); ?></label>
-    <input type="number"  name="term_meta[wh_meta_title]" id="term_meta[wh_meta_title]">
+    <input type="number" name="term_meta[wh_meta_title]" id="term_meta[wh_meta_title]">
     <!-- <p class="description"><?php _e('Enter a meta titl, <= 60 character', 'text_domain'); ?></p> -->
 </div>
 <div class="form-field">
@@ -161,20 +161,21 @@ function text_domain_taxonomy_edit_meta_field($term) {
     $term_meta = get_option("taxonomy_" . $term_id);
     ?>
 <tr class="form-field">
-    <th scope="row" valign="top"><label for="term_meta[wh_meta_title]"><?php _e('Giá cho một người lớn', 'text_domain'); ?></label>
+    <th scope="row" valign="top"><label
+            for="term_meta[wh_meta_title]"><?php _e('Giá cho một người lớn', 'text_domain'); ?></label>
     </th>
     <td>
         <input type="number" name="term_meta[wh_meta_title]" id="term_meta[wh_meta_title]"
             value="<?php echo esc_attr($term_meta['wh_meta_title']) ? esc_attr($term_meta['wh_meta_title']) : ''; ?>">
-      
+
     </td>
 </tr>
 <tr class="form-field">
     <th scope="row" valign="top"><label
             for="term_meta[wh_meta_desc]"><?php _e('Giá cho một trẻ em', 'text_domain'); ?></label></th>
     <td>
-        <input type="number" name="term_meta[wh_meta_desc]"
-            id="term_meta[wh_meta_desc]" value="<?php echo esc_attr($term_meta['wh_meta_desc']); ?>" >
+        <input type="number" name="term_meta[wh_meta_desc]" id="term_meta[wh_meta_desc]"
+            value="<?php echo esc_attr($term_meta['wh_meta_desc']); ?>">
         <p class="description"><?php _e('Enter a meta description', 'text_domain'); ?></p>
     </td>
 </tr>
@@ -317,8 +318,19 @@ add_action('create_product_cat', 'save_taxonomy_custom_meta', 10, 2);
 		add_filter('woocommerce_product_get_price', 'display_super_sale_price', 10, 2);
 		function display_super_sale_price($price, $product)
 		{
-			require('fetch.php');
-			$price = $output;
+			//fetch.php
+			$connect = mysqli_connect("localhost", "root", "", "cias_dev");
+			global $adult, $child;
+			$query = "SELECT * FROM `cias_price_for_each_person` ORDER BY `cias_price_for_each_person`.`ID` DESC LIMIT 1";
+			$result = mysqli_query($connect, $query);
+			while($row = mysqli_fetch_array($result))
+			{
+			$adult = $row["price_for_adult"];
+			$child = $row["price_for_child"];
+
+			}
+			
+			$price = $adult * 1 + $child * 0;
 
 			return $price;
 			

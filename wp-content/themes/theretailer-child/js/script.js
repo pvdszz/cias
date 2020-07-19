@@ -60,9 +60,9 @@ ajax.onreadystatechange = function() {
         var total_html = "";
         var kids_html = "";
         for (var a = 0; a < data.length; a++) {
-            var adult =  currency(data[a].price_for_adult, {pattern: `# !`}).format();
+            var adult =  data[a].price_for_adult;
             var kids = currency(data[a].price_for_child * 0, {pattern: `# !`}).format();
-            var total = currency(adult, {pattern: `# !`}).format();
+            var total = adult;
             adult_html += '<span id="adult-price">' + adult + '</span>';
             kids_html += '<span id="kids-price">' + kids + "</span>";
             total_html += '<span id="total-price" class="order_total">' + total + "</span>";
@@ -217,27 +217,27 @@ jQuery('.form-booking li').each(function() {
             }
         }
     });
-    btnUpChild.click(function() {
-        var oldValue = parseFloat(input.val());
-        if (oldValue >= max) {
-            var newVal = oldValue;
-        } else {
-            var newVal = oldValue + 1;
-        }
-        spinner.find('input[type="number"]').val(newVal);
-        spinner.find('input[type="number"]').trigger("change");
-    });
-    btnDownChild.click(function() {
-        var oldValue = parseFloat(input.val());
-        if (oldValue <= min) {
-            var newVal = oldValue;
-        } else {
-            var newVal = oldValue - 1;
-        }
-        /* -------------------------------------------------- Heirarchy Loop */
-        spinner.find('input[type="number"]').val(newVal);
-        spinner.find('input[type="number"]').trigger("change");
-    });
+    // btnUpChild.click(function() {
+    //     var oldValue = parseFloat(input.val());
+    //     if (oldValue >= max) {
+    //         var newVal = oldValue;
+    //     } else {
+    //         var newVal = oldValue + 1;
+    //     }
+    //     spinner.find('input[type="number"]').val(newVal);
+    //     spinner.find('input[type="number"]').trigger("change");
+    // });
+    // btnDownChild.click(function() {
+    //     var oldValue = parseFloat(input.val());
+    //     if (oldValue <= min) {
+    //         var newVal = oldValue;
+    //     } else {
+    //         var newVal = oldValue - 1;
+    //     }
+    //     /* -------------------------------------------------- Heirarchy Loop */
+    //     spinner.find('input[type="number"]').val(newVal);
+    //     spinner.find('input[type="number"]').trigger("change");
+    // });
 
 });
 }
