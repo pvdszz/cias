@@ -61,7 +61,7 @@ function cias_booking_options_product_tab_content()
 ?><div id='booking_options' class='panel woocommerce_options_panel'><?php
 
 																	?><div class='options_group'>
-			<?php
+        <?php
 			woocommerce_wp_text_input(array(
 				'id'				=> 'price_for_adult',
 				'label'				=> __('Giá cho một người lớn:', 'woocommerce'),
@@ -85,7 +85,7 @@ function cias_booking_options_product_tab_content()
 
 			?></div>
 
-	</div><?php
+</div><?php
 
 		}
 		add_filter('woocommerce_product_data_panels', 'cias_booking_options_product_tab_content'); // WC 2.6 and up
@@ -133,6 +133,73 @@ function cias_booking_options_product_tab_content()
 		// save to database
 
 
+//Product Cat creation page
+function text_domain_taxonomy_add_new_meta_field() {
+    ?>
+<div class="form-field">
+    <label for="term_meta[wh_meta_title]"><?php _e('Giá cho một người lớn', 'text_domain'); ?></label>
+    <input type="number"  name="term_meta[wh_meta_title]" id="term_meta[wh_meta_title]">
+    <!-- <p class="description"><?php _e('Enter a meta titl, <= 60 character', 'text_domain'); ?></p> -->
+</div>
+<div class="form-field">
+    <label for="term_meta[wh_meta_desc]"><?php _e('Giá cho một trẻ em', 'text_domain'); ?></label>
+    <input type="number" name="term_meta[wh_meta_desc]" id="term_meta[wh_meta_desc]">
+    <p class="description"><?php _e('Enter a meta description, <= 160 character', 'text_domain'); ?></p>
+</div>
+<?php
+}
+
+add_action('product_cat_add_form_fields', 'text_domain_taxonomy_add_new_meta_field', 10, 2);
+
+//Product Cat Edit page
+function text_domain_taxonomy_edit_meta_field($term) {
+
+    //getting term ID
+    $term_id = $term->term_id;
+
+    // retrieve the existing value(s) for this meta field. This returns an array
+    $term_meta = get_option("taxonomy_" . $term_id);
+    ?>
+<tr class="form-field">
+    <th scope="row" valign="top"><label for="term_meta[wh_meta_title]"><?php _e('Giá cho một người lớn', 'text_domain'); ?></label>
+    </th>
+    <td>
+        <input type="number" name="term_meta[wh_meta_title]" id="term_meta[wh_meta_title]"
+            value="<?php echo esc_attr($term_meta['wh_meta_title']) ? esc_attr($term_meta['wh_meta_title']) : ''; ?>">
+      
+    </td>
+</tr>
+<tr class="form-field">
+    <th scope="row" valign="top"><label
+            for="term_meta[wh_meta_desc]"><?php _e('Giá cho một trẻ em', 'text_domain'); ?></label></th>
+    <td>
+        <input type="number" name="term_meta[wh_meta_desc]"
+            id="term_meta[wh_meta_desc]" value="<?php echo esc_attr($term_meta['wh_meta_desc']); ?>" >
+        <p class="description"><?php _e('Enter a meta description', 'text_domain'); ?></p>
+    </td>
+</tr>
+<?php
+}
+
+add_action('product_cat_edit_form_fields', 'text_domain_taxonomy_edit_meta_field', 10, 2);
+
+// Save extra taxonomy fields callback function.
+function save_taxonomy_custom_meta($term_id) {
+    if (isset($_POST['term_meta'])) {
+        $term_meta = get_option("taxonomy_" . $term_id);
+        $cat_keys = array_keys($_POST['term_meta']);
+        foreach ($cat_keys as $key) {
+            if (isset($_POST['term_meta'][$key])) {
+                $term_meta[$key] = $_POST['term_meta'][$key];
+            }
+        }
+        // Save the option array.
+        update_option("taxonomy_" . $term_id, $term_meta);
+    }
+}
+
+add_action('edited_product_cat', 'save_taxonomy_custom_meta', 10, 2);
+add_action('create_product_cat', 'save_taxonomy_custom_meta', 10, 2);
 
 
 		add_action('woocommerce_before_add_to_cart_button', 'wdm_add_custom_fields');
@@ -148,29 +215,31 @@ function cias_booking_options_product_tab_content()
 			ob_start();
 
 			?>
-	<div class="wdm-custom-fields">
-		<input type="hidden" name="activepost" id="activepost" value="<?php echo  get_post_meta($post->ID);?>">
-		<li>
-			<?php $adult_price = get_post_meta($post->ID, 'price_for_adult', true); ?>
-			<label for="wdm_adult">Người lớn: <br>
-				<?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
-			</label>
-			<div class="wrap-quantity-num">
-				<input id="quantity-num-adult" class="quantity-num-adult poiter-events" type="number" name="wdm_adult" min=1 value="1">
-			</div>
-		</li>
-		<li>
-			<?php $kids_price = get_post_meta($post->ID, 'price_for_child', true); ?>
-			<label for="wdm_kids">Trẻ em: <br>
-				<?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
-			</label>
-			<div class="wrap-quantity-num">
-				<input id="quantity-num-kids" class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0 value="0">
-			</div>
-		</li>
+<div class="wdm-custom-fields">
+    <input type="hidden" name="activepost" id="activepost" value="<?php echo  get_post_meta($post->ID);?>">
+    <li>
+        <?php $adult_price = get_post_meta($post->ID, 'price_for_adult', true); ?>
+        <label for="wdm_adult">Người lớn: <br>
+            <?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
+        </label>
+        <div class="wrap-quantity-num">
+            <input id="quantity-num-adult" class="quantity-num-adult poiter-events" type="number" name="wdm_adult" min=1
+                value="1">
+        </div>
+    </li>
+    <li>
+        <?php $kids_price = get_post_meta($post->ID, 'price_for_child', true); ?>
+        <label for="wdm_kids">Trẻ em: <br>
+            <?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
+        </label>
+        <div class="wrap-quantity-num">
+            <input id="quantity-num-kids" class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0
+                value="0">
+        </div>
+    </li>
 
-	</div>
-	<div class="clear"></div>
+</div>
+<div class="clear"></div>
 
 <?php
 
@@ -269,3 +338,8 @@ function cias_booking_options_product_tab_content()
 		}
 
 	 /*
+
+
+	//  
+	
+	 
