@@ -43,3 +43,57 @@ Stack trace:
 #4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
 #5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->i in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
 
+2020-07-19T15:54:20+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+
+2020-07-19T15:54:21+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+
+2020-07-19T16:16:01+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:294
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+
+2020-07-19T16:54:57+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:307
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): change_total_on_checkings(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 E:\xampp\htdocs\cias\wp- in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 307
+
+2020-07-19T16:55:17+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:307
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): change_total_on_checkings(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 E:\xampp\htdocs\cias\wp- in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 307
+

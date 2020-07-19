@@ -965,3 +965,250 @@ Stack trace:
 [14-Jul-2020 20:42:21 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1081
 [14-Jul-2020 20:42:21 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_360_metabox_output' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
 [14-Jul-2020 20:42:21 UTC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, function 'woodmart_sguide_dropdown_template' not found or invalid function name in E:\xampp\htdocs\cias\wp-admin\includes\template.php on line 1345
+[19-Jul-2020 13:34:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 13:34:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:18:06 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:24:29 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 227
+[19-Jul-2020 14:24:29 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 227
+[19-Jul-2020 14:24:29 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-discounts.php on line 85
+[19-Jul-2020 14:24:29 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-discounts.php on line 85
+[19-Jul-2020 14:24:29 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php on line 1861
+[19-Jul-2020 14:24:29 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php on line 1861
+[19-Jul-2020 14:24:33 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 227
+[19-Jul-2020 14:24:33 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-product-functions.php on line 1055
+[19-Jul-2020 14:24:33 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php on line 227
+[19-Jul-2020 14:24:33 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-product-functions.php on line 1055
+[19-Jul-2020 14:24:33 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-discounts.php on line 85
+[19-Jul-2020 14:24:33 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-discounts.php on line 85
+[19-Jul-2020 14:24:33 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php on line 1861
+[19-Jul-2020 14:24:33 UTC] PHP Notice:  Object of class mysqli_result could not be converted to number in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php on line 1861
+[19-Jul-2020 14:33:55 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:55 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:55 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:55 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:55 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:55 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:55 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:55 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:59 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:59 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:59 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:59 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:59 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:59 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:59 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:33:59 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 257
+[19-Jul-2020 14:42:11 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 14:42:11 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 14:56:37 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 14:56:37 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 14:57:34 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 14:57:34 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 14:58:31 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 14:58:31 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 15:14:11 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 15:14:11 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 15:14:13 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 15:14:13 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 15:51:49 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 15:51:49 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 15:51:49 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 15:51:49 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 15:51:52 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 15:51:52 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 15:51:52 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 15:51:52 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 15:54:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 15:54:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:05:29 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:05:29 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:05:39 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:05:39 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:05:42 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:05:42 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:06:21 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:06:21 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:11:51 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:11:51 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:11:53 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:11:53 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:13:38 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:13:38 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:13:41 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:13:41 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:16:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:294
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:16:30 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:16:30 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:16:34 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:16:34 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:29:42 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:29:42 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:29:46 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:29:46 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:29:59 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:29:59 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:30:04 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:30:04 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:31:04 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:31:04 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:31:16 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:31:16 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:31:23 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:31:23 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:32:20 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:32:20 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:32:23 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:32:23 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:38:28 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:38:28 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:38:32 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:38:32 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:39:38 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:39:38 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:39:41 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[19-Jul-2020 16:39:41 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[19-Jul-2020 16:39:53 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:39:53 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:41:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:41:29 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:54:45 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:54:45 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 16:54:57 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[19-Jul-2020 16:54:57 UTC] PHP Warning:  Illegal string offset 'wdm_kids' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[19-Jul-2020 16:54:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:307
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): change_total_on_checkings(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 E:\xampp\htdocs\cias\wp- in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 307
+[19-Jul-2020 16:55:17 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[19-Jul-2020 16:55:17 UTC] PHP Warning:  Illegal string offset 'wdm_kids' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[19-Jul-2020 16:55:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:307
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): change_total_on_checkings(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#8 E:\xampp\htdocs\cias\wp- in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 307
+[19-Jul-2020 16:58:14 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[19-Jul-2020 16:58:14 UTC] PHP Warning:  Illegal string offset 'wdm_kids' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[19-Jul-2020 16:58:14 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 310
+[19-Jul-2020 16:58:14 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 311
+[19-Jul-2020 17:00:39 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:00:39 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:01:04 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[19-Jul-2020 17:01:04 UTC] PHP Warning:  Illegal string offset 'wdm_kids' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[19-Jul-2020 17:01:04 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 310
+[19-Jul-2020 17:01:04 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 311
+[19-Jul-2020 17:01:39 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:01:39 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:02:06 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[19-Jul-2020 17:02:06 UTC] PHP Warning:  Illegal string offset 'wdm_kids' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[19-Jul-2020 17:02:06 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 310
+[19-Jul-2020 17:02:06 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 311
+[19-Jul-2020 17:03:35 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:03:35 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:03:45 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[19-Jul-2020 17:03:45 UTC] PHP Warning:  Illegal string offset 'wdm_kids' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[19-Jul-2020 17:03:45 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 310
+[19-Jul-2020 17:03:45 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 311
+[19-Jul-2020 17:03:45 UTC] {"id":0,"parent_id":0,"status":"","currency":"","version":"","prices_include_tax":false,"date_created":null,"date_modified":null,"discount_total":0,"discount_tax":0,"shipping_total":0,"shipping_tax":0,"cart_tax":0,"total":0,"total_tax":0,"customer_id":0,"order_key":"","billing":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":"","email":"","phone":""},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":""},"payment_method":"","payment_method_title":"","transaction_id":"","customer_ip_address":"","customer_user_agent":"","created_via":"","customer_note":"","date_completed":null,"date_paid":null,"cart_hash":"","number":"0","meta_data":[{"key":"is_vat_exempt","value":"no"}],"line_items":{"new:line_items0":{"legacy_values":{"wdm_adult":"2","wdm_kids":"3","key":"c0f56c92a40d8ce15ea111b3c2a41b54","product_id":20,"variation_id":0,"variation":[],"quantity":1,"data_hash":"b5c1d5ca8bae6d4896cf1807cdf763f0","line_tax_data":{"subtotal":[],"total":[]},"line_subtotal":0,"line_subtotal_tax":0,"line_total":0,"line_tax":0,"data":{}},"legacy_cart_item_key":"c0f56c92a40d8ce15ea111b3c2a41b54"}},"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[]}
+[19-Jul-2020 17:09:00 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:09:00 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:09:14 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[19-Jul-2020 17:09:14 UTC] PHP Warning:  Illegal string offset 'wdm_kids' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[19-Jul-2020 17:09:14 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 310
+[19-Jul-2020 17:09:14 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 311
+[19-Jul-2020 17:09:14 UTC] PHP Notice:  Object of class WC_Order could not be converted to number in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+[19-Jul-2020 17:09:14 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+[19-Jul-2020 17:09:14 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+[19-Jul-2020 17:09:14 UTC] 1
+[19-Jul-2020 17:10:42 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:10:42 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:10:52 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[19-Jul-2020 17:10:52 UTC] PHP Warning:  Illegal string offset 'wdm_kids' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[19-Jul-2020 17:10:52 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 310
+[19-Jul-2020 17:10:52 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 311
+[19-Jul-2020 17:10:52 UTC] n
+[19-Jul-2020 17:12:23 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:12:23 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:12:34 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[19-Jul-2020 17:12:34 UTC] PHP Warning:  Illegal string offset 'wdm_kids' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[19-Jul-2020 17:12:34 UTC] n
+[19-Jul-2020 17:12:34 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 311
+[19-Jul-2020 17:12:34 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 312
+[19-Jul-2020 17:14:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:14:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:14:24 UTC] 
+[19-Jul-2020 17:24:03 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:24:03 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:24:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 303
+[19-Jul-2020 17:24:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 303
+[19-Jul-2020 17:33:27 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[19-Jul-2020 17:33:27 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151

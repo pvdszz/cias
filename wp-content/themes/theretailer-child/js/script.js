@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
             method: "POST",
             data: { order_total:order_total },
             success: function(data) {
-                alert(data);
+                console.log(data);
                 fetch_item_data();
             }
         });
