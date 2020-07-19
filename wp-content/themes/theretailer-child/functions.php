@@ -149,13 +149,14 @@ function cias_booking_options_product_tab_content()
 
 			?>
 	<div class="wdm-custom-fields">
+		<input type="hidden" name="activepost" id="activepost" value="<?php echo  get_post_meta($post->ID);?>">
 		<li>
 			<?php $adult_price = get_post_meta($post->ID, 'price_for_adult', true); ?>
 			<label for="wdm_adult">Người lớn: <br>
 				<?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
 			</label>
 			<div class="wrap-quantity-num">
-				<input class="quantity-num-adult poiter-events" type="number" name="wdm_adult" min=1 value="1">
+				<input id="quantity-num-adult" class="quantity-num-adult poiter-events" type="number" name="wdm_adult" min=1 value="1">
 			</div>
 		</li>
 		<li>
@@ -164,7 +165,7 @@ function cias_booking_options_product_tab_content()
 				<?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
 			</label>
 			<div class="wrap-quantity-num">
-				<input class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0 value="0">
+				<input id="quantity-num-kids" class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0 value="0">
 			</div>
 		</li>
 
