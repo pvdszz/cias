@@ -119,3 +119,13 @@ Stack trace:
 #5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(183): WC_Data_Store->update(Object(Automattic\WooCommerce\Admin\Overrides\Order))
 #6 E:\xampp\htdocs\cias\wp-content\plu in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 264
 
+2020-07-20T21:29:58+00:00 CRITICAL Uncaught Error: Call to undefined function mvvwb_fs() in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-backend.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): MVVWB_Backend->admin_enqueue_scripts('toplevel_page_m...')
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-admin\admin-header.php(104): do_action('admin_enqueue_s...', 'toplevel_page_m...')
+#4 E:\xampp\htdocs\cias\wp-admin\admin.php(234): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+  thrown in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-backend.php on line 253
+

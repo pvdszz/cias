@@ -1395,3 +1395,62 @@ Stack trace:
 [20-Jul-2020 21:16:13 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
 [20-Jul-2020 21:17:00 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
 [20-Jul-2020 21:17:00 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:19:22 UTC] PHP Notice:  Undefined variable: post in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:19:22 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:19:22 UTC] PHP Notice:  Undefined variable: post in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 153
+[20-Jul-2020 21:19:22 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 153
+[20-Jul-2020 21:19:22 UTC] PHP Notice:  Undefined variable: post in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 163
+[20-Jul-2020 21:19:22 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 163
+[20-Jul-2020 21:29:23 UTC] PHP Warning:  require_once(E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\freemius\start.php): failed to open stream: No such file or directory in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 24
+[20-Jul-2020 21:29:23 UTC] PHP Fatal error:  require_once(): Failed opening required 'E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce/freemius/start.php' (include_path='E:\xampp\php\PEAR') in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 24
+[20-Jul-2020 21:29:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mvvwb_fs() in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-backend.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): MVVWB_Backend->admin_enqueue_scripts('toplevel_page_m...')
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-admin\admin-header.php(104): do_action('admin_enqueue_s...', 'toplevel_page_m...')
+#4 E:\xampp\htdocs\cias\wp-admin\admin.php(234): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+  thrown in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-backend.php on line 253
+[20-Jul-2020 21:30:20 UTC] PHP Warning:  require_once(E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\functions.php): failed to open stream: No such file or directory in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 32
+[20-Jul-2020 21:30:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include/functions.php' (include_path='E:\xampp\php\PEAR') in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 32
+[20-Jul-2020 21:30:33 UTC] PHP Warning:  require_once(E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\functions.php): failed to open stream: No such file or directory in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 32
+[20-Jul-2020 21:30:33 UTC] PHP Fatal error:  require_once(): Failed opening required 'E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include/functions.php' (include_path='E:\xampp\php\PEAR') in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 32
+[20-Jul-2020 21:30:35 UTC] PHP Warning:  require_once(E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\functions.php): failed to open stream: No such file or directory in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 32
+[20-Jul-2020 21:30:35 UTC] PHP Fatal error:  require_once(): Failed opening required 'E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include/functions.php' (include_path='E:\xampp\php\PEAR') in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 32
+[20-Jul-2020 21:30:51 UTC] PHP Warning:  require_once(E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-backend.php): failed to open stream: No such file or directory in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 44
+[20-Jul-2020 21:30:51 UTC] PHP Fatal error:  require_once(): Failed opening required 'E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-backend.php' (include_path='E:\xampp\php\PEAR') in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 44
+[20-Jul-2020 21:31:04 UTC] PHP Fatal error:  Uncaught LogicException: Function 'mvvwb_autoloader' not found (function 'mvvwb_autoloader' not found or invalid function name) in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php:41
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php(41): spl_autoload_register('mvvwb_autoloade...')
+#1 E:\xampp\htdocs\cias\wp-settings.php(371): include_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\cias\wp-config.php(91): require_once('E:\\xampp\\htdocs...')
+#3 E:\xampp\htdocs\cias\wp-load.php(37): require_once('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\cias\wp-admin\admin.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+  thrown in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 41
+[20-Jul-2020 21:31:13 UTC] PHP Fatal error:  Uncaught Error: Class 'MVVWB_Api' not found in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php:41
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-settings.php(371): include_once()
+#1 E:\xampp\htdocs\cias\wp-config.php(91): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\cias\wp-load.php(37): require_once('E:\\xampp\\htdocs...')
+#3 E:\xampp\htdocs\cias\wp-admin\admin.php(34): require_once('E:\\xampp\\htdocs...')
+#4 {main}
+  thrown in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 41
+[20-Jul-2020 21:31:59 UTC] PHP Warning:  require_once(E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce/freemius/start.php): failed to open stream: No such file or directory in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 24
+[20-Jul-2020 21:31:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce/freemius/start.php' (include_path='E:\xampp\php\PEAR') in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\booking.php on line 24
+[20-Jul-2020 21:42:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'MVVWB_Backend' does not have a method 'register_root_page' in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287
+[20-Jul-2020 22:06:26 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 22:06:26 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 22:06:27 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 22:06:27 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 22:07:25 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 22:07:25 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 22:07:26 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 22:07:26 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 22:07:43 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 22:07:43 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 22:07:46 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 22:07:46 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 22:07:46 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 22:07:46 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
