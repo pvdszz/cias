@@ -1212,3 +1212,120 @@ Stack trace:
 [19-Jul-2020 17:24:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 303
 [19-Jul-2020 17:33:27 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
 [19-Jul-2020 17:33:27 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 15:38:39 UTC] PHP Notice:  Undefined variable: products in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 15:38:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:252
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart_fro in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 15:38:39 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 339
+[20-Jul-2020 15:38:39 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 340
+[20-Jul-2020 15:38:48 UTC] PHP Notice:  Undefined variable: products in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 15:38:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:252
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart_fro in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 15:39:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function display_super_sale_price(), 2 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:249
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.ph in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 249
+[20-Jul-2020 15:39:53 UTC] PHP Notice:  Undefined variable: products in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 15:39:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:252
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): display_super_sale_price('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart_fro in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
+[20-Jul-2020 15:40:54 UTC] PHP Notice:  Undefined variable: products in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:40:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:41:04 UTC] PHP Notice:  Undefined variable: products in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:41:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom(Object(WC_Product_Simple), Array)
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters(Object(WC_Product_Simple), Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php(46): apply_filters('woocommerce_car...', Object(WC_Product_Simple), Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_order_review('')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\cias\wp in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:41:26 UTC] PHP Notice:  Undefined variable: products in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:41:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom(Object(WC_Product_Simple), Array)
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters(Object(WC_Product_Simple), Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php(46): apply_filters('woocommerce_car...', Object(WC_Product_Simple), Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-core-functions.php(344): include('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2216): wc_get_template('checkout/review...', Array)
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_order_review('')
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 E:\xampp\htdocs\cias\wp in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:42:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:42:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:42:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:42:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 15:42:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:253
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): woocommerce_cart_item_custom('2000000', Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters('2000000', Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php(751): apply_filters('woocommerce_pro...', '2000000', Object(WC_Product_Simple))
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(267): WC_Data->get_prop('price', 'view')
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
