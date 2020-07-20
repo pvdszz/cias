@@ -109,3 +109,5 @@ Stack trace:
 #5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
 #6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
 
+2020-07-20T18:43:47+00:00 CRITICAL syntax error, unexpected '}', expecting identifier (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 22
+

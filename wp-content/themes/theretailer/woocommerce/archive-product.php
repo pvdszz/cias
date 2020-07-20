@@ -95,7 +95,7 @@ if ( GBT_Opt::getOption( 'breadcrumbs', false ) ) { ?>
 
 				<?php endif; ?>
 
-				<?php do_action( 'woocommerce_archive_description' ); ?>
+				<!-- <?php do_action( 'woocommerce_archive_description' ); ?> -->
 
 		</div>
 	</div>
