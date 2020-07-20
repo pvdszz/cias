@@ -174,7 +174,7 @@ if (!function_exists('mvvwb_getConfig')) {
                 'total' => 'Total',
                 'adult' => 'Adult',
                 'children' => 'Children',
-                'bookingPrice' => 'Booking Price',
+                'bookingPrice' => 'Booking Pricecccccccccccccccc',
                 'fixedCharge' => 'Fixed Charge',
                 'bookingPricePersons' => 'Booking Price Persons',
                 'selectedRange' => 'Selected:',
