@@ -109,3 +109,13 @@ Stack trace:
 #5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
 #6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
 
+2020-07-20T18:12:21+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:264
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): action_woocommerce_update_order(45)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\data-stores\class-wc-order-data-store-cpt.php(171): do_action('woocommerce_upd...', 45, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): WC_Order_Data_Store_CPT->update(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(183): WC_Data_Store->update(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#6 E:\xampp\htdocs\cias\wp-content\plu in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 264
+

@@ -147,31 +147,31 @@ function cias_booking_options_product_tab_content()
 			ob_start();
 
 			?>
-		<div class="wdm-custom-fields">
-			<input type="hidden" name="activepost" id="activepost" value="<?php echo  get_post_meta($post->ID);?>">
-			<li>
-				<?php $adult_price = get_post_meta($post->ID, 'price_for_adult', true); ?>
-				<label for="wdm_adult">Người lớn: <br>
-					<?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
-				</label>
-				<div class="wrap-quantity-num">
-					<input id="quantity-num-adult" class="quantity-num-adult poiter-events" type="number" name="wdm_adult" min=1
-						value="1">
-				</div>
-			</li>
-			<li>
-				<?php $kids_price = get_post_meta($post->ID, 'price_for_child', true); ?>
-				<label for="wdm_kids">Trẻ em: <br>
-					<?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
-				</label>
-				<div class="wrap-quantity-num">
-					<input id="quantity-num-kids" class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0
-						value="0">
-				</div>
-			</li>
+<div class="wdm-custom-fields">
+    <input type="hidden" name="activepost" id="activepost" value="<?php echo  get_post_meta($post->ID);?>">
+    <li>
+        <?php $adult_price = get_post_meta($post->ID, 'price_for_adult', true); ?>
+        <label for="wdm_adult">Người lớn: <br>
+            <?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
+        </label>
+        <div class="wrap-quantity-num">
+            <input id="quantity-num-adult" class="quantity-num-adult poiter-events" type="number" name="wdm_adult" min=1
+                value="1">
+        </div>
+    </li>
+    <li>
+        <?php $kids_price = get_post_meta($post->ID, 'price_for_child', true); ?>
+        <label for="wdm_kids">Trẻ em: <br>
+            <?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
+        </label>
+        <div class="wrap-quantity-num">
+            <input id="quantity-num-kids" class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0
+                value="0">
+        </div>
+    </li>
 
-		</div>
-		<div class="clear"></div>
+</div>
+<div class="clear"></div>
 
 <?php
 
@@ -245,21 +245,48 @@ function cias_booking_options_product_tab_content()
 				$item->add_meta_data('Trẻ em', $values['wdm_kids']);
 			}
 		}
-		add_action('woocommerce_cart_item_custom', 'woocommerce_cart_item_custom', 10, 4);
+		add_action('woocommerce_cart_item_custom', 'woocommerce_cart_item_custom', 10, 4); 
 		function woocommerce_cart_item_custom( $products,$cart_item)
 		{
 
-			global $price ;
 			$adult = get_post_meta($products->get_id(), 'price_for_adult', true ) * $cart_item['wdm_adult'];
 			$kids = get_post_meta($products->get_id(), 'price_for_child', true ) * $cart_item['wdm_kids'];
 			$price = ($adult + $kids);
 			return $price;
 		}
-		add_filter('woocommerce_product_get_price', 'woocommerce_custom_price', 10, 2);
-		function woocommerce_custom_price($price, $products){
-			return $price;
-		}
+		function action_woocommerce_update_order( $order_get_id ) { 
+			// make action magic happen here... 
+			$order_id = 809; // Static order Id (can be removed to get a dynamic order ID from $order_id variable)
 
+			$order = wc_get_order( $order_id ); // The WC_Order object instance
+
+			// Loop through Order items ("line_item" type)
+			foreach( $order->get_items() as $item_id => $item ){
+				$new_product_price = 50; // A static replacement product price
+				$product_quantity = (int) $item->get_quantity(); // product Quantity
+
+				// The new line item price
+				$new_line_item_price = $new_product_price * 0;
+
+				// Set the new price
+				$item->set_subtotal( $new_line_item_price ); 
+				$item->set_total( $new_line_item_price );
+
+				// Make new taxes calculations
+				$item->calculate_taxes();
+
+				$item->save(); // Save line item data
+			}
+			// Make the calculations  for the order
+			$order->calculate_totals();
+
+			$order->save(); // 
+		}; 
+				 
+		// add the action 
+		add_action( 'woocommerce_update_order', 'action_woocommerce_update_order', 10, 1 ); 
+		// add_filter('woocommerce_product_get_price', 'woocommerce_custom_price', 10, 2);
+	
 
 			
 			

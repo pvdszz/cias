@@ -1329,3 +1329,69 @@ Stack trace:
 #4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1507): WC_Product->get_price()
 #5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php(131): WC_Product->is_purchasable()
 #6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[20-Jul-2020 18:12:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 327
+[20-Jul-2020 18:12:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_items() on bool in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:264
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): action_woocommerce_update_order(45)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\data-stores\class-wc-order-data-store-cpt.php(171): do_action('woocommerce_upd...', 45, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(179): WC_Order_Data_Store_CPT->update(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(183): WC_Data_Store->update(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#6 E:\xampp\htdocs\cias\wp-content\plu in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 264
+[20-Jul-2020 18:41:20 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:41:20 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:41:56 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 131
+[20-Jul-2020 18:41:56 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 131
+[20-Jul-2020 18:42:22 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 131
+[20-Jul-2020 18:42:22 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 131
+[20-Jul-2020 18:42:27 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:42:27 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:42:56 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 131
+[20-Jul-2020 18:42:56 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 131
+[20-Jul-2020 18:43:43 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 131
+[20-Jul-2020 18:43:43 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 131
+[20-Jul-2020 18:43:49 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:43:49 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:45:01 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:45:01 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:45:05 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:45:05 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:46:10 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:46:10 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:50:49 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:50:49 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:52:01 UTC] PHP Warning:  Division by zero in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-booking-item-base.php on line 276
+[20-Jul-2020 18:52:01 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:52:01 UTC] PHP Warning:  Division by zero in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-booking-item-base.php on line 276
+[20-Jul-2020 18:52:01 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:52:23 UTC] PHP Warning:  Division by zero in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-booking-item-base.php on line 276
+[20-Jul-2020 18:52:23 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:52:23 UTC] PHP Warning:  Division by zero in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-booking-item-base.php on line 276
+[20-Jul-2020 18:52:23 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:52:35 UTC] PHP Warning:  Division by zero in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-booking-item-base.php on line 276
+[20-Jul-2020 18:52:35 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:52:35 UTC] PHP Warning:  Division by zero in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-booking-item-base.php on line 276
+[20-Jul-2020 18:52:35 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:52:50 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 18:52:50 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:00:39 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:00:39 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:07:41 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:07:41 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:08:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:08:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:09:32 UTC] PHP Warning:  Division by zero in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-booking-item-base.php on line 276
+[20-Jul-2020 21:09:32 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:09:32 UTC] PHP Warning:  Division by zero in E:\xampp\htdocs\cias\wp-content\plugins\booking-for-woocommerce\include\class-mvvwb-booking-item-base.php on line 276
+[20-Jul-2020 21:09:32 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:09:59 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:09:59 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:13:33 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:13:33 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:15:02 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:15:02 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:16:13 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:16:13 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:17:00 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[20-Jul-2020 21:17:00 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
