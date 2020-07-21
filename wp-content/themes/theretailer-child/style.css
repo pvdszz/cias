@@ -7,3 +7,6 @@ CSS information
   display: none; }
 
 /*# sourceMappingURL=style.css.map */
+.mvvwb_summary .mvvwb_price_item:nth-child(2) {
+  display: none;
+}

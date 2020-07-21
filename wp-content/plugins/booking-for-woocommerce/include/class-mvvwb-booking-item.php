@@ -620,7 +620,7 @@ class MVVWB_Booking_Item extends MVVWB_Booking_Item_Base
                 'mvvwb_start' => 'dateStart',
                 'mvvwb_end' => 'dateEnd',
                 'mvvwb_persons' => 'persons',
-                'mvvwb_duration' => 'duration',
+                // 'mvvwb_duration' => 'duration',
                 'mvvwb_timeStart' => 'timeStart',
                 'mvvwb_adult' => 'adult',
                 'mvvwb_children' => 'children',
