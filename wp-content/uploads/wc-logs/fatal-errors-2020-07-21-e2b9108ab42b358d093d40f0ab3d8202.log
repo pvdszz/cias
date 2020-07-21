@@ -1,0 +1,44 @@
+2020-07-21T15:02:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function cias_change_order(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_change_order(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xam in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+
+2020-07-21T15:03:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function cias_change_order(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_change_order(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xam in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+
+2020-07-21T15:05:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function cias_change_order(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_change_order(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xam in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+
+2020-07-21T15:06:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function cias_change_order(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_change_order(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xam in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+

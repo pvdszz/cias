@@ -1454,3 +1454,129 @@ Stack trace:
 [20-Jul-2020 22:07:46 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
 [20-Jul-2020 22:07:46 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 252
 [20-Jul-2020 22:07:46 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 253
+[21-Jul-2020 14:19:17 UTC] 400000
+[21-Jul-2020 14:19:18 UTC] 400000
+[21-Jul-2020 14:21:38 UTC] 400000
+[21-Jul-2020 14:21:39 UTC] 400000
+[21-Jul-2020 14:22:06 UTC] 400000
+[21-Jul-2020 14:22:07 UTC] 400000
+[21-Jul-2020 14:22:17 UTC] 400000
+[21-Jul-2020 14:22:18 UTC] 400000
+[21-Jul-2020 14:50:58 UTC] PHP Notice:  Trying to get property 'name' of non-object in E:\xampp\htdocs\cias\wp-admin\includes\class-wp-site-health.php on line 636
+[21-Jul-2020 15:02:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function cias_change_order(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_change_order(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xam in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:03:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function cias_change_order(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_change_order(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xam in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:05:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function cias_change_order(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_change_order(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xam in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:06:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function cias_change_order(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_change_order(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(386): do_action('woocommerce_che...', Object(WC_Order), Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1145): WC_Checkout->create_order(Array)
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(464): WC_Checkout->process_checkout()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::checkout('')
+#7 E:\xam in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:47 UTC] PHP Deprecated:  woocommerce_get_price đã bị <strong>loại bỏ</strong> từ phiên bản 3.0.0! Hãy sử dụng woocommerce_product_get_price. in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5088
+[21-Jul-2020 15:09:47 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:47 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:09:47 UTC] PHP Deprecated:  woocommerce_get_price đã bị <strong>loại bỏ</strong> từ phiên bản 3.0.0! Hãy sử dụng woocommerce_product_get_price. in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5088
+[21-Jul-2020 15:09:47 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:47 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:09:47 UTC] PHP Deprecated:  woocommerce_get_price đã bị <strong>loại bỏ</strong> từ phiên bản 3.0.0! Hãy sử dụng woocommerce_product_get_price. in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5088
+[21-Jul-2020 15:09:47 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:47 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:09:47 UTC] PHP Deprecated:  woocommerce_get_price đã bị <strong>loại bỏ</strong> từ phiên bản 3.0.0! Hãy sử dụng woocommerce_product_get_price. in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5088
+[21-Jul-2020 15:09:47 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:47 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:09:47 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[21-Jul-2020 15:09:49 UTC] woocommerce_get_price is deprecated since version 3.0.0! Use woocommerce_product_get_price instead.
+[21-Jul-2020 15:09:49 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:49 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:09:49 UTC] woocommerce_get_price is deprecated since version 3.0.0! Use woocommerce_product_get_price instead.
+[21-Jul-2020 15:09:49 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:49 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:09:49 UTC] woocommerce_get_price is deprecated since version 3.0.0! Use woocommerce_product_get_price instead.
+[21-Jul-2020 15:09:49 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:49 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:09:49 UTC] woocommerce_get_price is deprecated since version 3.0.0! Use woocommerce_product_get_price instead.
+[21-Jul-2020 15:09:49 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:49 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:09:49 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[21-Jul-2020 15:09:58 UTC] woocommerce_get_price is deprecated since version 3.0.0! Use woocommerce_product_get_price instead.
+[21-Jul-2020 15:09:58 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:09:58 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:06 UTC] PHP Deprecated:  woocommerce_get_price đã bị <strong>loại bỏ</strong> từ phiên bản 3.0.0! Hãy sử dụng woocommerce_product_get_price. in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5088
+[21-Jul-2020 15:10:06 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:06 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:06 UTC] PHP Deprecated:  woocommerce_get_price đã bị <strong>loại bỏ</strong> từ phiên bản 3.0.0! Hãy sử dụng woocommerce_product_get_price. in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5088
+[21-Jul-2020 15:10:06 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:06 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:06 UTC] PHP Deprecated:  woocommerce_get_price đã bị <strong>loại bỏ</strong> từ phiên bản 3.0.0! Hãy sử dụng woocommerce_product_get_price. in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5088
+[21-Jul-2020 15:10:06 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:06 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:06 UTC] PHP Deprecated:  woocommerce_get_price đã bị <strong>loại bỏ</strong> từ phiên bản 3.0.0! Hãy sử dụng woocommerce_product_get_price. in E:\xampp\htdocs\cias\wp-includes\functions.php on line 5088
+[21-Jul-2020 15:10:06 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:06 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:06 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[21-Jul-2020 15:10:07 UTC] woocommerce_get_price is deprecated since version 3.0.0! Use woocommerce_product_get_price instead.
+[21-Jul-2020 15:10:07 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:07 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:07 UTC] woocommerce_get_price is deprecated since version 3.0.0! Use woocommerce_product_get_price instead.
+[21-Jul-2020 15:10:07 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:07 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:07 UTC] woocommerce_get_price is deprecated since version 3.0.0! Use woocommerce_product_get_price instead.
+[21-Jul-2020 15:10:07 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:07 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:07 UTC] woocommerce_get_price is deprecated since version 3.0.0! Use woocommerce_product_get_price instead.
+[21-Jul-2020 15:10:07 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:07 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:07 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[21-Jul-2020 15:10:41 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:41 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:41 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:41 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:41 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:41 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:41 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:41 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[21-Jul-2020 15:10:42 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:42 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:42 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:42 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:42 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:42 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:42 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:10:42 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:10:42 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[21-Jul-2020 15:11:58 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[21-Jul-2020 15:11:58 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[21-Jul-2020 15:15:43 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[21-Jul-2020 15:15:45 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260

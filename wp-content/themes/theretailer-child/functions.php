@@ -247,22 +247,30 @@ function cias_booking_options_product_tab_content()
 		}
 		add_action('woocommerce_cart_item_custom', 'woocommerce_cart_item_custom', 10, 4);
 		function woocommerce_cart_item_custom( $products,$cart_item)
-		{
-
-			global $price ;
+		{	
+			global $price;
 			$adult = get_post_meta($products->get_id(), 'price_for_adult', true ) * $cart_item['wdm_adult'];
 			$kids = get_post_meta($products->get_id(), 'price_for_child', true ) * $cart_item['wdm_kids'];
-			$price = ($adult + $kids);
+			$price = $adult + $kids;
 			return $price;
 		}
-		add_filter('woocommerce_product_get_price', 'woocommerce_custom_price', 10, 2);
-		function woocommerce_custom_price($price, $products){
+		function return_custom_price($price, $product) {
+			global $post, $post_id;
+			$product = wc_get_product( $post_id );
+			$post_id = $post->ID;
+			$price = ($price*2.5);
 			return $price;
 		}
+		add_filter('woocommerce_product_get_price', 'return_custom_price', 10, 2);
+		// add_action('woocommerce_checkout_create_order','cias_change_order',20,1);
+		// function cias_change_order($order, $products,$cart_item){
+		// 	$adult = get_post_meta($products->get_id(), 'price_for_adult', true ) * $cart_item['wdm_adult'];
+		// 	$kids = get_post_meta($products->get_id(), 'price_for_child', true ) * $cart_item['wdm_kids'];
+		// 	$price = $adult + $kids;
+		// 	$order->set_total($price);
+		// 	error_log($order);
 
 
-			
-			
 		// }
 		add_filter( 'woocommerce_checkout_fields' , 'cias_remove_billing_fields' );
 		// Unset checkout fields
@@ -276,50 +284,4 @@ function cias_booking_options_product_tab_content()
 			unset($fields['billing_address_1']);
 			unset($fields['billing_city']);
 			return $fields;
-		}
-
-		// add_action('woocommerce_cart_item_custom', 'woocommerce_cart_item_custom', 10, 4);
-		// function woocommerce_cart_item_custom($products, $cart_item){
-			
-			// echo '<pre></pre><h3>++++++++++++++++++++++</h3>';
-			// // print_r($products->get_id());
-			// echo get_post_meta($products->get_id(), 'price_for_adult', true ) . '<br />';
-			// echo get_post_meta($products->get_id(), 'price_for_child', true ) . '<br />';
-			// echo $cart_item['wdm_kids'] . '<br />';
-			// echo '<pre></pre><h3>++++++++++++++++++++++</h3>';
-
-		// 	$adult = get_post_meta($products->get_id(), 'price_for_adult', true ) * $cart_item['wdm_adult'];
-		// 	$kids = get_post_meta($products->get_id(), 'price_for_child', true ) * $cart_item['wdm_kids'];
-		// 	echo 'Total: ' . ($adult + $kids);
-		// }
-
-		add_action( 'woocommerce_checkout_create_order', 'change_total_on_checkings', 20, 1 );
-		function change_total_on_checkings( $order ) {
-			$totals = 0;
-			foreach ($order->get_items() as $item_id => $item_data) {
-				foreach ($item_data['line_items'] as $key => $val) {
-					$adult = $val['wdm_adult'];
-					$kids = $val['wdm_kids'];
-					error_log($kids);
-
-					$product_id = $item_data->get_product()->get_id();
-					$adult = $item_data['wdm_adult'];
-					$kids = $item_data['wdm_kids'];
-					error_log($kids);
-
-					$adult_price = get_post_meta($product_id, 'price_for_adult', true );
-					$kids_price = get_post_meta($product_id, 'price_for_child', true );
-
-					$adult_total = $adult * $adult_price;
-					$kids_total = $kids * $kids_price;
-					$total = $adult_total + $kids_total;
-					$item_data->set_total($totals);
-					$totals += $total;
-
-				}
-			}
-
-			$order->set_total( $totals );
-			
-
 		}
