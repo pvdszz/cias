@@ -17,9 +17,8 @@ function theretailer_enqueue_styles()
 	if (is_rtl()) {
 		wp_enqueue_style('the-retailer-child-rtl-styles',  get_template_directory_uri() . '/rtl.css', array('the_retailer_styles'), wp_get_theme()->get('Version'));
 	}
-	\
+	
 	// js
-	wp_enqueue_script('cias_script', get_stylesheet_directory_uri() . '/js/script.js', array(), '20151215', true);
 }
 //  skip cart
 add_filter('woocommerce_add_to_cart_redirect', 'themeprefix_add_to_cart_redirect');
