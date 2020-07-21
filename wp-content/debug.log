@@ -1580,3 +1580,4 @@ Stack trace:
 [21-Jul-2020 15:11:58 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
 [21-Jul-2020 15:15:43 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
 [21-Jul-2020 15:15:45 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[21-Jul-2020 17:35:01 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
