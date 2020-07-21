@@ -254,14 +254,7 @@ function cias_booking_options_product_tab_content()
 			$price = $adult + $kids;
 			return $price;
 		}
-		function return_custom_price($price, $product) {
-			global $post, $post_id;
-			$product = wc_get_product( $post_id );
-			$post_id = $post->ID;
-			$price = ($price*2.5);
-			return $price;
-		}
-		add_filter('woocommerce_product_get_price', 'return_custom_price', 10, 2);
+	
 		// add_action('woocommerce_checkout_create_order','cias_change_order',20,1);
 		// function cias_change_order($order, $products,$cart_item){
 		// 	$adult = get_post_meta($products->get_id(), 'price_for_adult', true ) * $cart_item['wdm_adult'];
