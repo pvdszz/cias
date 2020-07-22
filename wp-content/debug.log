@@ -1581,3 +1581,267 @@ Stack trace:
 [21-Jul-2020 15:15:43 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
 [21-Jul-2020 15:15:45 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
 [21-Jul-2020 17:35:01 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[22-Jul-2020 15:30:25 UTC] PHP Notice:  Undefined index: theretailer-child in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 424
+[22-Jul-2020 15:32:59 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 15:32:59 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 15:40:08 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 15:40:08 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 16:10:15 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 16:10:15 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 16:10:32 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 16:10:32 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 16:15:16 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 16:15:16 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 16:15:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 16:15:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 151
+[22-Jul-2020 16:24:16 UTC] PHP Notice:  Undefined variable: products in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:24:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:270
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 E:\xampp\htdocs\cias\wp-includes\shortcodes.php(343): WC_Shortcodes::ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:24:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:270
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 E:\xampp\htdocs\cias\wp-includes\shortcodes.php(343): WC_Shortcodes::c in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:24:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:270
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 E:\xampp\htdocs\cias\wp-includes\shortcodes.php(343): WC_Shortcodes::c in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:24:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:270
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 E:\xampp\htdocs\cias\wp-includes\shortcodes.php(343): WC_Shortcodes::c in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:24:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:270
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 E:\xampp\htdocs\cias\wp-includes\shortcodes.php(343): WC_Shortcodes::c in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:26:23 UTC] PHP Notice:  Undefined variable: cart_item in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:26:23 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:27:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:270
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 E:\xampp\htdocs\cias\wp-includes\shortcodes.php(343): WC_Shortcodes::c in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:28:01 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:29:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:30:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:258
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[22-Jul-2020 16:31:09 UTC] PHP Notice:  Undefined variable: products in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:31:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:270
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 E:\xampp\htdocs\cias\wp-includes\shortcodes.php(343): WC_Shortcodes::ca in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:31:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:270
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 E:\xampp\htdocs\cias\wp-includes\shortcodes.php(343): WC_Shortcodes::c in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 270
+[22-Jul-2020 16:38:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:246
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1235): do_action('woocommerce_bef...', Object(WC_Cart))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(94): WC_Cart->calculate_totals()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#7 E:\xampp\htdocs\cias\wp-includes\shortcodes.php(343): WC_Shortcodes::c in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 246
+[22-Jul-2020 16:40:16 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 246
+[22-Jul-2020 16:41:09 UTC] PHP Notice:  Undefined variable: cart_item in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 246
+[22-Jul-2020 16:41:09 UTC] PHP Notice:  Trying to access array offset on value of type null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 246
+[22-Jul-2020 16:44:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 126
+[22-Jul-2020 16:44:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 126
+[22-Jul-2020 16:46:26 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 126
+[22-Jul-2020 16:46:26 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 126
+[22-Jul-2020 17:09:44 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 130
+[22-Jul-2020 17:09:44 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 130
+[22-Jul-2020 17:09:51 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:09:51 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:10:06 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:10:06 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:11:00 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:11:00 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:11:19 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:11:19 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:15:25 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:15:25 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:15:41 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[22-Jul-2020 17:15:41 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
