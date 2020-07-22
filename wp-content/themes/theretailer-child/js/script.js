@@ -60,9 +60,9 @@ ajax.onreadystatechange = function() {
         var total_html = "";
         var kids_html = "";
         for (var a = 0; a < data.length; a++) {
-            var adult =  data[a].price_for_adult;
+            var adult =  currency(data[a].price_for_adult, {pattern: `# !`}).format();
             var kids = currency(data[a].price_for_child * 0, {pattern: `# !`}).format();
-            var total = adult;
+            var total =  currency(adult, {pattern: `# !`}).format();
             adult_html += '<span id="adult-price">' + adult + '</span>';
             kids_html += '<span id="kids-price">' + kids + "</span>";
             total_html += '<span id="total-price" class="order_total">' + total + "</span>";

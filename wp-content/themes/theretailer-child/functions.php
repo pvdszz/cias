@@ -108,8 +108,7 @@ function cias_booking_options_product_tab_content()
 		add_action('woocommerce_process_product_meta_simple', 'save_booking_options_fields');
 		add_action('woocommerce_process_product_meta_variable', 'save_booking_options_fields');
 
-
-		if (isset($_POST['save'])) {
+        if (isset($_POST['save'])) {
 			$data = array(
 				'price_for_adult' => $_POST['price_for_adult'],
 				'price_for_child' => $_POST['price_for_child'],
@@ -131,9 +130,6 @@ function cias_booking_options_product_tab_content()
 			$wpdb->update($table, $data, $where, $format = null, $where_format = null);
 		}
 		// save to database
-
-
-
 		add_action('woocommerce_before_add_to_cart_button', 'wdm_add_custom_fields');
 		/**
 		 * Adds custom field for Product
@@ -254,14 +250,28 @@ function cias_booking_options_product_tab_content()
 			$price = $adult + $kids;
 			return $price;
 		}
-	
-		// add_action('woocommerce_checkout_create_order','cias_change_order',20,1);
-		// function cias_change_order($order, $products,$cart_item){
-		// 	$adult = get_post_meta($products->get_id(), 'price_for_adult', true ) * $cart_item['wdm_adult'];
-		// 	$kids = get_post_meta($products->get_id(), 'price_for_child', true ) * $cart_item['wdm_kids'];
-		// 	$price = $adult + $kids;
-		// 	$order->set_total($price);
-		// 	error_log($order);
+		add_action( 'woocommerce_before_calculate_totals', 'add_custom_price', 20, 1);
+		function add_custom_price( $cart ) {
+		
+			// This is necessary for WC 3.0+
+			if ( is_admin() && ! defined( 'DOING_AJAX' ) )
+				return;
+		
+			// Avoiding hook repetition (when using price calculations for example)
+			if ( did_action( 'woocommerce_before_calculate_totals' ) >= 2 )
+				return;
+		
+			// Loop through cart items
+			foreach ( $cart->get_cart() as $item ) {
+				$adult = $item['wdm_adult'];
+				$adult = get_post_meta($item['product_id'], 'price_for_adult', true ) * $item['wdm_adult'];
+				$child = get_post_meta($item['product_id'], 'price_for_child', true ) * $item['wdm_kids'];
+				$price = $adult + $child;
+				$item['data']->set_price($price );
+			}
+		}
+		// Remove Product Prices
+		remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
 
 
 		// }
