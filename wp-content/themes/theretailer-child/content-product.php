@@ -33,7 +33,6 @@ remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_pr
 if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
-
 $attachment_ids = $product->get_gallery_image_ids();
 
 ?>
@@ -47,9 +46,7 @@ $attachment_ids = $product->get_gallery_image_ids();
 		<?php if ( !GBT_Opt::getOption( 'catalog_mode', false ) ) : ?>
 			<?php wc_get_template( 'loop/sale-flash.php' ); ?>
 		<?php endif; ?>
-
 		<?php if ( !GBT_Opt::getOption( 'catalog_mode', false ) ) : ?>
-
 			<?php if ( !$product->is_in_stock() ) : ?>
 				<div class="out_of_stock_badge_loop <?php if (!$product->is_on_sale()) : ?>first_position<?php endif; ?>">
 					<?php
@@ -83,15 +80,12 @@ $attachment_ids = $product->get_gallery_image_ids();
 
 							if ( ! $image_link )
 								continue;
-
 							$loop++;
 
 							printf( '<div class="loop_products_additional_img_wrapper back">%s</div>', wp_get_attachment_image( $attachment_id, 'shop_catalog' ) );
 
 							if ($loop == 1) break;
-
 						}
-
 					} else {
 
 					?>

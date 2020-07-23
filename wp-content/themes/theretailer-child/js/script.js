@@ -13,34 +13,6 @@
     b))},toString:function(){var b=this.s,a=b.increment;return(Math.round(this.intValue/this.p/a)*a).toFixed(b.precision)},toJSON:function(){return this.value}};return e});
 jQuery(document).ready(function($) {
    booking();
-
-    $('.single_add_to_cart_button').click(function() {
-        var order_total = [];
-        $('.order_total').each(function() {
-            order_total.push($(this).text());
-        });
-        $.ajax({
-            url: "http://localhost/cias/wp-content/themes/theretailer-child/insert.php",
-            method: "POST",
-            data: { order_total:order_total },
-            success: function(data) {
-                console.log(data);
-                fetch_item_data();
-            }
-        });
-    });
-
-    function fetch_item_data() {
-        $.ajax({
-            url: "http://localhost/cias/wp-content/themes/theretailer-child/fetch.php",
-            method: "POST",
-            success: function(data) {
-                $('#order-total').html(data);
-            }
-        })
-    }
-    fetch_item_data();
-
 });
 function booking(){
     var ajax = new XMLHttpRequest();
@@ -82,8 +54,6 @@ jQuery('.form-booking li').each(function() {
         btnDownAdult = spinner.find('.quantity-down-adult'),
         btnUpKids = spinner.find('.quantity-up-kids'),
         btnDownKids = spinner.find('.quantity-down-kids'),
-        btnUpChild = spinner.find('.quantity-up-childs'),
-        btnDownChild = spinner.find('.quantity-down-childs'),
         extra = spinner.find('.extra')
     min = input.attr('min'),
         max = input.attr('max');
@@ -101,15 +71,12 @@ jQuery('.form-booking li').each(function() {
         ajax.open(method, url, asynchronous);
         // sending ajax request
         ajax.send();
-        // receiving response from functions.php
         ajax.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 var data = JSON.parse(this.responseText);
                 var _adult = document.getElementById("adult-price");
                 var _total = document.getElementById("total-price");
                 var _kids_quantity = document.getElementById('quantity-num-kids').value;
-                console.log(_kids_quantity);
-                
                 for (var a = 0; a < data.length; a++) {
                     var adult = data[a].price_for_adult;
                     var kids = data[a].price_for_child * _kids_quantity;
@@ -166,7 +133,6 @@ jQuery('.form-booking li').each(function() {
         ajax.open(method, url, asynchronous);
         // sending ajax request
         ajax.send();
-        // receiving response from functions.php
         ajax.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 var data = JSON.parse(this.responseText);
@@ -217,27 +183,5 @@ jQuery('.form-booking li').each(function() {
             }
         }
     });
-    // btnUpChild.click(function() {
-    //     var oldValue = parseFloat(input.val());
-    //     if (oldValue >= max) {
-    //         var newVal = oldValue;
-    //     } else {
-    //         var newVal = oldValue + 1;
-    //     }
-    //     spinner.find('input[type="number"]').val(newVal);
-    //     spinner.find('input[type="number"]').trigger("change");
-    // });
-    // btnDownChild.click(function() {
-    //     var oldValue = parseFloat(input.val());
-    //     if (oldValue <= min) {
-    //         var newVal = oldValue;
-    //     } else {
-    //         var newVal = oldValue - 1;
-    //     }
-    //     /* -------------------------------------------------- Heirarchy Loop */
-    //     spinner.find('input[type="number"]').val(newVal);
-    //     spinner.find('input[type="number"]').trigger("change");
-    // });
-
 });
 }

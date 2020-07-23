@@ -1854,3 +1854,13 @@ Stack trace:
 [22-Jul-2020 18:36:09 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
 [23-Jul-2020 15:29:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
 [23-Jul-2020 15:29:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[23-Jul-2020 15:38:43 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[23-Jul-2020 15:38:43 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[23-Jul-2020 15:38:57 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 15:38:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 15:39:04 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[23-Jul-2020 15:39:04 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[23-Jul-2020 15:39:15 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 15:39:15 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 15:39:16 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 15:39:16 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
