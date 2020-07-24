@@ -103,7 +103,7 @@ $attachment_ids = $product->get_gallery_image_ids();
 
 			<div class="clr"></div>
 			<?php if ( !GBT_Opt::getOption( 'catalog_mode', false ) ) { ?>
-			<div class="product_button"><?php do_action( 'woocommerce_after_shop_loop_item' ); ?></div>
+		
 			<?php } ?>
 
 			<?php if (class_exists('YITH_WCWL')) : ?>

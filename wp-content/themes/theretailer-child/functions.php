@@ -1,4 +1,6 @@
 <?php
+defined( 'ABSPATH' ) || exit;
+
 add_action('wp_enqueue_scripts', 'theretailer_enqueue_styles', 99);
 function theretailer_enqueue_styles()
 {
@@ -17,10 +19,13 @@ function theretailer_enqueue_styles()
 	if (is_rtl()) {
 		wp_enqueue_style('the-retailer-child-rtl-styles',  get_template_directory_uri() . '/rtl.css', array('the_retailer_styles'), wp_get_theme()->get('Version'));
 	}
-	\
+	
 	// js
 	wp_enqueue_script('cias_script', get_stylesheet_directory_uri() . '/js/script.js', array(), '20151215', true);
+	wp_localize_script('cias_script','singleproduct',array('ajaxurl' => admin_url('admin-ajax.php'),));
+
 }
+
 //  skip cart
 add_filter('woocommerce_add_to_cart_redirect', 'themeprefix_add_to_cart_redirect');
 function themeprefix_add_to_cart_redirect()
@@ -139,7 +144,6 @@ function wdm_add_custom_fields()
 
 	?>
 <div class="wdm-custom-fields">
-	<input type="hidden" name="activepost" id="activepost" value="<?php echo  get_post_meta($post->ID);?>">
 	<li>
 		<?php $adult_price = get_post_meta($post->ID, 'price_for_adult', true); ?>
 		<label for="wdm_adult">Người lớn: <br>
@@ -305,17 +309,37 @@ function mysite_pending($order_id) {
 	add_action( 'woocommerce_order_status_refunded', 'mysite_refunded');
 	add_action( 'woocommerce_order_status_cancelled', 'mysite_cancelled');
 
-// }
-add_filter( 'woocommerce_checkout_fields' , 'cias_remove_billing_fields' );
-// Unset checkout fields
-function cias_remove_billing_fields($fields)
-{
 
-	unset($fields['billing_company']);
-	unset($fields['billing_postcode']);
-	unset($fields['billing_address_2']);
-	unset($fields['billing_country']);
-	unset($fields['billing_address_1']);
-	unset($fields['billing_city']);
-	return $fields;
+
+// add coupon code to preview order
+add_filter( 'woocommerce_admin_order_preview_get_order_details', 'admin_order_preview_add_custom_meta_data', 10, 2 );
+function admin_order_preview_add_custom_meta_data( $data, $order ) {
+    // Replace '_custom_meta_key' by the correct postmeta key
+    if( $custom_value = $order->get_meta('is_vat_exempt') )
+        $data['custom_key'] = $custom_value; // <= Store the value in the data array.
+
+    return $data;
+}
+
+// // Display custom values in Order preview
+add_action( 'woocommerce_admin_order_preview_end', 'custom_display_order_data_in_admin' );
+function custom_display_order_data_in_admin(){
+    // Call the stored value and display it
+    echo '<div>Coupon Code: {{data.custom_key}}</div><br>';
+}
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+function custom_override_checkout_fields( $fields ) {
+unset($fields['billing']['billing_company']);
+unset($fields['billing']['billing_address_2']);
+unset($fields['billing']['billing_address_1']);
+unset($fields['billing']['billing_city']);
+unset($fields['billing']['billing_postcode']);
+unset($fields['billing']['billing_country']);
+unset($fields['billing']['billing_state']);
+unset($fields['order']['order_comments']);
+unset($fields['account']['account_username']);
+unset($fields['account']['account_password']);
+unset($fields['account']['account_password-2']);
+return $fields;
 }

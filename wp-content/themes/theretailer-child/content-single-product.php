@@ -72,7 +72,7 @@ if (GBT_Opt::getOption('products_layout', false)) {
                 <div class="grtr_product_header_mobiles">
 
                     <?php the_title('<h2 class="product_title entry-title">', '</h2>'); ?>
-                    <?php do_action('woocommerce_single_product_summary_single_price'); ?>
+                    <!-- <?php do_action('woocommerce_single_product_summary_single_price'); ?> -->
 
                 </div>
 
@@ -128,11 +128,12 @@ if (GBT_Opt::getOption('products_layout', false)) {
 
                         <?php do_action('woocommerce_before_add_to_cart_form'); ?>
 
-                        <div class="form-booking">
+                        <div class="form-booking"> 
                             <form
                                 action="<?php echo esc_url(apply_filters('woocommerce_add_to_cart_form_action', $product->get_permalink())); ?>"
                                 method="post" enctype='multipart/form-data'>
-
+                                <input id="price_for_adult" type="hidden" name="price_for_adult" value="<?php echo get_post_meta(get_the_ID(),"price_for_adult",true);?>">
+                                <input id="price_for_child" type="hidden" name="price_for_child" value="<?php echo get_post_meta(get_the_ID(),"price_for_child",true);?>">
                                 <?php do_action('woocommerce_before_add_to_cart_button'); ?>
                                 <button style="margin: 10px 0;" type="submit" name="add-to-cart"
                                     value="<?php echo esc_attr($product->get_id()); ?>"
@@ -143,9 +144,9 @@ if (GBT_Opt::getOption('products_layout', false)) {
                             <div id="order_total" style="margin-top: 20px; display:inline-block">
                                 <h3>Tạm tính: </h3>
                                 <div id="data">
-                                    <p id="adult-field"><strong> Người lớn: </strong></p>
-                                    <p id="kids-field"><strong> Trẻ em: </strong></p>
-                                    <p id="total-field"><strong> Tổng: </strong></p>
+                                    <p id="adult-field"><strong> Người lớn: </strong> <span id="adult-price"></span></p>
+                                    <p id="kids-field"><strong> Trẻ em: </strong> <span id="child-price"></span></p>
+                                    <p id="total-field"><strong> Tổng: </strong> <span id="total-price"></span></p>
 
                                 </div>
                                 <div id="order-total"></div>

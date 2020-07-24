@@ -1864,3 +1864,295 @@ Stack trace:
 [23-Jul-2020 15:39:15 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
 [23-Jul-2020 15:39:16 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
 [23-Jul-2020 15:39:16 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 16:09:40 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 16:09:40 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 16:09:42 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 16:09:42 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 16:09:57 UTC] PHP Notice:  Undefined index: theretailer-child in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 424
+[23-Jul-2020 16:10:08 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 127
+[23-Jul-2020 16:10:08 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 127
+[23-Jul-2020 16:10:12 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 16:10:12 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:08:05 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 4
+[23-Jul-2020 17:10:13 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:10:13 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:11:38 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:11:38 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:12:01 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:12:01 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:12:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:12:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:12:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:12:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:14:15 UTC] PHP Notice:  Undefined variable: data in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 6
+[23-Jul-2020 17:14:31 UTC] PHP Notice:  Undefined variable: data in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 6
+[23-Jul-2020 17:14:31 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 6
+[23-Jul-2020 17:14:56 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 6
+[23-Jul-2020 17:17:10 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 6
+[23-Jul-2020 17:17:23 UTC] PHP Warning:  A non-numeric value encountered in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 6
+[23-Jul-2020 17:22:57 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:22:57 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:23:07 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:23:07 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:23:37 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:23:37 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:23:49 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:23:49 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:24:11 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:24:11 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:24:44 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:24:44 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:28:03 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:28:03 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:30:09 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:30:09 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:30:42 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:30:42 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:33:51 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:33:51 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:34:17 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:34:17 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:34:54 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:34:54 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:35:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:35:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:36:04 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:36:04 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:36:22 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:36:22 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:37:11 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:37:11 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:38:05 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:38:05 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:40:16 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:40:16 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:40:43 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:40:43 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:41:24 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:41:24 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:43:53 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:43:53 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:44:17 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 17:44:17 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 17:44:17 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 17:44:18 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 17:44:18 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 17:44:18 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 17:44:22 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:44:22 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:45:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:45:14 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 17:56:04 UTC] PHP Warning:  Use of undefined constant this - assumed 'this' (this will throw an Error in a future version of PHP) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 6
+[23-Jul-2020 17:56:04 UTC] PHP Warning:  Use of undefined constant this - assumed 'this' (this will throw an Error in a future version of PHP) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 7
+[23-Jul-2020 17:56:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 6
+[23-Jul-2020 17:56:44 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 7
+[23-Jul-2020 17:56:59 UTC] PHP Notice:  Undefined variable: post_id in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 6
+[23-Jul-2020 17:56:59 UTC] PHP Notice:  Undefined variable: post_id in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 7
+[23-Jul-2020 17:57:35 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 7
+[23-Jul-2020 17:57:59 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 7
+[23-Jul-2020 17:58:01 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 7
+[23-Jul-2020 17:58:02 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 7
+[23-Jul-2020 17:58:02 UTC] PHP Notice:  Trying to get property 'ID' of non-object in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\getData.php on line 7
+[23-Jul-2020 18:02:06 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:02:06 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:05:55 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:05:55 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:07:54 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:07:54 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:11:32 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:11:32 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:13:33 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:13:33 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:14:16 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:14:16 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:14:47 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:14:47 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+  [23-Jul-2020 18:14:49 UTC] 
+[23-Jul-2020 18:20:45 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:20:45 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:20:46 UTC] 
+[23-Jul-2020 18:21:26 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 18:21:26 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 142
+[23-Jul-2020 21:01:26 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 144
+[23-Jul-2020 21:01:26 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 144
+[23-Jul-2020 21:01:54 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 144
+[23-Jul-2020 21:01:54 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 144
+[23-Jul-2020 21:02:45 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 3
+[23-Jul-2020 21:03:07 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:03:07 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:09:03 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:09:03 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:09:31 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:09:31 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:10:45 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:10:45 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:10:56 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:10:56 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:11:36 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:11:36 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:12:16 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:12:16 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:12:33 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:12:33 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:13:13 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:13:13 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:21:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:21:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 146
+[23-Jul-2020 21:25:59 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 160
+[23-Jul-2020 21:25:59 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 160
+[23-Jul-2020 21:28:33 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 160
+[23-Jul-2020 21:28:33 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 160
+[23-Jul-2020 21:58:38 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[23-Jul-2020 21:58:38 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[23-Jul-2020 21:59:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[23-Jul-2020 21:59:28 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 147
+[23-Jul-2020 22:07:57 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[23-Jul-2020 22:07:57 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[23-Jul-2020 22:34:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:34:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:34:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:34:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:34:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:34:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:35:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:35:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:35:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:35:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:35:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:35:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:35:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:35:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:36:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:36:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:36:38 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:36:39 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:36:46 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:36:46 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:36:47 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 22:36:47 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:00:48 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:00:48 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:00:48 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:00:49 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:00:49 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:00:49 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:03:50 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:03:51 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:03:57 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:03:57 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:03:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:03:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:15 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:15 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:26 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:26 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:30 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:30 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:04:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:34 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wdm_add_item_data' not found or invalid function name in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 289
+[23-Jul-2020 23:05:34 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:05:34 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:05:34 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:05:34 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:05:34 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:05:34 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:05:34 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:35 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:05:35 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:05:35 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:05:35 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:47 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:05:47 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:05:47 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:05:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wdm_add_item_meta' not found or invalid function name in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287
+[23-Jul-2020 23:05:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3576
+[23-Jul-2020 23:05:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3587
+[23-Jul-2020 23:05:48 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:48 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:05:48 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:05:48 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:05:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wdm_add_item_meta' not found or invalid function name in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287
+[23-Jul-2020 23:05:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3576
+[23-Jul-2020 23:05:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3587
+[23-Jul-2020 23:05:48 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:55 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:05:55 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:05:55 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:05:55 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:05:56 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:05:56 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:05:56 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:05:56 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:06:01 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:06:01 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:06:01 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:06:01 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:06:02 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:06:02 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:06:02 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:06:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:06:04 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:06:04 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:06:04 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:06:20 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:06:21 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:39:00 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:39:00 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:39:01 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:39:01 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:41:22 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:41:22 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:41:23 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:41:23 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:42:16 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:42:16 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:42:16 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:42:18 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:42:18 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:42:18 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:43:05 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:43:05 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:43:05 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:43:09 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:43:09 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:43:09 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:43:09 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:43:09 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:43:09 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:43:11 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:43:11 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:43:11 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:43:11 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 258
+[23-Jul-2020 23:43:11 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 259
+[23-Jul-2020 23:43:11 UTC] PHP Notice:  Undefined index: wdm_kids in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[23-Jul-2020 23:47:12 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:47:13 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:47:20 UTC] 62 set to PROCESSING
+[23-Jul-2020 23:47:39 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:47:39 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:50:07 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:50:08 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:51:00 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:51:01 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:51:25 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:51:26 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[23-Jul-2020 23:51:36 UTC] 63 set to PROCESSING
+[23-Jul-2020 23:56:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 312
+[23-Jul-2020 23:56:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 339
+[23-Jul-2020 23:56:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 340
+[23-Jul-2020 23:56:41 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 312
+[23-Jul-2020 23:56:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 312
+[23-Jul-2020 23:56:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 312
+[23-Jul-2020 23:59:20 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 115
+[23-Jul-2020 23:59:20 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 116
+[23-Jul-2020 23:59:20 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 122
+[23-Jul-2020 23:59:20 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 123
+[23-Jul-2020 23:59:21 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[23-Jul-2020 23:59:21 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132

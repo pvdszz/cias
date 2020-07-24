@@ -1,3 +1,4 @@
+
 /*
  currency.js - v2.0.0
  http://scurker.github.io/currency.js
@@ -15,39 +16,22 @@ jQuery(document).ready(function($) {
    booking();
 });
 function booking(){
-    var ajax = new XMLHttpRequest();
-var method = "GET";
-var url = "http://localhost/cias/wp-content/themes/theretailer-child/getData.php";
-var asynchronous = true;
 
-ajax.open(method, url, asynchronous);
-// sending ajax request
-ajax.send();
-
-// receiving response from functions.php
-ajax.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        var data = JSON.parse(this.responseText);
-        var adult_html = "";
-        var total_html = "";
-        var kids_html = "";
-        for (var a = 0; a < data.length; a++) {
-            var adult =  currency(data[a].price_for_adult, {pattern: `# !`}).format();
-            var kids = currency(data[a].price_for_child * 0, {pattern: `# !`}).format();
-            var total =  currency(adult, {pattern: `# !`}).format();
-            adult_html += '<span id="adult-price">' + adult + '</span>';
-            kids_html += '<span id="kids-price">' + kids + "</span>";
-            total_html += '<span id="total-price" class="order_total">' + total + "</span>";
-        }
-        document.getElementById("adult-field").innerHTML += adult_html;
-        document.getElementById("kids-field").innerHTML += kids_html;
-        document.getElementById("total-field").innerHTML += total_html;
-    }
-}
+ 
 jQuery('<div class="quantity-button quantity-up-adult quantity-up-left">+</div><div class="quantity-button quantity-down-adult quantity-down-right">-</div>').insertAfter('.quantity-num-adult');
 jQuery('<div class="quantity-button quantity-up-kids  quantity-up-left">+</div><div class="quantity-button quantity-down-kids quantity-down-right">-</div>').insertAfter('.quantity-num-kids');
 jQuery('<div class="quantity-button quantity-up-childs quantity-up-left">+</div><div class="quantity-button quantity-down-childs quantity-down-right">-</div>').insertAfter('.quantity-num-childs');
 jQuery('.form-booking li').each(function() {
+   
+    var adult_price = document.getElementById("price_for_adult").value;
+    var child_price = document.getElementById("price_for_child").value;;
+    var display_adult_price = document.getElementById("adult-price");
+    var display_child_price = document.getElementById("child-price");
+    var display_total_price = document.getElementById("total-price");
+    display_adult_price.innerHTML = currency(adult_price,{pattern:`# !`}).format();
+    display_child_price.innerHTML = currency(child_price *0,{pattern:`# !`}).format();
+    display_total_price.innerHTML = currency(adult_price,{pattern:`# !`}).format();
+
     var spinner = jQuery(this),
         input = spinner.find('input[type="number"]'),
         btnUpAdult = spinner.find('.quantity-up-adult'),
@@ -55,9 +39,8 @@ jQuery('.form-booking li').each(function() {
         btnUpKids = spinner.find('.quantity-up-kids'),
         btnDownKids = spinner.find('.quantity-down-kids'),
         extra = spinner.find('.extra')
-    min = input.attr('min'),
+        min = input.attr('min'),
         max = input.attr('max');
-
     btnUpAdult.click(function() {
         var oldValue = parseFloat(input.val());
         if (oldValue >= max) {
@@ -67,25 +50,15 @@ jQuery('.form-booking li').each(function() {
         }
         spinner.find('input[type="number"]').val(newVal);
         spinner.find('input[type="number"]').trigger("change");
-        extra.parent().append("<ul class='extra'><li><label for='name'>Họ tên: </label><input type='text' name='name' id='name' required/></li><li><label for='age'>Tuổi: </label><input type='text' name='age' id='age' required/></li><li><label for='email'>Email: </label><input type='text' name='email' id='email' required/></li></ul>");
-        ajax.open(method, url, asynchronous);
-        // sending ajax request
-        ajax.send();
-        ajax.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                var data = JSON.parse(this.responseText);
-                var _adult = document.getElementById("adult-price");
-                var _total = document.getElementById("total-price");
-                var _kids_quantity = document.getElementById('quantity-num-kids').value;
-                for (var a = 0; a < data.length; a++) {
-                    var adult = data[a].price_for_adult;
-                    var kids = data[a].price_for_child * _kids_quantity;
-                    var newTotal = adult;
-                    _adult.innerHTML = '( ' + newVal + ' )' + ' x ' + currency( adult,{pattern: `# !`}).format() ;
-                    _total.innerHTML = currency(((newVal * newTotal) + kids),{pattern: `# !`}).format() ;
-                }
-            }
-        }
+        // extra.parent().append("<ul class='extra'><li><label for='name'>Họ tên: </label><input type='text' name='name' id='name' required/></li><li><label for='age'>Tuổi: </label><input type='text' name='age' id='age' required/></li><li><label for='email'>Email: </label><input type='text' name='email' id='email' required/></li></ul>");
+        const child_quantity = document.getElementById("quantity-num-kids").value;
+        console.log(child_quantity);
+        const new_total_price = (adult_price * newVal) + (child_price * child_quantity);
+        display_adult_price.innerHTML  = '(' + newVal + ')'+ ' x ' + currency(adult_price,{pattern:`# !`}).format();
+        display_total_price.innerHTML  =  currency(new_total_price,{pattern:`# !`}).format();
+        
+        console.log(adult_price * newVal);
+
     });
     btnDownAdult.click(function() {
         var oldValue = parseFloat(input.val());
@@ -98,27 +71,10 @@ jQuery('.form-booking li').each(function() {
         spinner.find('input[type="number"]').val(newVal);
         spinner.find('input[type="number"]').trigger("change");
         spinner.find('.extra:last-child').remove();
-
-        ajax.open(method, url, asynchronous);
-        // sending ajax request
-        ajax.send();
-
-        // receiving response from functions.php
-        ajax.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                var data = JSON.parse(this.responseText);
-                var _adult = document.getElementById("adult-price");
-                var _kids_quantity = document.getElementById("quantity-num-kids").value;
-                var _total = document.getElementById("total-price");
-                for (var a = 0; a < data.length; a++) {
-                    var adult = data[a].price_for_adult;
-                    var kids = data[a].price_for_child;
-                    var newTotal = (adult * newVal) + (kids * _kids_quantity);
-                    _adult.innerHTML = '( ' + newVal + ' )' + ' x ' + currency(adult,{pattern:`# !`}).format() ;
-                    _total.innerHTML =currency(newTotal,{pattern:`# !`}).format() ;
-                }
-            }
-        }
+        const child_quantity = document.getElementById("quantity-num-kids").value;
+        const new_total_price = (adult_price * newVal) + (child_price * child_quantity);
+        display_adult_price.innerHTML  = '(' + newVal + ')'+ ' x ' + currency(adult_price,{pattern:`# !`}).format();
+        display_total_price.innerHTML  =  currency(new_total_price,{pattern:`# !`}).format();
     });
     btnUpKids.click(function() {
         var oldValue = parseFloat(input.val());
@@ -129,26 +85,11 @@ jQuery('.form-booking li').each(function() {
         }
         spinner.find('input[type="number"]').val(newVal);
         spinner.find('input[type="number"]').trigger("change");
-        extra.parent().append("<ul class='extra'><li><label for='name'>Họ tên: </label><input type='text' name='name' id='name' required/></li><li><label for='age'>Tuổi: </label><input type='text' name='age' id='age' required/></li><li><label for='email'>Email: </label><input type='text' name='email id='email' required/></li></ul>");
-        ajax.open(method, url, asynchronous);
-        // sending ajax request
-        ajax.send();
-        ajax.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                var data = JSON.parse(this.responseText);
-
-                var _kids = document.getElementById("kids-price");
-                var _newTotal = document.getElementById("total-price");
-                var _adult_quantity = document.getElementById('quantity-num-adult').value;
-                for (var a = 0; a < data.length; a++) {
-                    var adult = data[a].price_for_adult;
-                    var kids = data[a].price_for_child;
-                    _kids.innerHTML = '( ' + newVal + ' )' + ' x ' +  currency(kids,{pattern:`# !`}).format();
-                    var total = (kids * newVal) + (adult * _adult_quantity);
-                    _newTotal.innerHTML = currency(total,{pattern:`# !`}).format() ;
-                }
-            }
-        }
+        // extra.parent().append("<ul class='extra'><li><label for='name'>Họ tên: </label><input type='text' name='name' id='name' required/></li><li><label for='age'>Tuổi: </label><input type='text' name='age' id='age' required/></li><li><label for='email'>Email: </label><input type='text' name='email id='email' required/></li></ul>");
+        const adult_quantity = document.getElementById("quantity-num-adult").value;
+        const new_child_price = (child_price * newVal) + (adult_price * adult_quantity) ;
+        display_child_price.innerHTML = '(' + newVal + ')'+ ' x ' + currency(child_price,{pattern:`# !`}).format();
+        display_total_price.innerHTML = currency(new_child_price,{pattern:`# !`}).format();
     });
     btnDownKids.click(function() {
         var oldValue = parseFloat(input.val());
@@ -160,28 +101,13 @@ jQuery('.form-booking li').each(function() {
         /* -------------------------------------------------- Heirarchy Loop */
         spinner.find('input[type="number"]').val(newVal);
         spinner.find('input[type="number"]').trigger("change");
-        spinner.find('.extra:last-child').remove();
-
-        ajax.open(method, url, asynchronous);
-        // sending ajax request
-        ajax.send();
-
-        // receiving response from functions.php
-        ajax.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                var data = JSON.parse(this.responseText);
-                var _kids = document.getElementById("kids-price");
-                var _newTotal = document.getElementById("total-price");
-                var _adult_quantity = document.getElementById('quantity-num-adult').value;
-                for (var a = 0; a < data.length; a++) {
-                    var adult = data[a].price_for_adult;
-                    var kids = data[a].price_for_child;
-                    _kids.innerHTML = '( ' + newVal + ' )' + ' x ' +  currency(kids,{pattern:`# !`}).format();
-                    var total = (adult * _adult_quantity) + (kids * newVal);
-                    _newTotal.innerHTML =  currency(total,{pattern:`# !`}).format();
-                }
-            }
-        }
+        // spinner.find('.extra:last-child').remove();
+        const adult_quantity = document.getElementById("quantity-num-adult").value;
+        const new_child_price = (child_price * newVal) + (adult_price * adult_quantity) ;
+        display_child_price.innerHTML = '(' + newVal + ')'+ ' x ' + currency(child_price,{pattern:`# !`}).format();
+        display_total_price.innerHTML = currency(new_child_price,{pattern:`# !`}).format();
+   
     });
+
 });
 }
