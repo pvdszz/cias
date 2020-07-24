@@ -63,7 +63,7 @@ global $post;
 
 // Note the 'id' attribute needs to match the 'target' parameter set above
 ?><div id='booking_options' class='panel woocommerce_options_panel'>
-	<div class='options_group'>
+    <div class='options_group'>
         <?php
 			woocommerce_wp_text_input(array(
 				'id'				=> 'price_for_adult',
@@ -110,28 +110,7 @@ function save_booking_options_fields($post_id)
 add_action('woocommerce_process_product_meta_simple', 'save_booking_options_fields');
 add_action('woocommerce_process_product_meta_variable', 'save_booking_options_fields');
 
-if (isset($_POST['save'])) {
-	$data = array(
-		'price_for_adult' => $_POST['price_for_adult'],
-		'price_for_child' => $_POST['price_for_child'],
-	);
-	$table_name = 'cias_price_for_each_person';
-	$wpdb->update(
-		'cias_price_for_each_person',
-		array(
-			'price_for_adult' => $_POST['price_for_adult'],
-			'price_for_child' => $_POST['price_for_child'],
-		),
-		array('ID' => 1),
-		array(
-			'%s',	// value1
-			'%d'	// value2
-		),
-		array('%d')
-	);
-	$wpdb->update($table, $data, $where, $format = null, $where_format = null);
-}
-// save to database
+
 add_action('woocommerce_before_add_to_cart_button', 'wdm_add_custom_fields');
 /**
  * Adds custom field for Product
@@ -144,26 +123,26 @@ function wdm_add_custom_fields()
 
 	?>
 <div class="wdm-custom-fields">
-	<li>
-		<?php $adult_price = get_post_meta($post->ID, 'price_for_adult', true); ?>
-		<label for="wdm_adult">Người lớn: <br>
-			<?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
-		</label>
-		<div class="wrap-quantity-num">
-			<input id="quantity-num-adult" class="quantity-num-adult poiter-events" type="number" name="wdm_adult" min=1
-				value="1">
-		</div>
-	</li>
-	<li>
-		<?php $kids_price = get_post_meta($post->ID, 'price_for_child', true); ?>
-		<label for="wdm_kids">Trẻ em: <br>
-			<?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
-		</label>
-		<div class="wrap-quantity-num">
-			<input id="quantity-num-kids" class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0
-				value="0">
-		</div>
-	</li>
+    <li>
+        <?php $adult_price = get_post_meta($post->ID, 'price_for_adult', true); ?>
+        <label for="wdm_adult">Người lớn: <br>
+            <?php echo number_format($adult_price, 0, '', ','); ?> VNĐ
+        </label>
+        <div class="wrap-quantity-num">
+            <input id="quantity-num-adult" class="quantity-num-adult poiter-events" type="number" name="wdm_adult" min=1
+                value="1">
+        </div>
+    </li>
+    <li>
+        <?php $kids_price = get_post_meta($post->ID, 'price_for_child', true); ?>
+        <label for="wdm_kids">Trẻ em: <br>
+            <?php echo number_format($kids_price, 0, '', ','); ?> VNĐ
+        </label>
+        <div class="wrap-quantity-num">
+            <input id="quantity-num-kids" class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0
+                value="0">
+        </div>
+    </li>
 
 </div>
 <div class="clear"></div>
@@ -265,61 +244,101 @@ function cias_price( $cart ) {
 // Remove Product Prices
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
 // Check order status and generate code
-function mysite_pending($order_id) {
-	error_log("$order_id set to PENDING", 0);
-	}
-	function mysite_failed($order_id) {
-	error_log("$order_id set to FAILED", 0);
-	}
-	function mysite_hold($order_id) {
-	error_log("$order_id set to ON HOLD", 0);
-	}
-	function mysite_processing($order_id) {
-	error_log("$order_id set to PROCESSING", 0);
-	}
-	function mysite_completed($order_id) {
-		error_log("$order_id set to COMPLETED", 0);
-		$chars = "abcdefghijkmnopqrstuvwxyz023456789"; 
-		srand((double)microtime()*1000000); 
-		$i = 0; 
-		$pass = 'Cias-'.'' ; 
-	
-		while ($i <= 7) { 
-			$num = rand() % 33; 
-			$tmp = substr($chars, $num, 1); 
-			$pass = $pass . $tmp; 
-			$i++; 
-		} 
-	
-		error_log($pass); 
-	}
-	function mysite_refunded($order_id) {
-	error_log("$order_id set to REFUNDED", 0);
-	}
-	function mysite_cancelled($order_id) {
-	error_log("$order_id set to CANCELLED", 0);
-	}
+// function mysite_pending($order_id) {
+// error_log("$order_id set to PENDING", 0);
+// }
+// function mysite_failed($order_id) {
+// error_log("$order_id set to FAILED", 0);
+// }
+// function mysite_hold($order_id) {
+// error_log("$order_id set to ON HOLD", 0);
+// }
+// function mysite_processing($order_id) {
+// error_log("$order_id set to PROCESSING", 0);
+// $order = wc_get_order( $order_id);
+// 	// Get and Loop Over Order Items
+// foreach ( $order->get_items() as $item_id => $item ) {
+// 	$product_id = $item->get_product_id();
+// 	$variation_id = $item->get_variation_id();
+// 	$product = $item->get_product();
+// 	$name = $item->get_name();
+// 	$quantity = $item->get_quantity();
+// 	$subtotal = $item->get_subtotal();
+// 	$total = $item->get_total();
+// 	$tax = $item->get_subtotal_tax();
+// 	$taxclass = $item->get_tax_class();
+// 	$taxstat = $item->get_tax_status();
+// 	$allmeta = $item->get_meta_data();
+// 	$somemeta = $item->get_meta( '_whatever', true );
+// 	$type = $item->get_type();
+// 	error_log($product_id);
+// 	// error_log($allmeta);
+// 	$xxx = "";
+// 		foreach ($allmeta as $meta => $values){
+// 			error_log($meta);
+// 			error_log($values);
+// 		}
+// 	}
+// }
+// function mysite_completed($order_id) {
 
-	add_action( 'woocommerce_order_status_pending', 'mysite_pending');
-	add_action( 'woocommerce_order_status_failed', 'mysite_failed');
-	add_action( 'woocommerce_order_status_on-hold', 'mysite_hold');
-	// Note that it's woocommerce_order_status_on-hold, not on_hold.
-	add_action( 'woocommerce_order_status_processing', 'mysite_processing');
-	add_action( 'woocommerce_order_status_completed', 'mysite_completed');
-	add_action( 'woocommerce_order_status_refunded', 'mysite_refunded');
-	add_action( 'woocommerce_order_status_cancelled', 'mysite_cancelled');
+// 	$order = wc_get_order( $order_id);
 
+// 	// Get and Loop Over Order Items
+// 	foreach ( $order->get_items() as $item_id => $item ) {
+// 		$product_id = $item->get_product_id();
+// 		$variation_id = $item->get_variation_id();
+// 		$product = $item->get_product();
+// 		$name = $item->get_name();
+// 		$quantity = $item->get_quantity();
+// 		$subtotal = $item->get_subtotal();
+// 		$total = $item->get_total();
+// 		$tax = $item->get_subtotal_tax();
+// 		$taxclass = $item->get_tax_class();
+// 		$taxstat = $item->get_tax_status();
+// 		$allmeta = $item->get_meta_data();
+// 		$somemeta = $item->get_meta( '_whatever', true );
+// 		$type = $item->get_type();
+
+// 		error_log($product_id);
+// 		error_log($name);
+// 		$xxx = "";
+// 		foreach ($allmeta as $meta => $values){
+// 			error_log($meta);
+// 			error_log($values);
+// 		}
+
+// 	}
+
+	
+// }
+// function mysite_refunded($order_id) {
+// error_log("$order_id set to REFUNDED", 0);
+// }
+// function mysite_cancelled($order_id) {
+// error_log("$order_id set to CANCELLED", 0);
+// }
+
+
+// add_action( 'woocommerce_order_status_pending', 'mysite_pending');
+// add_action( 'woocommerce_order_status_failed', 'mysite_failed');
+// add_action( 'woocommerce_order_status_on-hold', 'mysite_hold');
+// // Note that it's woocommerce_order_status_on-hold, not on_hold.
+// add_action( 'woocommerce_order_status_processing', 'mysite_processing');
+// add_action( 'woocommerce_order_status_completed', 'mysite_completed');
+// add_action( 'woocommerce_order_status_refunded', 'mysite_refunded');
+// add_action( 'woocommerce_order_status_cancelled', 'mysite_cancelled');
 
 
 // add coupon code to preview order
-add_filter( 'woocommerce_admin_order_preview_get_order_details', 'admin_order_preview_add_custom_meta_data', 10, 2 );
-function admin_order_preview_add_custom_meta_data( $data, $order ) {
-    // Replace '_custom_meta_key' by the correct postmeta key
-    if( $custom_value = $order->get_meta('is_vat_exempt') )
-        $data['custom_key'] = $custom_value; // <= Store the value in the data array.
+// add_filter( 'woocommerce_admin_order_preview_get_order_details', 'admin_order_preview_add_custom_meta_data', 10, 2 );
+// function admin_order_preview_add_custom_meta_data( $data, $order ) {
+//     // Replace '_custom_meta_key' by the correct postmeta key
+//     if( $custom_value = $order->get_meta('is_vat_exempt') )
+//         $data['custom_key'] = $custom_value; // <= Store the value in the data array.
 
-    return $data;
-}
+//     return $data;
+// }
 
 // // Display custom values in Order preview
 add_action( 'woocommerce_admin_order_preview_end', 'custom_display_order_data_in_admin' );

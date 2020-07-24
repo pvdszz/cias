@@ -2156,3 +2156,165 @@ Stack trace:
 [23-Jul-2020 23:59:20 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 123
 [23-Jul-2020 23:59:21 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
 [23-Jul-2020 23:59:21 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:11:23 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 15:11:25 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 15:11:41 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:13:50 UTC] 64 set to COMPLETED
+[24-Jul-2020 15:13:50 UTC] Cias-0kmbc4mo
+[24-Jul-2020 15:17:03 UTC] PHP Parse error:  syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[24-Jul-2020 15:17:40 UTC] PHP Parse error:  syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[24-Jul-2020 15:21:56 UTC] 63 set to COMPLETED
+[24-Jul-2020 15:21:56 UTC] Cias-8m7vgw4k
+[24-Jul-2020 15:21:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_order() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:295
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(63)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 63, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(333): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(529): WC_Order->update_status('completed', '', true)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::mark_ord in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 295
+[24-Jul-2020 15:24:03 UTC] PHP Parse error:  syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[24-Jul-2020 15:26:58 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 285
+[24-Jul-2020 15:28:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_order() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:282
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(62)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 62, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(333): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(529): WC_Order->update_status('completed', '', true)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_AJAX::mark_order_ in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 15:30:15 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 115
+[24-Jul-2020 15:30:15 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 116
+[24-Jul-2020 15:30:15 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 122
+[24-Jul-2020 15:30:15 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 123
+[24-Jul-2020 15:30:15 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:30:15 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:30:15 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:30:25 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 115
+[24-Jul-2020 15:30:25 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 116
+[24-Jul-2020 15:30:25 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 122
+[24-Jul-2020 15:30:25 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 123
+[24-Jul-2020 15:30:25 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:30:25 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:30:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_order() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:282
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 15:31:46 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 115
+[24-Jul-2020 15:31:46 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 116
+[24-Jul-2020 15:31:46 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 122
+[24-Jul-2020 15:31:46 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 123
+[24-Jul-2020 15:31:46 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:31:46 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:31:47 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 284
+[24-Jul-2020 15:32:05 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 115
+[24-Jul-2020 15:32:05 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 116
+[24-Jul-2020 15:32:05 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 122
+[24-Jul-2020 15:32:05 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 123
+[24-Jul-2020 15:32:05 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:32:05 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:32:06 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:32:17 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 115
+[24-Jul-2020 15:32:17 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 116
+[24-Jul-2020 15:32:17 UTC] PHP Notice:  Undefined index: price_for_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 122
+[24-Jul-2020 15:32:17 UTC] PHP Notice:  Undefined index: price_for_child in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 123
+[24-Jul-2020 15:32:17 UTC] PHP Notice:  Undefined variable: table in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:32:17 UTC] PHP Notice:  Undefined variable: where in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 132
+[24-Jul-2020 15:32:17 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 284
+[24-Jul-2020 15:33:38 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:34:45 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:34:52 UTC] 64
+[24-Jul-2020 15:35:24 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:35:31 UTC] PHP Notice:  Undefined index: wdm_adult in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 263
+[24-Jul-2020 15:35:31 UTC] 
+[24-Jul-2020 15:36:26 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:36:34 UTC] PHP Notice:  Undefined index: display_meta in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 263
+[24-Jul-2020 15:36:34 UTC] 
+[24-Jul-2020 15:38:36 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:38:36 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[24-Jul-2020 15:38:36 UTC] PHP Notice:  Uninitialized string offset: 0 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 260
+[24-Jul-2020 15:38:36 UTC] 
+[24-Jul-2020 15:38:55 UTC] PHP Warning:  Illegal string offset 'wdm_adult' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 267
+[24-Jul-2020 15:38:55 UTC] PHP Notice:  Uninitialized string offset: 0 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 267
+[24-Jul-2020 15:38:55 UTC] 
+[24-Jul-2020 15:41:47 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:41:47 UTC] 
+[24-Jul-2020 15:45:03 UTC] PHP Parse error:  syntax error, unexpected '=' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 293
+[24-Jul-2020 15:45:28 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:45:28 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 272
+[24-Jul-2020 15:45:28 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 273
+[24-Jul-2020 15:48:04 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:48:21 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[24-Jul-2020 15:53:22 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:53:29 UTC] PHP Notice:  Undefined variable: formatted_meta_data in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 293
+[24-Jul-2020 15:53:29 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[24-Jul-2020 15:54:18 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:54:25 UTC] 
+[24-Jul-2020 15:55:56 UTC] 64 set to PROCESSING
+[24-Jul-2020 15:55:56 UTC] 
+[24-Jul-2020 16:00:25 UTC] 64 set to PROCESSING
+[24-Jul-2020 16:00:25 UTC] 20
+[24-Jul-2020 16:00:25 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 16:01:02 UTC] 20
+[24-Jul-2020 16:01:02 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 299
+[24-Jul-2020 16:01:02 UTC] MUA VOUCHER PHÒNG CHỜ THƯƠNG GIA
+[24-Jul-2020 16:02:07 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[24-Jul-2020 16:04:03 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[24-Jul-2020 16:04:07 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[24-Jul-2020 16:05:08 UTC] 64 set to PROCESSING
+[24-Jul-2020 16:05:08 UTC] 20
+[24-Jul-2020 16:05:08 UTC] PHP Fatal error:  Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:278
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): 
+::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->a in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 278
+
+
+
+[24-Jul-2020 16:06:50 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 320
+[24-Jul-2020 16:07:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 320
+[24-Jul-2020 16:07:10 UTC] 64 set to PROCESSING
+[24-Jul-2020 16:07:10 UTC] 20
+[24-Jul-2020 16:07:10 UTC] PHP Fatal error:  Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:280
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->a in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+[24-Jul-2020 16:08:38 UTC] 64 set to PROCESSING
+[24-Jul-2020 16:08:38 UTC] 20
+[24-Jul-2020 16:08:38 UTC] 0
+[24-Jul-2020 16:08:38 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 279
+[24-Jul-2020 16:08:38 UTC] 1
+[24-Jul-2020 16:08:38 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 279
+[24-Jul-2020 17:06:40 UTC] 20
+[24-Jul-2020 17:06:40 UTC] MUA VOUCHER PHÒNG CHỜ THƯƠNG GIA
+[24-Jul-2020 17:06:40 UTC] 0
+[24-Jul-2020 17:06:40 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 308
+[24-Jul-2020 17:06:40 UTC] 1
+[24-Jul-2020 17:06:40 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 308
+[24-Jul-2020 17:06:46 UTC] PHP Notice:  Undefined index: theretailer-child in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 424
+[24-Jul-2020 17:07:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 332
+[24-Jul-2020 17:07:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 332
+[24-Jul-2020 17:08:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 332
+[24-Jul-2020 17:08:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 321
