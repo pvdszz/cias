@@ -2318,3 +2318,1203 @@ Stack trace:
 [24-Jul-2020 17:07:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 332
 [24-Jul-2020 17:08:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 332
 [24-Jul-2020 17:08:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 321
+[24-Jul-2020 17:27:07 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:27:07 UTC] 20
+[24-Jul-2020 17:27:07 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 278
+[24-Jul-2020 17:27:07 UTC] PHP Warning:  error_log() expects parameter 1 to be string, object given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 278
+[24-Jul-2020 17:28:40 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+)
+
+[24-Jul-2020 17:28:40 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 17:29:30 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:29:30 UTC] 20
+[24-Jul-2020 17:29:40 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+)
+
+[24-Jul-2020 17:29:40 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 17:31:51 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 360
+[24-Jul-2020 17:31:51 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 360
+[24-Jul-2020 17:32:26 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 361
+[24-Jul-2020 17:32:31 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 361
+[24-Jul-2020 17:33:12 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 361
+[24-Jul-2020 17:33:56 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:33:56 UTC] 20
+[24-Jul-2020 17:33:56 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:276
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 276
+[24-Jul-2020 17:34:49 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:34:49 UTC] 20
+[24-Jul-2020 17:34:49 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:277
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+[24-Jul-2020 17:35:06 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:35:06 UTC] 20
+[24-Jul-2020 17:35:06 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+)
+
+[24-Jul-2020 17:35:06 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 17:41:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:304
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[24-Jul-2020 17:42:57 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+)
+
+[24-Jul-2020 17:42:57 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 17:43:05 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:43:05 UTC] 20
+[24-Jul-2020 17:43:05 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+)
+
+[24-Jul-2020 17:43:05 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 17:44:23 UTC] PHP Warning:  Use of undefined constant value - assumed 'value' (this will throw an Error in a future version of PHP) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[24-Jul-2020 17:44:23 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:304
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[24-Jul-2020 17:44:42 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+)
+
+[24-Jul-2020 17:44:42 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 17:46:27 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:46:27 UTC] 20
+[24-Jul-2020 17:46:27 UTC] 
+[24-Jul-2020 17:46:27 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+)
+
+[24-Jul-2020 17:46:27 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 17:47:27 UTC] 
+[24-Jul-2020 17:47:27 UTC] 1
+[24-Jul-2020 17:47:27 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+)
+
+[24-Jul-2020 17:47:27 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 17:48:05 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:48:05 UTC] 20
+[24-Jul-2020 17:48:05 UTC] 
+[24-Jul-2020 17:48:05 UTC] 1
+[24-Jul-2020 17:48:56 UTC] 
+[24-Jul-2020 17:48:56 UTC] 1
+[24-Jul-2020 17:50:21 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:50:21 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:278
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 278
+[24-Jul-2020 17:54:46 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ']' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 17:55:13 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:55:13 UTC] PHP Warning:  Use of undefined constant current_data - assumed 'current_data' (this will throw an Error in a future version of PHP) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 17:55:13 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 17:55:53 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:55:53 UTC] PHP Warning:  Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 17:55:53 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 17:56:16 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ']' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 17:56:40 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:56:40 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 17:57:04 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:57:04 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 17:59:32 UTC] 64 set to PROCESSING
+[24-Jul-2020 17:59:37 UTC] PHP Notice:  Undefined variable: data in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 297
+[24-Jul-2020 17:59:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_meta_data() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:297
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters( in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 297
+[24-Jul-2020 18:00:05 UTC] PHP Fatal error:  Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:298
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 298
+[24-Jul-2020 18:00:44 UTC] PHP Fatal error:  Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:298
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 298
+[24-Jul-2020 18:01:02 UTC] PHP Fatal error:  Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:298
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 298
+[24-Jul-2020 18:01:17 UTC] 1
+[24-Jul-2020 18:01:17 UTC] 1
+[24-Jul-2020 18:02:02 UTC] 64 set to PROCESSING
+[24-Jul-2020 18:02:02 UTC] -------------------------
+[24-Jul-2020 18:02:02 UTC] 1
+[24-Jul-2020 18:02:02 UTC] 1
+[24-Jul-2020 18:03:34 UTC] -------------------------
+[24-Jul-2020 18:03:34 UTC] 1
+[24-Jul-2020 18:03:34 UTC] 1
+[24-Jul-2020 18:04:00 UTC] 64 set to PROCESSING
+[24-Jul-2020 18:04:00 UTC] -------------------------
+[24-Jul-2020 18:04:00 UTC] 1
+[24-Jul-2020 18:04:00 UTC] 1
+[24-Jul-2020 18:05:24 UTC] 63 set to PROCESSING
+[24-Jul-2020 18:05:24 UTC] -------------------------
+[24-Jul-2020 18:05:24 UTC] 1
+[24-Jul-2020 18:05:24 UTC] 1
+[24-Jul-2020 18:05:36 UTC] -------------------------
+[24-Jul-2020 18:05:36 UTC] 1
+[24-Jul-2020 18:05:36 UTC] 1
+[24-Jul-2020 18:06:24 UTC] 63 set to PROCESSING
+[24-Jul-2020 18:06:24 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 416
+            [key] => Người lớn
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 416
+            [key] => Người lớn
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 18:06:24 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 417
+            [key] => Trẻ em
+            [value] => 0
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 417
+            [key] => Trẻ em
+            [value] => 0
+        )
+
+)
+
+[24-Jul-2020 18:09:16 UTC] 63 set to PROCESSING
+[24-Jul-2020 18:10:02 UTC] 63 set to PROCESSING
+[24-Jul-2020 18:11:03 UTC] 63 set to PROCESSING
+[24-Jul-2020 18:11:03 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 416
+            [key] => Người lớn
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 416
+            [key] => Người lớn
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 18:11:03 UTC] 416
+[24-Jul-2020 18:11:03 UTC] Người lớn
+[24-Jul-2020 18:11:03 UTC] 1
+[24-Jul-2020 18:11:03 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 417
+            [key] => Trẻ em
+            [value] => 0
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 417
+            [key] => Trẻ em
+            [value] => 0
+        )
+
+)
+
+[24-Jul-2020 18:11:03 UTC] 417
+[24-Jul-2020 18:11:03 UTC] Trẻ em
+[24-Jul-2020 18:11:03 UTC] 0
+[24-Jul-2020 18:11:28 UTC] 416
+[24-Jul-2020 18:11:28 UTC] Người lớn
+[24-Jul-2020 18:11:28 UTC] 1
+[24-Jul-2020 18:11:28 UTC] 417
+[24-Jul-2020 18:11:28 UTC] Trẻ em
+[24-Jul-2020 18:11:28 UTC] 0
+[24-Jul-2020 18:12:29 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+[24-Jul-2020 18:12:34 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+[24-Jul-2020 18:12:34 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+[24-Jul-2020 18:12:59 UTC] 63 set to PROCESSING
+[24-Jul-2020 18:12:59 UTC] ------------------------------------------
+[24-Jul-2020 18:12:59 UTC] 416
+[24-Jul-2020 18:12:59 UTC] ------------------------------------------
+[24-Jul-2020 18:12:59 UTC] Người lớn
+[24-Jul-2020 18:12:59 UTC] ------------------------------------------
+[24-Jul-2020 18:12:59 UTC] 1
+[24-Jul-2020 18:12:59 UTC] ------------------------------------------
+[24-Jul-2020 18:12:59 UTC] 417
+[24-Jul-2020 18:12:59 UTC] ------------------------------------------
+[24-Jul-2020 18:12:59 UTC] Trẻ em
+[24-Jul-2020 18:12:59 UTC] ------------------------------------------
+[24-Jul-2020 18:12:59 UTC] 0
+
+
+
+
+
+
+[24-Jul-2020 18:13:13 UTC] ------------------------------------------
+[24-Jul-2020 18:13:13 UTC] 416
+[24-Jul-2020 18:13:13 UTC] ------------------------------------------
+[24-Jul-2020 18:13:13 UTC] Người lớn
+[24-Jul-2020 18:13:13 UTC] ------------------------------------------
+[24-Jul-2020 18:13:13 UTC] 1
+[24-Jul-2020 18:13:13 UTC] ------------------------------------------
+[24-Jul-2020 18:13:13 UTC] 417
+[24-Jul-2020 18:13:13 UTC] ------------------------------------------
+[24-Jul-2020 18:13:13 UTC] Trẻ em
+[24-Jul-2020 18:13:13 UTC] ------------------------------------------
+[24-Jul-2020 18:13:13 UTC] 0
+[24-Jul-2020 18:13:59 UTC] 63 set to PROCESSING
+[24-Jul-2020 18:14:00 UTC] ------------------------------------------
+[24-Jul-2020 18:14:00 UTC] 416
+[24-Jul-2020 18:14:00 UTC] ------------------------------------------
+[24-Jul-2020 18:14:00 UTC] Người lớn
+[24-Jul-2020 18:14:00 UTC] ------------------------------------------
+[24-Jul-2020 18:14:00 UTC] 1
+[24-Jul-2020 18:14:00 UTC] ------------------------------------------
+[24-Jul-2020 18:14:00 UTC] 417
+[24-Jul-2020 18:14:00 UTC] ------------------------------------------
+[24-Jul-2020 18:14:00 UTC] Trẻ em
+[24-Jul-2020 18:14:00 UTC] ------------------------------------------
+[24-Jul-2020 18:14:00 UTC] 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[24-Jul-2020 18:14:07 UTC] ------------------------------------------
+[24-Jul-2020 18:14:07 UTC] 416
+[24-Jul-2020 18:14:07 UTC] ------------------------------------------
+[24-Jul-2020 18:14:07 UTC] Người lớn
+[24-Jul-2020 18:14:07 UTC] ------------------------------------------
+[24-Jul-2020 18:14:07 UTC] 1
+[24-Jul-2020 18:14:07 UTC] ------------------------------------------
+[24-Jul-2020 18:14:07 UTC] 417
+[24-Jul-2020 18:14:07 UTC] ------------------------------------------
+[24-Jul-2020 18:14:07 UTC] Trẻ em
+[24-Jul-2020 18:14:07 UTC] ------------------------------------------
+[24-Jul-2020 18:14:07 UTC] 0
+[24-Jul-2020 18:15:06 UTC] PHP Parse error:  syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[24-Jul-2020 18:15:24 UTC] 63 set to PROCESSING
+[24-Jul-2020 18:15:24 UTC] ------------------------------------------
+[24-Jul-2020 18:15:24 UTC] 416
+[24-Jul-2020 18:15:24 UTC] ------------------------------------------
+[24-Jul-2020 18:15:24 UTC] Người lớn
+[24-Jul-2020 18:15:24 UTC] ------------------------------------------
+[24-Jul-2020 18:15:24 UTC] 1
+[24-Jul-2020 18:15:24 UTC] ------------------------------------------
+[24-Jul-2020 18:15:24 UTC] 417
+[24-Jul-2020 18:15:24 UTC] ------------------------------------------
+[24-Jul-2020 18:15:24 UTC] Trẻ em
+[24-Jul-2020 18:15:24 UTC] ------------------------------------------
+[24-Jul-2020 18:15:24 UTC] 0
+[24-Jul-2020 18:15:29 UTC] ------------------------------------------
+[24-Jul-2020 18:15:29 UTC] id416
+[24-Jul-2020 18:15:29 UTC] ------------------------------------------
+[24-Jul-2020 18:15:29 UTC] keyNgười lớn
+[24-Jul-2020 18:15:29 UTC] ------------------------------------------
+[24-Jul-2020 18:15:29 UTC] value1
+[24-Jul-2020 18:15:29 UTC] ------------------------------------------
+[24-Jul-2020 18:15:29 UTC] id417
+[24-Jul-2020 18:15:29 UTC] ------------------------------------------
+[24-Jul-2020 18:15:29 UTC] keyTrẻ em
+[24-Jul-2020 18:15:29 UTC] ------------------------------------------
+[24-Jul-2020 18:15:29 UTC] value0
+[24-Jul-2020 18:16:20 UTC] 63 set to PROCESSING
+[24-Jul-2020 18:16:20 UTC] ------------------------------------------
+[24-Jul-2020 18:16:20 UTC] PHP Notice:  Trying to access array offset on value of type int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+[24-Jul-2020 18:16:20 UTC] 
+[24-Jul-2020 18:16:20 UTC] ------------------------------------------
+[24-Jul-2020 18:16:20 UTC] PHP Warning:  Illegal string offset 'value' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+[24-Jul-2020 18:16:20 UTC] N
+[24-Jul-2020 18:16:20 UTC] ------------------------------------------
+[24-Jul-2020 18:16:20 UTC] PHP Warning:  Illegal string offset 'value' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+[24-Jul-2020 18:16:20 UTC] 1
+[24-Jul-2020 18:16:20 UTC] ------------------------------------------
+[24-Jul-2020 18:16:20 UTC] PHP Notice:  Trying to access array offset on value of type int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+[24-Jul-2020 18:16:20 UTC] 
+[24-Jul-2020 18:16:20 UTC] ------------------------------------------
+[24-Jul-2020 18:16:20 UTC] PHP Warning:  Illegal string offset 'value' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+[24-Jul-2020 18:16:20 UTC] T
+[24-Jul-2020 18:16:20 UTC] ------------------------------------------
+[24-Jul-2020 18:16:20 UTC] PHP Warning:  Illegal string offset 'value' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+[24-Jul-2020 18:16:20 UTC] 0
+[24-Jul-2020 18:16:45 UTC] ------------------------------------------
+[24-Jul-2020 18:16:45 UTC] PHP Notice:  Trying to access array offset on value of type int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[24-Jul-2020 18:16:45 UTC] 
+[24-Jul-2020 18:16:45 UTC] ------------------------------------------
+[24-Jul-2020 18:16:45 UTC] PHP Warning:  Illegal string offset 'value' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[24-Jul-2020 18:16:45 UTC] N
+[24-Jul-2020 18:16:45 UTC] ------------------------------------------
+[24-Jul-2020 18:16:45 UTC] PHP Warning:  Illegal string offset 'value' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[24-Jul-2020 18:16:45 UTC] 3
+[24-Jul-2020 18:16:45 UTC] ------------------------------------------
+[24-Jul-2020 18:16:45 UTC] PHP Notice:  Trying to access array offset on value of type int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[24-Jul-2020 18:16:45 UTC] 
+[24-Jul-2020 18:16:45 UTC] ------------------------------------------
+[24-Jul-2020 18:16:45 UTC] PHP Warning:  Illegal string offset 'value' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[24-Jul-2020 18:16:45 UTC] T
+[24-Jul-2020 18:16:45 UTC] ------------------------------------------
+[24-Jul-2020 18:16:45 UTC] PHP Warning:  Illegal string offset 'value' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[24-Jul-2020 18:16:45 UTC] 1
+[24-Jul-2020 18:22:39 UTC] 64 set to PENDING
+[24-Jul-2020 18:22:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:309
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+# in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 309
+[24-Jul-2020 18:23:30 UTC] fffffffff2
+[24-Jul-2020 18:24:35 UTC] 64 set to ON HOLD
+[24-Jul-2020 18:24:52 UTC] ------------------------------------------
+[24-Jul-2020 18:24:52 UTC] 427
+[24-Jul-2020 18:24:52 UTC] ------------------------------------------
+[24-Jul-2020 18:24:52 UTC] Người lớn
+[24-Jul-2020 18:24:52 UTC] ------------------------------------------
+[24-Jul-2020 18:24:52 UTC] 3
+[24-Jul-2020 18:24:52 UTC] ------------------------------------------
+[24-Jul-2020 18:24:52 UTC] 428
+[24-Jul-2020 18:24:52 UTC] ------------------------------------------
+[24-Jul-2020 18:24:52 UTC] Trẻ em
+[24-Jul-2020 18:24:52 UTC] ------------------------------------------
+[24-Jul-2020 18:24:52 UTC] 1
+[24-Jul-2020 18:26:53 UTC] 64 set to PROCESSING
+[24-Jul-2020 18:26:53 UTC] 1
+[24-Jul-2020 18:26:53 UTC] 1
+[24-Jul-2020 18:30:18 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 427
+            [key] => Người lớn
+            [value] => 3
+        )
+
+)
+
+[24-Jul-2020 18:30:18 UTC] WC_Meta_Data Object
+(
+    [current_data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+    [data:protected] => Array
+        (
+            [id] => 428
+            [key] => Trẻ em
+            [value] => 1
+        )
+
+)
+
+[24-Jul-2020 18:43:19 UTC] 64 set to PROCESSING
+[24-Jul-2020 18:43:19 UTC] DDDDĐ: 2
+[24-Jul-2020 18:43:19 UTC] XXXXX: array
+[24-Jul-2020 18:43:19 UTC] 0
+[24-Jul-2020 18:43:19 UTC] 1
+[24-Jul-2020 18:43:25 UTC] DDDDĐ: 2
+[24-Jul-2020 18:43:25 UTC] XXXXX: array
+[24-Jul-2020 18:43:25 UTC] 0
+[24-Jul-2020 18:43:25 UTC] 1
+[24-Jul-2020 18:43:25 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:317
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 317
+[24-Jul-2020 18:45:09 UTC] DDDDĐ: 2
+[24-Jul-2020 18:45:09 UTC] XXXXX: array
+[24-Jul-2020 18:45:09 UTC] 0
+[24-Jul-2020 18:45:09 UTC] 1
+[24-Jul-2020 18:45:09 UTC] PHP Fatal error:  Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:321
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 321
+[24-Jul-2020 18:46:00 UTC] DDDDĐ: 2
+[24-Jul-2020 18:46:00 UTC] XXXXX: array
+[24-Jul-2020 18:46:00 UTC] 0
+[24-Jul-2020 18:46:00 UTC] 1
+[24-Jul-2020 18:46:00 UTC] PHP Fatal error:  Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:321
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 321
+[24-Jul-2020 18:46:38 UTC] DDDDĐ: 2
+[24-Jul-2020 18:46:38 UTC] XXXXX: array
+[24-Jul-2020 18:46:38 UTC] 0
+[24-Jul-2020 18:46:38 UTC] 1
+[24-Jul-2020 18:46:38 UTC] Nguoi lon:object
+[24-Jul-2020 18:46:38 UTC] Tre em: object
+[24-Jul-2020 18:47:45 UTC] 64 set to ON HOLD
+[24-Jul-2020 18:47:49 UTC] DDDDĐ: 2
+[24-Jul-2020 18:47:49 UTC] XXXXX: array
+[24-Jul-2020 18:47:49 UTC] 0
+[24-Jul-2020 18:47:49 UTC] 1
+[24-Jul-2020 18:47:49 UTC] Nguoi lon:object
+[24-Jul-2020 18:47:49 UTC] Tre em: object
+[24-Jul-2020 18:48:13 UTC] 64 set to ON HOLD
+[24-Jul-2020 18:48:21 UTC] DDDDĐ: 2
+[24-Jul-2020 18:48:21 UTC] XXXXX: array
+[24-Jul-2020 18:48:21 UTC] 0
+[24-Jul-2020 18:48:21 UTC] 1
+[24-Jul-2020 18:48:21 UTC] Nguoi lon:object
+[24-Jul-2020 18:48:21 UTC] Tre em: object
+[24-Jul-2020 18:49:10 UTC] 64 set to ON HOLD
+[24-Jul-2020 18:49:16 UTC] DDDDĐ: 2
+[24-Jul-2020 18:49:16 UTC] XXXXX: array
+[24-Jul-2020 18:49:16 UTC] 0
+[24-Jul-2020 18:49:16 UTC] 1
+[24-Jul-2020 18:49:16 UTC] Nguoi lon:object
+[24-Jul-2020 18:49:16 UTC] Tre em: object
+[24-Jul-2020 18:49:16 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:325
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 325
+[24-Jul-2020 18:49:45 UTC] DDDDĐ: 2
+[24-Jul-2020 18:49:45 UTC] XXXXX: array
+[24-Jul-2020 18:49:45 UTC] 0
+[24-Jul-2020 18:49:45 UTC] 1
+[24-Jul-2020 18:49:45 UTC] Nguoi lon:object
+[24-Jul-2020 18:49:45 UTC] Tre em: object
+[24-Jul-2020 18:49:45 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:325
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 325
+[24-Jul-2020 18:49:51 UTC] DDDDĐ: 2
+[24-Jul-2020 18:49:51 UTC] XXXXX: array
+[24-Jul-2020 18:49:51 UTC] 0
+[24-Jul-2020 18:49:51 UTC] 1
+[24-Jul-2020 18:49:51 UTC] Nguoi lon:object
+[24-Jul-2020 18:49:51 UTC] Tre em: object
+[24-Jul-2020 18:49:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:325
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 325
+[24-Jul-2020 18:52:03 UTC] DDDDĐ: 2
+[24-Jul-2020 18:52:03 UTC] XXXXX: array
+[24-Jul-2020 18:52:03 UTC] PHP Warning:  get_class() expects parameter 1 to be object, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 322
+[24-Jul-2020 18:52:03 UTC] 
+[24-Jul-2020 18:52:35 UTC] 64 set to ON HOLD
+[24-Jul-2020 18:52:40 UTC] DDDDĐ: 2
+[24-Jul-2020 18:52:40 UTC] XXXXX: array
+[24-Jul-2020 18:52:40 UTC] WC_Meta_Data
+[24-Jul-2020 18:54:26 UTC] 64 set to PROCESSING
+[24-Jul-2020 18:54:26 UTC] DDDDĐ: 2
+[24-Jul-2020 18:54:26 UTC] XXXXX: array
+[24-Jul-2020 18:54:26 UTC] 0
+[24-Jul-2020 18:54:26 UTC] 1
+
+
+[24-Jul-2020 18:54:36 UTC] DDDDĐ: 2
+[24-Jul-2020 18:54:36 UTC] XXXXX: array
+[24-Jul-2020 18:54:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __get() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:316
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 316
+
+
+
+[24-Jul-2020 18:56:20 UTC] DDDDĐ: 2
+[24-Jul-2020 18:56:20 UTC] XXXXX: array
+[24-Jul-2020 18:56:20 UTC] WC_Meta_Data
+[24-Jul-2020 18:56:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __get() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+
+
+
+[24-Jul-2020 18:58:05 UTC] DDDDĐ: 2
+[24-Jul-2020 18:58:05 UTC] XXXXX: array
+[24-Jul-2020 18:58:05 UTC] WC_Meta_Data
+[24-Jul-2020 18:58:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+[24-Jul-2020 19:01:18 UTC] DDDDĐ: 2
+[24-Jul-2020 19:01:18 UTC] XXXXX: array
+[24-Jul-2020 19:01:18 UTC] WC_Meta_Data
+[24-Jul-2020 19:01:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+
+[24-Jul-2020 19:01:41 UTC] DDDDĐ: 2
+[24-Jul-2020 19:01:41 UTC] XXXXX: array
+[24-Jul-2020 19:01:41 UTC] WC_Meta_Data
+[24-Jul-2020 19:01:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+[24-Jul-2020 19:02:29 UTC] DDDDĐ: 2
+[24-Jul-2020 19:02:29 UTC] XXXXX: array
+[24-Jul-2020 19:02:29 UTC] WC_Meta_Data
+[24-Jul-2020 19:02:29 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 321
+[24-Jul-2020 19:02:29 UTC] Nguoi lon:Array
+[24-Jul-2020 19:02:29 UTC] PHP Notice:  Array to string conversion in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 322
+[24-Jul-2020 19:02:29 UTC] Tre em: Array
+[24-Jul-2020 19:03:19 UTC] 64 set to REFUNDED
+[24-Jul-2020 19:03:26 UTC] DDDDĐ: 2
+[24-Jul-2020 19:03:26 UTC] XXXXX: array
+[24-Jul-2020 19:03:26 UTC] WC_Meta_Data
+[24-Jul-2020 19:03:26 UTC] Nguoi lon:3
+[24-Jul-2020 19:03:26 UTC] Tre em: 1
+[24-Jul-2020 20:53:36 UTC] Nguoi lon:1
+[24-Jul-2020 20:53:36 UTC] Tre em: 0
+
+
+
+
+[24-Jul-2020 20:53:48 UTC] 63 set to PROCESSING
+[24-Jul-2020 20:53:48 UTC] Nguoi lon:1
+[24-Jul-2020 20:53:48 UTC] Tre em: 0
+
+
+
+
+[24-Jul-2020 21:00:19 UTC] Nguoi lon:1
+[24-Jul-2020 21:00:19 UTC] Tre em: 0
+[24-Jul-2020 21:01:33 UTC] 63 set to PROCESSING
+[24-Jul-2020 21:01:33 UTC] Nguoi lon:1
+[24-Jul-2020 21:01:33 UTC] Tre em: 0
+[24-Jul-2020 21:01:41 UTC] Complated
+[24-Jul-2020 21:01:41 UTC] Nguoi lon:1
+[24-Jul-2020 21:01:41 UTC] Tre em: 0
+[24-Jul-2020 21:03:00 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:03:15 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:03:30 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+
+
+[24-Jul-2020 21:05:05 UTC] 63 set to PROCESSING
+[24-Jul-2020 21:05:05 UTC] Nguoi lon:1
+[24-Jul-2020 21:05:05 UTC] Tre em: 0\\\
+
+
+
+
+[24-Jul-2020 21:05:12 UTC] Complated
+[24-Jul-2020 21:05:12 UTC] Nguoi lon:1
+[24-Jul-2020 21:05:12 UTC] Tre em: 0
+[24-Jul-2020 21:05:12 UTC] 8zg4d7di
+[24-Jul-2020 21:05:59 UTC] PHP Parse error:  syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:06:06 UTC] PHP Parse error:  syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:06:06 UTC] PHP Parse error:  syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:06:11 UTC] PHP Parse error:  syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:06:21 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 298
+[24-Jul-2020 21:07:15 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 297
+[24-Jul-2020 21:08:38 UTC] 63 set to PROCESSING
+[24-Jul-2020 21:08:38 UTC] Nguoi lon:1
+[24-Jul-2020 21:08:38 UTC] Tre em: 0
+[24-Jul-2020 21:08:44 UTC] Complated
+[24-Jul-2020 21:08:44 UTC] Nguoi lon:1
+[24-Jul-2020 21:08:44 UTC] Tre em: 0
+[24-Jul-2020 21:08:44 UTC] PHP Notice:  Undefined variable: num_code in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:08:44 UTC] xqocuekr
+[24-Jul-2020 21:08:44 UTC] PHP Notice:  Undefined variable: num_code in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 296
+[24-Jul-2020 21:08:44 UTC] zdoryoyj
+[24-Jul-2020 21:09:34 UTC] PHP Parse error:  syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 296
+[24-Jul-2020 21:10:07 UTC] PHP Parse error:  syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:10:10 UTC] PHP Parse error:  syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:10:11 UTC] PHP Parse error:  syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+[24-Jul-2020 21:10:25 UTC] 63 set to PROCESSING
+[24-Jul-2020 21:10:25 UTC] Nguoi lon:1
+[24-Jul-2020 21:10:25 UTC] Tre em: 0
+
+
+
+
+[24-Jul-2020 21:10:36 UTC] Complated
+[24-Jul-2020 21:10:36 UTC] Nguoi lon:1
+[24-Jul-2020 21:10:36 UTC] Tre em: 0
+[24-Jul-2020 21:10:36 UTC] --------------------
+[24-Jul-2020 21:10:36 UTC] katgdj44
+[24-Jul-2020 21:10:36 UTC] --------------------
+[24-Jul-2020 21:10:36 UTC] t4knmboq
+[24-Jul-2020 21:10:55 UTC] 63 set to PROCESSING
+[24-Jul-2020 21:10:55 UTC] Nguoi lon:1
+[24-Jul-2020 21:10:55 UTC] Tre em: 0
+[24-Jul-2020 21:11:01 UTC] Complated
+[24-Jul-2020 21:11:01 UTC] Nguoi lon:1
+[24-Jul-2020 21:11:01 UTC] Tre em: 0
+[24-Jul-2020 21:11:01 UTC] --------------------
+[24-Jul-2020 21:11:01 UTC] ra4qe3jc
+[24-Jul-2020 21:12:03 UTC] 64 set to PROCESSING
+[24-Jul-2020 21:12:03 UTC] Nguoi lon:3
+[24-Jul-2020 21:12:03 UTC] Tre em: 1
+
+
+[24-Jul-2020 21:12:12 UTC] Complated
+[24-Jul-2020 21:12:12 UTC] Nguoi lon:3
+[24-Jul-2020 21:12:12 UTC] Tre em: 1
+[24-Jul-2020 21:12:12 UTC] --------------------
+[24-Jul-2020 21:12:12 UTC] fhqza4y4
+[24-Jul-2020 21:12:12 UTC] --------------------
+[24-Jul-2020 21:12:12 UTC] ygjtsyhc
+[24-Jul-2020 21:12:12 UTC] --------------------
+[24-Jul-2020 21:12:12 UTC] zm85f7en
+[24-Jul-2020 21:14:47 UTC] 64 set to PROCESSING
+[24-Jul-2020 21:14:47 UTC] Nguoi lon:3
+[24-Jul-2020 21:14:47 UTC] Tre em: 1
+
+
+
+
+[24-Jul-2020 21:14:57 UTC] Complated
+[24-Jul-2020 21:14:57 UTC] Nguoi lon:3
+[24-Jul-2020 21:14:57 UTC] Tre em: 1
+[24-Jul-2020 21:14:57 UTC] 
+
+[24-Jul-2020 21:14:57 UTC] CIAS-AQJKaWBS
+[24-Jul-2020 21:14:57 UTC] 
+
+[24-Jul-2020 21:14:57 UTC] CIAS-XTUfEMdG
+[24-Jul-2020 21:14:57 UTC] 
+
+[24-Jul-2020 21:14:57 UTC] CIAS-AIdZcGPK
+[24-Jul-2020 21:20:40 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 225
+[24-Jul-2020 21:20:41 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 225
+[24-Jul-2020 21:20:41 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 225
+[24-Jul-2020 21:21:33 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 21:21:34 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 21:21:43 UTC] 66 set to PROCESSING
+[24-Jul-2020 21:21:43 UTC] Nguoi lon:1
+[24-Jul-2020 21:21:43 UTC] Tre em: 0
+[24-Jul-2020 21:24:36 UTC] Complated
+[24-Jul-2020 21:24:36 UTC] Nguoi lon:1
+[24-Jul-2020 21:24:36 UTC] Tre em: 0
+
+
+[24-Jul-2020 21:25:56 UTC] 
+[24-Jul-2020 21:25:56 UTC] 66 set to PROCESSING
+[24-Jul-2020 21:25:56 UTC] Nguoi lon:1
+[24-Jul-2020 21:25:56 UTC] Tre em: 0
+
+
+
+[24-Jul-2020 21:28:00 UTC] Complated
+[24-Jul-2020 21:28:00 UTC] Nguoi lon:1
+[24-Jul-2020 21:28:00 UTC] Tre em: 0
+[24-Jul-2020 21:28:00 UTC] CIAS-BOBZBADH
+
+
+
+[24-Jul-2020 21:33:07 UTC] Complated
+[24-Jul-2020 21:33:07 UTC] Nguoi lon:1
+[24-Jul-2020 21:33:07 UTC] Tre em: 0
+[24-Jul-2020 21:33:07 UTC] nsxk-i9vv-jkyv
+[24-Jul-2020 21:33:27 UTC] PHP Parse error:  syntax error, unexpected ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 273
+[24-Jul-2020 21:34:36 UTC] Complated
+[24-Jul-2020 21:34:36 UTC] Nguoi lon:1
+[24-Jul-2020 21:34:36 UTC] Tre em: 0
+[24-Jul-2020 21:34:36 UTC] cias--f66-oea0-vnpw-c
+[24-Jul-2020 21:34:57 UTC] Complated
+[24-Jul-2020 21:34:57 UTC] Nguoi lon:1
+[24-Jul-2020 21:34:57 UTC] Tre em: 0
+[24-Jul-2020 21:34:57 UTC] cias-nmep-alo0-gohw
+[24-Jul-2020 21:36:08 UTC] Complated
+[24-Jul-2020 21:36:08 UTC] Nguoi lon:3
+[24-Jul-2020 21:36:08 UTC] Tre em: 1
+[24-Jul-2020 21:36:08 UTC] cias-zx9j-wfbi-ecpb
+[24-Jul-2020 21:36:08 UTC] cias-sa2s-lh4v-lwyj
+[24-Jul-2020 21:36:08 UTC] cias-mqxf-s8pu-6ujd
+[24-Jul-2020 22:20:35 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 22:20:36 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 22:22:20 UTC] Complated
+[24-Jul-2020 22:22:20 UTC] Nguoi lon:1
+[24-Jul-2020 22:22:20 UTC] Tre em: 0
+[24-Jul-2020 22:22:20 UTC] Coupon Code: jhasdh
+[24-Jul-2020 22:42:44 UTC] Complated
+[24-Jul-2020 22:42:44 UTC] Nguoi lon:1
+[24-Jul-2020 22:42:44 UTC] Tre em: 0
+[24-Jul-2020 22:42:44 UTC] Coupon Code: 
+[24-Jul-2020 22:42:44 UTC] cias-k5bf-v8ud-2qin
+[24-Jul-2020 22:43:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WC_Meta_Data::set_meta_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(67)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 67, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(67)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 22:43:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WC_Meta_Data::set_meta_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(67)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 67, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(67)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+[24-Jul-2020 22:47:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WC_Meta_Data::__set(), 1 passed in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-meta-data.php:67
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php(275): WC_Meta_Data->__set('value')
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(67)
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 67, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-meta-data.php on line 67
+[24-Jul-2020 22:47:50 UTC] Complated
+[24-Jul-2020 22:47:50 UTC] Nguoi lon:1
+[24-Jul-2020 22:47:50 UTC] Tre em: 0
+[24-Jul-2020 22:47:50 UTC] Coupon Code: jhasdh
+[24-Jul-2020 22:47:50 UTC] cias-j8jc-74bu-fmjs
+[24-Jul-2020 22:49:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 22:49:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 22:49:24 UTC] PHP Notice:  Undefined index: cias_coupon in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 233
+[24-Jul-2020 22:52:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 22:52:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 22:53:16 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[24-Jul-2020 22:53:17 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46

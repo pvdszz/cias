@@ -15,6 +15,9 @@
 /**
   * Styling begins
   */
+.wc-order-item-meta{
+	width: 167%;
+}
 .blockUI.blockOverlay {
 
 	@include loader();

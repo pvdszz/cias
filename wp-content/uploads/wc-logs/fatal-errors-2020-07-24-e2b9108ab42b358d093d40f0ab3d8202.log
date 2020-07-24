@@ -81,3 +81,402 @@ Stack trace:
 
 2020-07-24T17:08:10+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 321
 
+2020-07-24T17:31:51+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 360
+
+2020-07-24T17:31:51+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 360
+
+2020-07-24T17:32:26+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 361
+
+2020-07-24T17:32:31+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 361
+
+2020-07-24T17:33:12+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 361
+
+2020-07-24T17:33:56+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:276
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 276
+
+2020-07-24T17:34:49+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:277
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 277
+
+2020-07-24T17:41:41+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:304
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+
+2020-07-24T17:44:23+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:304
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+
+2020-07-24T17:50:21+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:278
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 278
+
+2020-07-24T17:54:46+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+
+2020-07-24T17:55:13+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+
+2020-07-24T17:55:53+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+
+2020-07-24T17:56:16+00:00 CRITICAL syntax error, unexpected ':', expecting ']' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+
+2020-07-24T17:56:40+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+
+2020-07-24T17:57:04+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_processing(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(N in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+
+2020-07-24T17:59:37+00:00 CRITICAL Uncaught Error: Call to a member function get_meta_data() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:297
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters( in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 297
+
+2020-07-24T18:00:05+00:00 CRITICAL Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:298
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 298
+
+2020-07-24T18:00:44+00:00 CRITICAL Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:298
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 298
+
+2020-07-24T18:01:02+00:00 CRITICAL Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:298
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 298
+
+2020-07-24T18:12:29+00:00 CRITICAL syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 304
+
+2020-07-24T18:12:34+00:00 CRITICAL syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+
+2020-07-24T18:12:34+00:00 CRITICAL syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+
+2020-07-24T18:15:06+00:00 CRITICAL syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+
+2020-07-24T18:22:47+00:00 CRITICAL Uncaught Error: Call to undefined function length() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:309
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+# in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 309
+
+2020-07-24T18:35:00+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:307
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 307
+
+2020-07-24T18:39:48+00:00 CRITICAL Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:315
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 315
+
+2020-07-24T18:40:41+00:00 CRITICAL Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:315
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 315
+
+2020-07-24T18:43:25+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:317
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 317
+
+2020-07-24T18:45:09+00:00 CRITICAL Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:321
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 321
+
+2020-07-24T18:46:00+00:00 CRITICAL Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:321
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->ap in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 321
+
+2020-07-24T18:49:16+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:325
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 325
+
+2020-07-24T18:49:45+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:325
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 325
+
+2020-07-24T18:49:51+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Meta_Data as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:325
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NU in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 325
+
+2020-07-24T18:54:36+00:00 CRITICAL Uncaught Error: Call to undefined function __get() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:316
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 316
+
+2020-07-24T18:56:20+00:00 CRITICAL Uncaught Error: Call to undefined function __get() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#8 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+2020-07-24T18:58:05+00:00 CRITICAL Uncaught Error: Call to undefined function get_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+2020-07-24T19:01:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+2020-07-24T19:01:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:318
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): mysite_completed(64)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 64, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(64)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 318
+
+2020-07-24T21:03:00+00:00 CRITICAL syntax error, unexpected ')', expecting ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:03:15+00:00 CRITICAL syntax error, unexpected ')', expecting ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:03:30+00:00 CRITICAL syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:05:59+00:00 CRITICAL syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:06:06+00:00 CRITICAL syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:06:06+00:00 CRITICAL syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:06:11+00:00 CRITICAL syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:06:21+00:00 CRITICAL syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 298
+
+2020-07-24T21:07:15+00:00 CRITICAL syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 297
+
+2020-07-24T21:09:34+00:00 CRITICAL syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 296
+
+2020-07-24T21:10:07+00:00 CRITICAL syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:10:10+00:00 CRITICAL syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:10:11+00:00 CRITICAL syntax error, unexpected ';' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 282
+
+2020-07-24T21:20:40+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 225
+
+2020-07-24T21:20:41+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 225
+
+2020-07-24T21:20:41+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 225
+
+2020-07-24T21:33:27+00:00 CRITICAL syntax error, unexpected ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 273
+
+2020-07-24T22:43:46+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Meta_Data::set_meta_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(67)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 67, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(67)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+
+2020-07-24T22:43:59+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Meta_Data::set_meta_data() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:275
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(67)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 67, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(67)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275
+
+2020-07-24T22:47:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Meta_Data::__set(), 1 passed in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 275 and exactly 2 expected in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-meta-data.php:67
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php(275): WC_Meta_Data->__set('value')
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(67)
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 67, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-meta-data.php on line 67
+

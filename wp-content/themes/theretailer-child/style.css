@@ -3,6 +3,9 @@ CSS information
  file name  : style.css
  author     : Pham Van Diep
 =================================================================== */
+.wc-order-item-meta{
+	width:160%;
+}
 .form-booking {
   width: 90%;
   margin: 0 auto; }

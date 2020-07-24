@@ -142,6 +142,10 @@ function wdm_add_custom_fields()
             <input id="quantity-num-kids" class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0
                 value="0">
         </div>
+	</li>
+	<li>
+            <input id="coupon" class="coupon" type="hidden" name="cias_coupon" min=0
+                value="0">
     </li>
 
 </div>
@@ -172,6 +176,9 @@ function wdm_add_item_data($cart_item_data, $product_id, $variation_id)
 
 	if (isset($_REQUEST['wdm_kids'])) {
 		$cart_item_data['wdm_kids'] = sanitize_text_field($_REQUEST['wdm_kids']);
+	}
+	if (isset($_REQUEST['cias_coupon'])) {
+		$cart_item_data['cias_coupon'] = sanitize_text_field($_REQUEST['cias_coupon']);
 	}
 
 	return $cart_item_data;
@@ -204,11 +211,19 @@ function wdm_add_item_meta($item_data, $cart_item)
 			'value' => $custom_details
 		);
 	}
+	if (array_key_exists('cias_coupon', $cart_item)) {
+		$custom_details = $cart_item['cias_coupon'];
+
+		$item_data[] = array(
+			'key'   => 'Coupon  code',
+			'value' => $custom_details
+		);
+	}
 
 	return $item_data;
 }
-add_action('woocommerce_checkout_create_order_line_item', 'wdm_add_custom_order_line_item_meta', 10, 4);
 
+add_action('woocommerce_checkout_create_order_line_item', 'wdm_add_custom_order_line_item_meta', 10, 4);
 // add quantity adult and child to order line
 function wdm_add_custom_order_line_item_meta($item, $cart_item_key, $values, $order)
 {
@@ -218,6 +233,9 @@ function wdm_add_custom_order_line_item_meta($item, $cart_item_key, $values, $or
 	}
 	if (array_key_exists('wdm_kids', $values)) {
 		$item->add_meta_data('Trẻ em', $values['wdm_kids']);
+	}
+	if (array_key_exists('cias_coupon', $values)) {
+		$item->add_meta_data('Coupon code', $values['cias_coupon']);
 	}
 }
 
@@ -244,101 +262,57 @@ function cias_price( $cart ) {
 // Remove Product Prices
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
 // Check order status and generate code
-// function mysite_pending($order_id) {
-// error_log("$order_id set to PENDING", 0);
-// }
-// function mysite_failed($order_id) {
-// error_log("$order_id set to FAILED", 0);
-// }
-// function mysite_hold($order_id) {
-// error_log("$order_id set to ON HOLD", 0);
-// }
-// function mysite_processing($order_id) {
-// error_log("$order_id set to PROCESSING", 0);
-// $order = wc_get_order( $order_id);
-// 	// Get and Loop Over Order Items
-// foreach ( $order->get_items() as $item_id => $item ) {
-// 	$product_id = $item->get_product_id();
-// 	$variation_id = $item->get_variation_id();
-// 	$product = $item->get_product();
-// 	$name = $item->get_name();
-// 	$quantity = $item->get_quantity();
-// 	$subtotal = $item->get_subtotal();
-// 	$total = $item->get_total();
-// 	$tax = $item->get_subtotal_tax();
-// 	$taxclass = $item->get_tax_class();
-// 	$taxstat = $item->get_tax_status();
-// 	$allmeta = $item->get_meta_data();
-// 	$somemeta = $item->get_meta( '_whatever', true );
-// 	$type = $item->get_type();
-// 	error_log($product_id);
-// 	// error_log($allmeta);
-// 	$xxx = "";
-// 		foreach ($allmeta as $meta => $values){
-// 			error_log($meta);
-// 			error_log($values);
-// 		}
-// 	}
-// }
-// function mysite_completed($order_id) {
 
-// 	$order = wc_get_order( $order_id);
+function cias_order_completed($order_id) {
 
-// 	// Get and Loop Over Order Items
-// 	foreach ( $order->get_items() as $item_id => $item ) {
-// 		$product_id = $item->get_product_id();
-// 		$variation_id = $item->get_variation_id();
-// 		$product = $item->get_product();
-// 		$name = $item->get_name();
-// 		$quantity = $item->get_quantity();
-// 		$subtotal = $item->get_subtotal();
-// 		$total = $item->get_total();
-// 		$tax = $item->get_subtotal_tax();
-// 		$taxclass = $item->get_tax_class();
-// 		$taxstat = $item->get_tax_status();
-// 		$allmeta = $item->get_meta_data();
-// 		$somemeta = $item->get_meta( '_whatever', true );
-// 		$type = $item->get_type();
+	$order = wc_get_order( $order_id);
 
-// 		error_log($product_id);
-// 		error_log($name);
-// 		$xxx = "";
-// 		foreach ($allmeta as $meta => $values){
-// 			error_log($meta);
-// 			error_log($values);
-// 		}
-
-// 	}
-
+	// Get and Loop Over Order Items
+	foreach ( $order->get_items() as $item_id => $item ) {
+		$allmeta = $item->get_meta_data();
+		$adultCount = $allmeta[0]->__get('value');
+		$childCount = $allmeta[1]->__get('value');	
+		$couponCode = $allmeta[2]->__get('value');	
+		
+	}	
+		error_log("Complated");
+		error_log("Nguoi lon:" . $adultCount);
+		error_log("Tre em: " . $childCount);
+		error_log("Coupon Code: " . $couponCode);
+	// $num_code= 1;
+	// while ( $num_code <= $adultCount) {
+	// 	$random_coupon = 'CIAS'.'';
+	// 	$length        = 12;
+	// 	$charset       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+	// 	$count         = strlen( $charset );
 	
-// }
-// function mysite_refunded($order_id) {
-// error_log("$order_id set to REFUNDED", 0);
-// }
-// function mysite_cancelled($order_id) {
-// error_log("$order_id set to CANCELLED", 0);
-// }
+	// 	while ( $length-- ) {
+	// 		$random_coupon .= $charset[ mt_rand( 0, $count-1 ) ];
+	// 	}
+	
+	// 	$random_coupon = implode( '-', str_split( strtoupper( $random_coupon ), 4 ) );
+	
+	// 	// Ensure coupon code is correctly formatted
+	// 	$coupon_code = apply_filters( 'woocommerce_coupon_code', $random_coupon );
+	// 	$num_code++;
+	// 	error_log( $coupon_code ); 
+	// }
+	
+	
+}
+add_action( 'woocommerce_order_status_completed', 'cias_order_completed');
 
-
-// add_action( 'woocommerce_order_status_pending', 'mysite_pending');
-// add_action( 'woocommerce_order_status_failed', 'mysite_failed');
-// add_action( 'woocommerce_order_status_on-hold', 'mysite_hold');
-// // Note that it's woocommerce_order_status_on-hold, not on_hold.
-// add_action( 'woocommerce_order_status_processing', 'mysite_processing');
-// add_action( 'woocommerce_order_status_completed', 'mysite_completed');
-// add_action( 'woocommerce_order_status_refunded', 'mysite_refunded');
-// add_action( 'woocommerce_order_status_cancelled', 'mysite_cancelled');
 
 
 // add coupon code to preview order
-// add_filter( 'woocommerce_admin_order_preview_get_order_details', 'admin_order_preview_add_custom_meta_data', 10, 2 );
-// function admin_order_preview_add_custom_meta_data( $data, $order ) {
-//     // Replace '_custom_meta_key' by the correct postmeta key
-//     if( $custom_value = $order->get_meta('is_vat_exempt') )
-//         $data['custom_key'] = $custom_value; // <= Store the value in the data array.
+add_filter( 'woocommerce_admin_order_preview_get_order_details', 'admin_order_preview_add_custom_meta_data', 10, 2 );
+function admin_order_preview_add_custom_meta_data( $data, $order ) {
+    // Replace '_custom_meta_key' by the correct postmeta key
+    if( $custom_value = $order->get_meta('is_vat_exempt') )
+        $data['custom_key'] = $custom_value; // <= Store the value in the data array.
 
-//     return $data;
-// }
+    return $data;
+}
 
 // // Display custom values in Order preview
 add_action( 'woocommerce_admin_order_preview_end', 'custom_display_order_data_in_admin' );
