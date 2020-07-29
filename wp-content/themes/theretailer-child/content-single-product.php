@@ -153,7 +153,7 @@ if (GBT_Opt::getOption('products_layout', false)) {
                             </div>
                             <!-- <div class="wrap">
                                 <?php 
-                            	do_action( 'woocommerce_single_product_summary_single_add_to_cart' );
+                            	// do_action( 'woocommerce_single_product_summary_single_add_to_cart' );
                                 ?>
                             </div>
      -->

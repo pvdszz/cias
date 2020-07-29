@@ -143,10 +143,10 @@ function wdm_add_custom_fields()
                 value="0">
         </div>
 	</li>
-	<li>
+	<!-- <li>
             <input id="coupon" class="coupon" type="hidden" name="cias_coupon" min=0
                 value="0">
-    </li>
+    </li> -->
 
 </div>
 <div class="clear"></div>
@@ -177,9 +177,9 @@ function wdm_add_item_data($cart_item_data, $product_id, $variation_id)
 	if (isset($_REQUEST['wdm_kids'])) {
 		$cart_item_data['wdm_kids'] = sanitize_text_field($_REQUEST['wdm_kids']);
 	}
-	if (isset($_REQUEST['cias_coupon'])) {
-		$cart_item_data['cias_coupon'] = sanitize_text_field($_REQUEST['cias_coupon']);
-	}
+	// if (isset($_REQUEST['cias_coupon'])) {
+	// 	$cart_item_data['cias_coupon'] = sanitize_text_field($_REQUEST['cias_coupon']);
+	// }
 
 	return $cart_item_data;
 }
@@ -211,14 +211,14 @@ function wdm_add_item_meta($item_data, $cart_item)
 			'value' => $custom_details
 		);
 	}
-	if (array_key_exists('cias_coupon', $cart_item)) {
-		$custom_details = $cart_item['cias_coupon'];
+	// if (array_key_exists('cias_coupon', $cart_item)) {
+		$custom_details = "";
 
 		$item_data[] = array(
 			'key'   => 'Coupon  code',
 			'value' => $custom_details
 		);
-	}
+	// }
 
 	return $item_data;
 }
