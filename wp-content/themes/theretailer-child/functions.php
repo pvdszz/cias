@@ -259,8 +259,40 @@ function cias_price( $cart ) {
 		$item['data']->set_price($price );
 	}
 }
+
+// Remove old product
+
+add_action( 'woocommerce_add_to_cart', 'check_product_added_to_cart', 10, 6 );
+function check_product_added_to_cart($cart_item_key, $product_id, $quantity, $variation_id, $variation, $cart_item_data) {
+
+
+
+    $has_item = false;
+    $is_product_id = false;
+
+ 
+    foreach( WC()->cart->get_cart() as $key => $item ){
+		$product_added_id = $item['product_id'];
+
+        if(isset($product_added_id) ){
+            $has_item = true;
+            $key_to_remove = $key;
+        }
+	}
+	
+	error_log($product_added_id);
+	
+
+    if( $has_item ){
+		WC()->cart->remove_cart_item($key_to_remove);
+		error_log("Remove....");
+
+    }
+}
+
 // Remove Product Prices
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
+
 // Check order status and generate code
 
 function cias_order_completed($order_id) {
