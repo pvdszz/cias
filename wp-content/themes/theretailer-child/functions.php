@@ -292,55 +292,128 @@ function cias_order_completed($order_id) {
 	foreach ( $order->get_items() as $item_id => $item ) {
 		$allmeta = $item->get_meta_data();
 		$adultCount = $allmeta[0]->__get('value');
-		$childCount = $allmeta[1]->__get('value');		
-
-
-
-		
+		$childCount = $allmeta[1]->__get('value');				
 	}	
-	
-		error_log("Complated");
-		error_log("Nguoi lon:" . $adultCount);
-		error_log("Tre em: " . $childCount);
-		$num_code= 1;
-		$result = ["1","2","3"];
-		error_log(print_r($result));
-		while ( $num_code <= $adultCount) {
-			$random_coupon = 'CIAS'.'';
-			$length        = 12;
-			$charset       = 'abcdefghijklmnopqrstuvwxyz0123456789';
+		$anum_code= 1;
+		while ( $anum_code <= $adultCount) {
+			$acoupon_code = 'A'.$order_id.'-';
+			$length        = 6;
+			$charset       = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 			$count         = strlen( $charset );
 		
 			while ( $length-- ) {
-				$random_coupon .= $charset[ mt_rand( 0, $count-1 ) ];
+				$acoupon_code .= $charset[ mt_rand( 0, $count-1 ) ];
 			}
 		
-			$coupon_code = implode( '-', str_split( strtoupper( $random_coupon ), 4 ) );
-		
-	
-			// error_log( $coupon_code ); 
 			// insert to database
 			global $wpdb;
 			$date = date('Y-m-d', strtotime("+30 days"));
 			$table = $wpdb->prefix.'orderextra';
 			$data = array(
 					'orderExID' => $order_id,
-					'code' 		=> $coupon_code,
+					'code' 		=> $acoupon_code,
 					'expiredDate' => $date,
 				);
 			$wpdb->insert($table,$data,$format=NULL);
-			// if ( empty( $_POST['code'] ) ) {
-			// 	$code = update_post_meta(  $coupon_code );
-			// 	error_log("-----------------------------");
-			// 	error_log($coupon_code);
-			// }
-			$num_code++;
+			$anum_code++;
+		
+
+		}
+		$bnum_code= 1;
+
+		while ( $bnum_code <= $childCount) {
+			$bcoupon_code = 'B'.$order_id.'-';
+			$length        = 6;
+			$charset       = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+			$count         = strlen( $charset );
+		
+			while ( $length-- ) {
+				$bcoupon_code .= $charset[ mt_rand( 0, $count-1 ) ];
+			}
+		
+			// insert to database
+			global $wpdb;
+			$date = date('Y-m-d', strtotime("+30 days"));
+			$table = $wpdb->prefix.'orderextra';
+			$data = array(
+					'orderExID' => $order_id,
+					'code' 		=> $bcoupon_code,
+					'expiredDate' => $date,
+				);
+			$wpdb->insert($table,$data,$format=NULL);
+			$bnum_code++;
 		
 
 		}
 
 }
+function cias_order_pending($order_id) {
+	error_log("$order_id set to PENDING");
+	global $wpdb;
+	$table = $wpdb->prefix.'orderextra';
+	$wpdb->delete( $table, array( 'orderExID' => $order_id ) );
+}
+function cias_order_failed($order_id) {
+	error_log("$order_id set to FAILED");
+	global $wpdb;
+	$table = $wpdb->prefix.'orderextra';
+	$wpdb->delete( $table, array( 'orderExID' => $order_id ) );
+}
+function cias_order_hold($order_id) {
+	error_log("$order_id set to ON HOLD");
+	global $wpdb;
+	$table = $wpdb->prefix.'orderextra';
+	$wpdb->delete( $table, array( 'orderExID' => $order_id ) );
+}
+function cias_order_processing($order_id) {
+	error_log("$order_id set to PROCESSING");
+	// error_log("$order_id set to PENDING");
+	// global $wpdb;
+	// $table = $wpdb->prefix.'orderextra';
+	// $results = $wpdb->get_results( "SELECT * FROM $table");
+	// foreach($results as $row){
+	// 	$id = $row->orderExID;
+	// 	$code = $row->code;
+		
+	// 	if( $id == $order_id){
+	// 		$data = array(
+	// 			''
+	// 		)
+	// 	}
+		// if($id == $order_id && $used == 1){
+		// 	echo $row["code"] . " - Erpired Date: " . $row["expiredDate"] ."<br>";
+		// }
+		// if($id !== $order_id){
+		// 	echo "";
+		// }
+
+	}
+	$wpdb->delete( $table, array( 'orderExID' => $order_id ) );
+}
+
+function cias_order_refunded($order_id) {
+	error_log("$order_id set to REFUNDED");
+	global $wpdb;
+	$table = $wpdb->prefix.'orderextra';
+	$wpdb->delete( $table, array( 'orderExID' => $order_id ) );
+}
+function cias_order_cancelled($order_id) {
+	global $wpdb;
+	$table = $wpdb->prefix.'orderextra';
+	$wpdb->update( $table, $data, $where );
+}
+
 add_action( 'woocommerce_order_status_completed', 'cias_order_completed');
+add_action( 'woocommerce_order_status_pending', 'cias_order_pending', 10, 1);
+add_action( 'woocommerce_order_status_failed', 'cias_order_failed', 10, 1);
+add_action( 'woocommerce_order_status_on-hold', 'cias_order_hold', 10, 1);
+add_action( 'woocommerce_order_status_processing', 'cias_order_processing', 10, 1);
+add_action( 'woocommerce_order_status_completed', 'cias_order_completed', 10, 1);
+add_action( 'woocommerce_order_status_refunded', 'cias_order_refunded', 10, 1);
+add_action( 'woocommerce_order_status_cancelled', 'cias_order_cancelled', 10, 1);
+
+
+
 
 
 /**
@@ -361,7 +434,7 @@ function my_custom_checkout_field_display_admin_order_meta($order){
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
-	$sql = "SELECT orderExID, code FROM cias_orderextra";
+	$sql = "SELECT  orderExID,code,expiredDate, used FROM cias_orderextra";
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
@@ -370,22 +443,24 @@ function my_custom_checkout_field_display_admin_order_meta($order){
 
 		while($row = $result->fetch_assoc()) {
 			$id = $row["orderExID"];
-			if( $id == $order_id){
-			echo " orderExID: ". $row["orderExID"]. " - Code: ". $row["code"] . "<br>";
-			}else{
+			$used = $row["used"];
+			
+			if( $id == $order_id && $used == 0){
+			echo $row["code"] . " - Erpired Date: " . $row["expiredDate"] ." - Used  <br>";
+			}
+			if($id == $order_id && $used == 1){
+				echo $row["code"] . " - Erpired Date: " . $row["expiredDate"] ."<br>";
+			}
+			if($id !== $order_id){
 				echo "";
 			}
+		
 		}
 	} 
 
 	$conn->close();
 }
 
-function cias_order_processing($order_id) {
-	$date = date('Y-m-d', strtotime("+30 days"));
-	error_log($date);
-}
-add_action( 'woocommerce_order_status_processing', 'cias_order_processing');
 
 
 add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );

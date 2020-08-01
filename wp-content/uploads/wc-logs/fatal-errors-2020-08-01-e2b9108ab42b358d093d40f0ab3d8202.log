@@ -1,0 +1,108 @@
+2020-08-01T15:59:43+00:00 CRITICAL Out of memory (allocated 8388608) (tried to allocate 20480 bytes) in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 529
+
+2020-08-01T16:12:44+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 420
+
+2020-08-01T16:12:59+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 420
+
+2020-08-01T16:13:00+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 420
+
+2020-08-01T16:13:00+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 420
+
+2020-08-01T16:14:02+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 420
+
+2020-08-01T16:14:08+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 420
+
+2020-08-01T16:14:22+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_order() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:419
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): cias_order_statuses(Array)
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-order-functions.php(103): apply_filters('wc_order_status...', Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(825): wc_get_order_statuses()
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(783): WC_Admin_List_Table_Orders->query_filters(Array)
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Admin_List_Table_Orders->request_query(Array)
+#6 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#7 E:\xampp\htdocs\cias\wp-includes\clas in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 419
+
+2020-08-01T16:21:03+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on bool in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:420
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): cias_order_statuses(Array)
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-order-functions.php(103): apply_filters('wc_order_status...', Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-orders-v1-controller.php(902): wc_get_order_statuses()
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-orders-v1-controller.php(1605): WC_REST_Orders_V1_Controller->get_order_statuses()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-order-refunds-v1-controller.php(518): WC_REST_Ord in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 420
+
+2020-08-01T16:21:50+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on bool in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:420
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): cias_order_statuses(Array)
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-order-functions.php(103): apply_filters('wc_order_status...', Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-orders-v1-controller.php(902): wc_get_order_statuses()
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-orders-v1-controller.php(1605): WC_REST_Orders_V1_Controller->get_order_statuses()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version1\class-wc-rest-order-refunds-v1-controller.php(518): WC_REST_Ord in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 420
+
+2020-08-01T16:21:52+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on bool in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:420
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): cias_order_statuses(Array)
+#1 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#2 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-order-functions.php(103): apply_filters('wc_order_status...', Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(825): wc_get_order_statuses()
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\list-tables\class-wc-admin-list-table-orders.php(783): WC_Admin_List_Table_Orders->query_filters(Array)
+#5 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): WC_Admin_List_Table_Orders->request_query(Array)
+#6 E:\xampp\htdocs\cias\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#7 E:\xampp\htdocs\cias\wp-includes\c in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 420
+
+2020-08-01T17:21:35+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:334
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_pending(95)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 95, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(95)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL,  in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 334
+
+2020-08-01T17:26:04+00:00 CRITICAL syntax error, unexpected ''orderextra'' (T_CONSTANT_ENCAPSED_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 328
+
+2020-08-01T17:26:05+00:00 CRITICAL syntax error, unexpected ''orderextra'' (T_CONSTANT_ENCAPSED_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 328
+
+2020-08-01T17:26:05+00:00 CRITICAL syntax error, unexpected ''orderextra'' (T_CONSTANT_ENCAPSED_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 328
+
+2020-08-01T17:36:32+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::get_result() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:423
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): my_custom_checkout_field_display_admin_order_meta(Object(WC_Order))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(426): do_action('woocommerce_adm...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-admin\includes\template.php(1345): WC_Meta_Box_Order_Data::output(Object(WP_Post), Array)
+#5 E:\xampp\htdocs\cias\wp-admin\edit-form-advanced.php(677): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#6 E:\xampp\htdocs\cias\wp-admin\post.php(206): require('E:\\xampp\\htdocs...')
+#7 {main}
+  thrown in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 423
+
+2020-08-01T18:55:37+00:00 CRITICAL syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 456
+
+2020-08-01T18:55:52+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 458
+
+2020-08-01T18:57:48+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 464
+
+2020-08-01T21:36:44+00:00 CRITICAL syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 374
+
+2020-08-01T21:39:44+00:00 CRITICAL syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 380
+
+2020-08-01T21:41:07+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:375
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_processing(102)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 102, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(102)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filter in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 375
+
+2020-08-01T21:42:55+00:00 CRITICAL syntax error, unexpected 'error_log' (T_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 380
+
+2020-08-01T21:45:47+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 392
+
