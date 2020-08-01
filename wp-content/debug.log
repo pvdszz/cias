@@ -1,26 +1,823 @@
-[29-Jul-2020 15:53:40 UTC] 20
-[29-Jul-2020 15:53:40 UTC] 61
-[29-Jul-2020 15:53:40 UTC] 20
-[29-Jul-2020 15:53:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:53:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:53:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:53:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:53:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:53:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:42:59 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:42:59 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:42:59 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:42:59 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:43:00 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:43:00 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:43:00 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:43:00 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:43:29 UTC] PHP Notice:  Undefined index: theretailer-child in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 424
+[30-Jul-2020 15:48:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:14 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:15 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:15 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:15 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:15 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:39 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:39 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:39 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:39 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:40 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 15:48:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:01:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:01:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:01:59 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:01:59 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:02:13 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:02:13 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:02:17 UTC] PHP Notice:  Undefined index:  in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 238
+[30-Jul-2020 16:03:37 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:03:38 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:03:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WC_Data::add_meta_data(), 1 passed in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 238 and at least 2 expected in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php:404
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php(238): WC_Data->add_meta_data('Coupon code')
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): wdm_add_custom_order_line_item_meta(Object(WC_Order_Item_Product), '05ba488390ee644...', Array, Object(WC_Order))
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(489): do_action('woocommerce_che...', Object(WC_Order_Item_Product), '05ba488390ee644...', Array, Object(WC_Order))
+#5 E:\xampp\htdocs\cias\wp-content\plugin in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-data.php on line 404
+[30-Jul-2020 16:04:05 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:04:06 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
 
 
 
 
-
-
-[29-Jul-2020 15:55:09 UTC] 20
-[29-Jul-2020 15:55:09 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:55:09 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:55:09 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:55:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:55:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:55:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
-[29-Jul-2020 15:56:41 UTC] 20
-[29-Jul-2020 15:57:30 UTC] 20
-[29-Jul-2020 16:01:35 UTC] 20
-[29-Jul-2020 16:01:35 UTC] Remove....
+[30-Jul-2020 16:05:47 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:05:48 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:07:49 UTC] PHP Notice:  Undefined index: value in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3583
+[30-Jul-2020 16:07:49 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:07:50 UTC] PHP Notice:  Undefined index: value in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3583
+[30-Jul-2020 16:07:50 UTC] PHP Notice:  Undefined index: value in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3583
+[30-Jul-2020 16:07:50 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:08:30 UTC] PHP Notice:  Undefined index: value in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3583
+[30-Jul-2020 16:08:30 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:08:30 UTC] PHP Notice:  Undefined index: value in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3583
+[30-Jul-2020 16:08:30 UTC] PHP Notice:  Undefined index: value in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 3583
+[30-Jul-2020 16:08:30 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:49:11 UTC] PHP Parse error:  syntax error, unexpected '_details' (T_STRING), expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 211
+[30-Jul-2020 16:49:11 UTC] PHP Parse error:  syntax error, unexpected '_details' (T_STRING), expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 211
+[30-Jul-2020 16:49:11 UTC] PHP Parse error:  syntax error, unexpected '_details' (T_STRING), expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 211
+[30-Jul-2020 16:49:11 UTC] PHP Parse error:  syntax error, unexpected '_details' (T_STRING), expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 211
+[30-Jul-2020 16:49:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 339
+[30-Jul-2020 16:49:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 340
+[30-Jul-2020 16:49:27 UTC] PHP Parse error:  syntax error, unexpected '_details' (T_STRING), expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 211
+[30-Jul-2020 16:50:38 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:50:38 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:50:49 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:50:50 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:52:15 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 360
+[30-Jul-2020 16:52:48 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:52:48 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:54:53 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:54:54 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:55:23 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:55:23 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:55:26 UTC] PHP Notice:  Undefined index:  in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 238
+[30-Jul-2020 16:55:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:55:59 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:58:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:58:42 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:59:28 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 16:59:29 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:01:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:01:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:01:25 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:01:26 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:23 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:23 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:24 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:24 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:50 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:50 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:50 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:51 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:51 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:02:51 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:20 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:20 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:20 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:20 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:31 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:32 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:32 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:32 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:32 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:47 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:04:48 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:10 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:11 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:11 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:11 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:11 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:09:11 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:12:16 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:12:17 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 17:24:52 UTC] Complated
+[30-Jul-2020 17:24:52 UTC] Nguoi lon:1
+[30-Jul-2020 17:24:52 UTC] Tre em: 0
+[30-Jul-2020 17:24:52 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 17:27:35 UTC] Complated
+[30-Jul-2020 17:27:35 UTC] Nguoi lon:1
+[30-Jul-2020 17:27:35 UTC] Tre em: 0
+[30-Jul-2020 17:27:35 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 17:28:24 UTC] Complated
+[30-Jul-2020 17:28:24 UTC] Nguoi lon:1
+[30-Jul-2020 17:28:24 UTC] Tre em: 0
+[30-Jul-2020 17:28:24 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 17:29:14 UTC] Complated
+[30-Jul-2020 17:29:14 UTC] Nguoi lon:1
+[30-Jul-2020 17:29:14 UTC] Tre em: 0
+[30-Jul-2020 17:29:14 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 17:29:58 UTC] Complated
+[30-Jul-2020 17:29:58 UTC] Nguoi lon:1
+[30-Jul-2020 17:29:58 UTC] Tre em: 0
+[30-Jul-2020 17:29:58 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 17:31:52 UTC] Complated
+[30-Jul-2020 17:31:52 UTC] Nguoi lon:1
+[30-Jul-2020 17:31:52 UTC] Tre em: 0
+[30-Jul-2020 17:31:52 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 17:33:05 UTC] Complated
+[30-Jul-2020 17:33:05 UTC] Nguoi lon:1
+[30-Jul-2020 17:33:05 UTC] Tre em: 0
+[30-Jul-2020 17:33:05 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 17:44:38 UTC] Complated
+[30-Jul-2020 17:44:38 UTC] Nguoi lon:1
+[30-Jul-2020 17:44:38 UTC] Tre em: 0
+[30-Jul-2020 17:44:38 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 18:18:16 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 18:18:17 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 18:19:09 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 306
+[30-Jul-2020 18:19:46 UTC] PHP Fatal error:  Uncaught Error: Object of class WC_Meta_Data could not be converted to string in E:\xampp\htdocs\cias\wp-includes\meta.php:1077
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\meta.php(183): sanitize_meta(Object(WC_Meta_Data), '0', 'post', 'shop_order')
+#1 E:\xampp\htdocs\cias\wp-includes\post.php(2150): update_metadata('post', 87, Object(WC_Meta_Data), '0', '')
+#2 E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php(300): update_post_meta(87, Object(WC_Meta_Data), '0')
+#3 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(87)
+#4 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 87, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#7 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC in E:\xampp\htdocs\cias\wp-includes\meta.php on line 1077
+[30-Jul-2020 18:20:05 UTC] Complated
+[30-Jul-2020 18:20:05 UTC] Nguoi lon:1
+[30-Jul-2020 18:20:05 UTC] Tre em: 0
+[30-Jul-2020 18:20:05 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 18:20:58 UTC] Complated
+[30-Jul-2020 18:20:58 UTC] Nguoi lon:1
+[30-Jul-2020 18:20:58 UTC] Tre em: 0
+[30-Jul-2020 18:20:58 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 18:21:52 UTC] Complated
+[30-Jul-2020 18:21:52 UTC] Nguoi lon:1
+[30-Jul-2020 18:21:52 UTC] Tre em: 0
+[30-Jul-2020 18:21:52 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 18:22:45 UTC] Complated
+[30-Jul-2020 18:22:45 UTC] Nguoi lon:1
+[30-Jul-2020 18:22:45 UTC] Tre em: 0
+[30-Jul-2020 18:22:45 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 18:22:45 UTC] cias-1cst-xogh-nykq
+[30-Jul-2020 18:23:53 UTC] Complated
+[30-Jul-2020 18:23:53 UTC] Nguoi lon:1
+[30-Jul-2020 18:23:53 UTC] Tre em: 0
+[30-Jul-2020 18:23:53 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 18:23:53 UTC] cias-ecvl-e7mt-mlch
+[30-Jul-2020 18:25:39 UTC] Complated
+[30-Jul-2020 18:25:39 UTC] Nguoi lon:1
+[30-Jul-2020 18:25:39 UTC] Tre em: 0
+[30-Jul-2020 18:25:39 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 18:25:39 UTC] cias-s1lu-td8a-ys4w
+[30-Jul-2020 18:27:00 UTC] Complated
+[30-Jul-2020 18:27:00 UTC] Nguoi lon:1
+[30-Jul-2020 18:27:00 UTC] Tre em: 0
+[30-Jul-2020 18:27:00 UTC] Coupon Code: Coupon code will be sent to you when your order completed. Thank you so much!
+[30-Jul-2020 18:27:00 UTC] cias-tzor-bawj-sxgf
+[30-Jul-2020 18:28:19 UTC] Complated
+[30-Jul-2020 18:28:19 UTC] Nguoi lon:1
+[30-Jul-2020 18:28:19 UTC] Tre em: 0
+[30-Jul-2020 18:28:19 UTC] Coupon Code: 
+[30-Jul-2020 18:28:19 UTC] cias-0xch-qxc5-wgav
+[30-Jul-2020 18:35:28 UTC] Complated
+[30-Jul-2020 18:35:28 UTC] Nguoi lon:1
+[30-Jul-2020 18:35:28 UTC] Tre em: 0
+[30-Jul-2020 18:35:28 UTC] Coupon Code: 
+[30-Jul-2020 18:35:28 UTC] cias-ioy5-sn7h-cvw9
+[30-Jul-2020 21:06:31 UTC] 87
+[30-Jul-2020 21:06:31 UTC] Complated
+[30-Jul-2020 21:06:31 UTC] Nguoi lon:1
+[30-Jul-2020 21:06:31 UTC] Tre em: 0
+[30-Jul-2020 21:06:31 UTC] Coupon Code: 
+[30-Jul-2020 21:06:31 UTC] cias-pdsu-ffdp-uhp6
+[30-Jul-2020 21:07:38 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 332
+[30-Jul-2020 21:07:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 332
+[30-Jul-2020 21:09:55 UTC] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 294
+[30-Jul-2020 21:10:58 UTC] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 330
+[30-Jul-2020 21:11:01 UTC] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 330
+[30-Jul-2020 21:11:01 UTC] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 330
+[30-Jul-2020 21:11:29 UTC] 87
+[30-Jul-2020 21:11:29 UTC] Complated
+[30-Jul-2020 21:11:29 UTC] Nguoi lon:1
+[30-Jul-2020 21:11:29 UTC] Tre em: 0
+[30-Jul-2020 21:11:29 UTC] Coupon Code: 
+[30-Jul-2020 21:11:29 UTC] cias-v9oj-w2uc-q7dq
+[30-Jul-2020 21:11:52 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 21:11:53 UTC] PHP Warning:  number_format() expects parameter 1 to be float, object given in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 46
+[30-Jul-2020 21:12:12 UTC] 89
+[30-Jul-2020 21:12:12 UTC] Complated
+[30-Jul-2020 21:12:12 UTC] Nguoi lon:5
+[30-Jul-2020 21:12:12 UTC] Tre em: 0
+[30-Jul-2020 21:12:12 UTC] Coupon Code: 
+[30-Jul-2020 21:12:12 UTC] cias-afug-xieu-q5wh
+[30-Jul-2020 21:14:24 UTC] 89
+[30-Jul-2020 21:14:24 UTC] Complated
+[30-Jul-2020 21:14:24 UTC] Nguoi lon:5
+[30-Jul-2020 21:14:24 UTC] Tre em: 0
+[30-Jul-2020 21:14:24 UTC] Coupon Code: 
+[30-Jul-2020 21:14:24 UTC] cias-jc5z-wbad-dan4
+[30-Jul-2020 21:14:24 UTC] cias-rqpa-bjxr-ylpe
+[30-Jul-2020 21:14:24 UTC] cias-cmhg-pkmw-wrub
+[30-Jul-2020 21:14:24 UTC] cias-jqll-p3ad-1wjm
+[30-Jul-2020 21:14:24 UTC] cias-viuk-hcku-ij9h
+[30-Jul-2020 21:15:53 UTC] 89
+[30-Jul-2020 21:15:53 UTC] Complated
+[30-Jul-2020 21:15:53 UTC] Nguoi lon:5
+[30-Jul-2020 21:15:53 UTC] Tre em: 0
+[30-Jul-2020 21:15:53 UTC] Coupon Code: 
+[30-Jul-2020 21:15:53 UTC] cias-camw-ejck-cnau
+[30-Jul-2020 21:15:53 UTC] cias-sjst-jyp4-t8uz
+[30-Jul-2020 21:15:53 UTC] cias-ouc5-dpuy-udlu
+[30-Jul-2020 21:15:53 UTC] cias-owvn-st0e-21lb
+[30-Jul-2020 21:15:53 UTC] cias-xw6a-qono-3ygc
+[30-Jul-2020 21:22:47 UTC] 89
+[30-Jul-2020 21:22:47 UTC] Complated
+[30-Jul-2020 21:22:47 UTC] Nguoi lon:5
+[30-Jul-2020 21:22:47 UTC] Tre em: 0
+[30-Jul-2020 21:22:47 UTC] Coupon Code: 
+[30-Jul-2020 21:22:47 UTC] cias-7yov-ydj0-iusy
+[30-Jul-2020 21:22:47 UTC] cias-vwt5-5yru-bsko
+[30-Jul-2020 21:22:47 UTC] cias-tnic-suqo-m0wg
+[30-Jul-2020 21:22:47 UTC] cias-hgm3-stmv-jstp
+[30-Jul-2020 21:22:47 UTC] cias-2nvo-vu2u-cflq
+[30-Jul-2020 21:23:29 UTC] 89
+[30-Jul-2020 21:23:29 UTC] Complated
+[30-Jul-2020 21:23:29 UTC] Nguoi lon:5
+[30-Jul-2020 21:23:29 UTC] Tre em: 0
+[30-Jul-2020 21:23:29 UTC] Coupon Code: 
+[30-Jul-2020 21:23:29 UTC] cias-g2sb-upkc-pfmp
+[30-Jul-2020 21:23:29 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 327
+[30-Jul-2020 21:23:29 UTC] cias-em12-klr1-vifm
+[30-Jul-2020 21:23:29 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 327
+[30-Jul-2020 21:23:29 UTC] cias-2dlk-imia-2vb8
+[30-Jul-2020 21:23:29 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 327
+[30-Jul-2020 21:23:29 UTC] cias-p4nn-3a8w-z6ks
+[30-Jul-2020 21:23:29 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 327
+[30-Jul-2020 21:23:29 UTC] cias-4rse-k6u8-vxd3
+[30-Jul-2020 21:23:29 UTC] PHP Warning:  date() expects at least 1 parameter, 0 given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 327
+[30-Jul-2020 21:26:20 UTC] 89
+[30-Jul-2020 21:26:20 UTC] Complated
+[30-Jul-2020 21:26:20 UTC] Nguoi lon:5
+[30-Jul-2020 21:26:20 UTC] Tre em: 0
+[30-Jul-2020 21:26:20 UTC] Coupon Code: 
+[30-Jul-2020 21:26:20 UTC] cias-wdyd-11et-rmew
+[30-Jul-2020 21:26:20 UTC] cias-mqgi-emec-zxfy
+[30-Jul-2020 21:26:20 UTC] cias-hhsu-xeil-iz4a
+[30-Jul-2020 21:26:20 UTC] cias-uwjw-wkgc-hqpg
+[30-Jul-2020 21:26:20 UTC] cias-5uom-myzo-cugl
+[30-Jul-2020 21:29:52 UTC] 89
+[30-Jul-2020 21:29:52 UTC] Complated
+[30-Jul-2020 21:29:52 UTC] Nguoi lon:5
+[30-Jul-2020 21:29:52 UTC] Tre em: 0
+[30-Jul-2020 21:29:52 UTC] Coupon Code: 
+[30-Jul-2020 21:29:52 UTC] cias-hzvu-jpvu-gfjd
+[30-Jul-2020 21:29:52 UTC] cias-7yob-wfvk-p1bs
+[30-Jul-2020 21:29:52 UTC] cias-v5fi-fjux-myjy
+[30-Jul-2020 21:29:52 UTC] cias-cn8d-8fnk-ieru
+[30-Jul-2020 21:29:52 UTC] cias-bsrd-lrnu-gwtp
+[30-Jul-2020 21:30:47 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 337
+[30-Jul-2020 21:30:51 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 337
+[30-Jul-2020 21:30:51 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 337
+[30-Jul-2020 21:31:24 UTC] 89
+[30-Jul-2020 21:31:24 UTC] Complated
+[30-Jul-2020 21:31:24 UTC] Nguoi lon:5
+[30-Jul-2020 21:31:24 UTC] Tre em: 0
+[30-Jul-2020 21:31:24 UTC] Coupon Code: 
+[30-Jul-2020 21:31:24 UTC] cias-c0it-x0lc-txnt
+[30-Jul-2020 21:31:24 UTC] 8150025600
+[30-Jul-2020 21:31:24 UTC] cias-gb0f-qy0v-gslt
+[30-Jul-2020 21:31:24 UTC] 8150025600
+[30-Jul-2020 21:31:24 UTC] cias-ka7g-xaob-a88z
+[30-Jul-2020 21:31:24 UTC] 8150025600
+[30-Jul-2020 21:31:24 UTC] cias-r0eb-azj9-qcvt
+[30-Jul-2020 21:31:24 UTC] 8150025600
+[30-Jul-2020 21:31:24 UTC] cias-0hfq-g6vc-rytl
+[30-Jul-2020 21:31:24 UTC] 8150025600
+[30-Jul-2020 21:32:42 UTC] 89
+[30-Jul-2020 21:32:42 UTC] Complated
+[30-Jul-2020 21:32:42 UTC] Nguoi lon:5
+[30-Jul-2020 21:32:42 UTC] Tre em: 0
+[30-Jul-2020 21:32:42 UTC] Coupon Code: 
+[30-Jul-2020 21:32:42 UTC] cias-non1-wd4a-33pd
+[30-Jul-2020 21:32:42 UTC] cias-pylk-02s7-mgvv
+[30-Jul-2020 21:32:42 UTC] cias-q5p0-excj-8ofh
+[30-Jul-2020 21:32:42 UTC] cias-la3l-hgbx-bbic
+[30-Jul-2020 21:32:42 UTC] cias-wtrs-ser7-j99u
+[30-Jul-2020 21:33:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:33:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:33:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:33:51 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:34:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:34:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:34:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:34:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:34:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:34:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:34:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:34:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 359
+[30-Jul-2020 21:34:43 UTC] 1598659200
+[30-Jul-2020 22:45:59 UTC] 89
+[30-Jul-2020 22:45:59 UTC] Complated
+[30-Jul-2020 22:45:59 UTC] Nguoi lon:5
+[30-Jul-2020 22:45:59 UTC] Tre em: 0
+[30-Jul-2020 22:45:59 UTC] Coupon Code: 
+[30-Jul-2020 22:45:59 UTC] cias-ggvs-lp9g-9t4t
+[30-Jul-2020 22:45:59 UTC] PHP Warning:  date() expects parameter 2 to be int, string given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 328
+[30-Jul-2020 22:45:59 UTC] 1598659200
+[30-Jul-2020 22:45:59 UTC] cias-57oz-fjke-xfy8
+[30-Jul-2020 22:45:59 UTC] PHP Warning:  date() expects parameter 2 to be int, string given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 328
+[30-Jul-2020 22:45:59 UTC] 1598659200
+[30-Jul-2020 22:45:59 UTC] cias-kon8-0m85-15dt
+[30-Jul-2020 22:45:59 UTC] PHP Warning:  date() expects parameter 2 to be int, string given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 328
+[30-Jul-2020 22:45:59 UTC] 1598659200
+[30-Jul-2020 22:45:59 UTC] cias-b8fc-f6w0-hd5c
+[30-Jul-2020 22:45:59 UTC] PHP Warning:  date() expects parameter 2 to be int, string given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 328
+[30-Jul-2020 22:45:59 UTC] 1598659200
+[30-Jul-2020 22:45:59 UTC] cias-x0rr-jmfi-9lrv
+[30-Jul-2020 22:45:59 UTC] PHP Warning:  date() expects parameter 2 to be int, string given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 328
+[30-Jul-2020 22:45:59 UTC] 1598659200
+[30-Jul-2020 22:47:22 UTC] 1598659200
+[31-Jul-2020 16:12:48 UTC] PHP Notice:  Undefined index: theretailer-child in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 424
+[31-Jul-2020 16:12:57 UTC] 2020-08-30
+[31-Jul-2020 16:13:44 UTC] 2020-08-30
+[31-Jul-2020 16:14:18 UTC] 2020-08-30
+[31-Jul-2020 16:15:05 UTC] 90
+[31-Jul-2020 16:15:05 UTC] Complated
+[31-Jul-2020 16:15:05 UTC] Nguoi lon:1
+[31-Jul-2020 16:15:05 UTC] Tre em: 0
+[31-Jul-2020 16:15:05 UTC] Coupon Code: 
+[31-Jul-2020 16:15:05 UTC] cias-awpw-m9dt-hpdw
+[31-Jul-2020 16:15:05 UTC] 1598745600
+[31-Jul-2020 16:15:05 UTC] 2020-08-30
+[31-Jul-2020 16:16:15 UTC] 2020-08-30
+[31-Jul-2020 16:16:22 UTC] 90
+[31-Jul-2020 16:16:22 UTC] Complated
+[31-Jul-2020 16:16:22 UTC] Nguoi lon:1
+[31-Jul-2020 16:16:22 UTC] Tre em: 0
+[31-Jul-2020 16:16:22 UTC] Coupon Code: 
+[31-Jul-2020 16:16:22 UTC] cias-ucbh-o48p-mqap
+[31-Jul-2020 16:16:22 UTC] 2020-08-30
+[31-Jul-2020 16:17:42 UTC] 2020-08-30
+[31-Jul-2020 16:17:48 UTC] 90
+[31-Jul-2020 16:17:48 UTC] Complated
+[31-Jul-2020 16:17:48 UTC] Nguoi lon:1
+[31-Jul-2020 16:17:48 UTC] Tre em: 0
+[31-Jul-2020 16:17:48 UTC] Coupon Code: 
+[31-Jul-2020 16:17:48 UTC] cias-m2u7-tcpx-pely
+[31-Jul-2020 16:17:48 UTC] PHP Notice:  Undefined variable: date in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 340
+[31-Jul-2020 16:17:48 UTC] 
+[31-Jul-2020 16:42:20 UTC] 2020-08-30
+[31-Jul-2020 16:42:35 UTC] 90
+[31-Jul-2020 16:42:35 UTC] Complated
+[31-Jul-2020 16:42:35 UTC] Nguoi lon:1
+[31-Jul-2020 16:42:35 UTC] Tre em: 0
+[31-Jul-2020 16:42:35 UTC] Coupon Code: 
+[31-Jul-2020 16:42:35 UTC] cias-pg3w-gubt-8jt3
+[31-Jul-2020 16:42:44 UTC] 2020-08-30
+[31-Jul-2020 16:42:56 UTC] 90
+[31-Jul-2020 16:42:56 UTC] Complated
+[31-Jul-2020 16:42:56 UTC] Nguoi lon:1
+[31-Jul-2020 16:42:56 UTC] Tre em: 0
+[31-Jul-2020 16:42:56 UTC] Coupon Code: 
+[31-Jul-2020 16:42:56 UTC] cias-8aug-av9k-tqmc
+[31-Jul-2020 16:44:16 UTC] PHP Parse error:  syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 339
+[31-Jul-2020 16:44:20 UTC] PHP Parse error:  syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 339
+[31-Jul-2020 16:44:21 UTC] PHP Parse error:  syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 339
+[31-Jul-2020 16:44:33 UTC] 2020-08-30
+[31-Jul-2020 16:44:40 UTC] 90
+[31-Jul-2020 16:44:40 UTC] Complated
+[31-Jul-2020 16:44:40 UTC] Nguoi lon:1
+[31-Jul-2020 16:44:40 UTC] Tre em: 0
+[31-Jul-2020 16:44:40 UTC] Coupon Code: 
+[31-Jul-2020 16:44:40 UTC] cias-sgh7-pkao-czhb
+[31-Jul-2020 16:46:04 UTC] 2020-08-30
+[31-Jul-2020 16:46:10 UTC] 90
+[31-Jul-2020 16:46:10 UTC] Complated
+[31-Jul-2020 16:46:10 UTC] Nguoi lon:1
+[31-Jul-2020 16:46:10 UTC] Tre em: 0
+[31-Jul-2020 16:46:10 UTC] Coupon Code: 
+[31-Jul-2020 16:46:10 UTC] cias-nksm-fxdk-rjow
+[31-Jul-2020 16:47:29 UTC] 90
+[31-Jul-2020 16:47:29 UTC] PHP Notice:  Undefined variable: coupon_code in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 389
+[31-Jul-2020 16:47:29 UTC] Complated
+[31-Jul-2020 16:47:29 UTC] Nguoi lon:1
+[31-Jul-2020 16:47:29 UTC] Tre em: 0
+[31-Jul-2020 16:47:29 UTC] Coupon Code: 
+[31-Jul-2020 16:47:29 UTC] cias-vi7m-voxn-hrpy
+[31-Jul-2020 16:47:36 UTC] 90
+[31-Jul-2020 16:47:36 UTC] PHP Notice:  Undefined variable: coupon_code in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 301
+[31-Jul-2020 16:47:36 UTC] Complated
+[31-Jul-2020 16:47:36 UTC] Nguoi lon:1
+[31-Jul-2020 16:47:36 UTC] Tre em: 0
+[31-Jul-2020 16:47:36 UTC] Coupon Code: 
+[31-Jul-2020 16:47:36 UTC] cias-oqku-jg9l-o9tg
+[31-Jul-2020 16:53:49 UTC] 2020-08-30
+[31-Jul-2020 16:53:55 UTC] 90
+[31-Jul-2020 16:53:55 UTC] Complated
+[31-Jul-2020 16:53:55 UTC] Nguoi lon:1
+[31-Jul-2020 16:53:55 UTC] Tre em: 0
+[31-Jul-2020 16:53:55 UTC] Coupon Code: 
+[31-Jul-2020 16:53:55 UTC] cias-1cgm-qlvp-bzzm
+[31-Jul-2020 17:51:10 UTC] 2020-08-30
+[31-Jul-2020 17:51:20 UTC] 90
+[31-Jul-2020 17:51:20 UTC] Complated
+[31-Jul-2020 17:51:20 UTC] Nguoi lon:1
+[31-Jul-2020 17:51:20 UTC] Tre em: 0
+[31-Jul-2020 17:51:20 UTC] Coupon Code: 
+[31-Jul-2020 17:51:20 UTC] cias-okb3-59qo-do30
+[31-Jul-2020 17:52:10 UTC] 89
+[31-Jul-2020 17:52:10 UTC] Complated
+[31-Jul-2020 17:52:10 UTC] Nguoi lon:5
+[31-Jul-2020 17:52:10 UTC] Tre em: 0
+[31-Jul-2020 17:52:10 UTC] Coupon Code: 
+[31-Jul-2020 17:52:10 UTC] cias-jdvf-haxl-nk3n
+[31-Jul-2020 17:52:10 UTC] cias-usax-ugdw-iwp1
+[31-Jul-2020 17:52:10 UTC] cias-pr5q-my91-wxnf
+[31-Jul-2020 17:52:10 UTC] cias-9euv-miph-ua8l
+[31-Jul-2020 17:52:10 UTC] cias-6ntv-3g5p-nuvm
+[31-Jul-2020 17:52:48 UTC] 2020-08-30
+[31-Jul-2020 17:52:57 UTC] 89
+[31-Jul-2020 17:52:57 UTC] Complated
+[31-Jul-2020 17:52:57 UTC] Nguoi lon:5
+[31-Jul-2020 17:52:57 UTC] Tre em: 0
+[31-Jul-2020 17:52:57 UTC] Coupon Code: 
+[31-Jul-2020 17:52:57 UTC] cias-hoxs-gkbt-qkyl
+[31-Jul-2020 17:52:57 UTC] cias-ijg4-sor8-4zzq
+[31-Jul-2020 17:52:57 UTC] cias-wcl6-r6cj-hio4
+[31-Jul-2020 17:52:57 UTC] cias-uhvq-pyqi-g3qq
+[31-Jul-2020 17:52:57 UTC] cias-tlvk-rqym-mcnk
+[31-Jul-2020 17:53:11 UTC] 2020-08-30
+[31-Jul-2020 17:53:18 UTC] 89
+[31-Jul-2020 17:53:18 UTC] Complated
+[31-Jul-2020 17:53:18 UTC] Nguoi lon:5
+[31-Jul-2020 17:53:18 UTC] Tre em: 0
+[31-Jul-2020 17:53:18 UTC] Coupon Code: 
+[31-Jul-2020 17:53:18 UTC] cias-7gii-h1cs-2bas
+[31-Jul-2020 17:53:18 UTC] cias-wahn-xuy8-a1ur
+[31-Jul-2020 17:53:18 UTC] cias-tbuz-rtaa-wba6
+[31-Jul-2020 17:53:18 UTC] cias-eezq-asix-i5fl
+[31-Jul-2020 17:53:18 UTC] cias-lurc-02fn-gmai
+[31-Jul-2020 17:54:23 UTC] 2020-08-30
+[31-Jul-2020 17:54:30 UTC] 89
+[31-Jul-2020 17:54:30 UTC] Complated
+[31-Jul-2020 17:54:30 UTC] Nguoi lon:5
+[31-Jul-2020 17:54:30 UTC] Tre em: 0
+[31-Jul-2020 17:54:30 UTC] Coupon Code: 
+[31-Jul-2020 17:54:30 UTC] cias-ytu3-lzdm-fz8y
+[31-Jul-2020 17:54:30 UTC] cias-wpsb-feox-v8ek
+[31-Jul-2020 17:54:30 UTC] cias-ge9x-2nfj-yr8w
+[31-Jul-2020 17:54:30 UTC] cias-qj4w-imer-pian
+[31-Jul-2020 17:54:30 UTC] cias-ofki-ibfz-hevt
+[31-Jul-2020 17:56:37 UTC] 2020-08-30
+[31-Jul-2020 17:57:12 UTC] 91
+[31-Jul-2020 17:57:12 UTC] PHP Notice:  Undefined offset: 2 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 296
+[31-Jul-2020 17:57:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function __set() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:296
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(91)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 91, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(91)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 296
+[31-Jul-2020 17:57:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 339
+[31-Jul-2020 17:57:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 340
+[31-Jul-2020 17:57:33 UTC] 91
+[31-Jul-2020 17:57:33 UTC] PHP Notice:  Undefined offset: 2 in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 296
+[31-Jul-2020 17:57:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function __get() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:296
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(91)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 91, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(91)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 296
+[31-Jul-2020 17:58:24 UTC] 91
+[31-Jul-2020 17:58:24 UTC] Complated
+[31-Jul-2020 17:58:24 UTC] Nguoi lon:1
+[31-Jul-2020 17:58:24 UTC] Tre em: 0
+[31-Jul-2020 17:58:24 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 17:58:24 UTC] Coupon Code: 
+[31-Jul-2020 17:58:24 UTC] cias-ekjm-6j1j-sea0
+[31-Jul-2020 17:59:15 UTC] 2020-08-30
+[31-Jul-2020 17:59:21 UTC] 91
+[31-Jul-2020 17:59:21 UTC] Complated
+[31-Jul-2020 17:59:21 UTC] Nguoi lon:1
+[31-Jul-2020 17:59:21 UTC] Tre em: 0
+[31-Jul-2020 17:59:21 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 17:59:21 UTC] Coupon Code: 
+[31-Jul-2020 17:59:21 UTC] cias-vr9g-4llm-1iql
+[31-Jul-2020 18:00:37 UTC] 2020-08-30
+[31-Jul-2020 18:00:43 UTC] 89
+[31-Jul-2020 18:00:43 UTC] Complated
+[31-Jul-2020 18:00:43 UTC] Nguoi lon:5
+[31-Jul-2020 18:00:43 UTC] Tre em: 0
+[31-Jul-2020 18:00:43 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 18:00:43 UTC] Coupon Code: 
+[31-Jul-2020 18:00:43 UTC] cias-2qfc-978i-ojxm
+[31-Jul-2020 18:00:43 UTC] cias-x1oc-fesf-af12
+[31-Jul-2020 18:00:43 UTC] cias-0pa7-mclw-qojw
+[31-Jul-2020 18:00:43 UTC] cias-jiyc-dtal-oljf
+[31-Jul-2020 18:00:43 UTC] cias-p7h8-jnyt-uejb
+[31-Jul-2020 18:01:59 UTC] 2020-08-30
+[31-Jul-2020 18:02:05 UTC] 89
+[31-Jul-2020 18:02:05 UTC] Complated
+[31-Jul-2020 18:02:05 UTC] Nguoi lon:5
+[31-Jul-2020 18:02:05 UTC] Tre em: 0
+[31-Jul-2020 18:02:05 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 18:02:05 UTC] Coupon Code: 
+[31-Jul-2020 18:02:05 UTC] cias-icbb-lrdr-xu1n
+[31-Jul-2020 18:02:05 UTC] cias-5sje-aae2-7jzj
+[31-Jul-2020 18:02:05 UTC] cias-boot-9vui-gicb
+[31-Jul-2020 18:02:05 UTC] cias-yenc-n6is-dltu
+[31-Jul-2020 18:02:05 UTC] cias-x3fk-amwx-csyi
+[31-Jul-2020 18:15:50 UTC] 2020-08-30
+[31-Jul-2020 18:15:57 UTC] 89
+[31-Jul-2020 18:15:57 UTC] Complated
+[31-Jul-2020 18:15:57 UTC] Nguoi lon:5
+[31-Jul-2020 18:15:57 UTC] Tre em: 0
+[31-Jul-2020 18:15:57 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 18:15:57 UTC] Coupon Code: 
+[31-Jul-2020 18:15:57 UTC] cias-tcon-kbay-ccvn
+[31-Jul-2020 18:15:57 UTC] cias-vj7n-agbl-yb7g
+[31-Jul-2020 18:15:57 UTC] cias-vk9r-lukz-yuod
+[31-Jul-2020 18:15:57 UTC] cias-ux2h-e6rs-gzo8
+[31-Jul-2020 18:15:57 UTC] cias-iiow-9ntm-bxkw
+[31-Jul-2020 18:26:07 UTC] 2020-08-30
+[31-Jul-2020 18:26:13 UTC] 89
+[31-Jul-2020 18:26:13 UTC] Complated
+[31-Jul-2020 18:26:13 UTC] Nguoi lon:5
+[31-Jul-2020 18:26:13 UTC] Tre em: 0
+[31-Jul-2020 18:26:13 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 18:26:13 UTC] Coupon Code: 
+[31-Jul-2020 18:26:13 UTC] cias-hkfu-iwao-oizb
+[31-Jul-2020 18:26:13 UTC] 1
+[31-Jul-2020 18:26:13 UTC] cias-fat7-4kjy-t9kt
+[31-Jul-2020 18:26:13 UTC] 1
+[31-Jul-2020 18:26:13 UTC] cias-bs2m-pgef-sa5b
+[31-Jul-2020 18:26:13 UTC] 1
+[31-Jul-2020 18:26:13 UTC] cias-q57x-1oug-mqw5
+[31-Jul-2020 18:26:13 UTC] 1
+[31-Jul-2020 18:26:13 UTC] cias-68oy-gxbi-fnsb
+[31-Jul-2020 18:26:13 UTC] 1
+[31-Jul-2020 18:26:49 UTC] 2020-08-30
+[31-Jul-2020 18:26:55 UTC] 89
+[31-Jul-2020 18:26:55 UTC] Complated
+[31-Jul-2020 18:26:55 UTC] Nguoi lon:5
+[31-Jul-2020 18:26:55 UTC] Tre em: 0
+[31-Jul-2020 18:26:55 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 18:26:55 UTC] Coupon Code: 
+[31-Jul-2020 18:26:55 UTC] cias-9jzf-nj2q-kc1a
+[31-Jul-2020 18:26:55 UTC] -----------------------------
+[31-Jul-2020 18:26:55 UTC] 1
+[31-Jul-2020 18:26:55 UTC] cias-nlwy-wv0e-j0v8
+[31-Jul-2020 18:26:55 UTC] -----------------------------
+[31-Jul-2020 18:26:55 UTC] 1
+[31-Jul-2020 18:26:55 UTC] cias-1wed-bmta-7p51
+[31-Jul-2020 18:26:55 UTC] -----------------------------
+[31-Jul-2020 18:26:55 UTC] 1
+[31-Jul-2020 18:26:55 UTC] cias-lhzr-dcig-5hwx
+[31-Jul-2020 18:26:55 UTC] -----------------------------
+[31-Jul-2020 18:26:55 UTC] 1
+[31-Jul-2020 18:26:55 UTC] cias-fyyo-lxsr-knuc
+[31-Jul-2020 18:26:55 UTC] -----------------------------
+[31-Jul-2020 18:26:55 UTC] 1
+[31-Jul-2020 18:27:28 UTC] 2020-08-30
+[31-Jul-2020 18:27:45 UTC] 89
+[31-Jul-2020 18:27:45 UTC] Complated
+[31-Jul-2020 18:27:45 UTC] Nguoi lon:5
+[31-Jul-2020 18:27:45 UTC] Tre em: 0
+[31-Jul-2020 18:27:45 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 18:27:45 UTC] Coupon Code: 
+[31-Jul-2020 18:27:45 UTC] -----------------------------
+[31-Jul-2020 18:27:45 UTC] 1
+[31-Jul-2020 18:27:45 UTC] -----------------------------
+[31-Jul-2020 18:27:45 UTC] 1
+[31-Jul-2020 18:27:45 UTC] -----------------------------
+[31-Jul-2020 18:27:45 UTC] 1
+[31-Jul-2020 18:27:45 UTC] -----------------------------
+[31-Jul-2020 18:27:45 UTC] 1
+[31-Jul-2020 18:27:45 UTC] -----------------------------
+[31-Jul-2020 18:27:45 UTC] 1
+[31-Jul-2020 18:28:54 UTC] 2020-08-30
+[31-Jul-2020 18:29:00 UTC] 89
+[31-Jul-2020 18:29:00 UTC] Complated
+[31-Jul-2020 18:29:00 UTC] Nguoi lon:5
+[31-Jul-2020 18:29:00 UTC] Tre em: 0
+[31-Jul-2020 18:29:00 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 18:29:01 UTC] Coupon Code: 
+[31-Jul-2020 18:29:01 UTC] -----------------------------
+[31-Jul-2020 18:29:01 UTC] 1
+[31-Jul-2020 18:29:01 UTC] -----------------------------
+[31-Jul-2020 18:29:01 UTC] 1
+[31-Jul-2020 18:29:01 UTC] -----------------------------
+[31-Jul-2020 18:29:01 UTC] 1
+[31-Jul-2020 18:29:01 UTC] -----------------------------
+[31-Jul-2020 18:29:01 UTC] 1
+[31-Jul-2020 18:29:01 UTC] -----------------------------
+[31-Jul-2020 18:29:01 UTC] 1
+[31-Jul-2020 18:40:07 UTC] 2020-08-30
+[31-Jul-2020 18:40:13 UTC] 89
+[31-Jul-2020 18:40:13 UTC] Complated
+[31-Jul-2020 18:40:13 UTC] Nguoi lon:5
+[31-Jul-2020 18:40:13 UTC] Tre em: 0
+[31-Jul-2020 18:40:13 UTC] PHP Notice:  Undefined variable: couponCode in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 305
+[31-Jul-2020 18:40:13 UTC] Coupon Code: 
+[31-Jul-2020 18:40:13 UTC] -----------------------------
+[31-Jul-2020 18:40:13 UTC] cias-ln2m-p271-hqjd
+[31-Jul-2020 18:40:13 UTC] -----------------------------
+[31-Jul-2020 18:40:13 UTC] cias-clyl-osrv-7i2a
+[31-Jul-2020 18:40:13 UTC] -----------------------------
+[31-Jul-2020 18:40:13 UTC] cias-2vhq-2ai2-itok
+[31-Jul-2020 18:40:14 UTC] -----------------------------
+[31-Jul-2020 18:40:14 UTC] cias-buni-mupn-bts5
+[31-Jul-2020 18:40:14 UTC] -----------------------------
+[31-Jul-2020 18:40:14 UTC] cias-yuwn-ehmo-a8hb
+[31-Jul-2020 21:01:27 UTC] 2020-08-30
+[31-Jul-2020 21:17:02 UTC] PHP Parse error:  syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 341
+[31-Jul-2020 21:18:02 UTC] 2020-08-30
+[31-Jul-2020 21:18:08 UTC] 90
+[31-Jul-2020 21:18:08 UTC] Complated
+[31-Jul-2020 21:18:08 UTC] Nguoi lon:1
+[31-Jul-2020 21:18:08 UTC] Tre em: 0
+[31-Jul-2020 21:18:08 UTC] -----------------------------
+[31-Jul-2020 21:18:08 UTC] cias-hw67-jexw-my9p
+[31-Jul-2020 21:18:11 UTC] PHP Warning:  error_log(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 340
+[31-Jul-2020 21:19:27 UTC] 2020-08-30
+[31-Jul-2020 21:19:33 UTC] 90
+[31-Jul-2020 21:19:33 UTC] Complated
+[31-Jul-2020 21:19:33 UTC] Nguoi lon:1
+[31-Jul-2020 21:19:33 UTC] Tre em: 0
+[31-Jul-2020 21:19:33 UTC] -----------------------------
+[31-Jul-2020 21:19:33 UTC] cias-dw1a-vb21-0imn
+[31-Jul-2020 21:19:35 UTC] PHP Warning:  error_log(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 339
+[31-Jul-2020 21:20:22 UTC] 2020-08-30
+[31-Jul-2020 21:20:30 UTC] 90
+[31-Jul-2020 21:20:30 UTC] Complated
+[31-Jul-2020 21:20:30 UTC] Nguoi lon:1
+[31-Jul-2020 21:20:30 UTC] Tre em: 0
+[31-Jul-2020 21:20:30 UTC] -----------------------------
+[31-Jul-2020 21:20:30 UTC] cias-zlru-5quj-6xxj
+[31-Jul-2020 21:20:30 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 341
+[31-Jul-2020 21:21:25 UTC] 2020-08-30
+[31-Jul-2020 21:21:31 UTC] 90
+[31-Jul-2020 21:21:31 UTC] Complated
+[31-Jul-2020 21:21:31 UTC] Nguoi lon:1
+[31-Jul-2020 21:21:31 UTC] Tre em: 0
+[31-Jul-2020 21:21:31 UTC] -----------------------------
+[31-Jul-2020 21:21:31 UTC] cias-bply-yafs-rkqb
+[31-Jul-2020 21:21:31 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 341
+[31-Jul-2020 21:22:06 UTC] 2020-08-30
+[31-Jul-2020 21:22:27 UTC] 93
+[31-Jul-2020 21:22:27 UTC] Complated
+[31-Jul-2020 21:22:27 UTC] Nguoi lon:1
+[31-Jul-2020 21:22:27 UTC] Tre em: 0
+[31-Jul-2020 21:22:27 UTC] -----------------------------
+[31-Jul-2020 21:22:27 UTC] cias-ghkd-bbjv-ode4
+[31-Jul-2020 21:22:27 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 341
+[31-Jul-2020 21:38:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 322
+[31-Jul-2020 21:38:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 322
+[31-Jul-2020 21:38:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 322
+[31-Jul-2020 21:39:43 UTC] 2020-08-30
+[31-Jul-2020 21:39:50 UTC] 93
+[31-Jul-2020 21:39:50 UTC] Complated
+[31-Jul-2020 21:39:50 UTC] Nguoi lon:1
+[31-Jul-2020 21:39:50 UTC] Tre em: 0
+[31-Jul-2020 21:39:50 UTC] 1
+[31-Jul-2020 21:39:50 UTC] -----------------------------
+[31-Jul-2020 21:39:50 UTC] cias-fghn-lor3-cgas
+[31-Jul-2020 21:43:22 UTC] 2020-08-30
+[31-Jul-2020 21:43:29 UTC] 93
+[31-Jul-2020 21:43:29 UTC] Complated
+[31-Jul-2020 21:43:29 UTC] Nguoi lon:1
+[31-Jul-2020 21:43:29 UTC] Tre em: 0
+[31-Jul-2020 21:43:29 UTC] 1
+[31-Jul-2020 21:43:29 UTC] -----------------------------
+[31-Jul-2020 21:43:29 UTC] cias-gtn4-sf7g-arbg
+[31-Jul-2020 22:22:43 UTC] PHP Parse error:  syntax error, unexpected ''</p>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 353
+[31-Jul-2020 22:22:43 UTC] PHP Parse error:  syntax error, unexpected ''</p>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 353
+[31-Jul-2020 22:23:42 UTC] 2020-08-30
+[31-Jul-2020 22:23:49 UTC] 93
+[31-Jul-2020 22:23:49 UTC] Complated
+[31-Jul-2020 22:23:49 UTC] Nguoi lon:1
+[31-Jul-2020 22:23:49 UTC] Tre em: 0
+[31-Jul-2020 22:23:49 UTC] 1
+[31-Jul-2020 22:23:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function update_post_meta(), 1 passed in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 334 and at least 3 expected in E:\xampp\htdocs\cias\wp-includes\post.php:2143
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php(334): update_post_meta('cias-n892-taye-...')
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(93)
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 93, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class in E:\xampp\htdocs\cias\wp-includes\post.php on line 2143
+[31-Jul-2020 22:24:15 UTC] 93
+[31-Jul-2020 22:24:15 UTC] Complated
+[31-Jul-2020 22:24:15 UTC] Nguoi lon:1
+[31-Jul-2020 22:24:15 UTC] Tre em: 0
+[31-Jul-2020 22:24:15 UTC] 1
+[31-Jul-2020 22:50:26 UTC] PHP Notice:  Undefined variable: order_id in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 353
+[31-Jul-2020 22:50:26 UTC] PHP Notice:  Undefined variable: order_id in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 354
+[31-Jul-2020 22:50:26 UTC] 
+[31-Jul-2020 22:51:41 UTC] PHP Notice:  Undefined variable: order_id in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 353
+[31-Jul-2020 22:51:41 UTC] 
+[31-Jul-2020 22:52:10 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 357
+[31-Jul-2020 22:53:42 UTC] PHP Parse error:  syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 372
+[31-Jul-2020 22:56:20 UTC] 2020-08-30
+[31-Jul-2020 22:56:54 UTC] 94
+[31-Jul-2020 22:56:54 UTC] Complated
+[31-Jul-2020 22:56:54 UTC] Nguoi lon:1
+[31-Jul-2020 22:56:54 UTC] Tre em: 0
+[31-Jul-2020 22:56:54 UTC] 1
+[31-Jul-2020 23:00:56 UTC] PHP Parse error:  syntax error, unexpected '`' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 375
+[31-Jul-2020 23:03:38 UTC] 2020-08-30
+[31-Jul-2020 23:03:55 UTC] 95
+[31-Jul-2020 23:03:55 UTC] Complated
+[31-Jul-2020 23:03:55 UTC] Nguoi lon:4
+[31-Jul-2020 23:03:55 UTC] Tre em: 0
+[31-Jul-2020 23:03:55 UTC] 1
+[31-Jul-2020 23:09:01 UTC] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 374
+[31-Jul-2020 23:09:02 UTC] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 374
+[31-Jul-2020 23:16:45 UTC] 2020-08-30
+[31-Jul-2020 23:17:10 UTC] 96
+[31-Jul-2020 23:17:10 UTC] Complated
+[31-Jul-2020 23:17:10 UTC] Nguoi lon:1
+[31-Jul-2020 23:17:10 UTC] Tre em: 0
+[31-Jul-2020 23:17:10 UTC] 1
+[31-Jul-2020 23:21:56 UTC] 2020-08-30
+[31-Jul-2020 23:22:02 UTC] 96
+[31-Jul-2020 23:22:02 UTC] Complated
+[31-Jul-2020 23:22:02 UTC] Nguoi lon:1
+[31-Jul-2020 23:22:02 UTC] Tre em: 0
+[31-Jul-2020 23:22:02 UTC] 1
+[31-Jul-2020 23:22:42 UTC] 96
+[31-Jul-2020 23:22:42 UTC] Complated
+[31-Jul-2020 23:22:42 UTC] Nguoi lon:1
+[31-Jul-2020 23:22:42 UTC] Tre em: 0
+[31-Jul-2020 23:22:42 UTC] 1
+[31-Jul-2020 23:24:17 UTC] 2020-08-30
+[31-Jul-2020 23:24:23 UTC] 96
+[31-Jul-2020 23:24:23 UTC] Complated
+[31-Jul-2020 23:24:23 UTC] Nguoi lon:1
+[31-Jul-2020 23:24:23 UTC] Tre em: 0
+[31-Jul-2020 23:24:23 UTC] 1
+[31-Jul-2020 23:24:23 UTC] PHP Notice:  Undefined variable: coupon_code in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 329
+[31-Jul-2020 23:24:23 UTC] WordPress database error Column 'code' cannot be null for query INSERT INTO `cias_orderextra` (`orderExID`, `code`, `expiredDate`) VALUES ('96', NULL, '2020-08-30') made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Meta_Boxes->save_meta_boxes, do_action('woocommerce_process_shop_order_meta'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Meta_Box_Order_Data::save, WC_Order->save, WC_Order->status_transition, do_action('woocommerce_order_status_completed'), WP_Hook->do_action, WP_Hook->apply_filters, cias_order_completed
+[31-Jul-2020 23:25:48 UTC] 2020-08-30
+[31-Jul-2020 23:25:56 UTC] 96
+[31-Jul-2020 23:25:56 UTC] Complated
+[31-Jul-2020 23:25:56 UTC] Nguoi lon:1
+[31-Jul-2020 23:25:56 UTC] Tre em: 0
+[31-Jul-2020 23:25:56 UTC] 1
+[31-Jul-2020 23:26:28 UTC] 2020-08-30
+[31-Jul-2020 23:26:37 UTC] 96
+[31-Jul-2020 23:26:37 UTC] Complated
+[31-Jul-2020 23:26:37 UTC] Nguoi lon:1
+[31-Jul-2020 23:26:37 UTC] Tre em: 0
+[31-Jul-2020 23:26:37 UTC] 1
+[01-Aug-2020 00:01:48 UTC] 92
+[01-Aug-2020 00:01:48 UTC] Complated
+[01-Aug-2020 00:01:48 UTC] Nguoi lon:1
+[01-Aug-2020 00:01:48 UTC] Tre em: 0
+[01-Aug-2020 00:01:48 UTC] 1

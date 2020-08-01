@@ -1,0 +1,12 @@
+2020-07-29T21:32:55+00:00 CRITICAL syntax error, unexpected '{' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 280
+
+2020-07-29T21:40:06+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:267
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-settings.php(508): include()
+#1 E:\xampp\htdocs\cias\wp-config.php(91): require_once('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\cias\wp-load.php(37): require_once('E:\\xampp\\htdocs...')
+#3 E:\xampp\htdocs\cias\wp-blog-header.php(13): require_once('E:\\xampp\\htdocs...')
+#4 E:\xampp\htdocs\cias\index.php(17): require('E:\\xampp\\htdocs...')
+#5 {main}
+  thrown in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 267
+

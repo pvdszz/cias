@@ -1,0 +1,49 @@
+2020-07-31T16:44:16+00:00 CRITICAL syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 339
+
+2020-07-31T16:44:20+00:00 CRITICAL syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 339
+
+2020-07-31T16:44:21+00:00 CRITICAL syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 339
+
+2020-07-31T17:57:34+00:00 CRITICAL Uncaught Error: Call to a member function __get() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:296
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(91)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 91, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-data.php(622): WC_Order->save()
+#6 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): WC_Meta_Box_Order_Data::save(91)
+#7 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 296
+
+2020-07-31T21:17:02+00:00 CRITICAL syntax error, unexpected '}' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 341
+
+2020-07-31T21:38:50+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 322
+
+2020-07-31T21:38:53+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 322
+
+2020-07-31T21:38:53+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 322
+
+2020-07-31T22:22:43+00:00 CRITICAL syntax error, unexpected ''</p>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 353
+
+2020-07-31T22:22:43+00:00 CRITICAL syntax error, unexpected ''</p>'' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 353
+
+2020-07-31T22:23:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function update_post_meta(), 1 passed in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 334 and at least 3 expected in E:\xampp\htdocs\cias\wp-includes\post.php:2143
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php(334): update_post_meta('cias-n892-taye-...')
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): cias_order_completed(93)
+#2 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(363): do_action('woocommerce_ord...', 93, Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\class-wc-order.php(221): WC_Order->status_transition()
+#6 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class in E:\xampp\htdocs\cias\wp-includes\post.php on line 2143
+
+2020-07-31T22:52:10+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 357
+
+2020-07-31T22:53:42+00:00 CRITICAL syntax error, unexpected ')' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 372
+
+2020-07-31T23:00:56+00:00 CRITICAL syntax error, unexpected '`' in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 375
+
+2020-07-31T23:09:01+00:00 CRITICAL syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 374
+
+2020-07-31T23:09:02+00:00 CRITICAL syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 374
+

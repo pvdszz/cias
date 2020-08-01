@@ -142,11 +142,11 @@ function wdm_add_custom_fields()
             <input id="quantity-num-kids" class="quantity-num-kids poiter-events" type="number" name="wdm_kids" min=0
                 value="0">
         </div>
-	</li>
-	<!-- <li>
-            <input id="coupon" class="coupon" type="hidden" name="cias_coupon" min=0
-                value="0">
-    </li> -->
+    </li>
+    <li>
+        <input id="coupon" class="coupon" type="hidden" name="cias_coupon" min=0
+            value="Coupon code will be sent to you when your order completed.	 Thank you so much!">
+    </li>
 
 </div>
 <div class="clear"></div>
@@ -177,9 +177,9 @@ function wdm_add_item_data($cart_item_data, $product_id, $variation_id)
 	if (isset($_REQUEST['wdm_kids'])) {
 		$cart_item_data['wdm_kids'] = sanitize_text_field($_REQUEST['wdm_kids']);
 	}
-	// if (isset($_REQUEST['cias_coupon'])) {
-	// 	$cart_item_data['cias_coupon'] = sanitize_text_field($_REQUEST['cias_coupon']);
-	// }
+	if (isset($_REQUEST['cias_coupon'])) {
+		$cart_item_data['cias_coupon'] = sanitize_text_field($_REQUEST['cias_coupon']);
+	}
 
 	return $cart_item_data;
 }
@@ -211,14 +211,13 @@ function wdm_add_item_meta($item_data, $cart_item)
 			'value' => $custom_details
 		);
 	}
-	// if (array_key_exists('cias_coupon', $cart_item)) {
-		$custom_details = "";
-
+	if (array_key_exists('cias_coupon', $cart_item)) {
+		$custom_details = $cart_item['cias_coupon'];
 		$item_data[] = array(
-			'key'   => 'Coupon  code',
-			'value' => $custom_details
+			'key'   => 'Coupon code',
+			'value' => $custom_details,
 		);
-	// }
+	}
 
 	return $item_data;
 }
@@ -234,9 +233,9 @@ function wdm_add_custom_order_line_item_meta($item, $cart_item_key, $values, $or
 	if (array_key_exists('wdm_kids', $values)) {
 		$item->add_meta_data('Trẻ em', $values['wdm_kids']);
 	}
-	if (array_key_exists('cias_coupon', $values)) {
-		$item->add_meta_data('Coupon code', $values['cias_coupon']);
-	}
+
+	
+	
 }
 
 add_action( 'woocommerce_before_calculate_totals', 'cias_price', 20, 1);
@@ -262,32 +261,21 @@ function cias_price( $cart ) {
 
 // Remove old product
 
-add_action( 'woocommerce_add_to_cart', 'check_product_added_to_cart', 10, 6 );
-function check_product_added_to_cart($cart_item_key, $product_id, $quantity, $variation_id, $variation, $cart_item_data) {
-
-
-
-    $has_item = false;
-    $is_product_id = false;
-
+/**
+ * @snippet       Remove Cart Item Programmatically - WooCommerce
+ * @how-to        Get CustomizeWoo.com FREE
+ * @author        Rodolfo Melogli
+ * @compatible    WooCommerce 3.8
+ * @donate $9     https://businessbloomer.com/bloomer-armada/
+ */
  
-    foreach( WC()->cart->get_cart() as $key => $item ){
-		$product_added_id = $item['product_id'];
-
-        if(isset($product_added_id) ){
-            $has_item = true;
-            $key_to_remove = $key;
-        }
-	}
-	
-	error_log($product_added_id);
-	
-
-    if( $has_item ){
-		WC()->cart->remove_cart_item($key_to_remove);
-		error_log("Remove....");
-
-    }
+add_action( 'template_redirect', 'bbloomer_remove_product_from_cart_programmatically' );
+ 
+function bbloomer_remove_product_from_cart_programmatically() {
+   $product_id = 20;
+   $product_cart_id = WC()->cart->generate_cart_id( $product_id );
+   $cart_item_key = WC()->cart->find_product_in_cart( $product_cart_id );
+   if ( $cart_item_key ) WC()->cart->remove_cart_item( $cart_item_key );
 }
 
 // Remove Product Prices
@@ -298,60 +286,107 @@ remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_l
 function cias_order_completed($order_id) {
 
 	$order = wc_get_order( $order_id);
+	error_log($order_id);
 
 	// Get and Loop Over Order Items
 	foreach ( $order->get_items() as $item_id => $item ) {
 		$allmeta = $item->get_meta_data();
 		$adultCount = $allmeta[0]->__get('value');
-		$childCount = $allmeta[1]->__get('value');	
-		$couponCode = $allmeta[2]->__get('value');	
+		$childCount = $allmeta[1]->__get('value');		
+
+
+
 		
 	}	
+	
 		error_log("Complated");
 		error_log("Nguoi lon:" . $adultCount);
 		error_log("Tre em: " . $childCount);
-		error_log("Coupon Code: " . $couponCode);
-	// $num_code= 1;
-	// while ( $num_code <= $adultCount) {
-	// 	$random_coupon = 'CIAS'.'';
-	// 	$length        = 12;
-	// 	$charset       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-	// 	$count         = strlen( $charset );
+		$num_code= 1;
+		$result = ["1","2","3"];
+		error_log(print_r($result));
+		while ( $num_code <= $adultCount) {
+			$random_coupon = 'CIAS'.'';
+			$length        = 12;
+			$charset       = 'abcdefghijklmnopqrstuvwxyz0123456789';
+			$count         = strlen( $charset );
+		
+			while ( $length-- ) {
+				$random_coupon .= $charset[ mt_rand( 0, $count-1 ) ];
+			}
+		
+			$coupon_code = implode( '-', str_split( strtoupper( $random_coupon ), 4 ) );
+		
 	
-	// 	while ( $length-- ) {
-	// 		$random_coupon .= $charset[ mt_rand( 0, $count-1 ) ];
-	// 	}
-	
-	// 	$random_coupon = implode( '-', str_split( strtoupper( $random_coupon ), 4 ) );
-	
-	// 	// Ensure coupon code is correctly formatted
-	// 	$coupon_code = apply_filters( 'woocommerce_coupon_code', $random_coupon );
-	// 	$num_code++;
-	// 	error_log( $coupon_code ); 
-	// }
-	
-	
+			// error_log( $coupon_code ); 
+			// insert to database
+			global $wpdb;
+			$date = date('Y-m-d', strtotime("+30 days"));
+			$table = $wpdb->prefix.'orderextra';
+			$data = array(
+					'orderExID' => $order_id,
+					'code' 		=> $coupon_code,
+					'expiredDate' => $date,
+				);
+			$wpdb->insert($table,$data,$format=NULL);
+			// if ( empty( $_POST['code'] ) ) {
+			// 	$code = update_post_meta(  $coupon_code );
+			// 	error_log("-----------------------------");
+			// 	error_log($coupon_code);
+			// }
+			$num_code++;
+		
+
+		}
+
 }
 add_action( 'woocommerce_order_status_completed', 'cias_order_completed');
 
 
+/**
+ * Display field value on the order edit page
+ */
+add_action( 'woocommerce_admin_order_data_after_billing_address', 'my_custom_checkout_field_display_admin_order_meta', 10, 1 );
 
-// add coupon code to preview order
-add_filter( 'woocommerce_admin_order_preview_get_order_details', 'admin_order_preview_add_custom_meta_data', 10, 2 );
-function admin_order_preview_add_custom_meta_data( $data, $order ) {
-    // Replace '_custom_meta_key' by the correct postmeta key
-    if( $custom_value = $order->get_meta('is_vat_exempt') )
-        $data['custom_key'] = $custom_value; // <= Store the value in the data array.
+function my_custom_checkout_field_display_admin_order_meta($order){
+	global $woocommerce, $post;
 
-    return $data;
+	$order = new WC_Order($post->ID);
+	$order_id = trim(str_replace('#', '', $order->get_order_number()));
+	echo '<p><strong>'.__('Code').':</strong> <br/> </p>';
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "cias_dev";
+
+	// Create connection
+	$conn = new mysqli($servername, $username, $password, $dbname);
+	$sql = "SELECT orderExID, code FROM cias_orderextra";
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+		// output data of each row
+		echo  "Order ID:  "  . $order_id . "<br>";
+
+		while($row = $result->fetch_assoc()) {
+			$id = $row["orderExID"];
+			if( $id == $order_id){
+			echo " orderExID: ". $row["orderExID"]. " - Code: ". $row["code"] . "<br>";
+			}else{
+				echo "";
+			}
+		}
+	} 
+
+	$conn->close();
 }
 
-// // Display custom values in Order preview
-add_action( 'woocommerce_admin_order_preview_end', 'custom_display_order_data_in_admin' );
-function custom_display_order_data_in_admin(){
-    // Call the stored value and display it
-    echo '<div>Coupon Code: {{data.custom_key}}</div><br>';
+function cias_order_processing($order_id) {
+	$date = date('Y-m-d', strtotime("+30 days"));
+	error_log($date);
 }
+add_action( 'woocommerce_order_status_processing', 'cias_order_processing');
+
 
 add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
 function custom_override_checkout_fields( $fields ) {
