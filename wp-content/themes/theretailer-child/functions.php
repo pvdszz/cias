@@ -426,7 +426,7 @@ function my_custom_checkout_field_display_admin_order_meta($order){
 
 	$order = new WC_Order($post->ID);
 	$order_id = trim(str_replace('#', '', $order->get_order_number()));
-	echo '<p><strong>'.__('Code').':</strong> <br/> </p>';
+	echo '<p><strong>'.__('Code').':</strong> </p>';
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -439,8 +439,7 @@ function my_custom_checkout_field_display_admin_order_meta($order){
 
 	if ($result->num_rows > 0) {
 		// output data of each row
-		echo  "Order ID:  "  . $order_id . "<br>";
-
+		// echo  "Order ID:  "  . $order_id . "<br>";	
 		while($row = $result->fetch_assoc()) {
 			$id = $row["orderExID"];
 			$used = $row["used"];
@@ -460,9 +459,6 @@ function my_custom_checkout_field_display_admin_order_meta($order){
 
 	$conn->close();
 }
-
-
-
 add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
 function custom_override_checkout_fields( $fields ) {
 unset($fields['billing']['billing_company']);
