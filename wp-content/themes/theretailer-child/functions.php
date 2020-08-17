@@ -387,7 +387,7 @@ function cias_order_processing($order_id) {
 		// 	echo "";
 		// }
 
-	}
+	
 	$wpdb->delete( $table, array( 'orderExID' => $order_id ) );
 }
 
