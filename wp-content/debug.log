@@ -235,3 +235,56 @@ Stack trace:
 [01-Aug-2020 22:18:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 392
 [01-Aug-2020 22:21:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 392
 [17-Aug-2020 22:30:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 392
+[17-Aug-2020 22:31:02 UTC] PHP Notice:  Trying to get property 'name' of non-object in E:\xampp\htdocs\cias\wp-admin\includes\class-wp-site-health.php on line 636
+[17-Aug-2020 22:35:04 UTC] PHP Notice:  Undefined index: theretailer-child in E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Features\Onboarding.php on line 424
+[17-Aug-2020 22:40:23 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 561
+[17-Aug-2020 22:40:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 339
+[17-Aug-2020 22:40:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in E:\xampp\htdocs\cias\wp-includes\class-wp-recovery-mode-email-service.php on line 340
+[17-Aug-2020 22:40:24 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 561
+[17-Aug-2020 22:40:24 UTC] PHP Parse error:  syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 561
+[17-Aug-2020 22:41:09 UTC] PHP Notice:  Undefined variable: order in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 466
+[17-Aug-2020 22:41:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:466
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): so_32457241_before_order_itemmeta(79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-items.php(41): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\cias\wp-admin\includes\ in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 466
+[17-Aug-2020 22:42:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function so_32457241_before_order_itemmeta(), 3 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 4 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:463
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): so_32457241_before_order_itemmeta(79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\incl in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 463
+[17-Aug-2020 22:42:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function so_32457241_before_order_itemmeta(), 3 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 4 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:463
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): so_32457241_before_order_itemmeta(79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\incl in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 463
+[17-Aug-2020 22:43:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:466
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): so_32457241_before_order_itemmeta(79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-items.php(41): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\cias\wp-admin\includes\t in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 466
+[17-Aug-2020 22:43:58 UTC] 101 set to PENDING
+[17-Aug-2020 22:44:05 UTC] 101
+[17-Aug-2020 22:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:427
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): my_custom_checkout_field_display_admin_order_meta(79)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-items.php(41): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\cias\wp-admin\includes\template.php(1345): WC_Meta_Box_Order_Items in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 427

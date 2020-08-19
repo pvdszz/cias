@@ -1,2 +1,54 @@
 2020-08-17T22:30:16+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 392
 
+2020-08-17T22:40:24+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 561
+
+2020-08-17T22:40:24+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 561
+
+2020-08-17T22:41:10+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:466
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): so_32457241_before_order_itemmeta(79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-items.php(41): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\cias\wp-admin\includes\ in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 466
+
+2020-08-17T22:42:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function so_32457241_before_order_itemmeta(), 3 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 4 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:463
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): so_32457241_before_order_itemmeta(79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\incl in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 463
+
+2020-08-17T22:42:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function so_32457241_before_order_itemmeta(), 3 passed in E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php on line 287 and exactly 4 expected in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:463
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): so_32457241_before_order_itemmeta(79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\incl in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 463
+
+2020-08-17T22:43:08+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:466
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(287): so_32457241_before_order_itemmeta(79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-items.php(41): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\cias\wp-admin\includes\t in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 466
+
+2020-08-17T22:45:01+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on int in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php:427
+Stack trace:
+#0 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(289): my_custom_checkout_field_display_admin_order_meta(79)
+#1 E:\xampp\htdocs\cias\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\cias\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 79, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#4 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-items.php(62): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\cias\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-order-items.php(41): include('E:\\xampp\\htdocs...')
+#6 E:\xampp\htdocs\cias\wp-admin\includes\template.php(1345): WC_Meta_Box_Order_Items in E:\xampp\htdocs\cias\wp-content\themes\theretailer-child\functions.php on line 427
+
