@@ -422,43 +422,94 @@ add_action( 'woocommerce_order_status_cancelled', 'cias_order_cancelled', 10, 1)
 add_action( 'woocommerce_admin_order_data_after_billing_address', 'my_custom_checkout_field_display_admin_order_meta', 10, 1 );
 
 function my_custom_checkout_field_display_admin_order_meta($order){
-	global $woocommerce, $post;
-
-	$order = new WC_Order($post->ID);
-	$order_id = trim(str_replace('#', '', $order->get_order_number()));
-	echo '<p><strong>'.__('Code').':</strong> </p>';
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "cias_dev";
-
-	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
-	$sql = "SELECT  orderExID,code,expiredDate, used FROM cias_orderextra";
-	$result = $conn->query($sql);
-
-	if ($result->num_rows > 0) {
-		// output data of each row
-		// echo  "Order ID:  "  . $order_id . "<br>";	
-		while($row = $result->fetch_assoc()) {
-			$id = $row["orderExID"];
-			$used = $row["used"];
-			
-			if( $id == $order_id && $used == 0){
-			echo $row["code"] . " - Erpired Date: " . $row["expiredDate"] ." - Used  <br>";
+	if( current_user_can('administrator') ) {
+		global $wpdb;
+		$order_id = $order->get_id();
+		$table = $wpdb->prefix.'orderExtra';
+		$results = $wpdb->get_results( "SELECT * FROM $table"); 
+		if(!empty($results)){
+				?>
+		<h3 style="margin-bottom: 20px"> Chi tiết mã Voucher </h3>
+		<table id="code-detail" style="width:100%; margin-bottom: 20px;">
+			<style>
+			#code-detail {
+				border-spacing: 0;
 			}
-			if($id == $order_id && $used == 1){
-				echo $row["code"] . " - Erpired Date: " . $row["expiredDate"] ."<br>";
-			}
-			if($id !== $order_id){
-				echo "";
-			}
-		
-		}
-	} 
 
-	$conn->close();
+			#code-detail th {
+				border: 1px solid #ddd;
+			}
+
+			#code-detail td {
+				border: 1px solid #ddd;
+			}
+			</style>
+			<thead>
+				<tr>
+					<th align="center">Mã</th>
+					<th align="center">Ngày hết hạn</th>
+					<th align="center">Trạng thái</th>
+				</tr>
+			</thead>
+			<tbody>
+
+
+				<?php
+				foreach( $results as $row){
+					$id = $row->orderExID;
+					$code = $row->code;
+					$used = $row->used;
+					$deleted = $row->deleted;
+					$expired_date = $row->expiredDate;
+
+					if($id == $order_id){
+						
+						if( $id == $order_id && $used == 0 && $deleted == 1){
+							?>
+				<tr>
+					<td align="center">
+						<p><?php echo $code;?></p>
+					</td>
+					<td align="center">
+						<p><?php echo $expired_date;?></p>
+					</td>
+					<td align="center">
+						<p>Khả dụng</p>
+					</td>
+				</tr>
+				<?php
+						}
+						if($id == $order_id && $used == 1 && $deleted == 1){
+							?>
+				<tr>
+					<td align="center">
+						<p><?php echo $code;?></p>
+					</td>
+					<td align="center">
+						<p><?php echo $expired_date;?></p>
+					</td>
+					<td align="center">
+						<p>Đã sử dụng</p>
+					</td>
+				</tr>
+				<?php
+						}
+						if($id == $order_id && $deleted == 0){
+							echo "";
+						}
+					}
+				}
+				?>
+			</tbody>
+		</table>
+		<?php
+	   };
+	}
 }
+// add_action( 'woocommerce_before_order_itemmeta', 'so_32457241_before_order_itemmeta', 10, 3 );
+// 		function so_32457241_before_order_itemmeta($order, $item, $_product ){
+			
+// 		}
 add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
 function custom_override_checkout_fields( $fields ) {
 unset($fields['billing']['billing_company']);
